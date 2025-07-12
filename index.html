@@ -147,7 +147,8 @@
             function drawSingleChart(biomarkerName, data, unit) {
                 singleChartContainer.html(""); // Clear existing chart
 
-                const margin = { top: 40, right: 80, bottom: 60, left: 70 };
+                // Reduced margin.right from 80 to 40
+                const margin = { top: 40, right: 40, bottom: 60, left: 70 };
                 const containerWidth = singleChartContainer.node().getBoundingClientRect().width;
                 const width = containerWidth - margin.left - margin.right;
                 const height = 450 - margin.top - margin.bottom;
