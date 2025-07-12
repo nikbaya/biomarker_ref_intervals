@@ -402,8 +402,8 @@
             }
 
             Promise.all([
-                d3.csv("https://raw.githubusercontent.com/spirosb/reference-intervals/main/ukb_biomarker_reference_intervals.eur.csv"),
-                d3.csv("https://raw.githubusercontent.com/spirosb/reference-intervals/main/clinical_ranges.csv")
+                d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
+                d3.csv("clinical_ranges.csv")
             ]).then(function ([ukbData, clinicalData]) {
                 const parsedUkbData = ukbData.map(d => ({
                     biomarker: d.biomarker, unit: d.unit, age: parseInt(d.age), sex: d.sex,
