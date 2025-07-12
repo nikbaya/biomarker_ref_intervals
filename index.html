@@ -4,9 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UKB Biomarker Reference Intervals</title>
-    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- D3.js CDN -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
         /* Custom styles for the font and rounded corners */
@@ -65,17 +63,13 @@
             Visualizing 95% reference intervals for blood and urine biomarkers across ages, split by sex.
         </p>
 
-        <!-- Controls Section -->
         <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-8 p-4 bg-indigo-50 rounded-lg shadow-inner">
-            <!-- Biomarker Selection Dropdown -->
             <div class="flex items-center space-x-4">
                 <label for="biomarker-select" class="font-semibold text-indigo-800">Biomarker:</label>
                 <select id="biomarker-select" class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    <!-- Options will be populated by JS -->
-                </select>
+                    </select>
             </div>
 
-            <!-- Sex Filter Checkboxes -->
             <div class="flex items-center space-x-4">
                 <label class="font-semibold text-indigo-800">Show Sexes:</label>
                 <div class="flex space-x-2">
@@ -94,7 +88,6 @@
                 </div>
             </div>
 
-            <!-- Clinical Reference Intervals Checkboxes -->
             <div class="flex items-center space-x-4">
                 <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
                 <div class="flex space-x-2" id="clinical-ranges-checkboxes">
@@ -114,10 +107,8 @@
             </div>
         </div>
 
-        <!-- Single Chart Container -->
-        <div id="single-chart-container" class="chart-card bg-white p-4 rounded-lg shadow-md flex justify-center items-center">
-            <!-- The single chart will be dynamically loaded here -->
-        </div>
+        <div id="single-chart-container" class="chart-card bg-white p-0 rounded-lg shadow-md flex justify-center items-center">
+            </div>
     </div>
 
     <script>
@@ -143,12 +134,49 @@
                 'Female': { line: 'deeppink', area: 'rgba(255, 20, 147, 0.2)' } // Lighter deeppink
             };
 
+            // Function to detect if it's a mobile device (based on screen width)
+            function isMobile() {
+                return window.innerWidth < 768; // Tailwind's 'md' breakpoint
+            }
+
+            // Function to wrap SVG text
+            function wrap(text, width) {
+                text.each(function() {
+                    var text = d3.select(this),
+                        words = text.text().split(/\s+/).reverse(),
+                        word,
+                        line = [],
+                        lineNumber = 0,
+                        lineHeight = 1.1, // ems
+                        y = text.attr("y"),
+                        x = text.attr("x"),
+                        dy = parseFloat(text.attr("dy") || 0),
+                        tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+                    while (word = words.pop()) {
+                        line.push(word);
+                        tspan.text(line.join(" "));
+                        if (tspan.node().getComputedTextLength() > width) {
+                            line.pop();
+                            tspan.text(line.join(" "));
+                            line = [word];
+                            tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                        }
+                    }
+                });
+            }
+
+            // Function to hide tooltip and focus line
+            function hideTooltipAndFocus() {
+                d3.select("body").selectAll(".tooltip").style("opacity", 0); // Hide instantly
+                d3.select(".focus").style("display", "none");
+            }
+
             // Function to draw the single biomarker chart
             function drawSingleChart(biomarkerName, data, unit) {
                 singleChartContainer.html(""); // Clear existing chart
 
-                // Reduced margin.right from 80 to 40
-                const margin = { top: 40, right: 40, bottom: 60, left: 70 };
+                // Adjust margins based on mobile view
+                const margin = { top: 40, right: 20, bottom: 60, left: isMobile() ? 40 : 70 }; // Reduced left margin for mobile
                 const containerWidth = singleChartContainer.node().getBoundingClientRect().width;
                 const width = containerWidth - margin.left - margin.right;
                 const height = 450 - margin.top - margin.bottom;
@@ -212,31 +240,53 @@
                     .attr("transform", `translate(0,${height})`)
                     .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
-                svg.append("g")
-                    .call(d3.axisLeft(y));
+                // Conditionally draw Y-axis label
+                if (!isMobile()) {
+                    svg.append("g")
+                        .call(d3.axisLeft(y));
 
-                // Axis labels
+                    svg.append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("y", 0 - margin.left + 15)
+                        .attr("x", 0 - (height / 2))
+                        .attr("dy", "1em")
+                        .style("text-anchor", "middle")
+                        .text(`${biomarkerName} (${unit})`);
+                } else {
+                    // On mobile, only draw the axis ticks and numbers, not the label
+                    svg.append("g")
+                        .call(d3.axisLeft(y).tickSizeOuter(0)); // No outer tick for cleaner look
+                }
+
+
+                // Axis labels (Age)
                 svg.append("text")
                     .attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`)
                     .style("text-anchor", "middle")
                     .text("Age (Years)");
 
-                svg.append("text")
-                    .attr("transform", "rotate(-90)")
-                    .attr("y", 0 - margin.left + 15)
-                    .attr("x", 0 - (height / 2))
-                    .attr("dy", "1em")
-                    .style("text-anchor", "middle")
-                    .text(`${biomarkerName} (${unit})`);
 
-                // Chart Title
-                svg.append("text")
-                    .attr("x", width / 2)
-                    .attr("y", 0 - (margin.top / 2) + 10)
+                // Chart Title with wrapping
+                const titleGroup = svg.append("g")
+                    .attr("transform", `translate(${width / 2}, ${0 - (margin.top / 2) + 10})`);
+
+                titleGroup.append("text")
                     .attr("text-anchor", "middle")
                     .style("font-size", "1.5rem")
                     .style("font-weight", "bold")
-                    .text(`${biomarkerName} Reference Intervals`);
+                    .text(`${biomarkerName}`)
+                    .call(wrap, width); // Apply the wrap function
+
+                // Add units as subtext if on mobile
+                if (isMobile()) {
+                    titleGroup.append("text")
+                        .attr("y", 25) // Position below the main title
+                        .attr("text-anchor", "middle")
+                        .style("font-size", "1rem")
+                        .style("fill", "#6b7280") // Tailwind gray-500
+                        .text(`(${unit})`);
+                }
+
 
                 // Draw data for each selected sex (age-dependent)
                 selectedSexes.forEach(sex => {
@@ -313,6 +363,8 @@
                     .attr("stroke", "gray")
                     .attr("stroke-width", 1)
                     .attr("stroke-dasharray", "3,3");
+                
+                const bisectAge = d3.bisector(d => d.age).left;
 
                 svg.append("rect")
                     .attr("class", "overlay")
@@ -320,179 +372,34 @@
                     .attr("height", height)
                     .style("fill", "none")
                     .style("pointer-events", "all")
-                    .on("mouseover", () => { focus.style("display", null); tooltip.transition().duration(200).style("opacity", .9); })
-                    .on("mouseout", () => { focus.style("display", "none"); tooltip.transition().duration(500).style("opacity", 0); })
-                    .on("mousemove", mousemove);
+                    .on("mouseover", function(event) {
+                        focus.style("display", null);
+                        tooltip.style("opacity", 0.9);
+                        mousemove.call(this, event);
+                    })
+                    .on("mouseout", hideTooltipAndFocus)
+                    .on("mousemove", mousemove)
+                    .on("touchstart", function(event) {
+                        event.preventDefault();
+                        focus.style("display", null);
+                        tooltip.style("opacity", 0.9);
+                        mousemove.call(this, event.touches[0]);
+                    }, { passive: false })
+                    .on("touchmove", function(event) {
+                        event.preventDefault();
+                        mousemove.call(this, event.touches[0]);
+                    }, { passive: false })
+                    .on("touchend", hideTooltipAndFocus)
+                    .on("touchcancel", hideTooltipAndFocus);
+
 
                 function mousemove(event) {
-                    const bisectAge = d3.bisector(d => d.age).left;
-                    const x0 = x.invert(d3.pointer(event)[0]);
+                    const pointer = d3.pointer(event, this);
+                    const x0 = x.invert(pointer[0]);
 
-                    focus.select(".x-hover-line").attr("transform", `translate(${x(x0)},0)`);
+                    focus.select(".x-hover-line").attr("transform", `translate(${x(Math.round(x0))},0)`);
 
-                    let tooltipHtml = `Age: ${Math.round(x0)}<br/>`;
+                    let tooltipHtml = `<strong>Age: ${Math.round(x0)}</strong><br/>`;
 
                     selectedSexes.forEach(sex => {
-                        let sexData = data.filter(d => d.sex === sex);
-
-                        if (sexData.length > 0) {
-                            sexData.sort((a, b) => a.age - b.age);
-                            const i = bisectAge(sexData, x0, 1);
-                            const d0 = sexData[i - 1];
-                            const d1 = sexData[i];
-                            const d = (d0 && d1) ? (x0 - d0.age > d1.age - x0 ? d1 : d0) : (d0 || d1);
-
-                            if (d) {
-                                tooltipHtml += `<span style="color:${sexColors[sex].line};">${sex}:</span> Mean ${d.mean.toFixed(2)} ${unit}<br/>`;
-                                tooltipHtml += `<span style="color:${sexColors[sex].line};">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(2)} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
-                            }
-                        }
-                    });
-
-                    // Add clinical ranges to tooltip if enabled
-                    selectedClinicalSexes.forEach(sex => {
-                        const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && d.sex === sex);
-                        currentClinicalRanges.forEach(cr => {
-                            let displaySex = cr.sex;
-                            if (displaySex === 'Both') {
-                                displaySex = 'Clinical';
-                            }
-
-                            const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : "N/A";
-                            const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : "N/A";
-
-                            tooltipHtml += `<span style="color:${sexColors[sex].line};">${displaySex} Ref:</span> ${
-                                lower !== "N/A" ? lower.toFixed(2) : "N/A"
-                            } - ${
-                                upper !== "N/A" ? upper.toFixed(2) : "N/A"
-                            } ${unit}<br/>`;
-                        });
-                    });
-
-                    tooltip.html(tooltipHtml)
-                        .style("left", (event.pageX + 10) + "px")
-                        .style("top", (event.pageY - 28) + "px");
-                }
-            }
-
-            function updateChart() {
-                let filteredData = loadedData.filter(d => d.biomarker === selectedBiomarker);
-                const unit = filteredData.length > 0 ? filteredData[0].unit : '';
-                drawSingleChart(selectedBiomarker, filteredData, unit);
-            }
-
-            // Function to update the state of clinical range checkboxes (grey out/enable)
-            function updateClinicalRangeCheckboxesState() {
-                clinicalSexCheckboxes.forEach(checkbox => {
-                    const sexValue = checkbox.value;
-                    const label = checkbox.closest('label'); // Get the parent label element
-
-                    // Check if a clinical range exists for the selected biomarker and this sex
-                    const hasClinicalRange = clinicalRangesData.some(d =>
-                        d.biomarker === selectedBiomarker && d.sex === sexValue
-                    );
-
-                    if (!hasClinicalRange) {
-                        checkbox.disabled = true;
-                        checkbox.checked = false; // Uncheck if disabled
-                        label.classList.add('disabled-checkbox-label');
-                    } else {
-                        checkbox.disabled = false;
-                        label.classList.remove('disabled-checkbox-label');
-                    }
-                });
-                // After updating disabled states, re-evaluate selectedClinicalSexes
-                selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
-                    .filter(cb => cb.checked && !cb.disabled)
-                    .map(cb => cb.value);
-            }
-
-
-            // Function to initialize the chart with data
-            function initializeChart(ukbData, clinicalData) {
-                loadedData = ukbData;
-                clinicalRangesData = clinicalData;
-
-                // Determine global min/max age from the loaded UKB data
-                minAgeGlobal = d3.min(loadedData, d => d.age);
-                maxAgeGlobal = d3.max(loadedData, d => d.age);
-
-                allBiomarkers = [...new Set(loadedData.map(d => d.biomarker))];
-
-                biomarkerSelect.innerHTML = ''; // Clear previous options
-                allBiomarkers.forEach(biomarker => {
-                    const option = document.createElement('option');
-                    option.value = biomarker;
-                    option.textContent = biomarker;
-                    biomarkerSelect.appendChild(option);
-                });
-
-                // Set default selected biomarker after all options are populated
-                biomarkerSelect.value = selectedBiomarker;
-
-
-                // Event Listeners
-                biomarkerSelect.addEventListener('change', (event) => {
-                    selectedBiomarker = event.target.value;
-                    updateClinicalRangeCheckboxesState(); // Update checkbox states when biomarker changes
-                    updateChart();
-                });
-
-                sexCheckboxes.forEach(checkbox => {
-                    checkbox.addEventListener('change', (event) => {
-                        selectedSexes = Array.from(sexCheckboxes)
-                            .filter(cb => cb.checked)
-                            .map(cb => cb.value);
-                        updateChart();
-                    });
-                });
-
-                clinicalSexCheckboxes.forEach(checkbox => {
-                    checkbox.addEventListener('change', (event) => {
-                        selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
-                            .filter(cb => cb.checked && !cb.disabled) // Only include if checked AND not disabled
-                            .map(cb => cb.value);
-                        updateChart();
-                    });
-                });
-
-                // Initial calls
-                updateClinicalRangeCheckboxesState(); // Set initial states for clinical range checkboxes
-                updateChart(); // Initial rendering
-                window.addEventListener('resize', updateChart); // Responsive resize
-            }
-
-            // Load data from the specified CSV files
-            Promise.all([
-                d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
-                d3.csv("clinical_ranges.csv")
-            ]).then(function([ukbData, clinicalData]) {
-                // Parse UKB data
-                const parsedUkbData = ukbData.map(d => ({
-                    biomarker: d.biomarker,
-                    unit: d.unit,
-                    age: parseInt(d.age),
-                    sex: d.sex,
-                    lower: parseFloat(d.lower),
-                    upper: parseFloat(d.upper),
-                    mean: parseFloat(d.mean)
-                }));
-
-                // Parse Clinical Ranges data
-                const parsedClinicalData = clinicalData.map(d => ({
-                    biomarker: d.biomarker,
-                    sex: d.sex,
-                    lower: d.lower, // Keep as string "N/A" for display, parse to float for calculations if needed
-                    upper: d.upper, // Keep as string "N/A" for display, parse to float for calculations if needed
-                    unit: d.unit
-                }));
-
-                initializeChart(parsedUkbData, parsedClinicalData);
-            }).catch(function(error) {
-                console.error("Error loading CSV files:", error);
-                singleChartContainer.html("<p class='text-red-500'>Error loading data. Please ensure 'ukb_biomarker_reference_intervals.eur.csv' and 'clinical_ranges.csv' are in the same directory and accessible.</p>");
-            });
-        });
-    </script>
-</body>
-</html>
+                        let sexData = data.filter(d => d
