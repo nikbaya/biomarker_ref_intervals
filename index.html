@@ -80,7 +80,7 @@
                 <label class="font-semibold text-indigo-800">Show Sexes:</label>
                 <div class="flex space-x-2">
                     <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-black" name="sex-checkbox" value="Both" checked>
+                        <input type="checkbox" class="form-checkbox text-black" name="sex-checkbox" value="Both">
                         <span class="ml-2 text-gray-700">Both</span>
                     </label>
                     <label class="inline-flex items-center">
@@ -99,7 +99,7 @@
                 <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
                 <div class="flex space-x-2" id="clinical-ranges-checkboxes">
                     <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-black" name="clinical-sex-checkbox" value="Both" checked>
+                        <input type="checkbox" class="form-checkbox text-black" name="clinical-sex-checkbox" value="Both">
                         <span class="ml-2 text-gray-700">Both</span>
                     </label>
                     <label class="inline-flex items-center">
@@ -130,9 +130,9 @@
             let loadedData = []; // This will hold the loaded UKB data
             let clinicalRangesData = []; // This will hold the loaded clinical ranges data
             let allBiomarkers = [];
-            let selectedBiomarker = '';
-            let selectedSexes = ['Both', 'Male', 'Female']; // Default to all selected
-            let selectedClinicalSexes = ['Both', 'Male', 'Female']; // Default to all clinical ranges
+            let selectedBiomarker = 'LDL Cholesterol'; // Default biomarker
+            let selectedSexes = ['Male', 'Female']; // Default to Male and Female selected
+            let selectedClinicalSexes = ['Male', 'Female']; // Default to Male and Female clinical ranges
             let minAgeGlobal = 20; // Default min age, will be updated from data
             let maxAgeGlobal = 80; // Default max age, will be updated from data
 
@@ -425,7 +425,10 @@
                     option.textContent = biomarker;
                     biomarkerSelect.appendChild(option);
                 });
-                selectedBiomarker = allBiomarkers[0]; // Set initial selected biomarker
+
+                // Set default selected biomarker after all options are populated
+                biomarkerSelect.value = selectedBiomarker;
+
 
                 // Event Listeners
                 biomarkerSelect.addEventListener('change', (event) => {
