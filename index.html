@@ -183,7 +183,8 @@
 
                 const x = d3.scaleLinear()
                     .domain([minAgeGlobal, maxAgeGlobal])
-                    .range([0, width]);
+                    .range([0, width])
+                    .clamp(true); // Prevents using ages outside of bounds
 
                 let yMinData = d3.min(data.filter(d => selectedSexes.includes(d.sex)), d => d.lower);
                 let yMaxData = d3.max(data.filter(d => selectedSexes.includes(d.sex)), d => d.upper);
