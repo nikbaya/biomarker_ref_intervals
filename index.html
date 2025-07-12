@@ -375,7 +375,7 @@
             }
 
             // Attempt to load data from CSV first
-            d3.csv("mock_data.csv").then(function(loadedData) {
+            d3.csv("ukb_biomarker_reference_intervals.eur.csv").then(function(loadedData) {
                 // Parse numerical values from strings
                 const parsedData = loadedData.map(d => ({
                     biomarker: d.biomarker,
