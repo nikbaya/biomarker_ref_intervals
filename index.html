@@ -169,6 +169,14 @@
                 });
             }
 
+            // Function to hide tooltip and focus line
+            function hideTooltipAndFocus() {
+                d3.select("body").selectAll(".tooltip").transition()
+                    .duration(500)
+                    .style("opacity", 0);
+                d3.select(".focus").style("display", "none");
+            }
+
             // Function to draw the single biomarker chart
             function drawSingleChart(biomarkerName, data, unit) {
                 singleChartContainer.html(""); // Clear existing chart
@@ -255,14 +263,14 @@
                     .style("text-anchor", "middle")
                     .text(`${biomarkerName} (${unit})`);
 
-                // Chart Title with wrapping
+                // Chart Title with wrapping (removed "Reference Intervals")
                 svg.append("text")
                     .attr("x", width / 2)
                     .attr("y", 0 - (margin.top / 2) + 10)
                     .attr("text-anchor", "middle")
                     .style("font-size", "1.5rem")
                     .style("font-weight", "bold")
-                    .text(`${biomarkerName}`)
+                    .text(`${biomarkerName}`) // Only biomarker name
                     .call(wrap, width); // Apply the wrap function
 
 
@@ -348,20 +356,35 @@
                     .attr("height", height)
                     .style("fill", "none")
                     .style("pointer-events", "all")
-                    .on("mouseover", () => { focus.style("display", null); tooltip.transition().duration(200).style("opacity", .9); })
-                    .on("mouseout", () => { focus.style("display", "none"); tooltip.transition().duration(500).style("opacity", 0); })
-                    .on("mousemove", mousemove);
+                    .on("mouseover", (event) => { // Use event for d3.pointer
+                        focus.style("display", null);
+                        tooltip.transition().duration(200).style("opacity", .9);
+                        mousemove(event); // Call mousemove immediately on mouseover
+                    })
+                    .on("mouseout", hideTooltipAndFocus) // Use the dedicated hide function
+                    .on("mousemove", mousemove)
+                    .on("touchstart", (event) => { // Handle touch for mobile
+                        event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
+                        focus.style("display", null);
+                        tooltip.transition().duration(200).style("opacity", .9);
+                        // Use d3.pointer with the first touch point
+                        mousemove(event.touches[0] ? event.touches[0] : event);
+                    })
+                    .on("touchmove", (event) => { // Handle touchmove for mobile
+                        event.preventDefault();
+                        mousemove(event.touches[0] ? event.touches[0] : event);
+                    })
+                    .on("touchend", hideTooltipAndFocus) // Hide on touch end
+                    .on("touchcancel", hideTooltipAndFocus); // Hide on touch cancel
 
-                // Add mouseout to the entire SVG for more robust tooltip hiding
-                svg.on("mouseout", () => {
-                    focus.style("display", "none");
-                    tooltip.transition().duration(500).style("opacity", 0);
-                });
+
+                // Removed redundant svg.on("mouseout") as overlayRect handles it.
 
 
                 function mousemove(event) {
-                    const bisectAge = d3.bisector(d => d.age).left;
-                    const x0 = x.invert(d3.pointer(event)[0]);
+                    // Use d3.pointer(event, this) for more robust coordinate retrieval
+                    const pointer = d3.pointer(event, this);
+                    const x0 = x.invert(pointer[0]);
 
                     focus.select(".x-hover-line").attr("transform", `translate(${x(x0)},0)`);
 
@@ -404,6 +427,7 @@
                         });
                     });
 
+                    // Position tooltip relative to the event page coordinates
                     tooltip.html(tooltipHtml)
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 28) + "px");
@@ -469,6 +493,7 @@
                 // Event Listeners
                 biomarkerSelect.addEventListener('change', (event) => {
                     selectedBiomarker = event.target.value;
+                    hideTooltipAndFocus(); // Hide tooltip on control change
                     updateClinicalRangeCheckboxesState(); // Update checkbox states when biomarker changes
                     updateChart();
                 });
@@ -478,6 +503,7 @@
                         selectedSexes = Array.from(sexCheckboxes)
                             .filter(cb => cb.checked)
                             .map(cb => cb.value);
+                        hideTooltipAndFocus(); // Hide tooltip on control change
                         updateChart();
                     });
                 });
@@ -487,6 +513,7 @@
                         selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
                             .filter(cb => cb.checked && !cb.disabled) // Only include if checked AND not disabled
                             .map(cb => cb.value);
+                        hideTooltipAndFocus(); // Hide tooltip on control change
                         updateChart();
                     });
                 });
