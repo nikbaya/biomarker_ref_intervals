@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKB Biomarker Reference Intervals</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- D3.js CDN -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        /* Custom styles for the font and rounded corners */
+        body {
+            font-family: "Inter", sans-serif;
+            background-color: #f0f2f5;
+        }
+        .container {
+            border-radius: 1rem; /* Rounded corners for the main container */
+        }
+        .chart-card {
+            border-radius: 0.75rem; /* Rounded corners for individual chart cards */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .tooltip {
+            position: absolute;
+            text-align: center;
+            padding: 0.5rem;
+            background: #333;
+            color: #fff;
+            border-radius: 0.5rem;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+            z-index: 1000;
+        }
+        .range-slider-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .range-slider-container input[type="range"] {
+            width: 100%;
+            -webkit-appearance: none;
+            height: 8px;
+            background: #d3d3d3;
+            outline: none;
+            opacity: 0.7;
+            -webkit-transition: .2s;
+            transition: opacity .2s;
+            border-radius: 5px;
+        }
+        .range-slider-container input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #4F46E5;
+            cursor: pointer;
+        }
+        .range-slider-container input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #4F46E5;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body class="p-4">
+    <div class="container mx-auto bg-white p-6 md:p-8 shadow-lg rounded-xl">
+        <h1 class="text-3xl md:text-4xl font-bold text-center mb-6 text-indigo-700">
+            UKB Biomarker Reference Intervals
+        </h1>
+        <p class="text-center text-gray-600 mb-8">
+            Visualizing 95% reference intervals for blood and urine biomarkers across ages, split by sex.
+        </p>
+
+        <!-- Controls Section -->
+        <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-8 p-4 bg-indigo-50 rounded-lg shadow-inner">
+            <!-- Sex Filter -->
+            <div class="flex items-center space-x-4">
+                <label class="font-semibold text-indigo-800">Sex:</label>
+                <div class="flex space-x-2">
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio text-indigo-600" name="sex" value="Both" checked>
+                        <span class="ml-2 text-gray-700">Both</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio text-indigo-600" name="sex" value="Male">
+                        <span class="ml-2 text-gray-700">Male</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="radio" class="form-radio text-indigo-600" name="sex" value="Female">
+                        <span class="ml-2 text-gray-700">Female</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Age Range Filter -->
+            <div class="flex flex-col items-center w-full md:w-1/2 lg:w-1/3">
+                <label for="age-range" class="font-semibold text-indigo-800 mb-2">Age Range: <span id="age-display">20 - 80</span></label>
+                <div class="range-slider-container w-full">
+                    <span id="min-age-value" class="text-gray-700">20</span>
+                    <input type="range" id="min-age-slider" min="20" max="80" value="20" class="flex-grow">
+                    <span class="text-gray-700">-</span>
+                    <input type="range" id="max-age-slider" min="20" max="80" value="80" class="flex-grow">
+                    <span id="max-age-value" class="text-gray-700">80</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Charts Container -->
+        <div id="charts-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Charts will be dynamically loaded here -->
+        </div>
+    </div>
+
+    <script>
+        // D3.js and JavaScript logic for data generation and visualization
+        document.addEventListener('DOMContentLoaded', () => {
+            const chartsContainer = d3.select("#charts-container");
+            const sexRadios = document.querySelectorAll('input[name="sex"]');
+            const minAgeSlider = document.getElementById('min-age-slider');
+            const maxAgeSlider = document.getElementById('max-age-slider');
+            const ageDisplay = document.getElementById('age-display');
+            const minAgeValueDisplay = document.getElementById('min-age-value');
+            const maxAgeValueDisplay = document.getElementById('max-age-value');
+
+            let selectedSex = 'Both';
+            let minAge = parseInt(minAgeSlider.value);
+            let maxAge = parseInt(maxAgeSlider.value);
+
+            // Mock Data Generation
+            // Generates synthetic data for biomarkers, simulating 95% reference intervals.
+            // This function creates a dataset that mimics how biomarker levels might change with age and differ by sex.
+            function generateMockData() {
+                const biomarkers = [
+                    { name: "Blood Glucose", unit: "mmol/L", base: 5, maleOffset: 0.1, femaleOffset: -0.1, ageEffect: 0.02, variability: 0.5 },
+                    { name: "Creatinine", unit: "µmol/L", base: 80, maleOffset: 5, femaleOffset: -5, ageEffect: 0.1, variability: 10 },
+                    { name: "Urea", unit: "mmol/L", base: 4, maleOffset: 0.2, femaleOffset: -0.2, ageEffect: 0.05, variability: 1 },
+                    { name: "Total Cholesterol", unit: "mmol/L", base: 4.5, maleOffset: 0.1, femaleOffset: 0.1, ageEffect: 0.03, variability: 0.8 },
+                    { name: "HDL Cholesterol", unit: "mmol/L", base: 1.2, maleOffset: -0.1, femaleOffset: 0.1, ageEffect: 0.01, variability: 0.2 },
+                    { name: "LDL Cholesterol", unit: "mmol/L", base: 2.5, maleOffset: 0.1, femaleOffset: 0.1, ageEffect: 0.02, variability: 0.5 },
+                    { name: "Uric Acid", unit: "µmol/L", base: 250, maleOffset: 20, femaleOffset: -20, ageEffect: 0.5, variability: 50 },
+                    { name: "Sodium", unit: "mmol/L", base: 140, maleOffset: 0, femaleOffset: 0, ageEffect: 0.01, variability: 2 },
+                    { name: "Potassium", unit: "mmol/L", base: 4.0, maleOffset: 0, femaleOffset: 0, ageEffect: 0.005, variability: 0.3 },
+                    { name: "Albumin", unit: "g/L", base: 40, maleOffset: 0, femaleOffset: 0, ageEffect: -0.05, variability: 3 },
+                ];
+
+                const data = [];
+                for (let age = 20; age <= 80; age++) {
+                    biomarkers.forEach(bm => {
+                        // Male data
+                        let maleMean = bm.base + (age - 20) * bm.ageEffect + bm.maleOffset;
+                        let maleLower = maleMean - bm.variability * 0.5;
+                        let maleUpper = maleMean + bm.variability * 0.5;
+                        data.push({
+                            biomarker: bm.name,
+                            unit: bm.unit,
+                            age: age,
+                            sex: 'Male',
+                            lower: maleLower,
+                            upper: maleUpper,
+                            mean: maleMean
+                        });
+
+                        // Female data
+                        let femaleMean = bm.base + (age - 20) * bm.ageEffect + bm.femaleOffset;
+                        let femaleLower = femaleMean - bm.variability * 0.5;
+                        let femaleUpper = femaleMean + bm.variability * 0.5;
+                        data.push({
+                            biomarker: bm.name,
+                            unit: bm.unit,
+                            age: age,
+                            sex: 'Female',
+                            lower: femaleLower,
+                            upper: femaleUpper,
+                            mean: femaleMean
+                        });
+                    });
+                }
+                return data;
+            }
+
+            let mockData = generateMockData();
+
+            // Function to draw a single biomarker chart
+            function drawChart(biomarkerName, data, unit) {
+                const margin = { top: 20, right: 30, bottom: 50, left: 60 };
+                const width = 400 - margin.left - margin.right; // Adjusted for responsive layout
+                const height = 300 - margin.top - margin.bottom;
+
+                // Remove existing SVG if it exists for this biomarker
+                d3.select(`#chart-${biomarkerName.replace(/\s/g, '-')}`).remove();
+
+                const svg = chartsContainer.append("div")
+                    .attr("class", "chart-card bg-white p-4 rounded-lg shadow-md")
+                    .attr("id", `chart-${biomarkerName.replace(/\s/g, '-')}`)
+                    .append("svg")
+                    .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+                    .attr("preserveAspectRatio", "xMinYMin meet")
+                    .append("g")
+                    .attr("transform", `translate(${margin.left},${margin.top})`);
+
+                // Scales
+                const x = d3.scaleLinear()
+                    .domain(d3.extent(data, d => d.age))
+                    .range([0, width]);
+
+                const y = d3.scaleLinear()
+                    .domain([d3.min(data, d => d.lower) * 0.9, d3.max(data, d => d.upper) * 1.1]) // Add some padding
+                    .range([height, 0]);
+
+                // Area for 95% reference interval
+                const area = d3.area()
+                    .x(d => x(d.age))
+                    .y0(d => y(d.lower))
+                    .y1(d => y(d.upper));
+
+                svg.append("path")
+                    .datum(data)
+                    .attr("fill", "rgba(79, 70, 229, 0.2)") // Indigo-500 with transparency
+                    .attr("stroke", "none")
+                    .attr("d", area);
+
+                // Line for mean (or median)
+                const line = d3.line()
+                    .x(d => x(d.age))
+                    .y(d => y(d.mean));
+
+                svg.append("path")
+                    .datum(data)
+                    .attr("fill", "none")
+                    .attr("stroke", "#4F46E5") // Indigo-600
+                    .attr("stroke-width", 2)
+                    .attr("d", line);
+
+                // Axes
+                svg.append("g")
+                    .attr("transform", `translate(0,${height})`)
+                    .call(d3.axisBottom(x).tickFormat(d3.format("d"))); // Format age as integer
+
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+
+                // Axis labels
+                svg.append("text")
+                    .attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`)
+                    .style("text-anchor", "middle")
+                    .text("Age (Years)");
+
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - margin.left + 15)
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text(`${biomarkerName} (${unit})`);
+
+                // Chart Title
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", 0 - (margin.top / 2))
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "1.1rem")
+                    .style("font-weight", "bold")
+                    .text(`${biomarkerName}`);
+
+                // Tooltip
+                const tooltip = d3.select("body").append("div")
+                    .attr("class", "tooltip");
+
+                svg.selectAll(".dot")
+                    .data(data)
+                    .enter().append("circle")
+                    .attr("class", "dot")
+                    .attr("cx", d => x(d.age))
+                    .attr("cy", d => y(d.mean))
+                    .attr("r", 3)
+                    .attr("fill", "transparent") // Make dots transparent but clickable
+                    .on("mouseover", (event, d) => {
+                        tooltip.transition()
+                            .duration(200)
+                            .style("opacity", .9);
+                        tooltip.html(`Age: ${d.age}<br/>Sex: ${d.sex}<br/>Mean: ${d.mean.toFixed(2)} ${unit}<br/>95% CI: ${d.lower.toFixed(2)} - ${d.upper.toFixed(2)} ${unit}`)
+                            .style("left", (event.pageX + 10) + "px")
+                            .style("top", (event.pageY - 28) + "px");
+                    })
+                    .on("mouseout", () => {
+                        tooltip.transition()
+                            .duration(500)
+                            .style("opacity", 0);
+                    });
+            }
+
+            // Function to update all charts based on filters
+            function updateCharts() {
+                chartsContainer.html(""); // Clear existing charts
+
+                // Filter data based on selected sex and age range
+                let filteredData = mockData.filter(d => {
+                    const sexMatch = (selectedSex === 'Both' || d.sex === selectedSex);
+                    const ageMatch = (d.age >= minAge && d.age <= maxAge);
+                    return sexMatch && ageMatch;
+                });
+
+                // Group data by biomarker
+                const groupedData = d3.group(filteredData, d => d.biomarker);
+
+                // Draw a chart for each biomarker
+                groupedData.forEach((values, biomarkerName) => {
+                    // Get unit from the first item in the group
+                    const unit = values.length > 0 ? values[0].unit : '';
+                    drawChart(biomarkerName, values, unit);
+                });
+            }
+
+            // Event Listeners for Filters
+            sexRadios.forEach(radio => {
+                radio.addEventListener('change', (event) => {
+                    selectedSex = event.target.value;
+                    updateCharts();
+                });
+            });
+
+            minAgeSlider.addEventListener('input', () => {
+                minAge = parseInt(minAgeSlider.value);
+                if (minAge > maxAge) {
+                    maxAge = minAge;
+                    maxAgeSlider.value = minAge;
+                }
+                ageDisplay.textContent = `${minAge} - ${maxAge}`;
+                minAgeValueDisplay.textContent = minAge;
+                maxAgeValueDisplay.textContent = maxAge;
+                updateCharts();
+            });
+
+            maxAgeSlider.addEventListener('input', () => {
+                maxAge = parseInt(maxAgeSlider.value);
+                if (maxAge < minAge) {
+                    minAge = maxAge;
+                    minAgeSlider.value = maxAge;
+                }
+                ageDisplay.textContent = `${minAge} - ${maxAge}`;
+                minAgeValueDisplay.textContent = minAge;
+                maxAgeValueDisplay.textContent = maxAge;
+                updateCharts();
+            });
+
+            // Initial chart rendering
+            updateCharts();
+        });
+    </script>
+</body>
+</html>
