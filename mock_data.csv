@@ -1,0 +1,1831 @@
+biomarker,unit,age,sex,lower,upper,mean
+Blood Glucose,mmol/L,20,Male,4.85,5.35,5.1
+Blood Glucose,mmol/L,20,Female,4.65,7.3500000000000005,4.9
+Blood Glucose,mmol/L,20,Both,4.6000000000000005,7.4,5.0
+Creatinine,µmol/L,20,Male,80.0,90.0,85.0
+Creatinine,µmol/L,20,Female,70.0,112.5,75.0
+Creatinine,µmol/L,20,Both,69.0,113.5,80.0
+Urea,mmol/L,20,Male,3.7,4.7,4.2
+Urea,mmol/L,20,Female,3.3,5.699999999999999,3.8
+Urea,mmol/L,20,Both,3.1999999999999997,5.799999999999999,4.0
+Total Cholesterol,mmol/L,20,Male,4.199999999999999,5.0,4.6
+Total Cholesterol,mmol/L,20,Female,4.199999999999999,6.8999999999999995,4.6
+Total Cholesterol,mmol/L,20,Both,4.119999999999999,6.9799999999999995,4.6
+HDL Cholesterol,mmol/L,20,Male,0.9999999999999999,1.2,1.0999999999999999
+HDL Cholesterol,mmol/L,20,Female,1.2,1.9500000000000002,1.3
+HDL Cholesterol,mmol/L,20,Both,0.9799999999999999,1.9700000000000002,1.2
+LDL Cholesterol,mmol/L,20,Male,2.35,2.85,2.6
+LDL Cholesterol,mmol/L,20,Female,2.35,3.9000000000000004,2.6
+LDL Cholesterol,mmol/L,20,Both,2.3000000000000003,3.95,2.6
+Uric Acid,µmol/L,20,Male,245.0,295.0,270.0
+Uric Acid,µmol/L,20,Female,205.0,345.0,230.0
+Uric Acid,µmol/L,20,Both,200.0,350.0,250.0
+Sodium,mmol/L,20,Male,139.0,141.0,140.0
+Sodium,mmol/L,20,Female,139.0,210.0,140.0
+Sodium,mmol/L,20,Both,138.8,210.2,140.0
+Potassium,mmol/L,20,Male,3.85,4.15,4.0
+Potassium,mmol/L,20,Female,3.85,6.0,4.0
+Potassium,mmol/L,20,Both,3.8200000000000003,6.03,4.0
+Albumin,g/L,20,Male,38.5,41.5,40.0
+Albumin,g/L,20,Female,38.5,60.0,40.0
+Albumin,g/L,20,Both,38.2,60.3,40.0
+Blood Glucose,mmol/L,21,Male,4.869999999999999,5.369999999999999,5.119999999999999
+Blood Glucose,mmol/L,21,Female,4.67,7.38,4.92
+Blood Glucose,mmol/L,21,Both,4.62,7.43,5.02
+Creatinine,µmol/L,21,Male,80.1,90.1,85.1
+Creatinine,µmol/L,21,Female,70.1,112.64999999999999,75.1
+Creatinine,µmol/L,21,Both,69.1,113.64999999999999,80.1
+Urea,mmol/L,21,Male,3.75,4.75,4.25
+Urea,mmol/L,21,Female,3.3499999999999996,5.7749999999999995,3.8499999999999996
+Urea,mmol/L,21,Both,3.2499999999999996,5.874999999999999,4.05
+Total Cholesterol,mmol/L,21,Male,4.2299999999999995,5.03,4.63
+Total Cholesterol,mmol/L,21,Female,4.2299999999999995,6.945,4.63
+Total Cholesterol,mmol/L,21,Both,4.1499999999999995,7.025,4.63
+HDL Cholesterol,mmol/L,21,Male,1.0099999999999998,1.21,1.1099999999999999
+HDL Cholesterol,mmol/L,21,Female,1.21,1.965,1.31
+HDL Cholesterol,mmol/L,21,Both,0.9899999999999998,1.985,1.21
+LDL Cholesterol,mmol/L,21,Male,2.37,2.87,2.62
+LDL Cholesterol,mmol/L,21,Female,2.37,3.93,2.62
+LDL Cholesterol,mmol/L,21,Both,2.3200000000000003,3.98,2.62
+Uric Acid,µmol/L,21,Male,245.5,295.5,270.5
+Uric Acid,µmol/L,21,Female,205.5,345.75,230.5
+Uric Acid,µmol/L,21,Both,200.5,350.75,250.5
+Sodium,mmol/L,21,Male,139.01,141.01,140.01
+Sodium,mmol/L,21,Female,139.01,210.015,140.01
+Sodium,mmol/L,21,Both,138.81,210.21499999999997,140.01
+Potassium,mmol/L,21,Male,3.855,4.155,4.005
+Potassium,mmol/L,21,Female,3.855,6.0075,4.005
+Potassium,mmol/L,21,Both,3.825,6.0375000000000005,4.005
+Albumin,g/L,21,Male,38.45,41.45,39.95
+Albumin,g/L,21,Female,38.45,59.925000000000004,39.95
+Albumin,g/L,21,Both,38.150000000000006,60.225,39.95
+Blood Glucose,mmol/L,22,Male,4.89,5.39,5.14
+Blood Glucose,mmol/L,22,Female,4.69,7.41,4.94
+Blood Glucose,mmol/L,22,Both,4.640000000000001,7.46,5.04
+Creatinine,µmol/L,22,Male,80.2,90.2,85.2
+Creatinine,µmol/L,22,Female,70.2,112.80000000000001,75.2
+Creatinine,µmol/L,22,Both,69.2,113.80000000000001,80.2
+Urea,mmol/L,22,Male,3.8,4.8,4.3
+Urea,mmol/L,22,Female,3.3999999999999995,5.85,3.8999999999999995
+Urea,mmol/L,22,Both,3.2999999999999994,5.949999999999999,4.1
+Total Cholesterol,mmol/L,22,Male,4.259999999999999,5.06,4.659999999999999
+Total Cholesterol,mmol/L,22,Female,4.259999999999999,6.989999999999998,4.659999999999999
+Total Cholesterol,mmol/L,22,Both,4.179999999999999,7.0699999999999985,4.659999999999999
+HDL Cholesterol,mmol/L,22,Male,1.0199999999999998,1.22,1.1199999999999999
+HDL Cholesterol,mmol/L,22,Female,1.22,1.98,1.32
+HDL Cholesterol,mmol/L,22,Both,0.9999999999999998,2.0,1.22
+LDL Cholesterol,mmol/L,22,Male,2.39,2.89,2.64
+LDL Cholesterol,mmol/L,22,Female,2.39,3.96,2.64
+LDL Cholesterol,mmol/L,22,Both,2.3400000000000003,4.01,2.64
+Uric Acid,µmol/L,22,Male,246.0,296.0,271.0
+Uric Acid,µmol/L,22,Female,206.0,346.5,231.0
+Uric Acid,µmol/L,22,Both,201.0,351.5,251.0
+Sodium,mmol/L,22,Male,139.02,141.02,140.02
+Sodium,mmol/L,22,Female,139.02,210.03000000000003,140.02
+Sodium,mmol/L,22,Both,138.82000000000002,210.23000000000002,140.02
+Potassium,mmol/L,22,Male,3.86,4.16,4.01
+Potassium,mmol/L,22,Female,3.86,6.015,4.01
+Potassium,mmol/L,22,Both,3.83,6.045,4.01
+Albumin,g/L,22,Male,38.4,41.4,39.9
+Albumin,g/L,22,Female,38.4,59.849999999999994,39.9
+Albumin,g/L,22,Both,38.1,60.14999999999999,39.9
+Blood Glucose,mmol/L,23,Male,4.909999999999999,5.409999999999999,5.159999999999999
+Blood Glucose,mmol/L,23,Female,4.71,7.4399999999999995,4.96
+Blood Glucose,mmol/L,23,Both,4.66,7.489999999999999,5.06
+Creatinine,µmol/L,23,Male,80.3,90.3,85.3
+Creatinine,µmol/L,23,Female,70.3,112.94999999999999,75.3
+Creatinine,µmol/L,23,Both,69.3,113.94999999999999,80.3
+Urea,mmol/L,23,Male,3.8500000000000005,4.8500000000000005,4.3500000000000005
+Urea,mmol/L,23,Female,3.45,5.925000000000001,3.95
+Urea,mmol/L,23,Both,3.35,6.025,4.15
+Total Cholesterol,mmol/L,23,Male,4.289999999999999,5.09,4.6899999999999995
+Total Cholesterol,mmol/L,23,Female,4.289999999999999,7.034999999999999,4.6899999999999995
+Total Cholesterol,mmol/L,23,Both,4.209999999999999,7.114999999999999,4.6899999999999995
+HDL Cholesterol,mmol/L,23,Male,1.0299999999999998,1.23,1.13
+HDL Cholesterol,mmol/L,23,Female,1.23,1.995,1.33
+HDL Cholesterol,mmol/L,23,Both,1.0099999999999998,2.015,1.23
+LDL Cholesterol,mmol/L,23,Male,2.41,2.91,2.66
+LDL Cholesterol,mmol/L,23,Female,2.41,3.99,2.66
+LDL Cholesterol,mmol/L,23,Both,2.3600000000000003,4.04,2.66
+Uric Acid,µmol/L,23,Male,246.5,296.5,271.5
+Uric Acid,µmol/L,23,Female,206.5,347.25,231.5
+Uric Acid,µmol/L,23,Both,201.5,352.25,251.5
+Sodium,mmol/L,23,Male,139.03,141.03,140.03
+Sodium,mmol/L,23,Female,139.03,210.04500000000002,140.03
+Sodium,mmol/L,23,Both,138.83,210.245,140.03
+Potassium,mmol/L,23,Male,3.8649999999999998,4.165,4.015
+Potassium,mmol/L,23,Female,3.8649999999999998,6.022499999999999,4.015
+Potassium,mmol/L,23,Both,3.835,6.052499999999999,4.015
+Albumin,g/L,23,Male,38.35,41.35,39.85
+Albumin,g/L,23,Female,38.35,59.775000000000006,39.85
+Albumin,g/L,23,Both,38.050000000000004,60.075,39.85
+Blood Glucose,mmol/L,24,Male,4.93,5.43,5.18
+Blood Glucose,mmol/L,24,Female,4.73,7.470000000000001,4.98
+Blood Glucose,mmol/L,24,Both,4.680000000000001,7.5200000000000005,5.08
+Creatinine,µmol/L,24,Male,80.4,90.4,85.4
+Creatinine,µmol/L,24,Female,70.4,113.10000000000001,75.4
+Creatinine,µmol/L,24,Both,69.4,114.10000000000001,80.4
+Urea,mmol/L,24,Male,3.9000000000000004,4.9,4.4
+Urea,mmol/L,24,Female,3.5,6.0,4.0
+Urea,mmol/L,24,Both,3.4,6.1,4.2
+Total Cholesterol,mmol/L,24,Male,4.319999999999999,5.12,4.72
+Total Cholesterol,mmol/L,24,Female,4.319999999999999,7.08,4.72
+Total Cholesterol,mmol/L,24,Both,4.239999999999999,7.16,4.72
+HDL Cholesterol,mmol/L,24,Male,1.0399999999999998,1.24,1.14
+HDL Cholesterol,mmol/L,24,Female,1.24,2.0100000000000002,1.34
+HDL Cholesterol,mmol/L,24,Both,1.0199999999999998,2.0300000000000002,1.24
+LDL Cholesterol,mmol/L,24,Male,2.43,2.93,2.68
+LDL Cholesterol,mmol/L,24,Female,2.43,4.0200000000000005,2.68
+LDL Cholesterol,mmol/L,24,Both,2.3800000000000003,4.07,2.68
+Uric Acid,µmol/L,24,Male,247.0,297.0,272.0
+Uric Acid,µmol/L,24,Female,207.0,348.0,232.0
+Uric Acid,µmol/L,24,Both,202.0,353.0,252.0
+Sodium,mmol/L,24,Male,139.04,141.04,140.04
+Sodium,mmol/L,24,Female,139.04,210.06,140.04
+Sodium,mmol/L,24,Both,138.84,210.26,140.04
+Potassium,mmol/L,24,Male,3.8699999999999997,4.17,4.02
+Potassium,mmol/L,24,Female,3.8699999999999997,6.029999999999999,4.02
+Potassium,mmol/L,24,Both,3.84,6.06,4.02
+Albumin,g/L,24,Male,38.3,41.3,39.8
+Albumin,g/L,24,Female,38.3,59.699999999999996,39.8
+Albumin,g/L,24,Both,38.0,59.99999999999999,39.8
+Blood Glucose,mmol/L,25,Male,4.949999999999999,5.449999999999999,5.199999999999999
+Blood Glucose,mmol/L,25,Female,4.75,7.5,5.0
+Blood Glucose,mmol/L,25,Both,4.7,7.55,5.1
+Creatinine,µmol/L,25,Male,80.5,90.5,85.5
+Creatinine,µmol/L,25,Female,70.5,113.25,75.5
+Creatinine,µmol/L,25,Both,69.5,114.25,80.5
+Urea,mmol/L,25,Male,3.95,4.95,4.45
+Urea,mmol/L,25,Female,3.55,6.074999999999999,4.05
+Urea,mmol/L,25,Both,3.4499999999999997,6.174999999999999,4.25
+Total Cholesterol,mmol/L,25,Male,4.35,5.15,4.75
+Total Cholesterol,mmol/L,25,Female,4.35,7.125,4.75
+Total Cholesterol,mmol/L,25,Both,4.27,7.205,4.75
+HDL Cholesterol,mmol/L,25,Male,1.0499999999999998,1.25,1.15
+HDL Cholesterol,mmol/L,25,Female,1.25,2.0250000000000004,1.35
+HDL Cholesterol,mmol/L,25,Both,1.0299999999999998,2.0450000000000004,1.25
+LDL Cholesterol,mmol/L,25,Male,2.45,2.95,2.7
+LDL Cholesterol,mmol/L,25,Female,2.45,4.050000000000001,2.7
+LDL Cholesterol,mmol/L,25,Both,2.4000000000000004,4.1000000000000005,2.7
+Uric Acid,µmol/L,25,Male,247.5,297.5,272.5
+Uric Acid,µmol/L,25,Female,207.5,348.75,232.5
+Uric Acid,µmol/L,25,Both,202.5,353.75,252.5
+Sodium,mmol/L,25,Male,139.05,141.05,140.05
+Sodium,mmol/L,25,Female,139.05,210.07500000000002,140.05
+Sodium,mmol/L,25,Both,138.85000000000002,210.275,140.05
+Potassium,mmol/L,25,Male,3.8750000000000004,4.175000000000001,4.025
+Potassium,mmol/L,25,Female,3.8750000000000004,6.0375000000000005,4.025
+Potassium,mmol/L,25,Both,3.8450000000000006,6.067500000000001,4.025
+Albumin,g/L,25,Male,38.25,41.25,39.75
+Albumin,g/L,25,Female,38.25,59.625,39.75
+Albumin,g/L,25,Both,37.95,59.925,39.75
+Blood Glucose,mmol/L,26,Male,4.97,5.47,5.22
+Blood Glucose,mmol/L,26,Female,4.7700000000000005,7.530000000000001,5.0200000000000005
+Blood Glucose,mmol/L,26,Both,4.720000000000001,7.580000000000001,5.12
+Creatinine,µmol/L,26,Male,80.6,90.6,85.6
+Creatinine,µmol/L,26,Female,70.6,113.39999999999999,75.6
+Creatinine,µmol/L,26,Both,69.6,114.39999999999999,80.6
+Urea,mmol/L,26,Male,4.0,5.0,4.5
+Urea,mmol/L,26,Female,3.5999999999999996,6.1499999999999995,4.1
+Urea,mmol/L,26,Both,3.4999999999999996,6.249999999999999,4.3
+Total Cholesterol,mmol/L,26,Male,4.379999999999999,5.18,4.779999999999999
+Total Cholesterol,mmol/L,26,Female,4.379999999999999,7.169999999999999,4.779999999999999
+Total Cholesterol,mmol/L,26,Both,4.299999999999999,7.249999999999999,4.779999999999999
+HDL Cholesterol,mmol/L,26,Male,1.0599999999999998,1.26,1.16
+HDL Cholesterol,mmol/L,26,Female,1.26,2.04,1.36
+HDL Cholesterol,mmol/L,26,Both,1.0399999999999998,2.06,1.26
+LDL Cholesterol,mmol/L,26,Male,2.47,2.97,2.72
+LDL Cholesterol,mmol/L,26,Female,2.47,4.08,2.72
+LDL Cholesterol,mmol/L,26,Both,2.4200000000000004,4.13,2.72
+Uric Acid,µmol/L,26,Male,248.0,298.0,273.0
+Uric Acid,µmol/L,26,Female,208.0,349.5,233.0
+Uric Acid,µmol/L,26,Both,203.0,354.5,253.0
+Sodium,mmol/L,26,Male,139.06,141.06,140.06
+Sodium,mmol/L,26,Female,139.06,210.09,140.06
+Sodium,mmol/L,26,Both,138.86,210.29,140.06
+Potassium,mmol/L,26,Male,3.8800000000000003,4.180000000000001,4.03
+Potassium,mmol/L,26,Female,3.8800000000000003,6.045,4.03
+Potassium,mmol/L,26,Both,3.8500000000000005,6.075,4.03
+Albumin,g/L,26,Male,38.2,41.2,39.7
+Albumin,g/L,26,Female,38.2,59.550000000000004,39.7
+Albumin,g/L,26,Both,37.900000000000006,59.85,39.7
+Blood Glucose,mmol/L,27,Male,4.989999999999999,5.489999999999999,5.239999999999999
+Blood Glucose,mmol/L,27,Female,4.79,7.5600000000000005,5.04
+Blood Glucose,mmol/L,27,Both,4.74,7.61,5.14
+Creatinine,µmol/L,27,Male,80.7,90.7,85.7
+Creatinine,µmol/L,27,Female,70.7,113.55000000000001,75.7
+Creatinine,µmol/L,27,Both,69.7,114.55000000000001,80.7
+Urea,mmol/L,27,Male,4.05,5.05,4.55
+Urea,mmol/L,27,Female,3.6499999999999995,6.225,4.1499999999999995
+Urea,mmol/L,27,Both,3.5499999999999994,6.324999999999999,4.35
+Total Cholesterol,mmol/L,27,Male,4.409999999999999,5.21,4.81
+Total Cholesterol,mmol/L,27,Female,4.409999999999999,7.215,4.81
+Total Cholesterol,mmol/L,27,Both,4.329999999999999,7.295,4.81
+HDL Cholesterol,mmol/L,27,Male,1.0699999999999998,1.27,1.17
+HDL Cholesterol,mmol/L,27,Female,1.27,2.055,1.37
+HDL Cholesterol,mmol/L,27,Both,1.0499999999999998,2.075,1.27
+LDL Cholesterol,mmol/L,27,Male,2.49,2.99,2.74
+LDL Cholesterol,mmol/L,27,Female,2.49,4.11,2.74
+LDL Cholesterol,mmol/L,27,Both,2.4400000000000004,4.16,2.74
+Uric Acid,µmol/L,27,Male,248.5,298.5,273.5
+Uric Acid,µmol/L,27,Female,208.5,350.25,233.5
+Uric Acid,µmol/L,27,Both,203.5,355.25,253.5
+Sodium,mmol/L,27,Male,139.07,141.07,140.07
+Sodium,mmol/L,27,Female,139.07,210.105,140.07
+Sodium,mmol/L,27,Both,138.87,210.30499999999998,140.07
+Potassium,mmol/L,27,Male,3.8850000000000002,4.1850000000000005,4.035
+Potassium,mmol/L,27,Female,3.8850000000000002,6.0525,4.035
+Potassium,mmol/L,27,Both,3.8550000000000004,6.0825000000000005,4.035
+Albumin,g/L,27,Male,38.15,41.15,39.65
+Albumin,g/L,27,Female,38.15,59.474999999999994,39.65
+Albumin,g/L,27,Both,37.85,59.77499999999999,39.65
+Blood Glucose,mmol/L,28,Male,5.01,5.51,5.26
+Blood Glucose,mmol/L,28,Female,4.8100000000000005,7.590000000000001,5.0600000000000005
+Blood Glucose,mmol/L,28,Both,4.760000000000001,7.640000000000001,5.16
+Creatinine,µmol/L,28,Male,80.8,90.8,85.8
+Creatinine,µmol/L,28,Female,70.8,113.69999999999999,75.8
+Creatinine,µmol/L,28,Both,69.8,114.69999999999999,80.8
+Urea,mmol/L,28,Male,4.1000000000000005,5.1000000000000005,4.6000000000000005
+Urea,mmol/L,28,Female,3.7,6.300000000000001,4.2
+Urea,mmol/L,28,Both,3.6,6.4,4.4
+Total Cholesterol,mmol/L,28,Male,4.4399999999999995,5.24,4.84
+Total Cholesterol,mmol/L,28,Female,4.4399999999999995,7.26,4.84
+Total Cholesterol,mmol/L,28,Both,4.359999999999999,7.34,4.84
+HDL Cholesterol,mmol/L,28,Male,1.0799999999999998,1.28,1.18
+HDL Cholesterol,mmol/L,28,Female,1.28,2.0700000000000003,1.3800000000000001
+HDL Cholesterol,mmol/L,28,Both,1.0599999999999998,2.0900000000000003,1.28
+LDL Cholesterol,mmol/L,28,Male,2.5100000000000002,3.0100000000000002,2.7600000000000002
+LDL Cholesterol,mmol/L,28,Female,2.5100000000000002,4.140000000000001,2.7600000000000002
+LDL Cholesterol,mmol/L,28,Both,2.4600000000000004,4.19,2.7600000000000002
+Uric Acid,µmol/L,28,Male,249.0,299.0,274.0
+Uric Acid,µmol/L,28,Female,209.0,351.0,234.0
+Uric Acid,µmol/L,28,Both,204.0,356.0,254.0
+Sodium,mmol/L,28,Male,139.08,141.08,140.08
+Sodium,mmol/L,28,Female,139.08,210.12,140.08
+Sodium,mmol/L,28,Both,138.88000000000002,210.32,140.08
+Potassium,mmol/L,28,Male,3.89,4.19,4.04
+Potassium,mmol/L,28,Female,3.89,6.0600000000000005,4.04
+Potassium,mmol/L,28,Both,3.8600000000000003,6.090000000000001,4.04
+Albumin,g/L,28,Male,38.1,41.1,39.6
+Albumin,g/L,28,Female,38.1,59.400000000000006,39.6
+Albumin,g/L,28,Both,37.800000000000004,59.7,39.6
+Blood Glucose,mmol/L,29,Male,5.029999999999999,5.529999999999999,5.279999999999999
+Blood Glucose,mmol/L,29,Female,4.83,7.62,5.08
+Blood Glucose,mmol/L,29,Both,4.78,7.67,5.18
+Creatinine,µmol/L,29,Male,80.9,90.9,85.9
+Creatinine,µmol/L,29,Female,70.9,113.85000000000001,75.9
+Creatinine,µmol/L,29,Both,69.9,114.85000000000001,80.9
+Urea,mmol/L,29,Male,4.15,5.15,4.65
+Urea,mmol/L,29,Female,3.75,6.375,4.25
+Urea,mmol/L,29,Both,3.65,6.475,4.45
+Total Cholesterol,mmol/L,29,Male,4.469999999999999,5.27,4.869999999999999
+Total Cholesterol,mmol/L,29,Female,4.469999999999999,7.304999999999999,4.869999999999999
+Total Cholesterol,mmol/L,29,Both,4.389999999999999,7.384999999999999,4.869999999999999
+HDL Cholesterol,mmol/L,29,Male,1.0899999999999999,1.29,1.19
+HDL Cholesterol,mmol/L,29,Female,1.29,2.085,1.3900000000000001
+HDL Cholesterol,mmol/L,29,Both,1.0699999999999998,2.105,1.29
+LDL Cholesterol,mmol/L,29,Male,2.5300000000000002,3.0300000000000002,2.7800000000000002
+LDL Cholesterol,mmol/L,29,Female,2.5300000000000002,4.17,2.7800000000000002
+LDL Cholesterol,mmol/L,29,Both,2.4800000000000004,4.22,2.7800000000000002
+Uric Acid,µmol/L,29,Male,249.5,299.5,274.5
+Uric Acid,µmol/L,29,Female,209.5,351.75,234.5
+Uric Acid,µmol/L,29,Both,204.5,356.75,254.5
+Sodium,mmol/L,29,Male,139.09,141.09,140.09
+Sodium,mmol/L,29,Female,139.09,210.135,140.09
+Sodium,mmol/L,29,Both,138.89000000000001,210.33499999999998,140.09
+Potassium,mmol/L,29,Male,3.895,4.195,4.045
+Potassium,mmol/L,29,Female,3.895,6.0675,4.045
+Potassium,mmol/L,29,Both,3.865,6.0975,4.045
+Albumin,g/L,29,Male,38.05,41.05,39.55
+Albumin,g/L,29,Female,38.05,59.324999999999996,39.55
+Albumin,g/L,29,Both,37.75,59.62499999999999,39.55
+Blood Glucose,mmol/L,30,Male,5.05,5.55,5.3
+Blood Glucose,mmol/L,30,Female,4.8500000000000005,7.65,5.1000000000000005
+Blood Glucose,mmol/L,30,Both,4.800000000000001,7.7,5.2
+Creatinine,µmol/L,30,Male,81.0,91.0,86.0
+Creatinine,µmol/L,30,Female,71.0,114.0,76.0
+Creatinine,µmol/L,30,Both,70.0,115.0,81.0
+Urea,mmol/L,30,Male,4.2,5.2,4.7
+Urea,mmol/L,30,Female,3.8,6.449999999999999,4.3
+Urea,mmol/L,30,Both,3.6999999999999997,6.549999999999999,4.5
+Total Cholesterol,mmol/L,30,Male,4.499999999999999,5.3,4.8999999999999995
+Total Cholesterol,mmol/L,30,Female,4.499999999999999,7.35,4.8999999999999995
+Total Cholesterol,mmol/L,30,Both,4.419999999999999,7.43,4.8999999999999995
+HDL Cholesterol,mmol/L,30,Male,1.0999999999999999,1.3,1.2
+HDL Cholesterol,mmol/L,30,Female,1.3,2.1,1.4000000000000001
+HDL Cholesterol,mmol/L,30,Both,1.0799999999999998,2.12,1.3
+LDL Cholesterol,mmol/L,30,Male,2.5500000000000003,3.0500000000000003,2.8000000000000003
+LDL Cholesterol,mmol/L,30,Female,2.5500000000000003,4.2,2.8000000000000003
+LDL Cholesterol,mmol/L,30,Both,2.5000000000000004,4.25,2.8000000000000003
+Uric Acid,µmol/L,30,Male,250.0,300.0,275.0
+Uric Acid,µmol/L,30,Female,210.0,352.5,235.0
+Uric Acid,µmol/L,30,Both,205.0,357.5,255.0
+Sodium,mmol/L,30,Male,139.1,141.1,140.1
+Sodium,mmol/L,30,Female,139.1,210.14999999999998,140.1
+Sodium,mmol/L,30,Both,138.9,210.34999999999997,140.1
+Potassium,mmol/L,30,Male,3.9,4.2,4.05
+Potassium,mmol/L,30,Female,3.9,6.074999999999999,4.05
+Potassium,mmol/L,30,Both,3.87,6.1049999999999995,4.05
+Albumin,g/L,30,Male,38.0,41.0,39.5
+Albumin,g/L,30,Female,38.0,59.25,39.5
+Albumin,g/L,30,Both,37.7,59.55,39.5
+Blood Glucose,mmol/L,31,Male,5.069999999999999,5.569999999999999,5.319999999999999
+Blood Glucose,mmol/L,31,Female,4.87,7.68,5.12
+Blood Glucose,mmol/L,31,Both,4.82,7.7299999999999995,5.22
+Creatinine,µmol/L,31,Male,81.1,91.1,86.1
+Creatinine,µmol/L,31,Female,71.1,114.14999999999999,76.1
+Creatinine,µmol/L,31,Both,70.1,115.14999999999999,81.1
+Urea,mmol/L,31,Male,4.25,5.25,4.75
+Urea,mmol/L,31,Female,3.8499999999999996,6.5249999999999995,4.35
+Urea,mmol/L,31,Both,3.7499999999999996,6.624999999999999,4.55
+Total Cholesterol,mmol/L,31,Male,4.529999999999999,5.33,4.93
+Total Cholesterol,mmol/L,31,Female,4.529999999999999,7.395,4.93
+Total Cholesterol,mmol/L,31,Both,4.449999999999999,7.475,4.93
+HDL Cholesterol,mmol/L,31,Male,1.1099999999999999,1.31,1.21
+HDL Cholesterol,mmol/L,31,Female,1.31,2.115,1.4100000000000001
+HDL Cholesterol,mmol/L,31,Both,1.0899999999999999,2.1350000000000002,1.31
+LDL Cholesterol,mmol/L,31,Male,2.5700000000000003,3.0700000000000003,2.8200000000000003
+LDL Cholesterol,mmol/L,31,Female,2.5700000000000003,4.23,2.8200000000000003
+LDL Cholesterol,mmol/L,31,Both,2.5200000000000005,4.28,2.8200000000000003
+Uric Acid,µmol/L,31,Male,250.5,300.5,275.5
+Uric Acid,µmol/L,31,Female,210.5,353.25,235.5
+Uric Acid,µmol/L,31,Both,205.5,358.25,255.5
+Sodium,mmol/L,31,Male,139.11,141.11,140.11
+Sodium,mmol/L,31,Female,139.11,210.16500000000002,140.11
+Sodium,mmol/L,31,Both,138.91000000000003,210.365,140.11
+Potassium,mmol/L,31,Male,3.905,4.205,4.055
+Potassium,mmol/L,31,Female,3.905,6.0825,4.055
+Potassium,mmol/L,31,Both,3.875,6.1125,4.055
+Albumin,g/L,31,Male,37.95,40.95,39.45
+Albumin,g/L,31,Female,37.95,59.175000000000004,39.45
+Albumin,g/L,31,Both,37.650000000000006,59.475,39.45
+Blood Glucose,mmol/L,32,Male,5.09,5.59,5.34
+Blood Glucose,mmol/L,32,Female,4.890000000000001,7.710000000000001,5.140000000000001
+Blood Glucose,mmol/L,32,Both,4.840000000000001,7.760000000000001,5.24
+Creatinine,µmol/L,32,Male,81.2,91.2,86.2
+Creatinine,µmol/L,32,Female,71.2,114.30000000000001,76.2
+Creatinine,µmol/L,32,Both,70.2,115.30000000000001,81.2
+Urea,mmol/L,32,Male,4.3,5.3,4.8
+Urea,mmol/L,32,Female,3.8999999999999995,6.6,4.3999999999999995
+Urea,mmol/L,32,Both,3.7999999999999994,6.699999999999999,4.6
+Total Cholesterol,mmol/L,32,Male,4.56,5.36,4.96
+Total Cholesterol,mmol/L,32,Female,4.56,7.4399999999999995,4.96
+Total Cholesterol,mmol/L,32,Both,4.4799999999999995,7.52,4.96
+HDL Cholesterol,mmol/L,32,Male,1.1199999999999997,1.3199999999999998,1.2199999999999998
+HDL Cholesterol,mmol/L,32,Female,1.3199999999999998,2.13,1.42
+HDL Cholesterol,mmol/L,32,Both,1.0999999999999996,2.15,1.3199999999999998
+LDL Cholesterol,mmol/L,32,Male,2.5900000000000003,3.0900000000000003,2.8400000000000003
+LDL Cholesterol,mmol/L,32,Female,2.5900000000000003,4.260000000000001,2.8400000000000003
+LDL Cholesterol,mmol/L,32,Both,2.5400000000000005,4.3100000000000005,2.8400000000000003
+Uric Acid,µmol/L,32,Male,251.0,301.0,276.0
+Uric Acid,µmol/L,32,Female,211.0,354.0,236.0
+Uric Acid,µmol/L,32,Both,206.0,359.0,256.0
+Sodium,mmol/L,32,Male,139.12,141.12,140.12
+Sodium,mmol/L,32,Female,139.12,210.18,140.12
+Sodium,mmol/L,32,Both,138.92000000000002,210.38,140.12
+Potassium,mmol/L,32,Male,3.9099999999999997,4.21,4.06
+Potassium,mmol/L,32,Female,3.9099999999999997,6.09,4.06
+Potassium,mmol/L,32,Both,3.88,6.12,4.06
+Albumin,g/L,32,Male,37.9,40.9,39.4
+Albumin,g/L,32,Female,37.9,59.099999999999994,39.4
+Albumin,g/L,32,Both,37.6,59.39999999999999,39.4
+Blood Glucose,mmol/L,33,Male,5.109999999999999,5.609999999999999,5.359999999999999
+Blood Glucose,mmol/L,33,Female,4.91,7.74,5.16
+Blood Glucose,mmol/L,33,Both,4.86,7.79,5.26
+Creatinine,µmol/L,33,Male,81.3,91.3,86.3
+Creatinine,µmol/L,33,Female,71.3,114.44999999999999,76.3
+Creatinine,µmol/L,33,Both,70.3,115.44999999999999,81.3
+Urea,mmol/L,33,Male,4.3500000000000005,5.3500000000000005,4.8500000000000005
+Urea,mmol/L,33,Female,3.95,6.675000000000001,4.45
+Urea,mmol/L,33,Both,3.85,6.775,4.65
+Total Cholesterol,mmol/L,33,Male,4.589999999999999,5.39,4.989999999999999
+Total Cholesterol,mmol/L,33,Female,4.589999999999999,7.484999999999999,4.989999999999999
+Total Cholesterol,mmol/L,33,Both,4.509999999999999,7.5649999999999995,4.989999999999999
+HDL Cholesterol,mmol/L,33,Male,1.13,1.33,1.23
+HDL Cholesterol,mmol/L,33,Female,1.33,2.1450000000000005,1.4300000000000002
+HDL Cholesterol,mmol/L,33,Both,1.1099999999999999,2.1650000000000005,1.33
+LDL Cholesterol,mmol/L,33,Male,2.61,3.11,2.86
+LDL Cholesterol,mmol/L,33,Female,2.61,4.29,2.86
+LDL Cholesterol,mmol/L,33,Both,2.56,4.34,2.86
+Uric Acid,µmol/L,33,Male,251.5,301.5,276.5
+Uric Acid,µmol/L,33,Female,211.5,354.75,236.5
+Uric Acid,µmol/L,33,Both,206.5,359.75,256.5
+Sodium,mmol/L,33,Male,139.13,141.13,140.13
+Sodium,mmol/L,33,Female,139.13,210.195,140.13
+Sodium,mmol/L,33,Both,138.93,210.39499999999998,140.13
+Potassium,mmol/L,33,Male,3.9150000000000005,4.215000000000001,4.065
+Potassium,mmol/L,33,Female,3.9150000000000005,6.0975,4.065
+Potassium,mmol/L,33,Both,3.8850000000000007,6.1275,4.065
+Albumin,g/L,33,Male,37.85,40.85,39.35
+Albumin,g/L,33,Female,37.85,59.025000000000006,39.35
+Albumin,g/L,33,Both,37.550000000000004,59.325,39.35
+Blood Glucose,mmol/L,34,Male,5.13,5.63,5.38
+Blood Glucose,mmol/L,34,Female,4.930000000000001,7.770000000000001,5.180000000000001
+Blood Glucose,mmol/L,34,Both,4.880000000000001,7.820000000000001,5.28
+Creatinine,µmol/L,34,Male,81.4,91.4,86.4
+Creatinine,µmol/L,34,Female,71.4,114.60000000000001,76.4
+Creatinine,µmol/L,34,Both,70.4,115.60000000000001,81.4
+Urea,mmol/L,34,Male,4.4,5.4,4.9
+Urea,mmol/L,34,Female,4.0,6.75,4.5
+Urea,mmol/L,34,Both,3.9,6.85,4.7
+Total Cholesterol,mmol/L,34,Male,4.619999999999999,5.42,5.02
+Total Cholesterol,mmol/L,34,Female,4.619999999999999,7.529999999999999,5.02
+Total Cholesterol,mmol/L,34,Both,4.539999999999999,7.609999999999999,5.02
+HDL Cholesterol,mmol/L,34,Male,1.1399999999999997,1.3399999999999999,1.2399999999999998
+HDL Cholesterol,mmol/L,34,Female,1.3399999999999999,2.16,1.44
+HDL Cholesterol,mmol/L,34,Both,1.1199999999999997,2.18,1.3399999999999999
+LDL Cholesterol,mmol/L,34,Male,2.6300000000000003,3.1300000000000003,2.8800000000000003
+LDL Cholesterol,mmol/L,34,Female,2.6300000000000003,4.32,2.8800000000000003
+LDL Cholesterol,mmol/L,34,Both,2.5800000000000005,4.37,2.8800000000000003
+Uric Acid,µmol/L,34,Male,252.0,302.0,277.0
+Uric Acid,µmol/L,34,Female,212.0,355.5,237.0
+Uric Acid,µmol/L,34,Both,207.0,360.5,257.0
+Sodium,mmol/L,34,Male,139.14,141.14,140.14
+Sodium,mmol/L,34,Female,139.14,210.20999999999998,140.14
+Sodium,mmol/L,34,Both,138.94,210.40999999999997,140.14
+Potassium,mmol/L,34,Male,3.9200000000000004,4.220000000000001,4.07
+Potassium,mmol/L,34,Female,3.9200000000000004,6.105,4.07
+Potassium,mmol/L,34,Both,3.8900000000000006,6.135000000000001,4.07
+Albumin,g/L,34,Male,37.8,40.8,39.3
+Albumin,g/L,34,Female,37.8,58.949999999999996,39.3
+Albumin,g/L,34,Both,37.5,59.24999999999999,39.3
+Blood Glucose,mmol/L,35,Male,5.1499999999999995,5.6499999999999995,5.3999999999999995
+Blood Glucose,mmol/L,35,Female,4.95,7.800000000000001,5.2
+Blood Glucose,mmol/L,35,Both,4.9,7.8500000000000005,5.3
+Creatinine,µmol/L,35,Male,81.5,91.5,86.5
+Creatinine,µmol/L,35,Female,71.5,114.75,76.5
+Creatinine,µmol/L,35,Both,70.5,115.75,81.5
+Urea,mmol/L,35,Male,4.45,5.45,4.95
+Urea,mmol/L,35,Female,4.05,6.824999999999999,4.55
+Urea,mmol/L,35,Both,3.9499999999999997,6.924999999999999,4.75
+Total Cholesterol,mmol/L,35,Male,4.6499999999999995,5.45,5.05
+Total Cholesterol,mmol/L,35,Female,4.6499999999999995,7.574999999999999,5.05
+Total Cholesterol,mmol/L,35,Both,4.569999999999999,7.654999999999999,5.05
+HDL Cholesterol,mmol/L,35,Male,1.1499999999999997,1.3499999999999999,1.2499999999999998
+HDL Cholesterol,mmol/L,35,Female,1.3499999999999999,2.175,1.45
+HDL Cholesterol,mmol/L,35,Both,1.1299999999999997,2.195,1.3499999999999999
+LDL Cholesterol,mmol/L,35,Male,2.65,3.15,2.9
+LDL Cholesterol,mmol/L,35,Female,2.65,4.35,2.9
+LDL Cholesterol,mmol/L,35,Both,2.6,4.3999999999999995,2.9
+Uric Acid,µmol/L,35,Male,252.5,302.5,277.5
+Uric Acid,µmol/L,35,Female,212.5,356.25,237.5
+Uric Acid,µmol/L,35,Both,207.5,361.25,257.5
+Sodium,mmol/L,35,Male,139.15,141.15,140.15
+Sodium,mmol/L,35,Female,139.15,210.22500000000002,140.15
+Sodium,mmol/L,35,Both,138.95000000000002,210.425,140.15
+Potassium,mmol/L,35,Male,3.9250000000000003,4.2250000000000005,4.075
+Potassium,mmol/L,35,Female,3.9250000000000003,6.112500000000001,4.075
+Potassium,mmol/L,35,Both,3.8950000000000005,6.142500000000001,4.075
+Albumin,g/L,35,Male,37.75,40.75,39.25
+Albumin,g/L,35,Female,37.75,58.875,39.25
+Albumin,g/L,35,Both,37.45,59.175,39.25
+Blood Glucose,mmol/L,36,Male,5.17,5.67,5.42
+Blood Glucose,mmol/L,36,Female,4.970000000000001,7.830000000000001,5.220000000000001
+Blood Glucose,mmol/L,36,Both,4.920000000000001,7.880000000000001,5.32
+Creatinine,µmol/L,36,Male,81.6,91.6,86.6
+Creatinine,µmol/L,36,Female,71.6,114.89999999999999,76.6
+Creatinine,µmol/L,36,Both,70.6,115.89999999999999,81.6
+Urea,mmol/L,36,Male,4.5,5.5,5.0
+Urea,mmol/L,36,Female,4.1,6.8999999999999995,4.6
+Urea,mmol/L,36,Both,3.9999999999999996,6.999999999999999,4.8
+Total Cholesterol,mmol/L,36,Male,4.68,5.48,5.08
+Total Cholesterol,mmol/L,36,Female,4.68,7.62,5.08
+Total Cholesterol,mmol/L,36,Both,4.6,7.7,5.08
+HDL Cholesterol,mmol/L,36,Male,1.1599999999999997,1.3599999999999999,1.2599999999999998
+HDL Cholesterol,mmol/L,36,Female,1.3599999999999999,2.19,1.46
+HDL Cholesterol,mmol/L,36,Both,1.1399999999999997,2.21,1.3599999999999999
+LDL Cholesterol,mmol/L,36,Male,2.67,3.17,2.92
+LDL Cholesterol,mmol/L,36,Female,2.67,4.38,2.92
+LDL Cholesterol,mmol/L,36,Both,2.62,4.43,2.92
+Uric Acid,µmol/L,36,Male,253.0,303.0,278.0
+Uric Acid,µmol/L,36,Female,213.0,357.0,238.0
+Uric Acid,µmol/L,36,Both,208.0,362.0,258.0
+Sodium,mmol/L,36,Male,139.16,141.16,140.16
+Sodium,mmol/L,36,Female,139.16,210.24,140.16
+Sodium,mmol/L,36,Both,138.96,210.44,140.16
+Potassium,mmol/L,36,Male,3.93,4.23,4.08
+Potassium,mmol/L,36,Female,3.93,6.12,4.08
+Potassium,mmol/L,36,Both,3.9000000000000004,6.15,4.08
+Albumin,g/L,36,Male,37.7,40.7,39.2
+Albumin,g/L,36,Female,37.7,58.800000000000004,39.2
+Albumin,g/L,36,Both,37.400000000000006,59.1,39.2
+Blood Glucose,mmol/L,37,Male,5.1899999999999995,5.6899999999999995,5.4399999999999995
+Blood Glucose,mmol/L,37,Female,4.99,7.86,5.24
+Blood Glucose,mmol/L,37,Both,4.94,7.91,5.34
+Creatinine,µmol/L,37,Male,81.7,91.7,86.7
+Creatinine,µmol/L,37,Female,71.7,115.05000000000001,76.7
+Creatinine,µmol/L,37,Both,70.7,116.05000000000001,81.7
+Urea,mmol/L,37,Male,4.55,5.55,5.05
+Urea,mmol/L,37,Female,4.1499999999999995,6.975,4.6499999999999995
+Urea,mmol/L,37,Both,4.05,7.074999999999999,4.85
+Total Cholesterol,mmol/L,37,Male,4.709999999999999,5.51,5.109999999999999
+Total Cholesterol,mmol/L,37,Female,4.709999999999999,7.664999999999999,5.109999999999999
+Total Cholesterol,mmol/L,37,Both,4.629999999999999,7.744999999999999,5.109999999999999
+HDL Cholesterol,mmol/L,37,Male,1.1699999999999997,1.3699999999999999,1.2699999999999998
+HDL Cholesterol,mmol/L,37,Female,1.3699999999999999,2.205,1.47
+HDL Cholesterol,mmol/L,37,Both,1.1499999999999997,2.225,1.3699999999999999
+LDL Cholesterol,mmol/L,37,Male,2.69,3.19,2.94
+LDL Cholesterol,mmol/L,37,Female,2.69,4.41,2.94
+LDL Cholesterol,mmol/L,37,Both,2.64,4.46,2.94
+Uric Acid,µmol/L,37,Male,253.5,303.5,278.5
+Uric Acid,µmol/L,37,Female,213.5,357.75,238.5
+Uric Acid,µmol/L,37,Both,208.5,362.75,258.5
+Sodium,mmol/L,37,Male,139.17,141.17,140.17
+Sodium,mmol/L,37,Female,139.17,210.255,140.17
+Sodium,mmol/L,37,Both,138.97,210.45499999999998,140.17
+Potassium,mmol/L,37,Male,3.935,4.235,4.085
+Potassium,mmol/L,37,Female,3.935,6.1274999999999995,4.085
+Potassium,mmol/L,37,Both,3.9050000000000002,6.1575,4.085
+Albumin,g/L,37,Male,37.65,40.65,39.15
+Albumin,g/L,37,Female,37.65,58.724999999999994,39.15
+Albumin,g/L,37,Both,37.35,59.02499999999999,39.15
+Blood Glucose,mmol/L,38,Male,5.21,5.71,5.46
+Blood Glucose,mmol/L,38,Female,5.010000000000001,7.890000000000001,5.260000000000001
+Blood Glucose,mmol/L,38,Both,4.960000000000001,7.94,5.36
+Creatinine,µmol/L,38,Male,81.8,91.8,86.8
+Creatinine,µmol/L,38,Female,71.8,115.19999999999999,76.8
+Creatinine,µmol/L,38,Both,70.8,116.19999999999999,81.8
+Urea,mmol/L,38,Male,4.6000000000000005,5.6000000000000005,5.1000000000000005
+Urea,mmol/L,38,Female,4.2,7.050000000000001,4.7
+Urea,mmol/L,38,Both,4.1000000000000005,7.15,4.9
+Total Cholesterol,mmol/L,38,Male,4.739999999999999,5.54,5.14
+Total Cholesterol,mmol/L,38,Female,4.739999999999999,7.709999999999999,5.14
+Total Cholesterol,mmol/L,38,Both,4.659999999999999,7.789999999999999,5.14
+HDL Cholesterol,mmol/L,38,Male,1.1799999999999997,1.38,1.2799999999999998
+HDL Cholesterol,mmol/L,38,Female,1.38,2.2199999999999998,1.48
+HDL Cholesterol,mmol/L,38,Both,1.1599999999999997,2.2399999999999998,1.38
+LDL Cholesterol,mmol/L,38,Male,2.71,3.21,2.96
+LDL Cholesterol,mmol/L,38,Female,2.71,4.4399999999999995,2.96
+LDL Cholesterol,mmol/L,38,Both,2.66,4.489999999999999,2.96
+Uric Acid,µmol/L,38,Male,254.0,304.0,279.0
+Uric Acid,µmol/L,38,Female,214.0,358.5,239.0
+Uric Acid,µmol/L,38,Both,209.0,363.5,259.0
+Sodium,mmol/L,38,Male,139.18,141.18,140.18
+Sodium,mmol/L,38,Female,139.18,210.27,140.18
+Sodium,mmol/L,38,Both,138.98000000000002,210.47,140.18
+Potassium,mmol/L,38,Male,3.94,4.24,4.09
+Potassium,mmol/L,38,Female,3.94,6.135,4.09
+Potassium,mmol/L,38,Both,3.91,6.165,4.09
+Albumin,g/L,38,Male,37.6,40.6,39.1
+Albumin,g/L,38,Female,37.6,58.650000000000006,39.1
+Albumin,g/L,38,Both,37.300000000000004,58.95,39.1
+Blood Glucose,mmol/L,39,Male,5.2299999999999995,5.7299999999999995,5.4799999999999995
+Blood Glucose,mmol/L,39,Female,5.03,7.92,5.28
+Blood Glucose,mmol/L,39,Both,4.98,7.97,5.38
+Creatinine,µmol/L,39,Male,81.9,91.9,86.9
+Creatinine,µmol/L,39,Female,71.9,115.35000000000001,76.9
+Creatinine,µmol/L,39,Both,70.9,116.35000000000001,81.9
+Urea,mmol/L,39,Male,4.65,5.65,5.15
+Urea,mmol/L,39,Female,4.25,7.125,4.75
+Urea,mmol/L,39,Both,4.15,7.225,4.95
+Total Cholesterol,mmol/L,39,Male,4.77,5.57,5.17
+Total Cholesterol,mmol/L,39,Female,4.77,7.755,5.17
+Total Cholesterol,mmol/L,39,Both,4.6899999999999995,7.835,5.17
+HDL Cholesterol,mmol/L,39,Male,1.1899999999999997,1.39,1.2899999999999998
+HDL Cholesterol,mmol/L,39,Female,1.39,2.235,1.49
+HDL Cholesterol,mmol/L,39,Both,1.1699999999999997,2.255,1.39
+LDL Cholesterol,mmol/L,39,Male,2.73,3.23,2.98
+LDL Cholesterol,mmol/L,39,Female,2.73,4.47,2.98
+LDL Cholesterol,mmol/L,39,Both,2.68,4.52,2.98
+Uric Acid,µmol/L,39,Male,254.5,304.5,279.5
+Uric Acid,µmol/L,39,Female,214.5,359.25,239.5
+Uric Acid,µmol/L,39,Both,209.5,364.25,259.5
+Sodium,mmol/L,39,Male,139.19,141.19,140.19
+Sodium,mmol/L,39,Female,139.19,210.285,140.19
+Sodium,mmol/L,39,Both,138.99,210.48499999999999,140.19
+Potassium,mmol/L,39,Male,3.945,4.245,4.095
+Potassium,mmol/L,39,Female,3.945,6.1425,4.095
+Potassium,mmol/L,39,Both,3.915,6.1725,4.095
+Albumin,g/L,39,Male,37.55,40.55,39.05
+Albumin,g/L,39,Female,37.55,58.574999999999996,39.05
+Albumin,g/L,39,Both,37.25,58.87499999999999,39.05
+Blood Glucose,mmol/L,40,Male,5.25,5.75,5.5
+Blood Glucose,mmol/L,40,Female,5.050000000000001,7.950000000000001,5.300000000000001
+Blood Glucose,mmol/L,40,Both,5.000000000000001,8.000000000000002,5.4
+Creatinine,µmol/L,40,Male,82.0,92.0,87.0
+Creatinine,µmol/L,40,Female,72.0,115.5,77.0
+Creatinine,µmol/L,40,Both,71.0,116.5,82.0
+Urea,mmol/L,40,Male,4.7,5.7,5.2
+Urea,mmol/L,40,Female,4.3,7.199999999999999,4.8
+Urea,mmol/L,40,Both,4.2,7.299999999999999,5.0
+Total Cholesterol,mmol/L,40,Male,4.799999999999999,5.6,5.199999999999999
+Total Cholesterol,mmol/L,40,Female,4.799999999999999,7.799999999999999,5.199999999999999
+Total Cholesterol,mmol/L,40,Both,4.719999999999999,7.879999999999999,5.199999999999999
+HDL Cholesterol,mmol/L,40,Male,1.1999999999999997,1.4,1.2999999999999998
+HDL Cholesterol,mmol/L,40,Female,1.4,2.25,1.5
+HDL Cholesterol,mmol/L,40,Both,1.1799999999999997,2.27,1.4
+LDL Cholesterol,mmol/L,40,Male,2.75,3.25,3.0
+LDL Cholesterol,mmol/L,40,Female,2.75,4.5,3.0
+LDL Cholesterol,mmol/L,40,Both,2.7,4.55,3.0
+Uric Acid,µmol/L,40,Male,255.0,305.0,280.0
+Uric Acid,µmol/L,40,Female,215.0,360.0,240.0
+Uric Acid,µmol/L,40,Both,210.0,365.0,260.0
+Sodium,mmol/L,40,Male,139.2,141.2,140.2
+Sodium,mmol/L,40,Female,139.2,210.29999999999998,140.2
+Sodium,mmol/L,40,Both,139.0,210.49999999999997,140.2
+Potassium,mmol/L,40,Male,3.9499999999999997,4.25,4.1
+Potassium,mmol/L,40,Female,3.9499999999999997,6.1499999999999995,4.1
+Potassium,mmol/L,40,Both,3.92,6.18,4.1
+Albumin,g/L,40,Male,37.5,40.5,39.0
+Albumin,g/L,40,Female,37.5,58.5,39.0
+Albumin,g/L,40,Both,37.2,58.8,39.0
+Blood Glucose,mmol/L,41,Male,5.27,5.77,5.52
+Blood Glucose,mmol/L,41,Female,5.07,7.98,5.32
+Blood Glucose,mmol/L,41,Both,5.0200000000000005,8.030000000000001,5.42
+Creatinine,µmol/L,41,Male,82.1,92.1,87.1
+Creatinine,µmol/L,41,Female,72.1,115.64999999999999,77.1
+Creatinine,µmol/L,41,Both,71.1,116.64999999999999,82.1
+Urea,mmol/L,41,Male,4.75,5.75,5.25
+Urea,mmol/L,41,Female,4.35,7.2749999999999995,4.85
+Urea,mmol/L,41,Both,4.25,7.374999999999999,5.05
+Total Cholesterol,mmol/L,41,Male,4.829999999999999,5.63,5.2299999999999995
+Total Cholesterol,mmol/L,41,Female,4.829999999999999,7.844999999999999,5.2299999999999995
+Total Cholesterol,mmol/L,41,Both,4.749999999999999,7.924999999999999,5.2299999999999995
+HDL Cholesterol,mmol/L,41,Male,1.2099999999999997,1.41,1.3099999999999998
+HDL Cholesterol,mmol/L,41,Female,1.41,2.265,1.51
+HDL Cholesterol,mmol/L,41,Both,1.1899999999999997,2.285,1.41
+LDL Cholesterol,mmol/L,41,Male,2.77,3.27,3.02
+LDL Cholesterol,mmol/L,41,Female,2.77,4.53,3.02
+LDL Cholesterol,mmol/L,41,Both,2.72,4.58,3.02
+Uric Acid,µmol/L,41,Male,255.5,305.5,280.5
+Uric Acid,µmol/L,41,Female,215.5,360.75,240.5
+Uric Acid,µmol/L,41,Both,210.5,365.75,260.5
+Sodium,mmol/L,41,Male,139.21,141.21,140.21
+Sodium,mmol/L,41,Female,139.21,210.315,140.21
+Sodium,mmol/L,41,Both,139.01000000000002,210.515,140.21
+Potassium,mmol/L,41,Male,3.9550000000000005,4.255000000000001,4.105
+Potassium,mmol/L,41,Female,3.9550000000000005,6.157500000000001,4.105
+Potassium,mmol/L,41,Both,3.9250000000000007,6.187500000000001,4.105
+Albumin,g/L,41,Male,37.45,40.45,38.95
+Albumin,g/L,41,Female,37.45,58.425000000000004,38.95
+Albumin,g/L,41,Both,37.150000000000006,58.725,38.95
+Blood Glucose,mmol/L,42,Male,5.29,5.79,5.54
+Blood Glucose,mmol/L,42,Female,5.090000000000001,8.010000000000002,5.340000000000001
+Blood Glucose,mmol/L,42,Both,5.040000000000001,8.060000000000002,5.44
+Creatinine,µmol/L,42,Male,82.2,92.2,87.2
+Creatinine,µmol/L,42,Female,72.2,115.80000000000001,77.2
+Creatinine,µmol/L,42,Both,71.2,116.80000000000001,82.2
+Urea,mmol/L,42,Male,4.8,5.8,5.3
+Urea,mmol/L,42,Female,4.3999999999999995,7.35,4.8999999999999995
+Urea,mmol/L,42,Both,4.3,7.449999999999999,5.1
+Total Cholesterol,mmol/L,42,Male,4.859999999999999,5.66,5.26
+Total Cholesterol,mmol/L,42,Female,4.859999999999999,7.89,5.26
+Total Cholesterol,mmol/L,42,Both,4.779999999999999,7.97,5.26
+HDL Cholesterol,mmol/L,42,Male,1.2199999999999998,1.42,1.3199999999999998
+HDL Cholesterol,mmol/L,42,Female,1.42,2.2800000000000002,1.52
+HDL Cholesterol,mmol/L,42,Both,1.1999999999999997,2.3000000000000003,1.42
+LDL Cholesterol,mmol/L,42,Male,2.79,3.29,3.04
+LDL Cholesterol,mmol/L,42,Female,2.79,4.5600000000000005,3.04
+LDL Cholesterol,mmol/L,42,Both,2.74,4.61,3.04
+Uric Acid,µmol/L,42,Male,256.0,306.0,281.0
+Uric Acid,µmol/L,42,Female,216.0,361.5,241.0
+Uric Acid,µmol/L,42,Both,211.0,366.5,261.0
+Sodium,mmol/L,42,Male,139.22,141.22,140.22
+Sodium,mmol/L,42,Female,139.22,210.32999999999998,140.22
+Sodium,mmol/L,42,Both,139.02,210.52999999999997,140.22
+Potassium,mmol/L,42,Male,3.9600000000000004,4.260000000000001,4.11
+Potassium,mmol/L,42,Female,3.9600000000000004,6.165000000000001,4.11
+Potassium,mmol/L,42,Both,3.9300000000000006,6.195000000000001,4.11
+Albumin,g/L,42,Male,37.4,40.4,38.9
+Albumin,g/L,42,Female,37.4,58.349999999999994,38.9
+Albumin,g/L,42,Both,37.1,58.64999999999999,38.9
+Blood Glucose,mmol/L,43,Male,5.31,5.81,5.56
+Blood Glucose,mmol/L,43,Female,5.11,8.040000000000001,5.36
+Blood Glucose,mmol/L,43,Both,5.0600000000000005,8.090000000000002,5.46
+Creatinine,µmol/L,43,Male,82.3,92.3,87.3
+Creatinine,µmol/L,43,Female,72.3,115.94999999999999,77.3
+Creatinine,µmol/L,43,Both,71.3,116.94999999999999,82.3
+Urea,mmol/L,43,Male,4.8500000000000005,5.8500000000000005,5.3500000000000005
+Urea,mmol/L,43,Female,4.45,7.425000000000001,4.95
+Urea,mmol/L,43,Both,4.3500000000000005,7.525,5.15
+Total Cholesterol,mmol/L,43,Male,4.889999999999999,5.6899999999999995,5.289999999999999
+Total Cholesterol,mmol/L,43,Female,4.889999999999999,7.934999999999999,5.289999999999999
+Total Cholesterol,mmol/L,43,Both,4.809999999999999,8.014999999999999,5.289999999999999
+HDL Cholesterol,mmol/L,43,Male,1.2299999999999998,1.43,1.3299999999999998
+HDL Cholesterol,mmol/L,43,Female,1.43,2.295,1.53
+HDL Cholesterol,mmol/L,43,Both,1.2099999999999997,2.315,1.43
+LDL Cholesterol,mmol/L,43,Male,2.81,3.31,3.06
+LDL Cholesterol,mmol/L,43,Female,2.81,4.59,3.06
+LDL Cholesterol,mmol/L,43,Both,2.7600000000000002,4.64,3.06
+Uric Acid,µmol/L,43,Male,256.5,306.5,281.5
+Uric Acid,µmol/L,43,Female,216.5,362.25,241.5
+Uric Acid,µmol/L,43,Both,211.5,367.25,261.5
+Sodium,mmol/L,43,Male,139.23,141.23,140.23
+Sodium,mmol/L,43,Female,139.23,210.34499999999997,140.23
+Sodium,mmol/L,43,Both,139.03,210.54499999999996,140.23
+Potassium,mmol/L,43,Male,3.9650000000000003,4.265000000000001,4.115
+Potassium,mmol/L,43,Female,3.9650000000000003,6.1725,4.115
+Potassium,mmol/L,43,Both,3.9350000000000005,6.202500000000001,4.115
+Albumin,g/L,43,Male,37.35,40.35,38.85
+Albumin,g/L,43,Female,37.35,58.275000000000006,38.85
+Albumin,g/L,43,Both,37.050000000000004,58.575,38.85
+Blood Glucose,mmol/L,44,Male,5.33,5.83,5.58
+Blood Glucose,mmol/L,44,Female,5.130000000000001,8.07,5.380000000000001
+Blood Glucose,mmol/L,44,Both,5.080000000000001,8.120000000000001,5.48
+Creatinine,µmol/L,44,Male,82.4,92.4,87.4
+Creatinine,µmol/L,44,Female,72.4,116.10000000000001,77.4
+Creatinine,µmol/L,44,Both,71.4,117.10000000000001,82.4
+Urea,mmol/L,44,Male,4.9,5.9,5.4
+Urea,mmol/L,44,Female,4.5,7.5,5.0
+Urea,mmol/L,44,Both,4.4,7.6,5.2
+Total Cholesterol,mmol/L,44,Male,4.919999999999999,5.72,5.319999999999999
+Total Cholesterol,mmol/L,44,Female,4.919999999999999,7.979999999999999,5.319999999999999
+Total Cholesterol,mmol/L,44,Both,4.839999999999999,8.059999999999999,5.319999999999999
+HDL Cholesterol,mmol/L,44,Male,1.2399999999999998,1.44,1.3399999999999999
+HDL Cholesterol,mmol/L,44,Female,1.44,2.31,1.54
+HDL Cholesterol,mmol/L,44,Both,1.2199999999999998,2.33,1.44
+LDL Cholesterol,mmol/L,44,Male,2.83,3.33,3.08
+LDL Cholesterol,mmol/L,44,Female,2.83,4.62,3.08
+LDL Cholesterol,mmol/L,44,Both,2.7800000000000002,4.67,3.08
+Uric Acid,µmol/L,44,Male,257.0,307.0,282.0
+Uric Acid,µmol/L,44,Female,217.0,363.0,242.0
+Uric Acid,µmol/L,44,Both,212.0,368.0,262.0
+Sodium,mmol/L,44,Male,139.24,141.24,140.24
+Sodium,mmol/L,44,Female,139.24,210.36,140.24
+Sodium,mmol/L,44,Both,139.04000000000002,210.56,140.24
+Potassium,mmol/L,44,Male,3.97,4.2700000000000005,4.12
+Potassium,mmol/L,44,Female,3.97,6.18,4.12
+Potassium,mmol/L,44,Both,3.9400000000000004,6.21,4.12
+Albumin,g/L,44,Male,37.3,40.3,38.8
+Albumin,g/L,44,Female,37.3,58.199999999999996,38.8
+Albumin,g/L,44,Both,37.0,58.49999999999999,38.8
+Blood Glucose,mmol/L,45,Male,5.35,5.85,5.6
+Blood Glucose,mmol/L,45,Female,5.15,8.100000000000001,5.4
+Blood Glucose,mmol/L,45,Both,5.1000000000000005,8.150000000000002,5.5
+Creatinine,µmol/L,45,Male,82.5,92.5,87.5
+Creatinine,µmol/L,45,Female,72.5,116.25,77.5
+Creatinine,µmol/L,45,Both,71.5,117.25,82.5
+Urea,mmol/L,45,Male,4.95,5.95,5.45
+Urea,mmol/L,45,Female,4.55,7.574999999999999,5.05
+Urea,mmol/L,45,Both,4.45,7.674999999999999,5.25
+Total Cholesterol,mmol/L,45,Male,4.949999999999999,5.75,5.35
+Total Cholesterol,mmol/L,45,Female,4.949999999999999,8.024999999999999,5.35
+Total Cholesterol,mmol/L,45,Both,4.869999999999999,8.104999999999999,5.35
+HDL Cholesterol,mmol/L,45,Male,1.2499999999999998,1.45,1.3499999999999999
+HDL Cholesterol,mmol/L,45,Female,1.45,2.325,1.55
+HDL Cholesterol,mmol/L,45,Both,1.2299999999999998,2.345,1.45
+LDL Cholesterol,mmol/L,45,Male,2.85,3.35,3.1
+LDL Cholesterol,mmol/L,45,Female,2.85,4.65,3.1
+LDL Cholesterol,mmol/L,45,Both,2.8000000000000003,4.7,3.1
+Uric Acid,µmol/L,45,Male,257.5,307.5,282.5
+Uric Acid,µmol/L,45,Female,217.5,363.75,242.5
+Uric Acid,µmol/L,45,Both,212.5,368.75,262.5
+Sodium,mmol/L,45,Male,139.25,141.25,140.25
+Sodium,mmol/L,45,Female,139.25,210.375,140.25
+Sodium,mmol/L,45,Both,139.05,210.575,140.25
+Potassium,mmol/L,45,Male,3.975,4.275,4.125
+Potassium,mmol/L,45,Female,3.975,6.1875,4.125
+Potassium,mmol/L,45,Both,3.9450000000000003,6.2175,4.125
+Albumin,g/L,45,Male,37.25,40.25,38.75
+Albumin,g/L,45,Female,37.25,58.125,38.75
+Albumin,g/L,45,Both,36.95,58.425,38.75
+Blood Glucose,mmol/L,46,Male,5.369999999999999,5.869999999999999,5.619999999999999
+Blood Glucose,mmol/L,46,Female,5.17,8.129999999999999,5.42
+Blood Glucose,mmol/L,46,Both,5.12,8.18,5.52
+Creatinine,µmol/L,46,Male,82.6,92.6,87.6
+Creatinine,µmol/L,46,Female,72.6,116.39999999999999,77.6
+Creatinine,µmol/L,46,Both,71.6,117.39999999999999,82.6
+Urea,mmol/L,46,Male,5.0,6.0,5.5
+Urea,mmol/L,46,Female,4.6,7.6499999999999995,5.1
+Urea,mmol/L,46,Both,4.5,7.749999999999999,5.3
+Total Cholesterol,mmol/L,46,Male,4.9799999999999995,5.78,5.38
+Total Cholesterol,mmol/L,46,Female,4.9799999999999995,8.07,5.38
+Total Cholesterol,mmol/L,46,Both,4.8999999999999995,8.15,5.38
+HDL Cholesterol,mmol/L,46,Male,1.2599999999999998,1.46,1.3599999999999999
+HDL Cholesterol,mmol/L,46,Female,1.46,2.34,1.56
+HDL Cholesterol,mmol/L,46,Both,1.2399999999999998,2.36,1.46
+LDL Cholesterol,mmol/L,46,Male,2.87,3.37,3.12
+LDL Cholesterol,mmol/L,46,Female,2.87,4.68,3.12
+LDL Cholesterol,mmol/L,46,Both,2.8200000000000003,4.7299999999999995,3.12
+Uric Acid,µmol/L,46,Male,258.0,308.0,283.0
+Uric Acid,µmol/L,46,Female,218.0,364.5,243.0
+Uric Acid,µmol/L,46,Both,213.0,369.5,263.0
+Sodium,mmol/L,46,Male,139.26,141.26,140.26
+Sodium,mmol/L,46,Female,139.26,210.39,140.26
+Sodium,mmol/L,46,Both,139.06,210.58999999999997,140.26
+Potassium,mmol/L,46,Male,3.98,4.28,4.13
+Potassium,mmol/L,46,Female,3.98,6.195,4.13
+Potassium,mmol/L,46,Both,3.95,6.2250000000000005,4.13
+Albumin,g/L,46,Male,37.2,40.2,38.7
+Albumin,g/L,46,Female,37.2,58.050000000000004,38.7
+Albumin,g/L,46,Both,36.900000000000006,58.35,38.7
+Blood Glucose,mmol/L,47,Male,5.39,5.89,5.64
+Blood Glucose,mmol/L,47,Female,5.19,8.16,5.44
+Blood Glucose,mmol/L,47,Both,5.140000000000001,8.21,5.54
+Creatinine,µmol/L,47,Male,82.7,92.7,87.7
+Creatinine,µmol/L,47,Female,72.7,116.55000000000001,77.7
+Creatinine,µmol/L,47,Both,71.7,117.55000000000001,82.7
+Urea,mmol/L,47,Male,5.05,6.05,5.55
+Urea,mmol/L,47,Female,4.6499999999999995,7.725,5.1499999999999995
+Urea,mmol/L,47,Both,4.55,7.824999999999999,5.35
+Total Cholesterol,mmol/L,47,Male,5.009999999999999,5.81,5.409999999999999
+Total Cholesterol,mmol/L,47,Female,5.009999999999999,8.114999999999998,5.409999999999999
+Total Cholesterol,mmol/L,47,Both,4.929999999999999,8.194999999999999,5.409999999999999
+HDL Cholesterol,mmol/L,47,Male,1.2699999999999998,1.47,1.3699999999999999
+HDL Cholesterol,mmol/L,47,Female,1.47,2.355,1.57
+HDL Cholesterol,mmol/L,47,Both,1.2499999999999998,2.375,1.47
+LDL Cholesterol,mmol/L,47,Male,2.89,3.39,3.14
+LDL Cholesterol,mmol/L,47,Female,2.89,4.71,3.14
+LDL Cholesterol,mmol/L,47,Both,2.8400000000000003,4.76,3.14
+Uric Acid,µmol/L,47,Male,258.5,308.5,283.5
+Uric Acid,µmol/L,47,Female,218.5,365.25,243.5
+Uric Acid,µmol/L,47,Both,213.5,370.25,263.5
+Sodium,mmol/L,47,Male,139.27,141.27,140.27
+Sodium,mmol/L,47,Female,139.27,210.40500000000003,140.27
+Sodium,mmol/L,47,Both,139.07000000000002,210.60500000000002,140.27
+Potassium,mmol/L,47,Male,3.985,4.285,4.135
+Potassium,mmol/L,47,Female,3.985,6.2025,4.135
+Potassium,mmol/L,47,Both,3.955,6.2325,4.135
+Albumin,g/L,47,Male,37.15,40.15,38.65
+Albumin,g/L,47,Female,37.15,57.974999999999994,38.65
+Albumin,g/L,47,Both,36.85,58.27499999999999,38.65
+Blood Glucose,mmol/L,48,Male,5.41,5.91,5.66
+Blood Glucose,mmol/L,48,Female,5.210000000000001,8.190000000000001,5.460000000000001
+Blood Glucose,mmol/L,48,Both,5.160000000000001,8.240000000000002,5.5600000000000005
+Creatinine,µmol/L,48,Male,82.8,92.8,87.8
+Creatinine,µmol/L,48,Female,72.8,116.69999999999999,77.8
+Creatinine,µmol/L,48,Both,71.8,117.69999999999999,82.8
+Urea,mmol/L,48,Male,5.1000000000000005,6.1000000000000005,5.6000000000000005
+Urea,mmol/L,48,Female,4.7,7.800000000000001,5.2
+Urea,mmol/L,48,Both,4.6000000000000005,7.9,5.4
+Total Cholesterol,mmol/L,48,Male,5.039999999999999,5.84,5.4399999999999995
+Total Cholesterol,mmol/L,48,Female,5.039999999999999,8.16,5.4399999999999995
+Total Cholesterol,mmol/L,48,Both,4.959999999999999,8.24,5.4399999999999995
+HDL Cholesterol,mmol/L,48,Male,1.2799999999999998,1.48,1.38
+HDL Cholesterol,mmol/L,48,Female,1.48,2.37,1.58
+HDL Cholesterol,mmol/L,48,Both,1.2599999999999998,2.39,1.48
+LDL Cholesterol,mmol/L,48,Male,2.91,3.41,3.16
+LDL Cholesterol,mmol/L,48,Female,2.91,4.74,3.16
+LDL Cholesterol,mmol/L,48,Both,2.8600000000000003,4.79,3.16
+Uric Acid,µmol/L,48,Male,259.0,309.0,284.0
+Uric Acid,µmol/L,48,Female,219.0,366.0,244.0
+Uric Acid,µmol/L,48,Both,214.0,371.0,264.0
+Sodium,mmol/L,48,Male,139.28,141.28,140.28
+Sodium,mmol/L,48,Female,139.28,210.42000000000002,140.28
+Sodium,mmol/L,48,Both,139.08,210.62,140.28
+Potassium,mmol/L,48,Male,3.9899999999999998,4.29,4.14
+Potassium,mmol/L,48,Female,3.9899999999999998,6.209999999999999,4.14
+Potassium,mmol/L,48,Both,3.96,6.239999999999999,4.14
+Albumin,g/L,48,Male,37.1,40.1,38.6
+Albumin,g/L,48,Female,37.1,57.900000000000006,38.6
+Albumin,g/L,48,Both,36.800000000000004,58.2,38.6
+Blood Glucose,mmol/L,49,Male,5.43,5.93,5.68
+Blood Glucose,mmol/L,49,Female,5.23,8.22,5.48
+Blood Glucose,mmol/L,49,Both,5.180000000000001,8.270000000000001,5.58
+Creatinine,µmol/L,49,Male,82.9,92.9,87.9
+Creatinine,µmol/L,49,Female,72.9,116.85000000000001,77.9
+Creatinine,µmol/L,49,Both,71.9,117.85000000000001,82.9
+Urea,mmol/L,49,Male,5.15,6.15,5.65
+Urea,mmol/L,49,Female,4.75,7.875,5.25
+Urea,mmol/L,49,Both,4.65,7.975,5.45
+Total Cholesterol,mmol/L,49,Male,5.069999999999999,5.87,5.47
+Total Cholesterol,mmol/L,49,Female,5.069999999999999,8.205,5.47
+Total Cholesterol,mmol/L,49,Both,4.989999999999999,8.285,5.47
+HDL Cholesterol,mmol/L,49,Male,1.2899999999999998,1.49,1.39
+HDL Cholesterol,mmol/L,49,Female,1.49,2.3850000000000002,1.59
+HDL Cholesterol,mmol/L,49,Both,1.2699999999999998,2.4050000000000002,1.49
+LDL Cholesterol,mmol/L,49,Male,2.93,3.43,3.18
+LDL Cholesterol,mmol/L,49,Female,2.93,4.7700000000000005,3.18
+LDL Cholesterol,mmol/L,49,Both,2.8800000000000003,4.82,3.18
+Uric Acid,µmol/L,49,Male,259.5,309.5,284.5
+Uric Acid,µmol/L,49,Female,219.5,366.75,244.5
+Uric Acid,µmol/L,49,Both,214.5,371.75,264.5
+Sodium,mmol/L,49,Male,139.29,141.29,140.29
+Sodium,mmol/L,49,Female,139.29,210.435,140.29
+Sodium,mmol/L,49,Both,139.09,210.635,140.29
+Potassium,mmol/L,49,Male,3.9949999999999997,4.295,4.145
+Potassium,mmol/L,49,Female,3.9949999999999997,6.217499999999999,4.145
+Potassium,mmol/L,49,Both,3.965,6.2475,4.145
+Albumin,g/L,49,Male,37.05,40.05,38.55
+Albumin,g/L,49,Female,37.05,57.824999999999996,38.55
+Albumin,g/L,49,Both,36.75,58.12499999999999,38.55
+Blood Glucose,mmol/L,50,Male,5.449999999999999,5.949999999999999,5.699999999999999
+Blood Glucose,mmol/L,50,Female,5.25,8.25,5.5
+Blood Glucose,mmol/L,50,Both,5.2,8.3,5.6
+Creatinine,µmol/L,50,Male,83.0,93.0,88.0
+Creatinine,µmol/L,50,Female,73.0,117.0,78.0
+Creatinine,µmol/L,50,Both,72.0,118.0,83.0
+Urea,mmol/L,50,Male,5.2,6.2,5.7
+Urea,mmol/L,50,Female,4.8,7.949999999999999,5.3
+Urea,mmol/L,50,Both,4.7,8.049999999999999,5.5
+Total Cholesterol,mmol/L,50,Male,5.1,5.9,5.5
+Total Cholesterol,mmol/L,50,Female,5.1,8.25,5.5
+Total Cholesterol,mmol/L,50,Both,5.02,8.33,5.5
+HDL Cholesterol,mmol/L,50,Male,1.2999999999999998,1.5,1.4
+HDL Cholesterol,mmol/L,50,Female,1.5,2.4000000000000004,1.6
+HDL Cholesterol,mmol/L,50,Both,1.2799999999999998,2.4200000000000004,1.5
+LDL Cholesterol,mmol/L,50,Male,2.95,3.45,3.2
+LDL Cholesterol,mmol/L,50,Female,2.95,4.800000000000001,3.2
+LDL Cholesterol,mmol/L,50,Both,2.9000000000000004,4.8500000000000005,3.2
+Uric Acid,µmol/L,50,Male,260.0,310.0,285.0
+Uric Acid,µmol/L,50,Female,220.0,367.5,245.0
+Uric Acid,µmol/L,50,Both,215.0,372.5,265.0
+Sodium,mmol/L,50,Male,139.3,141.3,140.3
+Sodium,mmol/L,50,Female,139.3,210.45000000000002,140.3
+Sodium,mmol/L,50,Both,139.10000000000002,210.65,140.3
+Potassium,mmol/L,50,Male,4.0,4.300000000000001,4.15
+Potassium,mmol/L,50,Female,4.0,6.2250000000000005,4.15
+Potassium,mmol/L,50,Both,3.97,6.255000000000001,4.15
+Albumin,g/L,50,Male,37.0,40.0,38.5
+Albumin,g/L,50,Female,37.0,57.75,38.5
+Albumin,g/L,50,Both,36.7,58.05,38.5
+Blood Glucose,mmol/L,51,Male,5.47,5.97,5.72
+Blood Glucose,mmol/L,51,Female,5.2700000000000005,8.280000000000001,5.5200000000000005
+Blood Glucose,mmol/L,51,Both,5.220000000000001,8.330000000000002,5.62
+Creatinine,µmol/L,51,Male,83.1,93.1,88.1
+Creatinine,µmol/L,51,Female,73.1,117.14999999999999,78.1
+Creatinine,µmol/L,51,Both,72.1,118.14999999999999,83.1
+Urea,mmol/L,51,Male,5.25,6.25,5.75
+Urea,mmol/L,51,Female,4.85,8.024999999999999,5.35
+Urea,mmol/L,51,Both,4.75,8.124999999999998,5.55
+Total Cholesterol,mmol/L,51,Male,5.129999999999999,5.93,5.529999999999999
+Total Cholesterol,mmol/L,51,Female,5.129999999999999,8.294999999999998,5.529999999999999
+Total Cholesterol,mmol/L,51,Both,5.049999999999999,8.374999999999998,5.529999999999999
+HDL Cholesterol,mmol/L,51,Male,1.3099999999999998,1.51,1.41
+HDL Cholesterol,mmol/L,51,Female,1.51,2.415,1.61
+HDL Cholesterol,mmol/L,51,Both,1.2899999999999998,2.435,1.51
+LDL Cholesterol,mmol/L,51,Male,2.97,3.47,3.22
+LDL Cholesterol,mmol/L,51,Female,2.97,4.83,3.22
+LDL Cholesterol,mmol/L,51,Both,2.9200000000000004,4.88,3.22
+Uric Acid,µmol/L,51,Male,260.5,310.5,285.5
+Uric Acid,µmol/L,51,Female,220.5,368.25,245.5
+Uric Acid,µmol/L,51,Both,215.5,373.25,265.5
+Sodium,mmol/L,51,Male,139.31,141.31,140.31
+Sodium,mmol/L,51,Female,139.31,210.465,140.31
+Sodium,mmol/L,51,Both,139.11,210.665,140.31
+Potassium,mmol/L,51,Male,4.005,4.305000000000001,4.155
+Potassium,mmol/L,51,Female,4.005,6.2325,4.155
+Potassium,mmol/L,51,Both,3.975,6.2625,4.155
+Albumin,g/L,51,Male,36.95,39.95,38.45
+Albumin,g/L,51,Female,36.95,57.675000000000004,38.45
+Albumin,g/L,51,Both,36.650000000000006,57.975,38.45
+Blood Glucose,mmol/L,52,Male,5.489999999999999,5.989999999999999,5.739999999999999
+Blood Glucose,mmol/L,52,Female,5.29,8.31,5.54
+Blood Glucose,mmol/L,52,Both,5.24,8.360000000000001,5.64
+Creatinine,µmol/L,52,Male,83.2,93.2,88.2
+Creatinine,µmol/L,52,Female,73.2,117.30000000000001,78.2
+Creatinine,µmol/L,52,Both,72.2,118.30000000000001,83.2
+Urea,mmol/L,52,Male,5.3,6.3,5.8
+Urea,mmol/L,52,Female,4.8999999999999995,8.1,5.3999999999999995
+Urea,mmol/L,52,Both,4.8,8.2,5.6
+Total Cholesterol,mmol/L,52,Male,5.159999999999999,5.96,5.56
+Total Cholesterol,mmol/L,52,Female,5.159999999999999,8.34,5.56
+Total Cholesterol,mmol/L,52,Both,5.079999999999999,8.42,5.56
+HDL Cholesterol,mmol/L,52,Male,1.3199999999999998,1.52,1.42
+HDL Cholesterol,mmol/L,52,Female,1.52,2.43,1.62
+HDL Cholesterol,mmol/L,52,Both,1.2999999999999998,2.45,1.52
+LDL Cholesterol,mmol/L,52,Male,2.99,3.49,3.24
+LDL Cholesterol,mmol/L,52,Female,2.99,4.86,3.24
+LDL Cholesterol,mmol/L,52,Both,2.9400000000000004,4.91,3.24
+Uric Acid,µmol/L,52,Male,261.0,311.0,286.0
+Uric Acid,µmol/L,52,Female,221.0,369.0,246.0
+Uric Acid,µmol/L,52,Both,216.0,374.0,266.0
+Sodium,mmol/L,52,Male,139.32,141.32,140.32
+Sodium,mmol/L,52,Female,139.32,210.48,140.32
+Sodium,mmol/L,52,Both,139.12,210.67999999999998,140.32
+Potassium,mmol/L,52,Male,4.01,4.3100000000000005,4.16
+Potassium,mmol/L,52,Female,4.01,6.24,4.16
+Potassium,mmol/L,52,Both,3.98,6.2700000000000005,4.16
+Albumin,g/L,52,Male,36.9,39.9,38.4
+Albumin,g/L,52,Female,36.9,57.599999999999994,38.4
+Albumin,g/L,52,Both,36.6,57.89999999999999,38.4
+Blood Glucose,mmol/L,53,Male,5.51,6.01,5.76
+Blood Glucose,mmol/L,53,Female,5.3100000000000005,8.34,5.5600000000000005
+Blood Glucose,mmol/L,53,Both,5.260000000000001,8.39,5.66
+Creatinine,µmol/L,53,Male,83.3,93.3,88.3
+Creatinine,µmol/L,53,Female,73.3,117.44999999999999,78.3
+Creatinine,µmol/L,53,Both,72.3,118.44999999999999,83.3
+Urea,mmol/L,53,Male,5.3500000000000005,6.3500000000000005,5.8500000000000005
+Urea,mmol/L,53,Female,4.95,8.175,5.45
+Urea,mmol/L,53,Both,4.8500000000000005,8.275,5.65
+Total Cholesterol,mmol/L,53,Male,5.1899999999999995,5.99,5.59
+Total Cholesterol,mmol/L,53,Female,5.1899999999999995,8.385,5.59
+Total Cholesterol,mmol/L,53,Both,5.109999999999999,8.465,5.59
+HDL Cholesterol,mmol/L,53,Male,1.3299999999999998,1.53,1.43
+HDL Cholesterol,mmol/L,53,Female,1.53,2.4450000000000003,1.6300000000000001
+HDL Cholesterol,mmol/L,53,Both,1.3099999999999998,2.4650000000000003,1.53
+LDL Cholesterol,mmol/L,53,Male,3.0100000000000002,3.5100000000000002,3.2600000000000002
+LDL Cholesterol,mmol/L,53,Female,3.0100000000000002,4.890000000000001,3.2600000000000002
+LDL Cholesterol,mmol/L,53,Both,2.9600000000000004,4.94,3.2600000000000002
+Uric Acid,µmol/L,53,Male,261.5,311.5,286.5
+Uric Acid,µmol/L,53,Female,221.5,369.75,246.5
+Uric Acid,µmol/L,53,Both,216.5,374.75,266.5
+Sodium,mmol/L,53,Male,139.33,141.33,140.33
+Sodium,mmol/L,53,Female,139.33,210.495,140.33
+Sodium,mmol/L,53,Both,139.13000000000002,210.695,140.33
+Potassium,mmol/L,53,Male,4.015,4.315,4.165
+Potassium,mmol/L,53,Female,4.015,6.2475000000000005,4.165
+Potassium,mmol/L,53,Both,3.985,6.277500000000001,4.165
+Albumin,g/L,53,Male,36.85,39.85,38.35
+Albumin,g/L,53,Female,36.85,57.525000000000006,38.35
+Albumin,g/L,53,Both,36.550000000000004,57.825,38.35
+Blood Glucose,mmol/L,54,Male,5.529999999999999,6.029999999999999,5.779999999999999
+Blood Glucose,mmol/L,54,Female,5.33,8.370000000000001,5.58
+Blood Glucose,mmol/L,54,Both,5.28,8.420000000000002,5.68
+Creatinine,µmol/L,54,Male,83.4,93.4,88.4
+Creatinine,µmol/L,54,Female,73.4,117.60000000000001,78.4
+Creatinine,µmol/L,54,Both,72.4,118.60000000000001,83.4
+Urea,mmol/L,54,Male,5.4,6.4,5.9
+Urea,mmol/L,54,Female,5.0,8.25,5.5
+Urea,mmol/L,54,Both,4.9,8.35,5.7
+Total Cholesterol,mmol/L,54,Male,5.219999999999999,6.02,5.619999999999999
+Total Cholesterol,mmol/L,54,Female,5.219999999999999,8.43,5.619999999999999
+Total Cholesterol,mmol/L,54,Both,5.139999999999999,8.51,5.619999999999999
+HDL Cholesterol,mmol/L,54,Male,1.3399999999999999,1.54,1.44
+HDL Cholesterol,mmol/L,54,Female,1.54,2.46,1.6400000000000001
+HDL Cholesterol,mmol/L,54,Both,1.3199999999999998,2.48,1.54
+LDL Cholesterol,mmol/L,54,Male,3.0300000000000002,3.5300000000000002,3.2800000000000002
+LDL Cholesterol,mmol/L,54,Female,3.0300000000000002,4.92,3.2800000000000002
+LDL Cholesterol,mmol/L,54,Both,2.9800000000000004,4.97,3.2800000000000002
+Uric Acid,µmol/L,54,Male,262.0,312.0,287.0
+Uric Acid,µmol/L,54,Female,222.0,370.5,247.0
+Uric Acid,µmol/L,54,Both,217.0,375.5,267.0
+Sodium,mmol/L,54,Male,139.34,141.34,140.34
+Sodium,mmol/L,54,Female,139.34,210.51,140.34
+Sodium,mmol/L,54,Both,139.14000000000001,210.70999999999998,140.34
+Potassium,mmol/L,54,Male,4.02,4.32,4.17
+Potassium,mmol/L,54,Female,4.02,6.255,4.17
+Potassium,mmol/L,54,Both,3.9899999999999998,6.285,4.17
+Albumin,g/L,54,Male,36.8,39.8,38.3
+Albumin,g/L,54,Female,36.8,57.449999999999996,38.3
+Albumin,g/L,54,Both,36.5,57.74999999999999,38.3
+Blood Glucose,mmol/L,55,Male,5.55,6.05,5.8
+Blood Glucose,mmol/L,55,Female,5.3500000000000005,8.4,5.6000000000000005
+Blood Glucose,mmol/L,55,Both,5.300000000000001,8.450000000000001,5.7
+Creatinine,µmol/L,55,Male,83.5,93.5,88.5
+Creatinine,µmol/L,55,Female,73.5,117.75,78.5
+Creatinine,µmol/L,55,Both,72.5,118.75,83.5
+Urea,mmol/L,55,Male,5.45,6.45,5.95
+Urea,mmol/L,55,Female,5.05,8.325,5.55
+Urea,mmol/L,55,Both,4.95,8.424999999999999,5.75
+Total Cholesterol,mmol/L,55,Male,5.249999999999999,6.05,5.6499999999999995
+Total Cholesterol,mmol/L,55,Female,5.249999999999999,8.475,5.6499999999999995
+Total Cholesterol,mmol/L,55,Both,5.169999999999999,8.555,5.6499999999999995
+HDL Cholesterol,mmol/L,55,Male,1.3499999999999999,1.55,1.45
+HDL Cholesterol,mmol/L,55,Female,1.55,2.475,1.6500000000000001
+HDL Cholesterol,mmol/L,55,Both,1.3299999999999998,2.495,1.55
+LDL Cholesterol,mmol/L,55,Male,3.0500000000000003,3.5500000000000003,3.3000000000000003
+LDL Cholesterol,mmol/L,55,Female,3.0500000000000003,4.95,3.3000000000000003
+LDL Cholesterol,mmol/L,55,Both,3.0000000000000004,5.0,3.3000000000000003
+Uric Acid,µmol/L,55,Male,262.5,312.5,287.5
+Uric Acid,µmol/L,55,Female,222.5,371.25,247.5
+Uric Acid,µmol/L,55,Both,217.5,376.25,267.5
+Sodium,mmol/L,55,Male,139.35,141.35,140.35
+Sodium,mmol/L,55,Female,139.35,210.52499999999998,140.35
+Sodium,mmol/L,55,Both,139.15,210.72499999999997,140.35
+Potassium,mmol/L,55,Male,4.0249999999999995,4.325,4.175
+Potassium,mmol/L,55,Female,4.0249999999999995,6.262499999999999,4.175
+Potassium,mmol/L,55,Both,3.9949999999999997,6.2924999999999995,4.175
+Albumin,g/L,55,Male,36.75,39.75,38.25
+Albumin,g/L,55,Female,36.75,57.375,38.25
+Albumin,g/L,55,Both,36.45,57.675,38.25
+Blood Glucose,mmol/L,56,Male,5.569999999999999,6.069999999999999,5.819999999999999
+Blood Glucose,mmol/L,56,Female,5.37,8.43,5.62
+Blood Glucose,mmol/L,56,Both,5.32,8.48,5.72
+Creatinine,µmol/L,56,Male,83.6,93.6,88.6
+Creatinine,µmol/L,56,Female,73.6,117.89999999999999,78.6
+Creatinine,µmol/L,56,Both,72.6,118.89999999999999,83.6
+Urea,mmol/L,56,Male,5.5,6.5,6.0
+Urea,mmol/L,56,Female,5.1,8.399999999999999,5.6
+Urea,mmol/L,56,Both,5.0,8.499999999999998,5.8
+Total Cholesterol,mmol/L,56,Male,5.279999999999999,6.08,5.68
+Total Cholesterol,mmol/L,56,Female,5.279999999999999,8.52,5.68
+Total Cholesterol,mmol/L,56,Both,5.199999999999999,8.6,5.68
+HDL Cholesterol,mmol/L,56,Male,1.3599999999999999,1.56,1.46
+HDL Cholesterol,mmol/L,56,Female,1.56,2.49,1.6600000000000001
+HDL Cholesterol,mmol/L,56,Both,1.3399999999999999,2.5100000000000002,1.56
+LDL Cholesterol,mmol/L,56,Male,3.07,3.57,3.32
+LDL Cholesterol,mmol/L,56,Female,3.07,4.9799999999999995,3.32
+LDL Cholesterol,mmol/L,56,Both,3.02,5.029999999999999,3.32
+Uric Acid,µmol/L,56,Male,263.0,313.0,288.0
+Uric Acid,µmol/L,56,Female,223.0,372.0,248.0
+Uric Acid,µmol/L,56,Both,218.0,377.0,268.0
+Sodium,mmol/L,56,Male,139.36,141.36,140.36
+Sodium,mmol/L,56,Female,139.36,210.54000000000002,140.36
+Sodium,mmol/L,56,Both,139.16000000000003,210.74,140.36
+Potassium,mmol/L,56,Male,4.029999999999999,4.33,4.18
+Potassium,mmol/L,56,Female,4.029999999999999,6.27,4.18
+Potassium,mmol/L,56,Both,3.9999999999999996,6.3,4.18
+Albumin,g/L,56,Male,36.7,39.7,38.2
+Albumin,g/L,56,Female,36.7,57.300000000000004,38.2
+Albumin,g/L,56,Both,36.400000000000006,57.6,38.2
+Blood Glucose,mmol/L,57,Male,5.59,6.09,5.84
+Blood Glucose,mmol/L,57,Female,5.390000000000001,8.46,5.640000000000001
+Blood Glucose,mmol/L,57,Both,5.340000000000001,8.510000000000002,5.74
+Creatinine,µmol/L,57,Male,83.7,93.7,88.7
+Creatinine,µmol/L,57,Female,73.7,118.05000000000001,78.7
+Creatinine,µmol/L,57,Both,72.7,119.05000000000001,83.7
+Urea,mmol/L,57,Male,5.55,6.55,6.05
+Urea,mmol/L,57,Female,5.1499999999999995,8.475,5.6499999999999995
+Urea,mmol/L,57,Both,5.05,8.575,5.85
+Total Cholesterol,mmol/L,57,Male,5.309999999999999,6.109999999999999,5.709999999999999
+Total Cholesterol,mmol/L,57,Female,5.309999999999999,8.564999999999998,5.709999999999999
+Total Cholesterol,mmol/L,57,Both,5.229999999999999,8.644999999999998,5.709999999999999
+HDL Cholesterol,mmol/L,57,Male,1.3699999999999997,1.5699999999999998,1.4699999999999998
+HDL Cholesterol,mmol/L,57,Female,1.5699999999999998,2.505,1.67
+HDL Cholesterol,mmol/L,57,Both,1.3499999999999996,2.525,1.5699999999999998
+LDL Cholesterol,mmol/L,57,Male,3.0900000000000003,3.5900000000000003,3.3400000000000003
+LDL Cholesterol,mmol/L,57,Female,3.0900000000000003,5.010000000000001,3.3400000000000003
+LDL Cholesterol,mmol/L,57,Both,3.0400000000000005,5.0600000000000005,3.3400000000000003
+Uric Acid,µmol/L,57,Male,263.5,313.5,288.5
+Uric Acid,µmol/L,57,Female,223.5,372.75,248.5
+Uric Acid,µmol/L,57,Both,218.5,377.75,268.5
+Sodium,mmol/L,57,Male,139.37,141.37,140.37
+Sodium,mmol/L,57,Female,139.37,210.555,140.37
+Sodium,mmol/L,57,Both,139.17000000000002,210.755,140.37
+Potassium,mmol/L,57,Male,4.034999999999999,4.335,4.185
+Potassium,mmol/L,57,Female,4.034999999999999,6.2775,4.185
+Potassium,mmol/L,57,Both,4.004999999999999,6.3075,4.185
+Albumin,g/L,57,Male,36.65,39.65,38.15
+Albumin,g/L,57,Female,36.65,57.224999999999994,38.15
+Albumin,g/L,57,Both,36.35,57.52499999999999,38.15
+Blood Glucose,mmol/L,58,Male,5.609999999999999,6.109999999999999,5.859999999999999
+Blood Glucose,mmol/L,58,Female,5.41,8.49,5.66
+Blood Glucose,mmol/L,58,Both,5.36,8.540000000000001,5.76
+Creatinine,µmol/L,58,Male,83.8,93.8,88.8
+Creatinine,µmol/L,58,Female,73.8,118.19999999999999,78.8
+Creatinine,µmol/L,58,Both,72.8,119.19999999999999,83.8
+Urea,mmol/L,58,Male,5.6000000000000005,6.6000000000000005,6.1000000000000005
+Urea,mmol/L,58,Female,5.2,8.55,5.7
+Urea,mmol/L,58,Both,5.1000000000000005,8.65,5.9
+Total Cholesterol,mmol/L,58,Male,5.339999999999999,6.14,5.739999999999999
+Total Cholesterol,mmol/L,58,Female,5.339999999999999,8.61,5.739999999999999
+Total Cholesterol,mmol/L,58,Both,5.259999999999999,8.69,5.739999999999999
+HDL Cholesterol,mmol/L,58,Male,1.38,1.58,1.48
+HDL Cholesterol,mmol/L,58,Female,1.58,2.5200000000000005,1.6800000000000002
+HDL Cholesterol,mmol/L,58,Both,1.3599999999999999,2.5400000000000005,1.58
+LDL Cholesterol,mmol/L,58,Male,3.11,3.61,3.36
+LDL Cholesterol,mmol/L,58,Female,3.11,5.04,3.36
+LDL Cholesterol,mmol/L,58,Both,3.06,5.09,3.36
+Uric Acid,µmol/L,58,Male,264.0,314.0,289.0
+Uric Acid,µmol/L,58,Female,224.0,373.5,249.0
+Uric Acid,µmol/L,58,Both,219.0,378.5,269.0
+Sodium,mmol/L,58,Male,139.38,141.38,140.38
+Sodium,mmol/L,58,Female,139.38,210.57,140.38
+Sodium,mmol/L,58,Both,139.18,210.76999999999998,140.38
+Potassium,mmol/L,58,Male,4.04,4.340000000000001,4.19
+Potassium,mmol/L,58,Female,4.04,6.285,4.19
+Potassium,mmol/L,58,Both,4.01,6.315,4.19
+Albumin,g/L,58,Male,36.6,39.6,38.1
+Albumin,g/L,58,Female,36.6,57.150000000000006,38.1
+Albumin,g/L,58,Both,36.300000000000004,57.45,38.1
+Blood Glucose,mmol/L,59,Male,5.63,6.13,5.88
+Blood Glucose,mmol/L,59,Female,5.430000000000001,8.520000000000001,5.680000000000001
+Blood Glucose,mmol/L,59,Both,5.380000000000001,8.570000000000002,5.78
+Creatinine,µmol/L,59,Male,83.9,93.9,88.9
+Creatinine,µmol/L,59,Female,73.9,118.35000000000001,78.9
+Creatinine,µmol/L,59,Both,72.9,119.35000000000001,83.9
+Urea,mmol/L,59,Male,5.65,6.65,6.15
+Urea,mmol/L,59,Female,5.25,8.625,5.75
+Urea,mmol/L,59,Both,5.15,8.725,5.95
+Total Cholesterol,mmol/L,59,Male,5.369999999999999,6.17,5.77
+Total Cholesterol,mmol/L,59,Female,5.369999999999999,8.655,5.77
+Total Cholesterol,mmol/L,59,Both,5.289999999999999,8.735,5.77
+HDL Cholesterol,mmol/L,59,Male,1.3899999999999997,1.5899999999999999,1.4899999999999998
+HDL Cholesterol,mmol/L,59,Female,1.5899999999999999,2.535,1.69
+HDL Cholesterol,mmol/L,59,Both,1.3699999999999997,2.555,1.5899999999999999
+LDL Cholesterol,mmol/L,59,Male,3.1300000000000003,3.6300000000000003,3.3800000000000003
+LDL Cholesterol,mmol/L,59,Female,3.1300000000000003,5.07,3.3800000000000003
+LDL Cholesterol,mmol/L,59,Both,3.0800000000000005,5.12,3.3800000000000003
+Uric Acid,µmol/L,59,Male,264.5,314.5,289.5
+Uric Acid,µmol/L,59,Female,224.5,374.25,249.5
+Uric Acid,µmol/L,59,Both,219.5,379.25,269.5
+Sodium,mmol/L,59,Male,139.39,141.39,140.39
+Sodium,mmol/L,59,Female,139.39,210.58499999999998,140.39
+Sodium,mmol/L,59,Both,139.19,210.78499999999997,140.39
+Potassium,mmol/L,59,Male,4.045,4.345000000000001,4.195
+Potassium,mmol/L,59,Female,4.045,6.2925,4.195
+Potassium,mmol/L,59,Both,4.015,6.322500000000001,4.195
+Albumin,g/L,59,Male,36.55,39.55,38.05
+Albumin,g/L,59,Female,36.55,57.074999999999996,38.05
+Albumin,g/L,59,Both,36.25,57.37499999999999,38.05
+Blood Glucose,mmol/L,60,Male,5.6499999999999995,6.1499999999999995,5.8999999999999995
+Blood Glucose,mmol/L,60,Female,5.45,8.55,5.7
+Blood Glucose,mmol/L,60,Both,5.4,8.600000000000001,5.8
+Creatinine,µmol/L,60,Male,84.0,94.0,89.0
+Creatinine,µmol/L,60,Female,74.0,118.5,79.0
+Creatinine,µmol/L,60,Both,73.0,119.5,84.0
+Urea,mmol/L,60,Male,5.7,6.7,6.2
+Urea,mmol/L,60,Female,5.3,8.7,5.8
+Urea,mmol/L,60,Both,5.2,8.799999999999999,6.0
+Total Cholesterol,mmol/L,60,Male,5.3999999999999995,6.2,5.8
+Total Cholesterol,mmol/L,60,Female,5.3999999999999995,8.7,5.8
+Total Cholesterol,mmol/L,60,Both,5.319999999999999,8.78,5.8
+HDL Cholesterol,mmol/L,60,Male,1.4,1.6,1.5
+HDL Cholesterol,mmol/L,60,Female,1.6,2.5500000000000003,1.7000000000000002
+HDL Cholesterol,mmol/L,60,Both,1.38,2.5700000000000003,1.6
+LDL Cholesterol,mmol/L,60,Male,3.15,3.65,3.4
+LDL Cholesterol,mmol/L,60,Female,3.15,5.1,3.4
+LDL Cholesterol,mmol/L,60,Both,3.1,5.1499999999999995,3.4
+Uric Acid,µmol/L,60,Male,265.0,315.0,290.0
+Uric Acid,µmol/L,60,Female,225.0,375.0,250.0
+Uric Acid,µmol/L,60,Both,220.0,380.0,270.0
+Sodium,mmol/L,60,Male,139.4,141.4,140.4
+Sodium,mmol/L,60,Female,139.4,210.60000000000002,140.4
+Sodium,mmol/L,60,Both,139.20000000000002,210.8,140.4
+Potassium,mmol/L,60,Male,4.05,4.3500000000000005,4.2
+Potassium,mmol/L,60,Female,4.05,6.300000000000001,4.2
+Potassium,mmol/L,60,Both,4.02,6.330000000000001,4.2
+Albumin,g/L,60,Male,36.5,39.5,38.0
+Albumin,g/L,60,Female,36.5,57.0,38.0
+Albumin,g/L,60,Both,36.2,57.3,38.0
+Blood Glucose,mmol/L,61,Male,5.67,6.17,5.92
+Blood Glucose,mmol/L,61,Female,5.470000000000001,8.580000000000002,5.720000000000001
+Blood Glucose,mmol/L,61,Both,5.420000000000001,8.630000000000003,5.82
+Creatinine,µmol/L,61,Male,84.1,94.1,89.1
+Creatinine,µmol/L,61,Female,74.1,118.64999999999999,79.1
+Creatinine,µmol/L,61,Both,73.1,119.64999999999999,84.1
+Urea,mmol/L,61,Male,5.750000000000001,6.750000000000001,6.250000000000001
+Urea,mmol/L,61,Female,5.3500000000000005,8.775,5.8500000000000005
+Urea,mmol/L,61,Both,5.250000000000001,8.875,6.050000000000001
+Total Cholesterol,mmol/L,61,Male,5.43,6.23,5.83
+Total Cholesterol,mmol/L,61,Female,5.43,8.745000000000001,5.83
+Total Cholesterol,mmol/L,61,Both,5.35,8.825000000000001,5.83
+HDL Cholesterol,mmol/L,61,Male,1.4099999999999997,1.6099999999999999,1.5099999999999998
+HDL Cholesterol,mmol/L,61,Female,1.6099999999999999,2.565,1.71
+HDL Cholesterol,mmol/L,61,Both,1.3899999999999997,2.585,1.6099999999999999
+LDL Cholesterol,mmol/L,61,Male,3.1700000000000004,3.6700000000000004,3.4200000000000004
+LDL Cholesterol,mmol/L,61,Female,3.1700000000000004,5.130000000000001,3.4200000000000004
+LDL Cholesterol,mmol/L,61,Both,3.1200000000000006,5.180000000000001,3.4200000000000004
+Uric Acid,µmol/L,61,Male,265.5,315.5,290.5
+Uric Acid,µmol/L,61,Female,225.5,375.75,250.5
+Uric Acid,µmol/L,61,Both,220.5,380.75,270.5
+Sodium,mmol/L,61,Male,139.41,141.41,140.41
+Sodium,mmol/L,61,Female,139.41,210.615,140.41
+Sodium,mmol/L,61,Both,139.21,210.815,140.41
+Potassium,mmol/L,61,Male,4.055,4.355,4.205
+Potassium,mmol/L,61,Female,4.055,6.3075,4.205
+Potassium,mmol/L,61,Both,4.0249999999999995,6.3375,4.205
+Albumin,g/L,61,Male,36.45,39.45,37.95
+Albumin,g/L,61,Female,36.45,56.925000000000004,37.95
+Albumin,g/L,61,Both,36.150000000000006,57.225,37.95
+Blood Glucose,mmol/L,62,Male,5.6899999999999995,6.1899999999999995,5.9399999999999995
+Blood Glucose,mmol/L,62,Female,5.49,8.61,5.74
+Blood Glucose,mmol/L,62,Both,5.44,8.66,5.84
+Creatinine,µmol/L,62,Male,84.2,94.2,89.2
+Creatinine,µmol/L,62,Female,74.2,118.80000000000001,79.2
+Creatinine,µmol/L,62,Both,73.2,119.80000000000001,84.2
+Urea,mmol/L,62,Male,5.8,6.8,6.3
+Urea,mmol/L,62,Female,5.3999999999999995,8.85,5.8999999999999995
+Urea,mmol/L,62,Both,5.3,8.95,6.1
+Total Cholesterol,mmol/L,62,Male,5.459999999999999,6.26,5.859999999999999
+Total Cholesterol,mmol/L,62,Female,5.459999999999999,8.79,5.859999999999999
+Total Cholesterol,mmol/L,62,Both,5.379999999999999,8.87,5.859999999999999
+HDL Cholesterol,mmol/L,62,Male,1.4199999999999997,1.6199999999999999,1.5199999999999998
+HDL Cholesterol,mmol/L,62,Female,1.6199999999999999,2.58,1.72
+HDL Cholesterol,mmol/L,62,Both,1.3999999999999997,2.6,1.6199999999999999
+LDL Cholesterol,mmol/L,62,Male,3.19,3.69,3.44
+LDL Cholesterol,mmol/L,62,Female,3.19,5.16,3.44
+LDL Cholesterol,mmol/L,62,Both,3.14,5.21,3.44
+Uric Acid,µmol/L,62,Male,266.0,316.0,291.0
+Uric Acid,µmol/L,62,Female,226.0,376.5,251.0
+Uric Acid,µmol/L,62,Both,221.0,381.5,271.0
+Sodium,mmol/L,62,Male,139.42,141.42,140.42
+Sodium,mmol/L,62,Female,139.42,210.63,140.42
+Sodium,mmol/L,62,Both,139.22,210.82999999999998,140.42
+Potassium,mmol/L,62,Male,4.06,4.36,4.21
+Potassium,mmol/L,62,Female,4.06,6.3149999999999995,4.21
+Potassium,mmol/L,62,Both,4.029999999999999,6.345,4.21
+Albumin,g/L,62,Male,36.4,39.4,37.9
+Albumin,g/L,62,Female,36.4,56.849999999999994,37.9
+Albumin,g/L,62,Both,36.1,57.14999999999999,37.9
+Blood Glucose,mmol/L,63,Male,5.71,6.21,5.96
+Blood Glucose,mmol/L,63,Female,5.510000000000001,8.64,5.760000000000001
+Blood Glucose,mmol/L,63,Both,5.460000000000001,8.690000000000001,5.86
+Creatinine,µmol/L,63,Male,84.3,94.3,89.3
+Creatinine,µmol/L,63,Female,74.3,118.94999999999999,79.3
+Creatinine,µmol/L,63,Both,73.3,119.94999999999999,84.3
+Urea,mmol/L,63,Male,5.8500000000000005,6.8500000000000005,6.3500000000000005
+Urea,mmol/L,63,Female,5.45,8.925,5.95
+Urea,mmol/L,63,Both,5.3500000000000005,9.025,6.15
+Total Cholesterol,mmol/L,63,Male,5.489999999999999,6.29,5.89
+Total Cholesterol,mmol/L,63,Female,5.489999999999999,8.834999999999999,5.89
+Total Cholesterol,mmol/L,63,Both,5.409999999999999,8.915,5.89
+HDL Cholesterol,mmol/L,63,Male,1.4299999999999997,1.63,1.5299999999999998
+HDL Cholesterol,mmol/L,63,Female,1.63,2.5949999999999998,1.73
+HDL Cholesterol,mmol/L,63,Both,1.4099999999999997,2.6149999999999998,1.63
+LDL Cholesterol,mmol/L,63,Male,3.21,3.71,3.46
+LDL Cholesterol,mmol/L,63,Female,3.21,5.1899999999999995,3.46
+LDL Cholesterol,mmol/L,63,Both,3.16,5.239999999999999,3.46
+Uric Acid,µmol/L,63,Male,266.5,316.5,291.5
+Uric Acid,µmol/L,63,Female,226.5,377.25,251.5
+Uric Acid,µmol/L,63,Both,221.5,382.25,271.5
+Sodium,mmol/L,63,Male,139.43,141.43,140.43
+Sodium,mmol/L,63,Female,139.43,210.645,140.43
+Sodium,mmol/L,63,Both,139.23000000000002,210.845,140.43
+Potassium,mmol/L,63,Male,4.0649999999999995,4.365,4.215
+Potassium,mmol/L,63,Female,4.0649999999999995,6.3225,4.215
+Potassium,mmol/L,63,Both,4.034999999999999,6.3525,4.215
+Albumin,g/L,63,Male,36.35,39.35,37.85
+Albumin,g/L,63,Female,36.35,56.775000000000006,37.85
+Albumin,g/L,63,Both,36.050000000000004,57.075,37.85
+Blood Glucose,mmol/L,64,Male,5.7299999999999995,6.2299999999999995,5.9799999999999995
+Blood Glucose,mmol/L,64,Female,5.53,8.67,5.78
+Blood Glucose,mmol/L,64,Both,5.48,8.72,5.88
+Creatinine,µmol/L,64,Male,84.4,94.4,89.4
+Creatinine,µmol/L,64,Female,74.4,119.10000000000001,79.4
+Creatinine,µmol/L,64,Both,73.4,120.10000000000001,84.4
+Urea,mmol/L,64,Male,5.9,6.9,6.4
+Urea,mmol/L,64,Female,5.5,9.0,6.0
+Urea,mmol/L,64,Both,5.4,9.1,6.2
+Total Cholesterol,mmol/L,64,Male,5.52,6.32,5.92
+Total Cholesterol,mmol/L,64,Female,5.52,8.879999999999999,5.92
+Total Cholesterol,mmol/L,64,Both,5.4399999999999995,8.959999999999999,5.92
+HDL Cholesterol,mmol/L,64,Male,1.4399999999999997,1.64,1.5399999999999998
+HDL Cholesterol,mmol/L,64,Female,1.64,2.61,1.74
+HDL Cholesterol,mmol/L,64,Both,1.4199999999999997,2.63,1.64
+LDL Cholesterol,mmol/L,64,Male,3.23,3.73,3.48
+LDL Cholesterol,mmol/L,64,Female,3.23,5.22,3.48
+LDL Cholesterol,mmol/L,64,Both,3.18,5.27,3.48
+Uric Acid,µmol/L,64,Male,267.0,317.0,292.0
+Uric Acid,µmol/L,64,Female,227.0,378.0,252.0
+Uric Acid,µmol/L,64,Both,222.0,383.0,272.0
+Sodium,mmol/L,64,Male,139.44,141.44,140.44
+Sodium,mmol/L,64,Female,139.44,210.66,140.44
+Sodium,mmol/L,64,Both,139.24,210.85999999999999,140.44
+Potassium,mmol/L,64,Male,4.069999999999999,4.37,4.22
+Potassium,mmol/L,64,Female,4.069999999999999,6.33,4.22
+Potassium,mmol/L,64,Both,4.039999999999999,6.36,4.22
+Albumin,g/L,64,Male,36.3,39.3,37.8
+Albumin,g/L,64,Female,36.3,56.699999999999996,37.8
+Albumin,g/L,64,Both,36.0,56.99999999999999,37.8
+Blood Glucose,mmol/L,65,Male,5.75,6.25,6.0
+Blood Glucose,mmol/L,65,Female,5.550000000000001,8.700000000000001,5.800000000000001
+Blood Glucose,mmol/L,65,Both,5.500000000000001,8.750000000000002,5.9
+Creatinine,µmol/L,65,Male,84.5,94.5,89.5
+Creatinine,µmol/L,65,Female,74.5,119.25,79.5
+Creatinine,µmol/L,65,Both,73.5,120.25,84.5
+Urea,mmol/L,65,Male,5.95,6.95,6.45
+Urea,mmol/L,65,Female,5.55,9.075,6.05
+Urea,mmol/L,65,Both,5.45,9.174999999999999,6.25
+Total Cholesterol,mmol/L,65,Male,5.549999999999999,6.35,5.949999999999999
+Total Cholesterol,mmol/L,65,Female,5.549999999999999,8.924999999999999,5.949999999999999
+Total Cholesterol,mmol/L,65,Both,5.469999999999999,9.004999999999999,5.949999999999999
+HDL Cholesterol,mmol/L,65,Male,1.4499999999999997,1.65,1.5499999999999998
+HDL Cholesterol,mmol/L,65,Female,1.65,2.625,1.75
+HDL Cholesterol,mmol/L,65,Both,1.4299999999999997,2.645,1.65
+LDL Cholesterol,mmol/L,65,Male,3.25,3.75,3.5
+LDL Cholesterol,mmol/L,65,Female,3.25,5.25,3.5
+LDL Cholesterol,mmol/L,65,Both,3.2,5.3,3.5
+Uric Acid,µmol/L,65,Male,267.5,317.5,292.5
+Uric Acid,µmol/L,65,Female,227.5,378.75,252.5
+Uric Acid,µmol/L,65,Both,222.5,383.75,272.5
+Sodium,mmol/L,65,Male,139.45,141.45,140.45
+Sodium,mmol/L,65,Female,139.45,210.67499999999998,140.45
+Sodium,mmol/L,65,Both,139.25,210.87499999999997,140.45
+Potassium,mmol/L,65,Male,4.074999999999999,4.375,4.225
+Potassium,mmol/L,65,Female,4.074999999999999,6.3374999999999995,4.225
+Potassium,mmol/L,65,Both,4.044999999999999,6.3675,4.225
+Albumin,g/L,65,Male,36.25,39.25,37.75
+Albumin,g/L,65,Female,36.25,56.625,37.75
+Albumin,g/L,65,Both,35.95,56.925,37.75
+Blood Glucose,mmol/L,66,Male,5.77,6.27,6.02
+Blood Glucose,mmol/L,66,Female,5.57,8.73,5.82
+Blood Glucose,mmol/L,66,Both,5.5200000000000005,8.780000000000001,5.92
+Creatinine,µmol/L,66,Male,84.6,94.6,89.6
+Creatinine,µmol/L,66,Female,74.6,119.39999999999999,79.6
+Creatinine,µmol/L,66,Both,73.6,120.39999999999999,84.6
+Urea,mmol/L,66,Male,6.000000000000001,7.000000000000001,6.500000000000001
+Urea,mmol/L,66,Female,5.6000000000000005,9.15,6.1000000000000005
+Urea,mmol/L,66,Both,5.500000000000001,9.25,6.300000000000001
+Total Cholesterol,mmol/L,66,Male,5.579999999999999,6.38,5.9799999999999995
+Total Cholesterol,mmol/L,66,Female,5.579999999999999,8.969999999999999,5.9799999999999995
+Total Cholesterol,mmol/L,66,Both,5.499999999999999,9.049999999999999,5.9799999999999995
+HDL Cholesterol,mmol/L,66,Male,1.4599999999999997,1.66,1.5599999999999998
+HDL Cholesterol,mmol/L,66,Female,1.66,2.64,1.76
+HDL Cholesterol,mmol/L,66,Both,1.4399999999999997,2.66,1.66
+LDL Cholesterol,mmol/L,66,Male,3.27,3.77,3.52
+LDL Cholesterol,mmol/L,66,Female,3.27,5.28,3.52
+LDL Cholesterol,mmol/L,66,Both,3.22,5.33,3.52
+Uric Acid,µmol/L,66,Male,268.0,318.0,293.0
+Uric Acid,µmol/L,66,Female,228.0,379.5,253.0
+Uric Acid,µmol/L,66,Both,223.0,384.5,273.0
+Sodium,mmol/L,66,Male,139.46,141.46,140.46
+Sodium,mmol/L,66,Female,139.46,210.69,140.46
+Sodium,mmol/L,66,Both,139.26000000000002,210.89,140.46
+Potassium,mmol/L,66,Male,4.08,4.380000000000001,4.23
+Potassium,mmol/L,66,Female,4.08,6.345000000000001,4.23
+Potassium,mmol/L,66,Both,4.05,6.375000000000001,4.23
+Albumin,g/L,66,Male,36.2,39.2,37.7
+Albumin,g/L,66,Female,36.2,56.550000000000004,37.7
+Albumin,g/L,66,Both,35.900000000000006,56.85,37.7
+Blood Glucose,mmol/L,67,Male,5.79,6.29,6.04
+Blood Glucose,mmol/L,67,Female,5.590000000000001,8.760000000000002,5.840000000000001
+Blood Glucose,mmol/L,67,Both,5.540000000000001,8.810000000000002,5.94
+Creatinine,µmol/L,67,Male,84.7,94.7,89.7
+Creatinine,µmol/L,67,Female,74.7,119.55000000000001,79.7
+Creatinine,µmol/L,67,Both,73.7,120.55000000000001,84.7
+Urea,mmol/L,67,Male,6.05,7.05,6.55
+Urea,mmol/L,67,Female,5.6499999999999995,9.225,6.1499999999999995
+Urea,mmol/L,67,Both,5.55,9.325,6.35
+Total Cholesterol,mmol/L,67,Male,5.609999999999999,6.41,6.01
+Total Cholesterol,mmol/L,67,Female,5.609999999999999,9.015,6.01
+Total Cholesterol,mmol/L,67,Both,5.529999999999999,9.095,6.01
+HDL Cholesterol,mmol/L,67,Male,1.4699999999999998,1.67,1.5699999999999998
+HDL Cholesterol,mmol/L,67,Female,1.67,2.6550000000000002,1.77
+HDL Cholesterol,mmol/L,67,Both,1.4499999999999997,2.6750000000000003,1.67
+LDL Cholesterol,mmol/L,67,Male,3.29,3.79,3.54
+LDL Cholesterol,mmol/L,67,Female,3.29,5.3100000000000005,3.54
+LDL Cholesterol,mmol/L,67,Both,3.24,5.36,3.54
+Uric Acid,µmol/L,67,Male,268.5,318.5,293.5
+Uric Acid,µmol/L,67,Female,228.5,380.25,253.5
+Uric Acid,µmol/L,67,Both,223.5,385.25,273.5
+Sodium,mmol/L,67,Male,139.47,141.47,140.47
+Sodium,mmol/L,67,Female,139.47,210.70499999999998,140.47
+Sodium,mmol/L,67,Both,139.27,210.90499999999997,140.47
+Potassium,mmol/L,67,Male,4.085,4.385000000000001,4.235
+Potassium,mmol/L,67,Female,4.085,6.352500000000001,4.235
+Potassium,mmol/L,67,Both,4.055,6.382500000000001,4.235
+Albumin,g/L,67,Male,36.15,39.15,37.65
+Albumin,g/L,67,Female,36.15,56.474999999999994,37.65
+Albumin,g/L,67,Both,35.85,56.77499999999999,37.65
+Blood Glucose,mmol/L,68,Male,5.81,6.31,6.06
+Blood Glucose,mmol/L,68,Female,5.61,8.790000000000001,5.86
+Blood Glucose,mmol/L,68,Both,5.5600000000000005,8.840000000000002,5.96
+Creatinine,µmol/L,68,Male,84.8,94.8,89.8
+Creatinine,µmol/L,68,Female,74.8,119.69999999999999,79.8
+Creatinine,µmol/L,68,Both,73.8,120.69999999999999,84.8
+Urea,mmol/L,68,Male,6.1000000000000005,7.1000000000000005,6.6000000000000005
+Urea,mmol/L,68,Female,5.7,9.3,6.2
+Urea,mmol/L,68,Both,5.6000000000000005,9.4,6.4
+Total Cholesterol,mmol/L,68,Male,5.639999999999999,6.4399999999999995,6.039999999999999
+Total Cholesterol,mmol/L,68,Female,5.639999999999999,9.059999999999999,6.039999999999999
+Total Cholesterol,mmol/L,68,Both,5.559999999999999,9.139999999999999,6.039999999999999
+HDL Cholesterol,mmol/L,68,Male,1.4799999999999998,1.68,1.5799999999999998
+HDL Cholesterol,mmol/L,68,Female,1.68,2.67,1.78
+HDL Cholesterol,mmol/L,68,Both,1.4599999999999997,2.69,1.68
+LDL Cholesterol,mmol/L,68,Male,3.31,3.81,3.56
+LDL Cholesterol,mmol/L,68,Female,3.31,5.34,3.56
+LDL Cholesterol,mmol/L,68,Both,3.2600000000000002,5.39,3.56
+Uric Acid,µmol/L,68,Male,269.0,319.0,294.0
+Uric Acid,µmol/L,68,Female,229.0,381.0,254.0
+Uric Acid,µmol/L,68,Both,224.0,386.0,274.0
+Sodium,mmol/L,68,Male,139.48,141.48,140.48
+Sodium,mmol/L,68,Female,139.48,210.71999999999997,140.48
+Sodium,mmol/L,68,Both,139.28,210.91999999999996,140.48
+Potassium,mmol/L,68,Male,4.09,4.390000000000001,4.24
+Potassium,mmol/L,68,Female,4.09,6.36,4.24
+Potassium,mmol/L,68,Both,4.06,6.390000000000001,4.24
+Albumin,g/L,68,Male,36.1,39.1,37.6
+Albumin,g/L,68,Female,36.1,56.400000000000006,37.6
+Albumin,g/L,68,Both,35.800000000000004,56.7,37.6
+Blood Glucose,mmol/L,69,Male,5.83,6.33,6.08
+Blood Glucose,mmol/L,69,Female,5.630000000000001,8.82,5.880000000000001
+Blood Glucose,mmol/L,69,Both,5.580000000000001,8.870000000000001,5.98
+Creatinine,µmol/L,69,Male,84.9,94.9,89.9
+Creatinine,µmol/L,69,Female,74.9,119.85000000000001,79.9
+Creatinine,µmol/L,69,Both,73.9,120.85000000000001,84.9
+Urea,mmol/L,69,Male,6.15,7.15,6.65
+Urea,mmol/L,69,Female,5.75,9.375,6.25
+Urea,mmol/L,69,Both,5.65,9.475,6.45
+Total Cholesterol,mmol/L,69,Male,5.669999999999999,6.47,6.069999999999999
+Total Cholesterol,mmol/L,69,Female,5.669999999999999,9.104999999999999,6.069999999999999
+Total Cholesterol,mmol/L,69,Both,5.589999999999999,9.184999999999999,6.069999999999999
+HDL Cholesterol,mmol/L,69,Male,1.4899999999999998,1.69,1.5899999999999999
+HDL Cholesterol,mmol/L,69,Female,1.69,2.685,1.79
+HDL Cholesterol,mmol/L,69,Both,1.4699999999999998,2.705,1.69
+LDL Cholesterol,mmol/L,69,Male,3.33,3.83,3.58
+LDL Cholesterol,mmol/L,69,Female,3.33,5.37,3.58
+LDL Cholesterol,mmol/L,69,Both,3.2800000000000002,5.42,3.58
+Uric Acid,µmol/L,69,Male,269.5,319.5,294.5
+Uric Acid,µmol/L,69,Female,229.5,381.75,254.5
+Uric Acid,µmol/L,69,Both,224.5,386.75,274.5
+Sodium,mmol/L,69,Male,139.49,141.49,140.49
+Sodium,mmol/L,69,Female,139.49,210.735,140.49
+Sodium,mmol/L,69,Both,139.29000000000002,210.935,140.49
+Potassium,mmol/L,69,Male,4.095,4.3950000000000005,4.245
+Potassium,mmol/L,69,Female,4.095,6.3675,4.245
+Potassium,mmol/L,69,Both,4.0649999999999995,6.3975,4.245
+Albumin,g/L,69,Male,36.05,39.05,37.55
+Albumin,g/L,69,Female,36.05,56.324999999999996,37.55
+Albumin,g/L,69,Both,35.75,56.62499999999999,37.55
+Blood Glucose,mmol/L,70,Male,5.85,6.35,6.1
+Blood Glucose,mmol/L,70,Female,5.65,8.850000000000001,5.9
+Blood Glucose,mmol/L,70,Both,5.6000000000000005,8.900000000000002,6.0
+Creatinine,µmol/L,70,Male,85.0,95.0,90.0
+Creatinine,µmol/L,70,Female,75.0,120.0,80.0
+Creatinine,µmol/L,70,Both,74.0,121.0,85.0
+Urea,mmol/L,70,Male,6.2,7.2,6.7
+Urea,mmol/L,70,Female,5.8,9.45,6.3
+Urea,mmol/L,70,Both,5.7,9.549999999999999,6.5
+Total Cholesterol,mmol/L,70,Male,5.699999999999999,6.5,6.1
+Total Cholesterol,mmol/L,70,Female,5.699999999999999,9.149999999999999,6.1
+Total Cholesterol,mmol/L,70,Both,5.619999999999999,9.229999999999999,6.1
+HDL Cholesterol,mmol/L,70,Male,1.4999999999999998,1.7,1.5999999999999999
+HDL Cholesterol,mmol/L,70,Female,1.7,2.7,1.8
+HDL Cholesterol,mmol/L,70,Both,1.4799999999999998,2.72,1.7
+LDL Cholesterol,mmol/L,70,Male,3.35,3.85,3.6
+LDL Cholesterol,mmol/L,70,Female,3.35,5.4,3.6
+LDL Cholesterol,mmol/L,70,Both,3.3000000000000003,5.45,3.6
+Uric Acid,µmol/L,70,Male,270.0,320.0,295.0
+Uric Acid,µmol/L,70,Female,230.0,382.5,255.0
+Uric Acid,µmol/L,70,Both,225.0,387.5,275.0
+Sodium,mmol/L,70,Male,139.5,141.5,140.5
+Sodium,mmol/L,70,Female,139.5,210.75,140.5
+Sodium,mmol/L,70,Both,139.3,210.95,140.5
+Potassium,mmol/L,70,Male,4.1,4.4,4.25
+Potassium,mmol/L,70,Female,4.1,6.375,4.25
+Potassium,mmol/L,70,Both,4.069999999999999,6.405,4.25
+Albumin,g/L,70,Male,36.0,39.0,37.5
+Albumin,g/L,70,Female,36.0,56.25,37.5
+Albumin,g/L,70,Both,35.7,56.55,37.5
+Blood Glucose,mmol/L,71,Male,5.869999999999999,6.369999999999999,6.119999999999999
+Blood Glucose,mmol/L,71,Female,5.67,8.879999999999999,5.92
+Blood Glucose,mmol/L,71,Both,5.62,8.93,6.02
+Creatinine,µmol/L,71,Male,85.1,95.1,90.1
+Creatinine,µmol/L,71,Female,75.1,120.14999999999999,80.1
+Creatinine,µmol/L,71,Both,74.1,121.14999999999999,85.1
+Urea,mmol/L,71,Male,6.250000000000001,7.250000000000001,6.750000000000001
+Urea,mmol/L,71,Female,5.8500000000000005,9.525,6.3500000000000005
+Urea,mmol/L,71,Both,5.750000000000001,9.625,6.550000000000001
+Total Cholesterol,mmol/L,71,Male,5.7299999999999995,6.53,6.13
+Total Cholesterol,mmol/L,71,Female,5.7299999999999995,9.195,6.13
+Total Cholesterol,mmol/L,71,Both,5.6499999999999995,9.275,6.13
+HDL Cholesterol,mmol/L,71,Male,1.5099999999999998,1.71,1.6099999999999999
+HDL Cholesterol,mmol/L,71,Female,1.71,2.715,1.81
+HDL Cholesterol,mmol/L,71,Both,1.4899999999999998,2.735,1.71
+LDL Cholesterol,mmol/L,71,Male,3.37,3.87,3.62
+LDL Cholesterol,mmol/L,71,Female,3.37,5.43,3.62
+LDL Cholesterol,mmol/L,71,Both,3.3200000000000003,5.4799999999999995,3.62
+Uric Acid,µmol/L,71,Male,270.5,320.5,295.5
+Uric Acid,µmol/L,71,Female,230.5,383.25,255.5
+Uric Acid,µmol/L,71,Both,225.5,388.25,275.5
+Sodium,mmol/L,71,Male,139.51,141.51,140.51
+Sodium,mmol/L,71,Female,139.51,210.765,140.51
+Sodium,mmol/L,71,Both,139.31,210.96499999999997,140.51
+Potassium,mmol/L,71,Male,4.1049999999999995,4.405,4.255
+Potassium,mmol/L,71,Female,4.1049999999999995,6.3825,4.255
+Potassium,mmol/L,71,Both,4.074999999999999,6.4125000000000005,4.255
+Albumin,g/L,71,Male,35.95,38.95,37.45
+Albumin,g/L,71,Female,35.95,56.175000000000004,37.45
+Albumin,g/L,71,Both,35.650000000000006,56.475,37.45
+Blood Glucose,mmol/L,72,Male,5.89,6.39,6.14
+Blood Glucose,mmol/L,72,Female,5.69,8.91,5.94
+Blood Glucose,mmol/L,72,Both,5.640000000000001,8.96,6.04
+Creatinine,µmol/L,72,Male,85.2,95.2,90.2
+Creatinine,µmol/L,72,Female,75.2,120.30000000000001,80.2
+Creatinine,µmol/L,72,Both,74.2,121.30000000000001,85.2
+Urea,mmol/L,72,Male,6.3,7.3,6.8
+Urea,mmol/L,72,Female,5.8999999999999995,9.6,6.3999999999999995
+Urea,mmol/L,72,Both,5.8,9.7,6.6
+Total Cholesterol,mmol/L,72,Male,5.76,6.5600000000000005,6.16
+Total Cholesterol,mmol/L,72,Female,5.76,9.24,6.16
+Total Cholesterol,mmol/L,72,Both,5.68,9.32,6.16
+HDL Cholesterol,mmol/L,72,Male,1.5199999999999998,1.72,1.6199999999999999
+HDL Cholesterol,mmol/L,72,Female,1.72,2.73,1.82
+HDL Cholesterol,mmol/L,72,Both,1.4999999999999998,2.75,1.72
+LDL Cholesterol,mmol/L,72,Male,3.39,3.89,3.64
+LDL Cholesterol,mmol/L,72,Female,3.39,5.46,3.64
+LDL Cholesterol,mmol/L,72,Both,3.3400000000000003,5.51,3.64
+Uric Acid,µmol/L,72,Male,271.0,321.0,296.0
+Uric Acid,µmol/L,72,Female,231.0,384.0,256.0
+Uric Acid,µmol/L,72,Both,226.0,389.0,276.0
+Sodium,mmol/L,72,Male,139.52,141.52,140.52
+Sodium,mmol/L,72,Female,139.52,210.78000000000003,140.52
+Sodium,mmol/L,72,Both,139.32000000000002,210.98000000000002,140.52
+Potassium,mmol/L,72,Male,4.109999999999999,4.41,4.26
+Potassium,mmol/L,72,Female,4.109999999999999,6.39,4.26
+Potassium,mmol/L,72,Both,4.079999999999999,6.42,4.26
+Albumin,g/L,72,Male,35.9,38.9,37.4
+Albumin,g/L,72,Female,35.9,56.099999999999994,37.4
+Albumin,g/L,72,Both,35.6,56.39999999999999,37.4
+Blood Glucose,mmol/L,73,Male,5.91,6.41,6.16
+Blood Glucose,mmol/L,73,Female,5.710000000000001,8.940000000000001,5.960000000000001
+Blood Glucose,mmol/L,73,Both,5.660000000000001,8.990000000000002,6.0600000000000005
+Creatinine,µmol/L,73,Male,85.3,95.3,90.3
+Creatinine,µmol/L,73,Female,75.3,120.44999999999999,80.3
+Creatinine,µmol/L,73,Both,74.3,121.44999999999999,85.3
+Urea,mmol/L,73,Male,6.3500000000000005,7.3500000000000005,6.8500000000000005
+Urea,mmol/L,73,Female,5.95,9.675,6.45
+Urea,mmol/L,73,Both,5.8500000000000005,9.775,6.65
+Total Cholesterol,mmol/L,73,Male,5.789999999999999,6.59,6.1899999999999995
+Total Cholesterol,mmol/L,73,Female,5.789999999999999,9.285,6.1899999999999995
+Total Cholesterol,mmol/L,73,Both,5.709999999999999,9.365,6.1899999999999995
+HDL Cholesterol,mmol/L,73,Male,1.5299999999999998,1.73,1.63
+HDL Cholesterol,mmol/L,73,Female,1.73,2.745,1.83
+HDL Cholesterol,mmol/L,73,Both,1.5099999999999998,2.765,1.73
+LDL Cholesterol,mmol/L,73,Male,3.41,3.91,3.66
+LDL Cholesterol,mmol/L,73,Female,3.41,5.49,3.66
+LDL Cholesterol,mmol/L,73,Both,3.3600000000000003,5.54,3.66
+Uric Acid,µmol/L,73,Male,271.5,321.5,296.5
+Uric Acid,µmol/L,73,Female,231.5,384.75,256.5
+Uric Acid,µmol/L,73,Both,226.5,389.75,276.5
+Sodium,mmol/L,73,Male,139.53,141.53,140.53
+Sodium,mmol/L,73,Female,139.53,210.79500000000002,140.53
+Sodium,mmol/L,73,Both,139.33,210.995,140.53
+Potassium,mmol/L,73,Male,4.114999999999999,4.415,4.265
+Potassium,mmol/L,73,Female,4.114999999999999,6.397499999999999,4.265
+Potassium,mmol/L,73,Both,4.084999999999999,6.427499999999999,4.265
+Albumin,g/L,73,Male,35.85,38.85,37.35
+Albumin,g/L,73,Female,35.85,56.025000000000006,37.35
+Albumin,g/L,73,Both,35.550000000000004,56.325,37.35
+Blood Glucose,mmol/L,74,Male,5.93,6.43,6.18
+Blood Glucose,mmol/L,74,Female,5.73,8.97,5.98
+Blood Glucose,mmol/L,74,Both,5.680000000000001,9.020000000000001,6.08
+Creatinine,µmol/L,74,Male,85.4,95.4,90.4
+Creatinine,µmol/L,74,Female,75.4,120.60000000000001,80.4
+Creatinine,µmol/L,74,Both,74.4,121.60000000000001,85.4
+Urea,mmol/L,74,Male,6.4,7.4,6.9
+Urea,mmol/L,74,Female,6.0,9.75,6.5
+Urea,mmol/L,74,Both,5.9,9.85,6.7
+Total Cholesterol,mmol/L,74,Male,5.819999999999999,6.62,6.22
+Total Cholesterol,mmol/L,74,Female,5.819999999999999,9.33,6.22
+Total Cholesterol,mmol/L,74,Both,5.739999999999999,9.41,6.22
+HDL Cholesterol,mmol/L,74,Male,1.5399999999999998,1.74,1.64
+HDL Cholesterol,mmol/L,74,Female,1.74,2.7600000000000002,1.84
+HDL Cholesterol,mmol/L,74,Both,1.5199999999999998,2.7800000000000002,1.74
+LDL Cholesterol,mmol/L,74,Male,3.43,3.93,3.68
+LDL Cholesterol,mmol/L,74,Female,3.43,5.5200000000000005,3.68
+LDL Cholesterol,mmol/L,74,Both,3.3800000000000003,5.57,3.68
+Uric Acid,µmol/L,74,Male,272.0,322.0,297.0
+Uric Acid,µmol/L,74,Female,232.0,385.5,257.0
+Uric Acid,µmol/L,74,Both,227.0,390.5,277.0
+Sodium,mmol/L,74,Male,139.54,141.54,140.54
+Sodium,mmol/L,74,Female,139.54,210.81,140.54
+Sodium,mmol/L,74,Both,139.34,211.01,140.54
+Potassium,mmol/L,74,Male,4.119999999999999,4.42,4.27
+Potassium,mmol/L,74,Female,4.119999999999999,6.404999999999999,4.27
+Potassium,mmol/L,74,Both,4.089999999999999,6.435,4.27
+Albumin,g/L,74,Male,35.8,38.8,37.3
+Albumin,g/L,74,Female,35.8,55.949999999999996,37.3
+Albumin,g/L,74,Both,35.5,56.24999999999999,37.3
+Blood Glucose,mmol/L,75,Male,5.949999999999999,6.449999999999999,6.199999999999999
+Blood Glucose,mmol/L,75,Female,5.75,9.0,6.0
+Blood Glucose,mmol/L,75,Both,5.7,9.05,6.1
+Creatinine,µmol/L,75,Male,85.5,95.5,90.5
+Creatinine,µmol/L,75,Female,75.5,120.75,80.5
+Creatinine,µmol/L,75,Both,74.5,121.75,85.5
+Urea,mmol/L,75,Male,6.45,7.45,6.95
+Urea,mmol/L,75,Female,6.05,9.825,6.55
+Urea,mmol/L,75,Both,5.95,9.924999999999999,6.75
+Total Cholesterol,mmol/L,75,Male,5.85,6.65,6.25
+Total Cholesterol,mmol/L,75,Female,5.85,9.375,6.25
+Total Cholesterol,mmol/L,75,Both,5.77,9.455,6.25
+HDL Cholesterol,mmol/L,75,Male,1.5499999999999998,1.75,1.65
+HDL Cholesterol,mmol/L,75,Female,1.75,2.7750000000000004,1.85
+HDL Cholesterol,mmol/L,75,Both,1.5299999999999998,2.7950000000000004,1.75
+LDL Cholesterol,mmol/L,75,Male,3.45,3.95,3.7
+LDL Cholesterol,mmol/L,75,Female,3.45,5.550000000000001,3.7
+LDL Cholesterol,mmol/L,75,Both,3.4000000000000004,5.6000000000000005,3.7
+Uric Acid,µmol/L,75,Male,272.5,322.5,297.5
+Uric Acid,µmol/L,75,Female,232.5,386.25,257.5
+Uric Acid,µmol/L,75,Both,227.5,391.25,277.5
+Sodium,mmol/L,75,Male,139.55,141.55,140.55
+Sodium,mmol/L,75,Female,139.55,210.82500000000002,140.55
+Sodium,mmol/L,75,Both,139.35000000000002,211.025,140.55
+Potassium,mmol/L,75,Male,4.125,4.425000000000001,4.275
+Potassium,mmol/L,75,Female,4.125,6.4125000000000005,4.275
+Potassium,mmol/L,75,Both,4.095,6.442500000000001,4.275
+Albumin,g/L,75,Male,35.75,38.75,37.25
+Albumin,g/L,75,Female,35.75,55.875,37.25
+Albumin,g/L,75,Both,35.45,56.175,37.25
+Blood Glucose,mmol/L,76,Male,5.97,6.47,6.22
+Blood Glucose,mmol/L,76,Female,5.7700000000000005,9.030000000000001,6.0200000000000005
+Blood Glucose,mmol/L,76,Both,5.720000000000001,9.080000000000002,6.12
+Creatinine,µmol/L,76,Male,85.6,95.6,90.6
+Creatinine,µmol/L,76,Female,75.6,120.89999999999999,80.6
+Creatinine,µmol/L,76,Both,74.6,121.89999999999999,85.6
+Urea,mmol/L,76,Male,6.500000000000001,7.500000000000001,7.000000000000001
+Urea,mmol/L,76,Female,6.1000000000000005,9.9,6.6000000000000005
+Urea,mmol/L,76,Both,6.000000000000001,10.0,6.800000000000001
+Total Cholesterol,mmol/L,76,Male,5.879999999999999,6.68,6.279999999999999
+Total Cholesterol,mmol/L,76,Female,5.879999999999999,9.419999999999998,6.279999999999999
+Total Cholesterol,mmol/L,76,Both,5.799999999999999,9.499999999999998,6.279999999999999
+HDL Cholesterol,mmol/L,76,Male,1.5599999999999998,1.76,1.66
+HDL Cholesterol,mmol/L,76,Female,1.76,2.79,1.86
+HDL Cholesterol,mmol/L,76,Both,1.5399999999999998,2.81,1.76
+LDL Cholesterol,mmol/L,76,Male,3.47,3.97,3.72
+LDL Cholesterol,mmol/L,76,Female,3.47,5.58,3.72
+LDL Cholesterol,mmol/L,76,Both,3.4200000000000004,5.63,3.72
+Uric Acid,µmol/L,76,Male,273.0,323.0,298.0
+Uric Acid,µmol/L,76,Female,233.0,387.0,258.0
+Uric Acid,µmol/L,76,Both,228.0,392.0,278.0
+Sodium,mmol/L,76,Male,139.56,141.56,140.56
+Sodium,mmol/L,76,Female,139.56,210.84,140.56
+Sodium,mmol/L,76,Both,139.36,211.04,140.56
+Potassium,mmol/L,76,Male,4.13,4.430000000000001,4.28
+Potassium,mmol/L,76,Female,4.13,6.42,4.28
+Potassium,mmol/L,76,Both,4.1,6.45,4.28
+Albumin,g/L,76,Male,35.7,38.7,37.2
+Albumin,g/L,76,Female,35.7,55.800000000000004,37.2
+Albumin,g/L,76,Both,35.400000000000006,56.1,37.2
+Blood Glucose,mmol/L,77,Male,5.99,6.49,6.24
+Blood Glucose,mmol/L,77,Female,5.790000000000001,9.060000000000002,6.040000000000001
+Blood Glucose,mmol/L,77,Both,5.740000000000001,9.110000000000003,6.140000000000001
+Creatinine,µmol/L,77,Male,85.7,95.7,90.7
+Creatinine,µmol/L,77,Female,75.7,121.05000000000001,80.7
+Creatinine,µmol/L,77,Both,74.7,122.05000000000001,85.7
+Urea,mmol/L,77,Male,6.55,7.55,7.05
+Urea,mmol/L,77,Female,6.1499999999999995,9.975,6.6499999999999995
+Urea,mmol/L,77,Both,6.05,10.075,6.85
+Total Cholesterol,mmol/L,77,Male,5.909999999999999,6.71,6.31
+Total Cholesterol,mmol/L,77,Female,5.909999999999999,9.465,6.31
+Total Cholesterol,mmol/L,77,Both,5.829999999999999,9.545,6.31
+HDL Cholesterol,mmol/L,77,Male,1.5699999999999998,1.77,1.67
+HDL Cholesterol,mmol/L,77,Female,1.77,2.805,1.87
+HDL Cholesterol,mmol/L,77,Both,1.5499999999999998,2.825,1.77
+LDL Cholesterol,mmol/L,77,Male,3.49,3.99,3.74
+LDL Cholesterol,mmol/L,77,Female,3.49,5.61,3.74
+LDL Cholesterol,mmol/L,77,Both,3.4400000000000004,5.66,3.74
+Uric Acid,µmol/L,77,Male,273.5,323.5,298.5
+Uric Acid,µmol/L,77,Female,233.5,387.75,258.5
+Uric Acid,µmol/L,77,Both,228.5,392.75,278.5
+Sodium,mmol/L,77,Male,139.57,141.57,140.57
+Sodium,mmol/L,77,Female,139.57,210.855,140.57
+Sodium,mmol/L,77,Both,139.37,211.05499999999998,140.57
+Potassium,mmol/L,77,Male,4.135,4.4350000000000005,4.285
+Potassium,mmol/L,77,Female,4.135,6.4275,4.285
+Potassium,mmol/L,77,Both,4.1049999999999995,6.4575000000000005,4.285
+Albumin,g/L,77,Male,35.65,38.65,37.15
+Albumin,g/L,77,Female,35.65,55.724999999999994,37.15
+Albumin,g/L,77,Both,35.35,56.02499999999999,37.15
+Blood Glucose,mmol/L,78,Male,6.01,6.51,6.26
+Blood Glucose,mmol/L,78,Female,5.8100000000000005,9.09,6.0600000000000005
+Blood Glucose,mmol/L,78,Both,5.760000000000001,9.14,6.16
+Creatinine,µmol/L,78,Male,85.8,95.8,90.8
+Creatinine,µmol/L,78,Female,75.8,121.19999999999999,80.8
+Creatinine,µmol/L,78,Both,74.8,122.19999999999999,85.8
+Urea,mmol/L,78,Male,6.6000000000000005,7.6000000000000005,7.1000000000000005
+Urea,mmol/L,78,Female,6.2,10.05,6.7
+Urea,mmol/L,78,Both,6.1000000000000005,10.15,6.9
+Total Cholesterol,mmol/L,78,Male,5.9399999999999995,6.74,6.34
+Total Cholesterol,mmol/L,78,Female,5.9399999999999995,9.51,6.34
+Total Cholesterol,mmol/L,78,Both,5.859999999999999,9.59,6.34
+HDL Cholesterol,mmol/L,78,Male,1.5799999999999996,1.7799999999999998,1.6799999999999997
+HDL Cholesterol,mmol/L,78,Female,1.7799999999999998,2.82,1.88
+HDL Cholesterol,mmol/L,78,Both,1.5599999999999996,2.84,1.7799999999999998
+LDL Cholesterol,mmol/L,78,Male,3.5100000000000002,4.01,3.7600000000000002
+LDL Cholesterol,mmol/L,78,Female,3.5100000000000002,5.640000000000001,3.7600000000000002
+LDL Cholesterol,mmol/L,78,Both,3.4600000000000004,5.69,3.7600000000000002
+Uric Acid,µmol/L,78,Male,274.0,324.0,299.0
+Uric Acid,µmol/L,78,Female,234.0,388.5,259.0
+Uric Acid,µmol/L,78,Both,229.0,393.5,279.0
+Sodium,mmol/L,78,Male,139.58,141.58,140.58
+Sodium,mmol/L,78,Female,139.58,210.87,140.58
+Sodium,mmol/L,78,Both,139.38000000000002,211.07,140.58
+Potassium,mmol/L,78,Male,4.14,4.44,4.29
+Potassium,mmol/L,78,Female,4.14,6.4350000000000005,4.29
+Potassium,mmol/L,78,Both,4.109999999999999,6.465000000000001,4.29
+Albumin,g/L,78,Male,35.6,38.6,37.1
+Albumin,g/L,78,Female,35.6,55.650000000000006,37.1
+Albumin,g/L,78,Both,35.300000000000004,55.95,37.1
+Blood Glucose,mmol/L,79,Male,6.029999999999999,6.529999999999999,6.279999999999999
+Blood Glucose,mmol/L,79,Female,5.83,9.120000000000001,6.08
+Blood Glucose,mmol/L,79,Both,5.78,9.170000000000002,6.18
+Creatinine,µmol/L,79,Male,85.9,95.9,90.9
+Creatinine,µmol/L,79,Female,75.9,121.35000000000001,80.9
+Creatinine,µmol/L,79,Both,74.9,122.35000000000001,85.9
+Urea,mmol/L,79,Male,6.65,7.65,7.15
+Urea,mmol/L,79,Female,6.25,10.125,6.75
+Urea,mmol/L,79,Both,6.15,10.225,6.95
+Total Cholesterol,mmol/L,79,Male,5.969999999999999,6.77,6.369999999999999
+Total Cholesterol,mmol/L,79,Female,5.969999999999999,9.555,6.369999999999999
+Total Cholesterol,mmol/L,79,Both,5.889999999999999,9.635,6.369999999999999
+HDL Cholesterol,mmol/L,79,Male,1.5899999999999999,1.79,1.69
+HDL Cholesterol,mmol/L,79,Female,1.79,2.835,1.8900000000000001
+HDL Cholesterol,mmol/L,79,Both,1.5699999999999998,2.855,1.79
+LDL Cholesterol,mmol/L,79,Male,3.53,4.029999999999999,3.78
+LDL Cholesterol,mmol/L,79,Female,3.53,5.67,3.78
+LDL Cholesterol,mmol/L,79,Both,3.48,5.72,3.78
+Uric Acid,µmol/L,79,Male,274.5,324.5,299.5
+Uric Acid,µmol/L,79,Female,234.5,389.25,259.5
+Uric Acid,µmol/L,79,Both,229.5,394.25,279.5
+Sodium,mmol/L,79,Male,139.59,141.59,140.59
+Sodium,mmol/L,79,Female,139.59,210.885,140.59
+Sodium,mmol/L,79,Both,139.39000000000001,211.08499999999998,140.59
+Potassium,mmol/L,79,Male,4.145,4.445,4.295
+Potassium,mmol/L,79,Female,4.145,6.4425,4.295
+Potassium,mmol/L,79,Both,4.114999999999999,6.4725,4.295
+Albumin,g/L,79,Male,35.55,38.55,37.05
+Albumin,g/L,79,Female,35.55,55.574999999999996,37.05
+Albumin,g/L,79,Both,35.25,55.87499999999999,37.05
+Blood Glucose,mmol/L,80,Male,6.05,6.55,6.3
+Blood Glucose,mmol/L,80,Female,5.8500000000000005,9.15,6.1000000000000005
+Blood Glucose,mmol/L,80,Both,5.800000000000001,9.200000000000001,6.2
+Creatinine,µmol/L,80,Male,86.0,96.0,91.0
+Creatinine,µmol/L,80,Female,76.0,121.5,81.0
+Creatinine,µmol/L,80,Both,75.0,122.5,86.0
+Urea,mmol/L,80,Male,6.7,7.7,7.2
+Urea,mmol/L,80,Female,6.3,10.2,6.8
+Urea,mmol/L,80,Both,6.2,10.299999999999999,7.0
+Total Cholesterol,mmol/L,80,Male,5.999999999999999,6.8,6.3999999999999995
+Total Cholesterol,mmol/L,80,Female,5.999999999999999,9.6,6.3999999999999995
+Total Cholesterol,mmol/L,80,Both,5.919999999999999,9.68,6.3999999999999995
+HDL Cholesterol,mmol/L,80,Male,1.5999999999999996,1.7999999999999998,1.6999999999999997
+HDL Cholesterol,mmol/L,80,Female,1.7999999999999998,2.8499999999999996,1.9
+HDL Cholesterol,mmol/L,80,Both,1.5799999999999996,2.8699999999999997,1.7999999999999998
+LDL Cholesterol,mmol/L,80,Male,3.5500000000000003,4.050000000000001,3.8000000000000003
+LDL Cholesterol,mmol/L,80,Female,3.5500000000000003,5.7,3.8000000000000003
+LDL Cholesterol,mmol/L,80,Both,3.5000000000000004,5.75,3.8000000000000003
+Uric Acid,µmol/L,80,Male,275.0,325.0,300.0
+Uric Acid,µmol/L,80,Female,235.0,390.0,260.0
+Uric Acid,µmol/L,80,Both,230.0,395.0,280.0
+Sodium,mmol/L,80,Male,139.6,141.6,140.6
+Sodium,mmol/L,80,Female,139.6,210.89999999999998,140.6
+Sodium,mmol/L,80,Both,139.4,211.09999999999997,140.6
+Potassium,mmol/L,80,Male,4.1499999999999995,4.45,4.3
+Potassium,mmol/L,80,Female,4.1499999999999995,6.449999999999999,4.3
+Potassium,mmol/L,80,Both,4.119999999999999,6.4799999999999995,4.3
+Albumin,g/L,80,Male,35.5,38.5,37.0
+Albumin,g/L,80,Female,35.5,55.5,37.0
+Albumin,g/L,80,Both,35.2,55.8,37.0
