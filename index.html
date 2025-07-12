@@ -143,6 +143,11 @@
                 'Female': { line: 'deeppink', area: 'rgba(255, 20, 147, 0.2)' } // Lighter deeppink
             };
 
+            // Function to detect if it's a mobile device (based on screen width)
+            function isMobile() {
+                return window.innerWidth < 768; // Tailwind's 'md' breakpoint
+            }
+
             // Function to wrap SVG text
             function wrap(text, width) {
                 text.each(function() {
@@ -181,8 +186,8 @@
             function drawSingleChart(biomarkerName, data, unit) {
                 singleChartContainer.html(""); // Clear existing chart
 
-                // Reduced margin.right from 80 to 20 for better mobile display
-                const margin = { top: 40, right: 20, bottom: 60, left: 70 };
+                // Adjust margins based on mobile view
+                const margin = { top: 40, right: 20, bottom: 60, left: isMobile() ? 40 : 70 }; // Reduced left margin for mobile
                 const containerWidth = singleChartContainer.node().getBoundingClientRect().width;
                 const width = containerWidth - margin.left - margin.right;
                 const height = 450 - margin.top - margin.bottom;
@@ -246,32 +251,52 @@
                     .attr("transform", `translate(0,${height})`)
                     .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
-                svg.append("g")
-                    .call(d3.axisLeft(y));
+                // Conditionally draw Y-axis label
+                if (!isMobile()) {
+                    svg.append("g")
+                        .call(d3.axisLeft(y));
 
-                // Axis labels
+                    svg.append("text")
+                        .attr("transform", "rotate(-90)")
+                        .attr("y", 0 - margin.left + 15)
+                        .attr("x", 0 - (height / 2))
+                        .attr("dy", "1em")
+                        .style("text-anchor", "middle")
+                        .text(`${biomarkerName} (${unit})`);
+                } else {
+                    // On mobile, only draw the axis ticks and numbers, not the label
+                    svg.append("g")
+                        .call(d3.axisLeft(y).tickSizeOuter(0)); // No outer tick for cleaner look
+                }
+
+
+                // Axis labels (Age)
                 svg.append("text")
                     .attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`)
                     .style("text-anchor", "middle")
                     .text("Age (Years)");
 
-                svg.append("text")
-                    .attr("transform", "rotate(-90)")
-                    .attr("y", 0 - margin.left + 15)
-                    .attr("x", 0 - (height / 2))
-                    .attr("dy", "1em")
-                    .style("text-anchor", "middle")
-                    .text(`${biomarkerName} (${unit})`);
 
-                // Chart Title with wrapping (removed "Reference Intervals")
-                svg.append("text")
-                    .attr("x", width / 2)
-                    .attr("y", 0 - (margin.top / 2) + 10)
+                // Chart Title with wrapping
+                const titleGroup = svg.append("g")
+                    .attr("transform", `translate(${width / 2}, ${0 - (margin.top / 2) + 10})`);
+
+                titleGroup.append("text")
                     .attr("text-anchor", "middle")
                     .style("font-size", "1.5rem")
                     .style("font-weight", "bold")
-                    .text(`${biomarkerName}`) // Only biomarker name
+                    .text(`${biomarkerName}`)
                     .call(wrap, width); // Apply the wrap function
+
+                // Add units as subtext if on mobile
+                if (isMobile()) {
+                    titleGroup.append("text")
+                        .attr("y", 25) // Position below the main title
+                        .attr("text-anchor", "middle")
+                        .style("font-size", "1rem")
+                        .style("fill", "#6b7280") // Tailwind gray-500
+                        .text(`(${unit})`);
+                }
 
 
                 // Draw data for each selected sex (age-dependent)
