@@ -1,0 +1,2977 @@
+biomarker,unit,age,sex,lower,upper,mean
+Microalbumin (Urine),mg/L,40,Male,6.8,146.425,10.2
+Microalbumin (Urine),mg/L,40,Female,6.8,197.525,10.3
+Microalbumin (Urine),mg/L,40,Both,6.8,186.86499999999955,10.2
+Microalbumin (Urine),mg/L,41,Male,6.8,127.45999999999985,10.3
+Microalbumin (Urine),mg/L,41,Female,6.8,90.87749999999986,10.7
+Microalbumin (Urine),mg/L,41,Both,6.8,117.5474999999999,10.6
+Microalbumin (Urine),mg/L,42,Male,6.8,115.70500000000031,10.1
+Microalbumin (Urine),mg/L,42,Female,6.8,113.34999999999991,11.0
+Microalbumin (Urine),mg/L,42,Both,6.8,114.19999999999982,10.5
+Microalbumin (Urine),mg/L,43,Male,6.8,145.825,10.8
+Microalbumin (Urine),mg/L,43,Female,6.8,114.51,10.8
+Microalbumin (Urine),mg/L,43,Both,6.8,122.5474999999998,10.8
+Microalbumin (Urine),mg/L,44,Male,6.8,136.24999999999972,11.25
+Microalbumin (Urine),mg/L,44,Female,6.8,103.44499999999948,11.0
+Microalbumin (Urine),mg/L,44,Both,6.8,125.44750000000008,11.1
+Microalbumin (Urine),mg/L,45,Male,6.8,141.64999999999935,10.8
+Microalbumin (Urine),mg/L,45,Female,6.8,127.66000000000004,10.75
+Microalbumin (Urine),mg/L,45,Both,6.8,134.4800000000002,10.8
+Microalbumin (Urine),mg/L,46,Male,6.8,137.68499999999975,11.1
+Microalbumin (Urine),mg/L,46,Female,6.8,104.19999999999999,11.4
+Microalbumin (Urine),mg/L,46,Both,6.8,129.31499999999886,11.2
+Microalbumin (Urine),mg/L,47,Male,6.8,153.60000000000002,10.8
+Microalbumin (Urine),mg/L,47,Female,6.8,104.17,10.7
+Microalbumin (Urine),mg/L,47,Both,6.8,131.475,10.8
+Microalbumin (Urine),mg/L,48,Male,6.8,117.45999999999958,10.7
+Microalbumin (Urine),mg/L,48,Female,6.8,132.2125,11.1
+Microalbumin (Urine),mg/L,48,Both,6.8,130.39999999999964,10.9
+Microalbumin (Urine),mg/L,49,Male,6.8,176.19250000000045,10.9
+Microalbumin (Urine),mg/L,49,Female,6.8,108.66000000000031,10.8
+Microalbumin (Urine),mg/L,49,Both,6.8,143.9,10.8
+Microalbumin (Urine),mg/L,50,Male,6.8,169.85999999999996,11.2
+Microalbumin (Urine),mg/L,50,Female,6.8,102.36,10.8
+Microalbumin (Urine),mg/L,50,Both,6.8,126.6274999999991,10.9
+Microalbumin (Urine),mg/L,51,Male,6.8,148.925,11.1
+Microalbumin (Urine),mg/L,51,Female,6.8,96.40000000000013,10.7
+Microalbumin (Urine),mg/L,51,Both,6.8,119.0699999999999,10.9
+Microalbumin (Urine),mg/L,52,Male,6.8,182.24000000000015,11.3
+Microalbumin (Urine),mg/L,52,Female,6.8,106.12499999999984,11.1
+Microalbumin (Urine),mg/L,52,Both,6.8,144.16999999999985,11.2
+Microalbumin (Urine),mg/L,53,Male,6.8,137.4149999999999,11.2
+Microalbumin (Urine),mg/L,53,Female,6.8,98.93999999999978,10.7
+Microalbumin (Urine),mg/L,53,Both,6.8,121.4725,11.0
+Microalbumin (Urine),mg/L,54,Male,6.8,183.93999999999977,11.9
+Microalbumin (Urine),mg/L,54,Female,6.8,83.13000000000001,10.5
+Microalbumin (Urine),mg/L,54,Both,6.8,139.23999999999978,11.2
+Microalbumin (Urine),mg/L,55,Male,6.8,168.67999999999986,11.6
+Microalbumin (Urine),mg/L,55,Female,6.8,113.0699999999999,10.8
+Microalbumin (Urine),mg/L,55,Both,6.8,134.53750000000014,11.2
+Microalbumin (Urine),mg/L,56,Male,6.8,178.3874999999993,11.6
+Microalbumin (Urine),mg/L,56,Female,6.8,91.47999999999992,11.1
+Microalbumin (Urine),mg/L,56,Both,6.8,134.73999999999978,11.3
+Microalbumin (Urine),mg/L,57,Male,6.8,183.37000000000015,11.4
+Microalbumin (Urine),mg/L,57,Female,6.8,95.55749999999998,10.8
+Microalbumin (Urine),mg/L,57,Both,6.8,141.30999999999995,11.1
+Microalbumin (Urine),mg/L,58,Male,6.8,163.8549999999998,11.5
+Microalbumin (Urine),mg/L,58,Female,6.8,104.59500000000003,10.6
+Microalbumin (Urine),mg/L,58,Both,6.8,125.0224999999994,11.0
+Microalbumin (Urine),mg/L,59,Male,6.8,192.2174999999996,11.6
+Microalbumin (Urine),mg/L,59,Female,6.8,77.93499999999995,10.9
+Microalbumin (Urine),mg/L,59,Both,6.8,137.81000000000023,11.2
+Microalbumin (Urine),mg/L,60,Male,6.8,197.8574999999998,11.7
+Microalbumin (Urine),mg/L,60,Female,6.8,82.86749999999971,10.9
+Microalbumin (Urine),mg/L,60,Both,6.8,151.16249999999974,11.2
+Microalbumin (Urine),mg/L,61,Male,6.8,180.9125,12.0
+Microalbumin (Urine),mg/L,61,Female,6.8,94.13749999999996,10.9
+Microalbumin (Urine),mg/L,61,Both,6.8,146.93749999999991,11.4
+Microalbumin (Urine),mg/L,62,Male,6.8,203.59499999999997,11.9
+Microalbumin (Urine),mg/L,62,Female,6.8,101.07499999999996,11.1
+Microalbumin (Urine),mg/L,62,Both,6.8,155.39249999999973,11.5
+Microalbumin (Urine),mg/L,63,Male,6.8,200.17999999999975,12.4
+Microalbumin (Urine),mg/L,63,Female,6.8,119.33500000000008,11.2
+Microalbumin (Urine),mg/L,63,Both,6.8,170.76499999999996,11.7
+Microalbumin (Urine),mg/L,64,Male,6.8,215.99999999999918,12.5
+Microalbumin (Urine),mg/L,64,Female,6.8,94.11999999999989,10.9
+Microalbumin (Urine),mg/L,64,Both,6.8,169.98749999999973,11.7
+Microalbumin (Urine),mg/L,65,Male,6.8,261.1024999999997,12.5
+Microalbumin (Urine),mg/L,65,Female,6.8,97.8525,11.1
+Microalbumin (Urine),mg/L,65,Both,6.8,187.64249999999947,11.8
+Microalbumin (Urine),mg/L,66,Male,6.8,241.7699999999996,13.2
+Microalbumin (Urine),mg/L,66,Female,6.8,99.66250000000022,11.4
+Microalbumin (Urine),mg/L,66,Both,6.8,182.555,12.3
+Microalbumin (Urine),mg/L,67,Male,6.8,231.10000000000008,13.3
+Microalbumin (Urine),mg/L,67,Female,6.8,110.52999999999993,11.5
+Microalbumin (Urine),mg/L,67,Both,6.8,183.45999999999984,12.4
+Microalbumin (Urine),mg/L,68,Male,6.8,259.4200000000005,12.9
+Microalbumin (Urine),mg/L,68,Female,6.8,122.075,11.6
+Microalbumin (Urine),mg/L,68,Both,6.8,195.4,12.2
+Microalbumin (Urine),mg/L,69,Male,6.8,208.90000000000038,13.5
+Microalbumin (Urine),mg/L,69,Female,6.8,97.95999999999913,11.8
+Microalbumin (Urine),mg/L,69,Both,6.8,167.4,12.5
+Microalbumin (Urine),mg/L,70,Male,6.9,234.43999999999986,13.7
+Microalbumin (Urine),mg/L,70,Female,6.8,134.90249999999995,12.0
+Microalbumin (Urine),mg/L,70,Both,6.9,173.61999999999998,12.9
+Creatinine (Urine),umol/L,40,Male,2416.6,27720.124999999993,10675.5
+Creatinine (Urine),umol/L,40,Female,1463.5,21579.75,6487.0
+Creatinine (Urine),umol/L,40,Both,1741.7,24939.049999999996,8480.0
+Creatinine (Urine),umol/L,41,Male,2402.925,26440.92499999999,10769.5
+Creatinine (Urine),umol/L,41,Female,1590.95,22021.574999999983,6589.0
+Creatinine (Urine),umol/L,41,Both,1771.675,24693.17499999998,8494.0
+Creatinine (Urine),umol/L,42,Male,2508.0,26705.399999999994,10897.0
+Creatinine (Urine),umol/L,42,Female,1642.0,21720.299999999963,6508.0
+Creatinine (Urine),umol/L,42,Both,1851.9,24492.099999999984,8529.0
+Creatinine (Urine),umol/L,43,Male,2607.45,26453.55,10741.0
+Creatinine (Urine),umol/L,43,Female,1595.9,21159.000000000004,6571.0
+Creatinine (Urine),umol/L,43,Both,1820.0,24428.499999999996,8330.0
+Creatinine (Urine),umol/L,44,Male,2626.25,26329.75,10821.0
+Creatinine (Urine),umol/L,44,Female,1646.375,20334.35,6342.0
+Creatinine (Urine),umol/L,44,Both,1871.3000000000002,24237.149999999994,8345.0
+Creatinine (Urine),umol/L,45,Male,2568.475,26243.175,10606.0
+Creatinine (Urine),umol/L,45,Female,1668.225,21351.975,6391.0
+Creatinine (Urine),umol/L,45,Both,1848.6,24260.549999999996,8179.5
+Creatinine (Urine),umol/L,46,Male,2534.6,25828.599999999988,10607.0
+Creatinine (Urine),umol/L,46,Female,1604.4,21280.600000000002,6334.0
+Creatinine (Urine),umol/L,46,Both,1819.325,24262.22499999998,8221.5
+Creatinine (Urine),umol/L,47,Male,2502.925,25401.524999999998,10544.0
+Creatinine (Urine),umol/L,47,Female,1592.0,20536.674999999992,6276.5
+Creatinine (Urine),umol/L,47,Both,1810.625,23440.5,8072.5
+Creatinine (Urine),umol/L,48,Male,2585.75,26687.5,10641.5
+Creatinine (Urine),umol/L,48,Female,1592.65,20392.199999999997,6211.0
+Creatinine (Urine),umol/L,48,Both,1834.4,23944.299999999977,8031.0
+Creatinine (Urine),umol/L,49,Male,2642.9,26105.75,10578.0
+Creatinine (Urine),umol/L,49,Female,1576.2,20226.8,6038.0
+Creatinine (Urine),umol/L,49,Both,1784.0,23422.749999999978,7890.5
+Creatinine (Urine),umol/L,50,Male,2599.05,25550.84999999999,10450.0
+Creatinine (Urine),umol/L,50,Female,1562.8,20614.899999999994,5881.0
+Creatinine (Urine),umol/L,50,Both,1757.9,23599.299999999996,7768.0
+Creatinine (Urine),umol/L,51,Male,2603.025,25794.924999999977,10540.0
+Creatinine (Urine),umol/L,51,Female,1632.6,19128.199999999983,5875.0
+Creatinine (Urine),umol/L,51,Both,1802.6000000000001,23445.850000000006,7623.0
+Creatinine (Urine),umol/L,52,Male,2564.7,25535.54999999999,10610.5
+Creatinine (Urine),umol/L,52,Female,1587.0,19234.299999999996,5722.0
+Creatinine (Urine),umol/L,52,Both,1789.0,23171.699999999917,7607.0
+Creatinine (Urine),umol/L,53,Male,2597.6,24992.599999999948,10103.0
+Creatinine (Urine),umol/L,53,Female,1591.4,19202.999999999985,5797.0
+Creatinine (Urine),umol/L,53,Both,1791.7250000000001,22559.249999999993,7544.5
+Creatinine (Urine),umol/L,54,Male,2647.225,25306.800000000003,10158.0
+Creatinine (Urine),umol/L,54,Female,1565.775,18955.724999999995,5544.5
+Creatinine (Urine),umol/L,54,Both,1760.0500000000002,22999.0,7434.0
+Creatinine (Urine),umol/L,55,Male,2490.625,25405.674999999992,10037.0
+Creatinine (Urine),umol/L,55,Female,1559.475,19323.199999999997,5579.0
+Creatinine (Urine),umol/L,55,Both,1757.275,22914.32499999999,7306.5
+Creatinine (Urine),umol/L,56,Male,2522.6000000000004,25518.99999999999,9978.0
+Creatinine (Urine),umol/L,56,Female,1546.0,18778.199999999975,5478.0
+Creatinine (Urine),umol/L,56,Both,1741.0,22747.774999999976,7278.0
+Creatinine (Urine),umol/L,57,Male,2605.6000000000004,24476.4,9867.0
+Creatinine (Urine),umol/L,57,Female,1578.0,18439.199999999983,5477.5
+Creatinine (Urine),umol/L,57,Both,1775.7,22097.299999999992,7179.0
+Creatinine (Urine),umol/L,58,Male,2615.0,24435.324999999997,9809.0
+Creatinine (Urine),umol/L,58,Female,1590.8,18210.399999999994,5350.0
+Creatinine (Urine),umol/L,58,Both,1791.6,21917.19999999999,7155.0
+Creatinine (Urine),umol/L,59,Male,2642.6,24208.399999999998,9726.0
+Creatinine (Urine),umol/L,59,Female,1610.95,18323.300000000007,5496.0
+Creatinine (Urine),umol/L,59,Both,1781.95,21849.549999999952,7273.5
+Creatinine (Urine),umol/L,60,Male,2637.8,24436.19999999993,9659.0
+Creatinine (Urine),umol/L,60,Female,1633.0,18565.324999999997,5608.5
+Creatinine (Urine),umol/L,60,Both,1834.0,22209.0,7289.0
+Creatinine (Urine),umol/L,61,Male,2624.3250000000003,24072.225,9533.5
+Creatinine (Urine),umol/L,61,Female,1603.0,18518.875,5572.0
+Creatinine (Urine),umol/L,61,Both,1823.525,21854.65,7193.0
+Creatinine (Urine),umol/L,62,Male,2614.55,23810.15,9468.0
+Creatinine (Urine),umol/L,62,Female,1605.5500000000002,18401.42500000001,5565.0
+Creatinine (Urine),umol/L,62,Both,1843.65,21461.54999999998,7172.0
+Creatinine (Urine),umol/L,63,Male,2708.65,24235.600000000013,9371.0
+Creatinine (Urine),umol/L,63,Female,1649.1,17855.59999999999,5564.0
+Creatinine (Urine),umol/L,63,Both,1873.75,21677.75,7219.0
+Creatinine (Urine),umol/L,64,Male,2614.8,24502.050000000003,9347.0
+Creatinine (Urine),umol/L,64,Female,1669.1,18373.699999999986,5512.0
+Creatinine (Urine),umol/L,64,Both,1855.875,21997.25,7196.0
+Creatinine (Urine),umol/L,65,Male,2665.95,24355.15,9282.0
+Creatinine (Urine),umol/L,65,Female,1687.0,18224.425,5494.5
+Creatinine (Urine),umol/L,65,Both,1917.25,22193.0,7250.0
+Creatinine (Urine),umol/L,66,Male,2620.8,23433.499999999985,9227.0
+Creatinine (Urine),umol/L,66,Female,1673.0,18205.0,5610.0
+Creatinine (Urine),umol/L,66,Both,1911.125,21648.5,7282.0
+Creatinine (Urine),umol/L,67,Male,2612.05,23929.099999999995,9079.0
+Creatinine (Urine),umol/L,67,Female,1676.5,19045.5,5647.0
+Creatinine (Urine),umol/L,67,Both,1900.0,21915.5,7237.5
+Creatinine (Urine),umol/L,68,Male,2678.15,23896.799999999996,9256.0
+Creatinine (Urine),umol/L,68,Female,1759.5500000000002,19010.375,5684.5
+Creatinine (Urine),umol/L,68,Both,1964.0,21783.69999999999,7295.0
+Creatinine (Urine),umol/L,69,Male,2640.3,24147.7,8862.5
+Creatinine (Urine),umol/L,69,Female,1740.425,19007.3,5670.0
+Creatinine (Urine),umol/L,69,Both,1951.525,22377.0,7174.5
+Creatinine (Urine),umol/L,70,Male,2558.75,22764.25,8679.0
+Creatinine (Urine),umol/L,70,Female,1571.95,18236.399999999954,5681.0
+Creatinine (Urine),umol/L,70,Both,1851.0,21470.5,7147.0
+Potassium (Urine),mmol/24hrs,40,Male,15.2925,149.16000000000003,60.55
+Potassium (Urine),mmol/24hrs,40,Female,12.6,150.69499999999996,51.7
+Potassium (Urine),mmol/24hrs,40,Both,13.4,150.6,56.2
+Potassium (Urine),mmol/24hrs,41,Male,15.3,152.53999999999996,63.2
+Potassium (Urine),mmol/24hrs,41,Female,12.9,148.2,51.7
+Potassium (Urine),mmol/24hrs,41,Both,13.9,150.24750000000003,56.8
+Potassium (Urine),mmol/24hrs,42,Male,16.23,153.37999999999994,64.5
+Potassium (Urine),mmol/24hrs,42,Female,13.1,146.5,52.3
+Potassium (Urine),mmol/24hrs,42,Both,14.4,149.5,57.9
+Potassium (Urine),mmol/24hrs,43,Male,16.2,151.8,63.8
+Potassium (Urine),mmol/24hrs,43,Female,13.5,148.51000000000005,52.1
+Potassium (Urine),mmol/24hrs,43,Both,14.3,150.4,57.4
+Potassium (Urine),mmol/24hrs,44,Male,16.3975,147.8074999999999,64.85
+Potassium (Urine),mmol/24hrs,44,Female,13.377500000000001,144.2449999999999,51.8
+Potassium (Urine),mmol/24hrs,44,Both,14.5,146.02250000000004,57.7
+Potassium (Urine),mmol/24hrs,45,Male,16.9,153.0,63.5
+Potassium (Urine),mmol/24hrs,45,Female,13.6775,145.42249999999996,51.2
+Potassium (Urine),mmol/24hrs,45,Both,14.7,148.9,57.0
+Potassium (Urine),mmol/24hrs,46,Male,16.6125,153.2,62.4
+Potassium (Urine),mmol/24hrs,46,Female,13.2,146.52499999999972,51.0
+Potassium (Urine),mmol/24hrs,46,Both,14.2,149.5,56.4
+Potassium (Urine),mmol/24hrs,47,Male,17.4,149.4375,62.9
+Potassium (Urine),mmol/24hrs,47,Female,13.4375,145.8875,51.4
+Potassium (Urine),mmol/24hrs,47,Both,14.6,147.4,56.3
+Potassium (Urine),mmol/24hrs,48,Male,16.17,152.06000000000003,64.5
+Potassium (Urine),mmol/24hrs,48,Female,14.0,144.775,51.7
+Potassium (Urine),mmol/24hrs,48,Both,14.7,148.1,57.2
+Potassium (Urine),mmol/24hrs,49,Male,17.3,149.95749999999998,63.1
+Potassium (Urine),mmol/24hrs,49,Female,13.6875,144.0375,50.7
+Potassium (Urine),mmol/24hrs,49,Both,15.0,147.2,56.3
+Potassium (Urine),mmol/24hrs,50,Male,16.3,152.03249999999997,63.7
+Potassium (Urine),mmol/24hrs,50,Female,14.1,143.43999999999977,50.7
+Potassium (Urine),mmol/24hrs,50,Both,14.9,147.67999999999992,56.9
+Potassium (Urine),mmol/24hrs,51,Male,17.16,150.07999999999993,64.4
+Potassium (Urine),mmol/24hrs,51,Female,14.4,143.68999999999994,51.4
+Potassium (Urine),mmol/24hrs,51,Both,15.2,147.3324999999999,56.9
+Potassium (Urine),mmol/24hrs,52,Male,17.03,149.00999999999993,63.0
+Potassium (Urine),mmol/24hrs,52,Female,14.4,141.4,50.7
+Potassium (Urine),mmol/24hrs,52,Both,15.4,145.26749999999993,56.3
+Potassium (Urine),mmol/24hrs,53,Male,17.7,148.9,62.2
+Potassium (Urine),mmol/24hrs,53,Female,14.3,141.10500000000002,50.7
+Potassium (Urine),mmol/24hrs,53,Both,15.4,144.025,55.8
+Potassium (Urine),mmol/24hrs,54,Male,17.8,149.38999999999996,63.5
+Potassium (Urine),mmol/24hrs,54,Female,14.2,140.03999999999996,49.9
+Potassium (Urine),mmol/24hrs,54,Both,15.3,145.4,56.0
+Potassium (Urine),mmol/24hrs,55,Male,18.1,147.445,63.8
+Potassium (Urine),mmol/24hrs,55,Female,14.5,139.9,50.2
+Potassium (Urine),mmol/24hrs,55,Both,15.7,143.83500000000004,56.3
+Potassium (Urine),mmol/24hrs,56,Male,17.6,148.98999999999995,63.6
+Potassium (Urine),mmol/24hrs,56,Female,14.6,139.1399999999998,49.9
+Potassium (Urine),mmol/24hrs,56,Both,15.6,144.6,55.7
+Potassium (Urine),mmol/24hrs,57,Male,18.235000000000003,148.4,63.9
+Potassium (Urine),mmol/24hrs,57,Female,14.4,138.9324999999999,50.0
+Potassium (Urine),mmol/24hrs,57,Both,15.7,143.59499999999989,55.9
+Potassium (Urine),mmol/24hrs,58,Male,18.4,148.2,63.9
+Potassium (Urine),mmol/24hrs,58,Female,14.7375,139.2,50.8
+Potassium (Urine),mmol/24hrs,58,Both,16.0,143.4,56.5
+Potassium (Urine),mmol/24hrs,59,Male,18.34,148.0,63.3
+Potassium (Urine),mmol/24hrs,59,Female,15.2,139.8,51.1
+Potassium (Urine),mmol/24hrs,59,Both,16.147500000000004,144.2,57.0
+Potassium (Urine),mmol/24hrs,60,Male,19.2,149.47749999999996,64.3
+Potassium (Urine),mmol/24hrs,60,Female,15.705,139.3949999999999,52.3
+Potassium (Urine),mmol/24hrs,60,Both,16.9,145.3,57.7
+Potassium (Urine),mmol/24hrs,61,Male,18.932499999999997,147.4,64.6
+Potassium (Urine),mmol/24hrs,61,Female,16.3,141.0,52.7
+Potassium (Urine),mmol/24hrs,61,Both,17.3,144.28499999999985,57.9
+Potassium (Urine),mmol/24hrs,62,Male,20.0,145.9,63.349999999999994
+Potassium (Urine),mmol/24hrs,62,Female,16.2,139.2,52.6
+Potassium (Urine),mmol/24hrs,62,Both,17.4,143.09000000000015,58.0
+Potassium (Urine),mmol/24hrs,63,Male,19.3,146.86499999999978,63.75
+Potassium (Urine),mmol/24hrs,63,Female,16.3,138.7699999999999,52.5
+Potassium (Urine),mmol/24hrs,63,Both,17.4,142.7,57.8
+Potassium (Urine),mmol/24hrs,64,Male,19.9,144.8399999999998,64.2
+Potassium (Urine),mmol/24hrs,64,Female,16.52,137.7,52.8
+Potassium (Urine),mmol/24hrs,64,Both,17.8,142.0,58.2
+Potassium (Urine),mmol/24hrs,65,Male,20.1,145.975,63.9
+Potassium (Urine),mmol/24hrs,65,Female,16.6,136.475,52.4
+Potassium (Urine),mmol/24hrs,65,Both,17.9,141.0,58.1
+Potassium (Urine),mmol/24hrs,66,Male,20.1975,145.60249999999996,62.9
+Potassium (Urine),mmol/24hrs,66,Female,16.6,136.4199999999999,52.9
+Potassium (Urine),mmol/24hrs,66,Both,18.0,141.9,57.8
+Potassium (Urine),mmol/24hrs,67,Male,20.4,142.1,61.7
+Potassium (Urine),mmol/24hrs,67,Female,17.1,139.37749999999997,53.2
+Potassium (Urine),mmol/24hrs,67,Both,18.3,140.9,57.2
+Potassium (Urine),mmol/24hrs,68,Male,19.9,140.225,63.2
+Potassium (Urine),mmol/24hrs,68,Female,17.0,139.83000000000004,53.1
+Potassium (Urine),mmol/24hrs,68,Both,17.9,139.97999999999993,58.1
+Potassium (Urine),mmol/24hrs,69,Male,19.6,143.5,61.1
+Potassium (Urine),mmol/24hrs,69,Female,17.3,138.77749999999997,53.95
+Potassium (Urine),mmol/24hrs,69,Both,18.3,140.9,57.6
+Potassium (Urine),mmol/24hrs,70,Male,20.04,142.61999999999998,61.7
+Potassium (Urine),mmol/24hrs,70,Female,16.8,135.71499999999983,53.7
+Potassium (Urine),mmol/24hrs,70,Both,17.8,139.3274999999999,57.5
+Sodium (Urine),mmol/24hrs,40,Male,21.005,205.585,88.5
+Sodium (Urine),mmol/24hrs,40,Female,16.897499999999997,193.2300000000001,66.3
+Sodium (Urine),mmol/24hrs,40,Both,18.305000000000003,201.8,77.3
+Sodium (Urine),mmol/24hrs,41,Male,21.115000000000002,207.27750000000006,92.25
+Sodium (Urine),mmol/24hrs,41,Female,16.1,188.1,66.6
+Sodium (Urine),mmol/24hrs,41,Both,17.9,199.2,78.2
+Sodium (Urine),mmol/24hrs,42,Male,22.55,208.2,92.8
+Sodium (Urine),mmol/24hrs,42,Female,16.6,189.8375,66.35
+Sodium (Urine),mmol/24hrs,42,Both,18.115000000000002,199.42500000000018,78.3
+Sodium (Urine),mmol/24hrs,43,Male,23.0,210.07999999999993,90.7
+Sodium (Urine),mmol/24hrs,43,Female,15.6875,188.9125,65.7
+Sodium (Urine),mmol/24hrs,43,Both,17.9,199.8,77.1
+Sodium (Urine),mmol/24hrs,44,Male,21.3075,208.14750000000012,91.7
+Sodium (Urine),mmol/24hrs,44,Female,16.470000000000002,184.36000000000004,64.7
+Sodium (Urine),mmol/24hrs,44,Both,17.68,196.8199999999999,76.4
+Sodium (Urine),mmol/24hrs,45,Male,21.755000000000003,202.72249999999994,89.95
+Sodium (Urine),mmol/24hrs,45,Female,15.9,181.3449999999999,63.5
+Sodium (Urine),mmol/24hrs,45,Both,17.5,195.73500000000004,73.9
+Sodium (Urine),mmol/24hrs,46,Male,22.9,206.19499999999988,88.2
+Sodium (Urine),mmol/24hrs,46,Female,16.4,176.655,64.5
+Sodium (Urine),mmol/24hrs,46,Both,18.1,192.8,74.7
+Sodium (Urine),mmol/24hrs,47,Male,21.4775,199.72249999999994,87.3
+Sodium (Urine),mmol/24hrs,47,Female,16.2,179.4449999999999,63.6
+Sodium (Urine),mmol/24hrs,47,Both,17.8,190.5,73.3
+Sodium (Urine),mmol/24hrs,48,Male,21.8,199.2,90.7
+Sodium (Urine),mmol/24hrs,48,Female,16.117500000000003,174.2,61.6
+Sodium (Urine),mmol/24hrs,48,Both,17.9,189.88500000000005,73.5
+Sodium (Urine),mmol/24hrs,49,Male,22.5775,204.1,87.8
+Sodium (Urine),mmol/24hrs,49,Female,16.5,175.46999999999989,61.7
+Sodium (Urine),mmol/24hrs,49,Both,18.1,193.10999999999984,73.2
+Sodium (Urine),mmol/24hrs,50,Male,21.985,200.01499999999996,88.6
+Sodium (Urine),mmol/24hrs,50,Female,15.9,170.87999999999982,59.4
+Sodium (Urine),mmol/24hrs,50,Both,17.7,187.9,71.7
+Sodium (Urine),mmol/24hrs,51,Male,22.0,194.97999999999993,85.3
+Sodium (Urine),mmol/24hrs,51,Female,15.6,172.71999999999989,59.2
+Sodium (Urine),mmol/24hrs,51,Both,17.5,183.2,70.1
+Sodium (Urine),mmol/24hrs,52,Male,22.4,195.5,86.5
+Sodium (Urine),mmol/24hrs,52,Female,16.0,167.23749999999998,57.95
+Sodium (Urine),mmol/24hrs,52,Both,17.7,184.87249999999966,69.6
+Sodium (Urine),mmol/24hrs,53,Male,21.7025,189.39249999999984,85.0
+Sodium (Urine),mmol/24hrs,53,Female,16.1,165.1,58.2
+Sodium (Urine),mmol/24hrs,53,Both,17.5,181.13499999999985,69.0
+Sodium (Urine),mmol/24hrs,54,Male,22.4,198.125,84.05
+Sodium (Urine),mmol/24hrs,54,Female,15.8,160.38750000000002,56.650000000000006
+Sodium (Urine),mmol/24hrs,54,Both,17.5,182.49250000000012,67.9
+Sodium (Urine),mmol/24hrs,55,Male,23.1,189.13000000000002,82.8
+Sodium (Urine),mmol/24hrs,55,Female,16.0,163.0075,57.8
+Sodium (Urine),mmol/24hrs,55,Both,17.8,179.03500000000003,67.6
+Sodium (Urine),mmol/24hrs,56,Male,23.5,190.53500000000003,82.9
+Sodium (Urine),mmol/24hrs,56,Female,15.7,159.14999999999998,55.6
+Sodium (Urine),mmol/24hrs,56,Both,17.4,177.6,66.6
+Sodium (Urine),mmol/24hrs,57,Male,21.35,189.95,80.9
+Sodium (Urine),mmol/24hrs,57,Female,16.125,158.64999999999998,54.5
+Sodium (Urine),mmol/24hrs,57,Both,17.4,177.5,65.1
+Sodium (Urine),mmol/24hrs,58,Male,21.9825,188.5175,80.8
+Sodium (Urine),mmol/24hrs,58,Female,15.8,157.4,55.3
+Sodium (Urine),mmol/24hrs,58,Both,17.4,176.5,65.6
+Sodium (Urine),mmol/24hrs,59,Male,21.2525,188.4,80.4
+Sodium (Urine),mmol/24hrs,59,Female,16.0,159.22000000000006,55.1
+Sodium (Urine),mmol/24hrs,59,Both,17.645000000000007,176.8,65.4
+Sodium (Urine),mmol/24hrs,60,Male,21.5,186.70499999999993,79.7
+Sodium (Urine),mmol/24hrs,60,Female,15.8,158.22999999999993,56.1
+Sodium (Urine),mmol/24hrs,60,Both,17.3,173.5,65.8
+Sodium (Urine),mmol/24hrs,61,Male,21.2,182.7,78.2
+Sodium (Urine),mmol/24hrs,61,Female,16.3,157.2,55.1
+Sodium (Urine),mmol/24hrs,61,Both,17.7,171.9774999999998,65.1
+Sodium (Urine),mmol/24hrs,62,Male,21.7,178.2,75.8
+Sodium (Urine),mmol/24hrs,62,Female,15.807500000000005,153.18499999999983,54.5
+Sodium (Urine),mmol/24hrs,62,Both,17.4,167.91999999999936,63.3
+Sodium (Urine),mmol/24hrs,63,Male,21.147500000000004,179.60499999999993,76.3
+Sodium (Urine),mmol/24hrs,63,Female,15.7,154.19750000000002,54.7
+Sodium (Urine),mmol/24hrs,63,Both,17.5,170.5,64.2
+Sodium (Urine),mmol/24hrs,64,Male,21.3,178.70499999999993,75.9
+Sodium (Urine),mmol/24hrs,64,Female,15.9,154.0,54.6
+Sodium (Urine),mmol/24hrs,64,Both,17.8,168.6,64.1
+Sodium (Urine),mmol/24hrs,65,Male,21.7,178.31499999999977,74.7
+Sodium (Urine),mmol/24hrs,65,Female,16.1,150.44750000000005,54.5
+Sodium (Urine),mmol/24hrs,65,Both,18.1,168.40249999999978,63.8
+Sodium (Urine),mmol/24hrs,66,Male,21.5,176.70499999999993,74.7
+Sodium (Urine),mmol/24hrs,66,Female,16.0,154.1,54.4
+Sodium (Urine),mmol/24hrs,66,Both,18.0,167.3,63.8
+Sodium (Urine),mmol/24hrs,67,Male,21.91,176.47999999999993,73.7
+Sodium (Urine),mmol/24hrs,67,Female,15.9,152.87499999999983,55.2
+Sodium (Urine),mmol/24hrs,67,Both,18.297500000000003,166.60249999999996,63.9
+Sodium (Urine),mmol/24hrs,68,Male,21.4,174.9199999999999,73.7
+Sodium (Urine),mmol/24hrs,68,Female,16.3,151.01749999999984,55.5
+Sodium (Urine),mmol/24hrs,68,Both,17.8,165.17999999999992,64.0
+Sodium (Urine),mmol/24hrs,69,Male,21.785000000000004,171.2299999999999,73.2
+Sodium (Urine),mmol/24hrs,69,Female,16.4,150.705,55.0
+Sodium (Urine),mmol/24hrs,69,Both,17.9,162.61749999999992,63.5
+Sodium (Urine),mmol/24hrs,70,Male,22.3,172.30749999999983,71.6
+Sodium (Urine),mmol/24hrs,70,Female,16.055,155.67249999999999,54.3
+Sodium (Urine),mmol/24hrs,70,Both,18.2525,163.4475,63.650000000000006
+Albumin,g/L,40,Male,42.16975,52.0235,46.92
+Albumin,g/L,40,Female,40.00675,50.643,45.22
+Albumin,g/L,40,Both,40.72,51.48,46.07
+Albumin,g/L,41,Male,41.969750000000005,51.75,46.86
+Albumin,g/L,41,Female,40.18,50.49199999999999,45.16
+Albumin,g/L,41,Both,40.74,51.22,46.01
+Albumin,g/L,42,Male,41.906,51.871999999999986,46.74
+Albumin,g/L,42,Female,40.002,50.272000000000006,45.07
+Albumin,g/L,42,Both,40.56525,51.2,45.9
+Albumin,g/L,43,Male,41.8365,51.7735,46.72
+Albumin,g/L,43,Female,39.916,50.57199999999999,45.08
+Albumin,g/L,43,Both,40.482749999999996,51.25,45.85
+Albumin,g/L,44,Male,41.6,51.631,46.56
+Albumin,g/L,44,Female,39.92,50.221999999999994,44.99
+Albumin,g/L,44,Both,40.45,50.99,45.73
+Albumin,g/L,45,Male,41.8,51.39,46.44
+Albumin,g/L,45,Female,39.97,50.29,44.94
+Albumin,g/L,45,Both,40.35,50.96,45.68
+Albumin,g/L,46,Male,41.698,51.458,46.45
+Albumin,g/L,46,Female,40.09675,50.08,44.94
+Albumin,g/L,46,Both,40.5,50.835,45.63
+Albumin,g/L,47,Male,41.5735,51.09,46.25
+Albumin,g/L,47,Female,40.116,50.15,44.89
+Albumin,g/L,47,Both,40.4695,50.74,45.54
+Albumin,g/L,48,Male,41.502,51.188,46.26
+Albumin,g/L,48,Female,39.947,50.17,44.9
+Albumin,g/L,48,Both,40.36925,50.78,45.54
+Albumin,g/L,49,Male,41.377,51.183,46.16
+Albumin,g/L,49,Female,39.87825,50.21,44.95
+Albumin,g/L,49,Both,40.3455,50.69449999999999,45.5
+Albumin,g/L,50,Male,41.20725,51.01275,46.055
+Albumin,g/L,50,Female,39.962,50.38,44.98
+Albumin,g/L,50,Both,40.4,50.65,45.47
+Albumin,g/L,51,Male,40.8085,50.711499999999994,45.96
+Albumin,g/L,51,Female,39.97,50.302749999999996,45.14
+Albumin,g/L,51,Both,40.26,50.594,45.51
+Albumin,g/L,52,Male,41.0985,50.830749999999995,45.87
+Albumin,g/L,52,Female,40.08,50.54,45.15
+Albumin,g/L,52,Both,40.48,50.66,45.45
+Albumin,g/L,53,Male,41.02425,50.84575,45.805
+Albumin,g/L,53,Female,40.06,50.27,45.17
+Albumin,g/L,53,Both,40.31,50.58,45.45
+Albumin,g/L,54,Male,40.85,50.571999999999996,45.75
+Albumin,g/L,54,Female,40.284,50.43199999999999,45.35
+Albumin,g/L,54,Both,40.47,50.5,45.52
+Albumin,g/L,55,Male,40.92975,50.75,45.63
+Albumin,g/L,55,Female,40.32325,50.46,45.26
+Albumin,g/L,55,Both,40.55325,50.59,45.43
+Albumin,g/L,56,Male,40.748,50.516,45.5
+Albumin,g/L,56,Female,40.33,50.26,45.3
+Albumin,g/L,56,Both,40.46,50.4,45.39
+Albumin,g/L,57,Male,40.609,50.652999999999984,45.47
+Albumin,g/L,57,Female,40.22,50.31,45.24
+Albumin,g/L,57,Both,40.39,50.436499999999995,45.34
+Albumin,g/L,58,Male,40.625,50.38,45.42
+Albumin,g/L,58,Female,40.3365,50.25,45.16
+Albumin,g/L,58,Both,40.44,50.33,45.27
+Albumin,g/L,59,Male,40.5665,50.22,45.32
+Albumin,g/L,59,Female,40.23,50.129999999999995,45.15
+Albumin,g/L,59,Both,40.39,50.18824999999999,45.23
+Albumin,g/L,60,Male,40.32,50.26,45.18
+Albumin,g/L,60,Female,40.12,50.16,45.06
+Albumin,g/L,60,Both,40.22,50.19849999999999,45.12
+Albumin,g/L,61,Male,40.4195,50.220499999999994,45.15
+Albumin,g/L,61,Female,40.03,50.1,44.96
+Albumin,g/L,61,Both,40.198750000000004,50.15125,45.05
+Albumin,g/L,62,Male,40.22,50.20375,45.17
+Albumin,g/L,62,Female,40.08275,49.91,44.95
+Albumin,g/L,62,Both,40.14,50.070750000000004,45.04
+Albumin,g/L,63,Male,40.12,50.22,45.12
+Albumin,g/L,63,Female,39.86,50.00525,44.85
+Albumin,g/L,63,Both,39.96825,50.12,44.97
+Albumin,g/L,64,Male,39.96,50.0435,44.89
+Albumin,g/L,64,Female,39.872,49.74599999999999,44.75
+Albumin,g/L,64,Both,39.92,49.9,44.81
+Albumin,g/L,65,Male,39.94,50.05,44.83
+Albumin,g/L,65,Female,39.681,49.7,44.62
+Albumin,g/L,65,Both,39.76,49.88,44.72
+Albumin,g/L,66,Male,39.91,49.83,44.8
+Albumin,g/L,66,Female,39.74,49.72,44.61
+Albumin,g/L,66,Both,39.81,49.77,44.7
+Albumin,g/L,67,Male,39.77,49.85,44.69
+Albumin,g/L,67,Female,39.553,49.527,44.51
+Albumin,g/L,67,Both,39.644999999999996,49.705,44.6
+Albumin,g/L,68,Male,39.57375,49.69,44.6
+Albumin,g/L,68,Female,39.49,49.355000000000004,44.39
+Albumin,g/L,68,Both,39.53,49.52850000000001,44.49
+Albumin,g/L,69,Male,39.67775,49.59,44.53
+Albumin,g/L,69,Female,39.41,49.41,44.4
+Albumin,g/L,69,Both,39.52,49.52,44.47
+Albumin,g/L,70,Male,39.405,50.025000000000006,44.53
+Albumin,g/L,70,Female,39.1795,49.2815,44.32
+Albumin,g/L,70,Both,39.3095,49.57,44.45
+Alkaline Phosphatase,IU/L,40,Male,48.7875,128.6,77.6
+Alkaline Phosphatase,IU/L,40,Female,39.465,119.96999999999989,65.75
+Alkaline Phosphatase,IU/L,40,Both,42.7,124.10499999999992,71.7
+Alkaline Phosphatase,IU/L,41,Male,48.2,126.6,77.5
+Alkaline Phosphatase,IU/L,41,Female,39.59,118.3,66.1
+Alkaline Phosphatase,IU/L,41,Both,41.8,122.38999999999997,71.4
+Alkaline Phosphatase,IU/L,42,Male,49.1,128.1,77.6
+Alkaline Phosphatase,IU/L,42,Female,39.09,115.60999999999994,66.4
+Alkaline Phosphatase,IU/L,42,Both,42.1,122.9,71.9
+Alkaline Phosphatase,IU/L,43,Male,47.894999999999996,127.3,76.8
+Alkaline Phosphatase,IU/L,43,Female,39.985,117.85999999999986,66.2
+Alkaline Phosphatase,IU/L,43,Both,42.0825,122.33499999999985,71.2
+Alkaline Phosphatase,IU/L,44,Male,48.0,128.275,77.5
+Alkaline Phosphatase,IU/L,44,Female,40.4,115.9375,66.2
+Alkaline Phosphatase,IU/L,44,Both,42.3,122.4,71.3
+Alkaline Phosphatase,IU/L,45,Male,48.4,126.78999999999996,77.9
+Alkaline Phosphatase,IU/L,45,Female,40.2,117.6,67.2
+Alkaline Phosphatase,IU/L,45,Both,42.142500000000005,123.51499999999979,72.1
+Alkaline Phosphatase,IU/L,46,Male,47.7,130.5,77.6
+Alkaline Phosphatase,IU/L,46,Female,40.4,119.41999999999989,67.9
+Alkaline Phosphatase,IU/L,46,Both,42.6,125.47250000000004,72.2
+Alkaline Phosphatase,IU/L,47,Male,47.6,130.1,78.0
+Alkaline Phosphatase,IU/L,47,Female,40.9,123.8,69.4
+Alkaline Phosphatase,IU/L,47,Both,42.8,127.28249999999989,73.3
+Alkaline Phosphatase,IU/L,48,Male,48.4,130.05749999999998,78.4
+Alkaline Phosphatase,IU/L,48,Female,40.4175,128.18249999999998,70.3
+Alkaline Phosphatase,IU/L,48,Both,42.7,128.9125,74.0
+Alkaline Phosphatase,IU/L,49,Male,47.7,130.70749999999998,77.9
+Alkaline Phosphatase,IU/L,49,Female,42.5,127.7,72.4
+Alkaline Phosphatase,IU/L,49,Both,44.1,129.1,74.8
+Alkaline Phosphatase,IU/L,50,Male,47.5,127.30999999999985,77.8
+Alkaline Phosphatase,IU/L,50,Female,42.9,134.25999999999993,75.1
+Alkaline Phosphatase,IU/L,50,Both,44.5,131.3,76.4
+Alkaline Phosphatase,IU/L,51,Male,48.3,133.09499999999997,78.5
+Alkaline Phosphatase,IU/L,51,Female,44.8,137.3,77.7
+Alkaline Phosphatase,IU/L,51,Both,45.8,135.0,78.1
+Alkaline Phosphatase,IU/L,52,Male,47.5725,131.65499999999992,78.0
+Alkaline Phosphatase,IU/L,52,Female,45.2,141.4,80.4
+Alkaline Phosphatase,IU/L,52,Both,46.0,137.2,79.3
+Alkaline Phosphatase,IU/L,53,Male,48.4,129.60499999999993,78.1
+Alkaline Phosphatase,IU/L,53,Female,47.265,144.33499999999995,82.6
+Alkaline Phosphatase,IU/L,53,Both,47.8,139.3,80.5
+Alkaline Phosphatase,IU/L,54,Male,48.1,132.27249999999995,78.5
+Alkaline Phosphatase,IU/L,54,Female,47.6,145.15999999999994,84.3
+Alkaline Phosphatase,IU/L,54,Both,47.870000000000005,140.45999999999987,81.5
+Alkaline Phosphatase,IU/L,55,Male,47.8,131.85499999999993,78.6
+Alkaline Phosphatase,IU/L,55,Female,49.2,147.65499999999992,85.4
+Alkaline Phosphatase,IU/L,55,Both,48.4,142.00249999999997,82.2
+Alkaline Phosphatase,IU/L,56,Male,48.3,132.5,78.8
+Alkaline Phosphatase,IU/L,56,Female,50.0,146.10000000000002,86.3
+Alkaline Phosphatase,IU/L,56,Both,49.1,141.6,82.6
+Alkaline Phosphatase,IU/L,57,Male,48.3,133.38999999999996,79.1
+Alkaline Phosphatase,IU/L,57,Female,51.0,146.7,86.6
+Alkaline Phosphatase,IU/L,57,Both,49.5,141.2949999999999,83.1
+Alkaline Phosphatase,IU/L,58,Male,48.8,134.6,78.9
+Alkaline Phosphatase,IU/L,58,Female,50.3,146.7,86.3
+Alkaline Phosphatase,IU/L,58,Both,49.53,141.8,82.9
+Alkaline Phosphatase,IU/L,59,Male,48.2,133.2,79.0
+Alkaline Phosphatase,IU/L,59,Female,50.9,145.62250000000003,86.6
+Alkaline Phosphatase,IU/L,59,Both,49.6,141.4,83.0
+Alkaline Phosphatase,IU/L,60,Male,48.86,133.3,79.2
+Alkaline Phosphatase,IU/L,60,Female,51.8,146.8,87.1
+Alkaline Phosphatase,IU/L,60,Both,50.2,141.5,83.4
+Alkaline Phosphatase,IU/L,61,Male,47.1,133.68500000000003,79.2
+Alkaline Phosphatase,IU/L,61,Female,51.4,147.74750000000003,86.9
+Alkaline Phosphatase,IU/L,61,Both,49.3,142.5,83.3
+Alkaline Phosphatase,IU/L,62,Male,48.0075,133.9,79.4
+Alkaline Phosphatase,IU/L,62,Female,51.010000000000005,146.7,86.9
+Alkaline Phosphatase,IU/L,62,Both,49.3,141.37999999999994,83.3
+Alkaline Phosphatase,IU/L,63,Male,47.5,134.575,79.6
+Alkaline Phosphatase,IU/L,63,Female,52.2,144.05,86.9
+Alkaline Phosphatase,IU/L,63,Both,49.7,140.30999999999986,83.5
+Alkaline Phosphatase,IU/L,64,Male,48.7,137.0,79.4
+Alkaline Phosphatase,IU/L,64,Female,51.2925,144.70749999999987,86.6
+Alkaline Phosphatase,IU/L,64,Both,49.8,141.9,83.1
+Alkaline Phosphatase,IU/L,65,Male,48.167500000000004,136.1,80.3
+Alkaline Phosphatase,IU/L,65,Female,52.3,145.17749999999995,87.2
+Alkaline Phosphatase,IU/L,65,Both,50.0,141.4225000000002,83.7
+Alkaline Phosphatase,IU/L,66,Male,48.675000000000004,135.4,79.7
+Alkaline Phosphatase,IU/L,66,Female,53.2,149.96999999999989,87.5
+Alkaline Phosphatase,IU/L,66,Both,50.3,143.0,83.4
+Alkaline Phosphatase,IU/L,67,Male,49.2,136.3,80.1
+Alkaline Phosphatase,IU/L,67,Female,51.985,145.5,87.0
+Alkaline Phosphatase,IU/L,67,Both,50.2,141.90749999999989,83.6
+Alkaline Phosphatase,IU/L,68,Male,48.4,137.9,80.1
+Alkaline Phosphatase,IU/L,68,Female,51.4,144.67499999999998,87.0
+Alkaline Phosphatase,IU/L,68,Both,49.6,142.0875,83.4
+Alkaline Phosphatase,IU/L,69,Male,47.650000000000006,139.525,80.1
+Alkaline Phosphatase,IU/L,69,Female,52.7,146.6,87.5
+Alkaline Phosphatase,IU/L,69,Both,49.52,143.5,83.9
+Alkaline Phosphatase,IU/L,70,Male,49.9725,137.4,81.05
+Alkaline Phosphatase,IU/L,70,Female,54.0,165.82999999999998,88.6
+Alkaline Phosphatase,IU/L,70,Both,51.87,146.94500000000002,85.3
+Alanine Aminotransferase,U/L,40,Male,11.6525,74.31125,25.735
+Alanine Aminotransferase,U/L,40,Female,7.8905,39.35200000000006,14.91
+Alanine Aminotransferase,U/L,40,Both,8.57,64.19,19.1
+Alanine Aminotransferase,U/L,41,Male,12.0525,74.7925,25.69
+Alanine Aminotransferase,U/L,41,Female,7.60825,41.48050000000001,14.81
+Alanine Aminotransferase,U/L,41,Both,8.459750000000001,62.08974999999985,18.83
+Alanine Aminotransferase,U/L,42,Male,11.745750000000001,73.67075000000001,26.045
+Alanine Aminotransferase,U/L,42,Female,7.8295,40.81300000000001,15.01
+Alanine Aminotransferase,U/L,42,Both,8.52,62.640999999999856,19.01
+Alanine Aminotransferase,U/L,43,Male,11.82,74.14399999999998,26.07
+Alanine Aminotransferase,U/L,43,Female,8.1385,41.22799999999996,14.96
+Alanine Aminotransferase,U/L,43,Both,8.84675,64.12649999999998,18.87
+Alanine Aminotransferase,U/L,44,Male,12.200999999999999,77.55899999999993,26.01
+Alanine Aminotransferase,U/L,44,Female,7.856,40.934,15.03
+Alanine Aminotransferase,U/L,44,Both,8.65,64.08,18.92
+Alanine Aminotransferase,U/L,45,Male,11.981,76.83774999999996,26.15
+Alanine Aminotransferase,U/L,45,Female,8.0475,44.77,15.11
+Alanine Aminotransferase,U/L,45,Both,8.743,65.06599999999992,18.84
+Alanine Aminotransferase,U/L,46,Male,12.059000000000001,72.851,26.11
+Alanine Aminotransferase,U/L,46,Female,8.16625,40.405,15.07
+Alanine Aminotransferase,U/L,46,Both,8.831,61.10199999999997,19.06
+Alanine Aminotransferase,U/L,47,Male,11.832,70.0739999999996,25.76
+Alanine Aminotransferase,U/L,47,Female,8.2995,44.70199999999998,15.47
+Alanine Aminotransferase,U/L,47,Both,9.0,60.611000000000004,19.34
+Alanine Aminotransferase,U/L,48,Male,12.06,75.00549999999983,26.25
+Alanine Aminotransferase,U/L,48,Female,8.2475,47.02249999999997,15.69
+Alanine Aminotransferase,U/L,48,Both,8.9,63.83,19.69
+Alanine Aminotransferase,U/L,49,Male,11.807,68.53700000000002,25.7
+Alanine Aminotransferase,U/L,49,Female,8.35,44.669249999999934,16.05
+Alanine Aminotransferase,U/L,49,Both,8.952,60.337999999999994,19.6
+Alanine Aminotransferase,U/L,50,Male,12.28925,72.52149999999999,25.725
+Alanine Aminotransferase,U/L,50,Female,8.6635,49.45300000000001,16.45
+Alanine Aminotransferase,U/L,50,Both,9.374,62.80000000000002,20.04
+Alanine Aminotransferase,U/L,51,Male,11.8,69.81224999999999,25.425
+Alanine Aminotransferase,U/L,51,Female,8.83,50.287999999999954,16.94
+Alanine Aminotransferase,U/L,51,Both,9.378250000000001,61.58624999999989,20.125
+Alanine Aminotransferase,U/L,52,Male,11.89,69.16599999999998,25.14
+Alanine Aminotransferase,U/L,52,Female,9.0115,51.65650000000004,17.2
+Alanine Aminotransferase,U/L,52,Both,9.58525,61.40950000000001,20.31
+Alanine Aminotransferase,U/L,53,Male,11.85,67.73724999999996,25.465
+Alanine Aminotransferase,U/L,53,Female,9.3605,50.23799999999996,17.625
+Alanine Aminotransferase,U/L,53,Both,9.960250000000002,59.80975000000001,20.68
+Alanine Aminotransferase,U/L,54,Male,11.7935,69.18899999999991,25.275
+Alanine Aminotransferase,U/L,54,Female,9.28,52.40725,18.01
+Alanine Aminotransferase,U/L,54,Both,9.87625,61.52375,20.83
+Alanine Aminotransferase,U/L,55,Male,11.780249999999999,65.69975,25.025
+Alanine Aminotransferase,U/L,55,Female,9.46,52.352999999999994,18.244999999999997
+Alanine Aminotransferase,U/L,55,Both,9.96,59.48749999999996,20.88
+Alanine Aminotransferase,U/L,56,Male,11.6,65.88,24.48
+Alanine Aminotransferase,U/L,56,Female,9.34475,52.84099999999999,18.325
+Alanine Aminotransferase,U/L,56,Both,9.92,60.66,20.79
+Alanine Aminotransferase,U/L,57,Male,11.49,63.0025,24.16
+Alanine Aminotransferase,U/L,57,Female,9.53,51.60874999999989,18.505000000000003
+Alanine Aminotransferase,U/L,57,Both,10.04,58.22899999999998,20.76
+Alanine Aminotransferase,U/L,58,Male,11.48225,65.67874999999998,24.06
+Alanine Aminotransferase,U/L,58,Female,9.5885,51.69399999999994,18.48
+Alanine Aminotransferase,U/L,58,Both,10.162,58.56599999999999,20.84
+Alanine Aminotransferase,U/L,59,Male,11.382,60.63599999999994,23.76
+Alanine Aminotransferase,U/L,59,Female,9.43,51.325999999999986,18.44
+Alanine Aminotransferase,U/L,59,Both,9.99125,56.83375,20.69
+Alanine Aminotransferase,U/L,60,Male,11.314,61.712000000000025,23.7
+Alanine Aminotransferase,U/L,60,Female,9.51,50.92,18.69
+Alanine Aminotransferase,U/L,60,Both,10.10925,56.71,20.78
+Alanine Aminotransferase,U/L,61,Male,11.34125,59.515,23.25
+Alanine Aminotransferase,U/L,61,Female,9.73,50.524249999999995,18.55
+Alanine Aminotransferase,U/L,61,Both,10.26,55.68274999999998,20.575
+Alanine Aminotransferase,U/L,62,Male,11.2,58.83499999999999,23.11
+Alanine Aminotransferase,U/L,62,Female,9.65,50.01199999999982,18.585
+Alanine Aminotransferase,U/L,62,Both,10.18,54.28799999999999,20.49
+Alanine Aminotransferase,U/L,63,Male,11.11775,58.58,22.91
+Alanine Aminotransferase,U/L,63,Female,9.6,48.39899999999991,18.43
+Alanine Aminotransferase,U/L,63,Both,10.1265,53.69749999999993,20.47
+Alanine Aminotransferase,U/L,64,Male,10.86,57.27374999999998,22.45
+Alanine Aminotransferase,U/L,64,Female,9.42,47.04125,18.36
+Alanine Aminotransferase,U/L,64,Both,9.94,52.113749999999996,20.155
+Alanine Aminotransferase,U/L,65,Male,10.76,57.662499999999966,22.455
+Alanine Aminotransferase,U/L,65,Female,9.71,47.307500000000005,18.49
+Alanine Aminotransferase,U/L,65,Both,10.12,53.94,20.32
+Alanine Aminotransferase,U/L,66,Male,10.786999999999999,55.31999999999993,22.09
+Alanine Aminotransferase,U/L,66,Female,9.33,45.24399999999998,18.1
+Alanine Aminotransferase,U/L,66,Both,9.85025,51.389249999999954,19.92
+Alanine Aminotransferase,U/L,67,Male,10.6,52.302999999999955,21.9
+Alanine Aminotransferase,U/L,67,Female,9.44,46.215999999999994,18.13
+Alanine Aminotransferase,U/L,67,Both,9.86,49.427999999999955,19.93
+Alanine Aminotransferase,U/L,68,Male,10.752,53.02200000000002,21.46
+Alanine Aminotransferase,U/L,68,Female,9.44775,44.10899999999998,18.11
+Alanine Aminotransferase,U/L,68,Both,9.94,48.89,19.65
+Alanine Aminotransferase,U/L,69,Male,10.51725,51.32824999999999,21.07
+Alanine Aminotransferase,U/L,69,Female,9.13,43.1725,17.905
+Alanine Aminotransferase,U/L,69,Both,9.75125,47.377500000000005,19.44
+Alanine Aminotransferase,U/L,70,Male,10.46,50.814499999999995,20.76
+Alanine Aminotransferase,U/L,70,Female,8.472000000000001,46.350999999999964,17.93
+Alanine Aminotransferase,U/L,70,Both,9.3375,49.03575,19.15
+Apolipoprotein A,g/L,40,Male,1.017,1.8787749999999999,1.3585
+Apolipoprotein A,g/L,40,Female,1.1312,2.1668,1.531
+Apolipoprotein A,g/L,40,Both,1.054,2.059649999999999,1.441
+Apolipoprotein A,g/L,41,Male,1.02645,1.848,1.359
+Apolipoprotein A,g/L,41,Female,1.1149,2.129,1.529
+Apolipoprotein A,g/L,41,Both,1.064,2.0418499999999993,1.441
+Apolipoprotein A,g/L,42,Male,1.028,1.889,1.365
+Apolipoprotein A,g/L,42,Female,1.125,2.1383249999999996,1.535
+Apolipoprotein A,g/L,42,Both,1.061,2.0591250000000003,1.451
+Apolipoprotein A,g/L,43,Male,1.0284,1.8746,1.371
+Apolipoprotein A,g/L,43,Female,1.125075,2.133,1.536
+Apolipoprotein A,g/L,43,Both,1.067,2.0625,1.458
+Apolipoprotein A,g/L,44,Male,1.0368249999999999,1.8911749999999998,1.379
+Apolipoprotein A,g/L,44,Female,1.1203,2.1746999999999996,1.55
+Apolipoprotein A,g/L,44,Both,1.067,2.0968500000000003,1.465
+Apolipoprotein A,g/L,45,Male,1.0297,1.8751499999999997,1.384
+Apolipoprotein A,g/L,45,Female,1.128525,2.1584749999999993,1.552
+Apolipoprotein A,g/L,45,Both,1.0744,2.0706,1.473
+Apolipoprotein A,g/L,46,Male,1.033,1.938,1.384
+Apolipoprotein A,g/L,46,Female,1.1355250000000001,2.1684749999999995,1.558
+Apolipoprotein A,g/L,46,Both,1.07,2.103,1.475
+Apolipoprotein A,g/L,47,Male,1.0451249999999999,1.9,1.389
+Apolipoprotein A,g/L,47,Female,1.14575,2.16225,1.57
+Apolipoprotein A,g/L,47,Both,1.0819,2.0961000000000003,1.478
+Apolipoprotein A,g/L,48,Male,1.043,1.9068999999999996,1.39
+Apolipoprotein A,g/L,48,Female,1.152625,2.220375,1.585
+Apolipoprotein A,g/L,48,Both,1.087,2.1402999999999994,1.493
+Apolipoprotein A,g/L,49,Male,1.052425,1.9192999999999993,1.399
+Apolipoprotein A,g/L,49,Female,1.164,2.229,1.597
+Apolipoprotein A,g/L,49,Both,1.097,2.1397250000000003,1.498
+Apolipoprotein A,g/L,50,Male,1.052,1.9285,1.4
+Apolipoprotein A,g/L,50,Female,1.1621,2.1988999999999996,1.593
+Apolipoprotein A,g/L,50,Both,1.09,2.122375,1.502
+Apolipoprotein A,g/L,51,Male,1.035625,1.95375,1.405
+Apolipoprotein A,g/L,51,Female,1.158,2.2305,1.609
+Apolipoprotein A,g/L,51,Both,1.08915,2.161,1.511
+Apolipoprotein A,g/L,52,Male,1.059675,1.922,1.401
+Apolipoprotein A,g/L,52,Female,1.171775,2.238,1.614
+Apolipoprotein A,g/L,52,Both,1.095,2.161,1.518
+Apolipoprotein A,g/L,53,Male,1.059,1.953,1.402
+Apolipoprotein A,g/L,53,Female,1.178,2.231,1.621
+Apolipoprotein A,g/L,53,Both,1.101,2.1641999999999992,1.52
+Apolipoprotein A,g/L,54,Male,1.0493999999999999,1.9545999999999994,1.405
+Apolipoprotein A,g/L,54,Female,1.19125,2.271375,1.631
+Apolipoprotein A,g/L,54,Both,1.101,2.1859499999999987,1.524
+Apolipoprotein A,g/L,55,Male,1.04965,1.9593499999999995,1.413
+Apolipoprotein A,g/L,55,Female,1.18815,2.248,1.623
+Apolipoprotein A,g/L,55,Both,1.096,2.188,1.526
+Apolipoprotein A,g/L,56,Male,1.048,1.978,1.407
+Apolipoprotein A,g/L,56,Female,1.174,2.24,1.623
+Apolipoprotein A,g/L,56,Both,1.092,2.179,1.525
+Apolipoprotein A,g/L,57,Male,1.046,1.9825,1.411
+Apolipoprotein A,g/L,57,Female,1.185,2.268,1.633
+Apolipoprotein A,g/L,57,Both,1.09,2.194,1.53
+Apolipoprotein A,g/L,58,Male,1.057,1.9580749999999998,1.411
+Apolipoprotein A,g/L,58,Female,1.2,2.274,1.633
+Apolipoprotein A,g/L,58,Both,1.09705,2.2,1.532
+Apolipoprotein A,g/L,59,Male,1.052,1.982,1.422
+Apolipoprotein A,g/L,59,Female,1.197,2.26,1.638
+Apolipoprotein A,g/L,59,Both,1.102,2.193,1.534
+Apolipoprotein A,g/L,60,Male,1.055,1.985324999999999,1.4215
+Apolipoprotein A,g/L,60,Female,1.192,2.266,1.629
+Apolipoprotein A,g/L,60,Both,1.104,2.187825000000001,1.534
+Apolipoprotein A,g/L,61,Male,1.054,1.982,1.426
+Apolipoprotein A,g/L,61,Female,1.2,2.264,1.634
+Apolipoprotein A,g/L,61,Both,1.1,2.185,1.535
+Apolipoprotein A,g/L,62,Male,1.063,2.00075,1.427
+Apolipoprotein A,g/L,62,Female,1.2,2.248,1.634
+Apolipoprotein A,g/L,62,Both,1.104,2.187,1.533
+Apolipoprotein A,g/L,63,Male,1.057925,2.0,1.426
+Apolipoprotein A,g/L,63,Female,1.20785,2.263299999999999,1.637
+Apolipoprotein A,g/L,63,Both,1.107,2.198200000000001,1.538
+Apolipoprotein A,g/L,64,Male,1.058225,2.004,1.428
+Apolipoprotein A,g/L,64,Female,1.205,2.263,1.639
+Apolipoprotein A,g/L,64,Both,1.10385,2.1871499999999977,1.537
+Apolipoprotein A,g/L,65,Male,1.053,1.99475,1.426
+Apolipoprotein A,g/L,65,Female,1.207,2.278,1.637
+Apolipoprotein A,g/L,65,Both,1.096,2.194,1.53
+Apolipoprotein A,g/L,66,Male,1.056,2.0058,1.421
+Apolipoprotein A,g/L,66,Female,1.2182,2.25,1.635
+Apolipoprotein A,g/L,66,Both,1.097,2.173,1.529
+Apolipoprotein A,g/L,67,Male,1.051325,1.9776750000000003,1.421
+Apolipoprotein A,g/L,67,Female,1.2105000000000001,2.266,1.636
+Apolipoprotein A,g/L,67,Both,1.1,2.178,1.527
+Apolipoprotein A,g/L,68,Male,1.063,1.988,1.422
+Apolipoprotein A,g/L,68,Female,1.205,2.251,1.639
+Apolipoprotein A,g/L,68,Both,1.09895,2.1710499999999993,1.528
+Apolipoprotein A,g/L,69,Male,1.059,1.985699999999999,1.418
+Apolipoprotein A,g/L,69,Female,1.212,2.2798999999999996,1.64
+Apolipoprotein A,g/L,69,Both,1.094,2.192,1.525
+Apolipoprotein A,g/L,70,Male,1.0664,1.9840000000000002,1.436
+Apolipoprotein A,g/L,70,Female,1.2188,2.2535999999999996,1.63
+Apolipoprotein A,g/L,70,Both,1.097,2.1778499999999994,1.532
+Apolipoprotein B,g/L,40,Male,0.617825,1.536725,1.0045
+Apolipoprotein B,g/L,40,Female,0.565,1.3780000000000001,0.883
+Apolipoprotein B,g/L,40,Both,0.581,1.486,0.938
+Apolipoprotein B,g/L,41,Male,0.633175,1.534,1.0085
+Apolipoprotein B,g/L,41,Female,0.569225,1.3857749999999995,0.891
+Apolipoprotein B,g/L,41,Both,0.590425,1.4765749999999989,0.945
+Apolipoprotein B,g/L,42,Male,0.6226,1.5376999999999998,1.022
+Apolipoprotein B,g/L,42,Female,0.575525,1.4014749999999994,0.898
+Apolipoprotein B,g/L,42,Both,0.592,1.4851499999999997,0.952
+Apolipoprotein B,g/L,43,Male,0.639,1.5581499999999997,1.027
+Apolipoprotein B,g/L,43,Female,0.584,1.400625,0.911
+Apolipoprotein B,g/L,43,Both,0.6,1.4886749999999993,0.958
+Apolipoprotein B,g/L,44,Male,0.6400250000000001,1.5469749999999993,1.035
+Apolipoprotein B,g/L,44,Female,0.588,1.39875,0.909
+Apolipoprotein B,g/L,44,Both,0.605,1.492399999999998,0.964
+Apolipoprotein B,g/L,45,Male,0.6479,1.555,1.052
+Apolipoprotein B,g/L,45,Female,0.5847,1.4103,0.923
+Apolipoprotein B,g/L,45,Both,0.603,1.4953750000000001,0.973
+Apolipoprotein B,g/L,46,Male,0.642575,1.559425,1.0495
+Apolipoprotein B,g/L,46,Female,0.58815,1.4388499999999995,0.934
+Apolipoprotein B,g/L,46,Both,0.605,1.511,0.982
+Apolipoprotein B,g/L,47,Male,0.648,1.565,1.043
+Apolipoprotein B,g/L,47,Female,0.602275,1.471,0.948
+Apolipoprotein B,g/L,47,Both,0.622,1.528,0.988
+Apolipoprotein B,g/L,48,Male,0.636,1.5865500000000001,1.053
+Apolipoprotein B,g/L,48,Female,0.609,1.468824999999999,0.96
+Apolipoprotein B,g/L,48,Both,0.618,1.541,0.998
+Apolipoprotein B,g/L,49,Male,0.634,1.5580499999999993,1.052
+Apolipoprotein B,g/L,49,Female,0.626,1.4660749999999998,0.976
+Apolipoprotein B,g/L,49,Both,0.628425,1.516,1.0074999999999998
+Apolipoprotein B,g/L,50,Male,0.632,1.567,1.0554999999999999
+Apolipoprotein B,g/L,50,Female,0.619,1.512,0.988
+Apolipoprotein B,g/L,50,Both,0.625,1.541,1.015
+Apolipoprotein B,g/L,51,Male,0.6319,1.552199999999999,1.049
+Apolipoprotein B,g/L,51,Female,0.637125,1.52175,0.996
+Apolipoprotein B,g/L,51,Both,0.636,1.538,1.018
+Apolipoprotein B,g/L,52,Male,0.628,1.564,1.054
+Apolipoprotein B,g/L,52,Female,0.642,1.5293249999999998,1.013
+Apolipoprotein B,g/L,52,Both,0.63225,1.544,1.029
+Apolipoprotein B,g/L,53,Male,0.643475,1.5760999999999985,1.0535
+Apolipoprotein B,g/L,53,Female,0.6509,1.545,1.022
+Apolipoprotein B,g/L,53,Both,0.647,1.5626000000000004,1.035
+Apolipoprotein B,g/L,54,Male,0.621,1.571,1.056
+Apolipoprotein B,g/L,54,Female,0.6548,1.557,1.038
+Apolipoprotein B,g/L,54,Both,0.64,1.565,1.045
+Apolipoprotein B,g/L,55,Male,0.631,1.5778000000000003,1.045
+Apolipoprotein B,g/L,55,Female,0.662,1.5969749999999994,1.053
+Apolipoprotein B,g/L,55,Both,0.646,1.58975,1.05
+Apolipoprotein B,g/L,56,Male,0.61915,1.5584250000000002,1.044
+Apolipoprotein B,g/L,56,Female,0.65095,1.581,1.05
+Apolipoprotein B,g/L,56,Both,0.636,1.571,1.047
+Apolipoprotein B,g/L,57,Male,0.613025,1.5529749999999993,1.04
+Apolipoprotein B,g/L,57,Female,0.6663,1.596,1.058
+Apolipoprotein B,g/L,57,Both,0.641,1.577,1.05
+Apolipoprotein B,g/L,58,Male,0.6071,1.542,1.033
+Apolipoprotein B,g/L,58,Female,0.664,1.607,1.062
+Apolipoprotein B,g/L,58,Both,0.636,1.573,1.051
+Apolipoprotein B,g/L,59,Male,0.599,1.5319749999999994,1.026
+Apolipoprotein B,g/L,59,Female,0.657,1.6009750000000003,1.059
+Apolipoprotein B,g/L,59,Both,0.623075,1.5739249999999994,1.043
+Apolipoprotein B,g/L,60,Male,0.603275,1.542,1.022
+Apolipoprotein B,g/L,60,Female,0.653275,1.607,1.072
+Apolipoprotein B,g/L,60,Both,0.627,1.581,1.05
+Apolipoprotein B,g/L,61,Male,0.59,1.526074999999999,1.016
+Apolipoprotein B,g/L,61,Female,0.651475,1.6125249999999998,1.073
+Apolipoprotein B,g/L,61,Both,0.6194250000000001,1.581,1.047
+Apolipoprotein B,g/L,62,Male,0.587,1.517,1.006
+Apolipoprotein B,g/L,62,Female,0.655,1.595,1.074
+Apolipoprotein B,g/L,62,Both,0.617,1.564,1.043
+Apolipoprotein B,g/L,63,Male,0.586675,1.512,0.993
+Apolipoprotein B,g/L,63,Female,0.647,1.6103999999999996,1.072
+Apolipoprotein B,g/L,63,Both,0.61,1.575,1.036
+Apolipoprotein B,g/L,64,Male,0.585,1.5065,0.988
+Apolipoprotein B,g/L,64,Female,0.635,1.6117250000000005,1.064
+Apolipoprotein B,g/L,64,Both,0.609,1.571,1.03
+Apolipoprotein B,g/L,65,Male,0.575,1.492449999999999,0.975
+Apolipoprotein B,g/L,65,Female,0.637,1.586,1.06
+Apolipoprotein B,g/L,65,Both,0.602,1.553,1.019
+Apolipoprotein B,g/L,66,Male,0.57,1.4956499999999997,0.971
+Apolipoprotein B,g/L,66,Female,0.633,1.599,1.058
+Apolipoprotein B,g/L,66,Both,0.595775,1.553,1.016
+Apolipoprotein B,g/L,67,Male,0.56205,1.4798999999999995,0.956
+Apolipoprotein B,g/L,67,Female,0.63,1.5820999999999996,1.052
+Apolipoprotein B,g/L,67,Both,0.591,1.5420249999999998,1.004
+Apolipoprotein B,g/L,68,Male,0.5614250000000001,1.466575,0.952
+Apolipoprotein B,g/L,68,Female,0.620475,1.6115249999999997,1.052
+Apolipoprotein B,g/L,68,Both,0.589,1.5590749999999989,1.003
+Apolipoprotein B,g/L,69,Male,0.551,1.455,0.939
+Apolipoprotein B,g/L,69,Female,0.60805,1.608,1.038
+Apolipoprotein B,g/L,69,Both,0.574,1.542,0.988
+Apolipoprotein B,g/L,70,Male,0.567625,1.439625,0.94
+Apolipoprotein B,g/L,70,Female,0.591,1.595,1.04
+Apolipoprotein B,g/L,70,Both,0.58195,1.5363499999999999,0.986
+Aspartate Aminotransferase,U/L,40,Male,17.3,50.94749999999999,26.4
+Aspartate Aminotransferase,U/L,40,Female,14.1,37.67999999999998,20.4
+Aspartate Aminotransferase,U/L,40,Both,14.875,46.1,22.9
+Aspartate Aminotransferase,U/L,41,Male,17.2,53.92750000000001,26.1
+Aspartate Aminotransferase,U/L,41,Female,14.0,36.5,20.2
+Aspartate Aminotransferase,U/L,41,Both,14.7,46.3,22.8
+Aspartate Aminotransferase,U/L,42,Male,17.3,51.43749999999991,26.5
+Aspartate Aminotransferase,U/L,42,Female,14.1,37.1,20.4
+Aspartate Aminotransferase,U/L,42,Both,14.8,45.16749999999993,23.0
+Aspartate Aminotransferase,U/L,43,Male,17.3,51.85749999999998,26.4
+Aspartate Aminotransferase,U/L,43,Female,14.2,36.8,20.4
+Aspartate Aminotransferase,U/L,43,Both,15.0,47.042499999999926,22.9
+Aspartate Aminotransferase,U/L,44,Male,17.4,53.96499999999996,26.4
+Aspartate Aminotransferase,U/L,44,Female,14.1,36.20749999999998,20.5
+Aspartate Aminotransferase,U/L,44,Both,14.9,46.8375,22.9
+Aspartate Aminotransferase,U/L,45,Male,17.3,54.3,26.6
+Aspartate Aminotransferase,U/L,45,Female,14.174999999999999,39.2,20.7
+Aspartate Aminotransferase,U/L,45,Both,14.9325,48.3,22.9
+Aspartate Aminotransferase,U/L,46,Male,17.3,53.1,26.5
+Aspartate Aminotransferase,U/L,46,Female,14.2,37.0,20.5
+Aspartate Aminotransferase,U/L,46,Both,14.9,45.96499999999996,22.9
+Aspartate Aminotransferase,U/L,47,Male,17.3275,51.71749999999984,26.5
+Aspartate Aminotransferase,U/L,47,Female,14.5,38.952499999999965,21.0
+Aspartate Aminotransferase,U/L,47,Both,15.0,46.22250000000004,23.2
+Aspartate Aminotransferase,U/L,48,Male,17.4825,53.335000000000036,26.5
+Aspartate Aminotransferase,U/L,48,Female,14.75,40.650000000000006,21.2
+Aspartate Aminotransferase,U/L,48,Both,15.2,48.0,23.2
+Aspartate Aminotransferase,U/L,49,Male,17.32,52.76000000000003,26.6
+Aspartate Aminotransferase,U/L,49,Female,14.8,39.1,21.4
+Aspartate Aminotransferase,U/L,49,Both,15.2,46.1,23.5
+Aspartate Aminotransferase,U/L,50,Male,17.4,51.9,26.3
+Aspartate Aminotransferase,U/L,50,Female,14.7,41.132499999999986,21.8
+Aspartate Aminotransferase,U/L,50,Both,15.2,47.5,23.7
+Aspartate Aminotransferase,U/L,51,Male,17.145000000000003,53.05500000000002,26.3
+Aspartate Aminotransferase,U/L,51,Female,15.1,43.1625,22.1
+Aspartate Aminotransferase,U/L,51,Both,15.7,48.2,23.9
+Aspartate Aminotransferase,U/L,52,Male,17.2,51.789999999999964,26.2
+Aspartate Aminotransferase,U/L,52,Female,15.2,43.1,22.5
+Aspartate Aminotransferase,U/L,52,Both,15.8,47.24499999999989,24.0
+Aspartate Aminotransferase,U/L,53,Male,17.4,52.0,26.4
+Aspartate Aminotransferase,U/L,53,Female,15.7,43.88499999999994,22.9
+Aspartate Aminotransferase,U/L,53,Both,16.1,48.1,24.3
+Aspartate Aminotransferase,U/L,54,Male,17.3,53.2,26.3
+Aspartate Aminotransferase,U/L,54,Female,15.8,44.11750000000002,23.2
+Aspartate Aminotransferase,U/L,54,Both,16.1,48.9,24.5
+Aspartate Aminotransferase,U/L,55,Male,17.17,52.430000000000014,26.1
+Aspartate Aminotransferase,U/L,55,Female,15.9,43.2,23.3
+Aspartate Aminotransferase,U/L,55,Both,16.3,47.9,24.5
+Aspartate Aminotransferase,U/L,56,Male,17.1,52.6,26.1
+Aspartate Aminotransferase,U/L,56,Female,16.0,44.42249999999994,23.5
+Aspartate Aminotransferase,U/L,56,Both,16.3,48.1,24.6
+Aspartate Aminotransferase,U/L,57,Male,17.1,51.6,26.1
+Aspartate Aminotransferase,U/L,57,Female,16.1,44.74499999999989,23.7
+Aspartate Aminotransferase,U/L,57,Both,16.5,48.3,24.7
+Aspartate Aminotransferase,U/L,58,Male,17.3,51.824999999999996,26.1
+Aspartate Aminotransferase,U/L,58,Female,16.4,43.9,23.7
+Aspartate Aminotransferase,U/L,58,Both,16.8,47.6,24.7
+Aspartate Aminotransferase,U/L,59,Male,17.3,50.32749999999996,26.1
+Aspartate Aminotransferase,U/L,59,Female,16.3,43.7,23.7
+Aspartate Aminotransferase,U/L,59,Both,16.7,47.02749999999978,24.8
+Aspartate Aminotransferase,U/L,60,Male,17.0,50.379999999999924,26.0
+Aspartate Aminotransferase,U/L,60,Female,16.1,44.1,23.8
+Aspartate Aminotransferase,U/L,60,Both,16.5,47.5625,24.8
+Aspartate Aminotransferase,U/L,61,Male,17.2,49.360000000000035,26.1
+Aspartate Aminotransferase,U/L,61,Female,16.4,43.94750000000003,23.9
+Aspartate Aminotransferase,U/L,61,Both,16.7,47.2,24.9
+Aspartate Aminotransferase,U/L,62,Male,17.2,49.5,26.1
+Aspartate Aminotransferase,U/L,62,Female,16.3,44.2,24.0
+Aspartate Aminotransferase,U/L,62,Both,16.8,46.9,24.9
+Aspartate Aminotransferase,U/L,63,Male,17.1,50.6,26.2
+Aspartate Aminotransferase,U/L,63,Female,16.5,43.3,24.1
+Aspartate Aminotransferase,U/L,63,Both,16.8,47.1,25.0
+Aspartate Aminotransferase,U/L,64,Male,17.3,50.4125,25.8
+Aspartate Aminotransferase,U/L,64,Female,16.3,43.09499999999989,24.0
+Aspartate Aminotransferase,U/L,64,Both,16.8,46.70499999999993,24.9
+Aspartate Aminotransferase,U/L,65,Male,17.3,50.42749999999996,26.2
+Aspartate Aminotransferase,U/L,65,Female,16.5,43.8,24.1
+Aspartate Aminotransferase,U/L,65,Both,16.8,47.45499999999993,25.1
+Aspartate Aminotransferase,U/L,66,Male,17.3,50.604999999999926,26.0
+Aspartate Aminotransferase,U/L,66,Female,16.5,42.539999999999964,24.1
+Aspartate Aminotransferase,U/L,66,Both,16.9,46.9,25.0
+Aspartate Aminotransferase,U/L,67,Male,17.1,47.2,26.0
+Aspartate Aminotransferase,U/L,67,Female,16.6,42.514999999999965,24.1
+Aspartate Aminotransferase,U/L,67,Both,16.8,45.2,25.0
+Aspartate Aminotransferase,U/L,68,Male,17.2,48.3,25.9
+Aspartate Aminotransferase,U/L,68,Female,16.5,43.76999999999998,24.2
+Aspartate Aminotransferase,U/L,68,Both,16.8,45.985000000000035,25.0
+Aspartate Aminotransferase,U/L,69,Male,17.3,48.26750000000002,25.9
+Aspartate Aminotransferase,U/L,69,Female,16.7,43.02749999999996,24.3
+Aspartate Aminotransferase,U/L,69,Both,16.9,46.2,25.0
+Aspartate Aminotransferase,U/L,70,Male,17.1,47.499999999999865,25.8
+Aspartate Aminotransferase,U/L,70,Female,17.1,47.26499999999995,24.4
+Aspartate Aminotransferase,U/L,70,Both,17.1,47.33249999999998,25.0
+Direct Bilirubin,umol/L,40,Male,1.08,4.841500000000001,1.83
+Direct Bilirubin,umol/L,40,Female,1.02,4.29575,1.61
+Direct Bilirubin,umol/L,40,Both,1.03,4.58625,1.72
+Direct Bilirubin,umol/L,41,Male,1.08,4.45625,1.79
+Direct Bilirubin,umol/L,41,Female,1.02,4.259249999999997,1.62
+Direct Bilirubin,umol/L,41,Both,1.03,4.37,1.71
+Direct Bilirubin,umol/L,42,Male,1.07,4.499500000000003,1.79
+Direct Bilirubin,umol/L,42,Female,1.02,4.021749999999997,1.59
+Direct Bilirubin,umol/L,42,Both,1.03,4.28,1.69
+Direct Bilirubin,umol/L,43,Male,1.06,4.5625,1.79
+Direct Bilirubin,umol/L,43,Female,1.02,3.9050000000000002,1.6
+Direct Bilirubin,umol/L,43,Both,1.03,4.24,1.68
+Direct Bilirubin,umol/L,44,Male,1.07,4.423499999999994,1.78
+Direct Bilirubin,umol/L,44,Female,1.02,4.0725,1.57
+Direct Bilirubin,umol/L,44,Both,1.03,4.223999999999997,1.67
+Direct Bilirubin,umol/L,45,Male,1.04,4.344749999999994,1.76
+Direct Bilirubin,umol/L,45,Female,1.02,4.01,1.56
+Direct Bilirubin,umol/L,45,Both,1.02,4.161999999999989,1.65
+Direct Bilirubin,umol/L,46,Male,1.07,4.73,1.77
+Direct Bilirubin,umol/L,46,Female,1.02,3.93,1.54
+Direct Bilirubin,umol/L,46,Both,1.02,4.31,1.65
+Direct Bilirubin,umol/L,47,Male,1.07,4.365,1.76
+Direct Bilirubin,umol/L,47,Female,1.02,3.87,1.54
+Direct Bilirubin,umol/L,47,Both,1.02,4.192999999999993,1.64
+Direct Bilirubin,umol/L,48,Male,1.0535,4.54,1.77
+Direct Bilirubin,umol/L,48,Female,1.02,3.68,1.51
+Direct Bilirubin,umol/L,48,Both,1.02,4.11,1.62
+Direct Bilirubin,umol/L,49,Male,1.07,4.44,1.75
+Direct Bilirubin,umol/L,49,Female,1.01,3.692749999999996,1.49
+Direct Bilirubin,umol/L,49,Both,1.02,4.074750000000003,1.61
+Direct Bilirubin,umol/L,50,Male,1.0672500000000003,4.2409999999999854,1.74
+Direct Bilirubin,umol/L,50,Female,1.02,3.72,1.48
+Direct Bilirubin,umol/L,50,Both,1.02,4.01,1.6
+Direct Bilirubin,umol/L,51,Male,1.07,4.42,1.76
+Direct Bilirubin,umol/L,51,Female,1.01,3.5760000000000036,1.46
+Direct Bilirubin,umol/L,51,Both,1.02,3.98,1.59
+Direct Bilirubin,umol/L,52,Male,1.06,4.31,1.76
+Direct Bilirubin,umol/L,52,Female,1.01,3.59,1.4449999999999998
+Direct Bilirubin,umol/L,52,Both,1.02,4.035499999999993,1.59
+Direct Bilirubin,umol/L,53,Male,1.06,4.371999999999998,1.75
+Direct Bilirubin,umol/L,53,Female,1.01,3.52,1.43
+Direct Bilirubin,umol/L,53,Both,1.02,3.94,1.58
+Direct Bilirubin,umol/L,54,Male,1.06,4.348999999999979,1.76
+Direct Bilirubin,umol/L,54,Female,1.01,3.440500000000002,1.44
+Direct Bilirubin,umol/L,54,Both,1.02,3.93,1.59
+Direct Bilirubin,umol/L,55,Male,1.08,4.23,1.75
+Direct Bilirubin,umol/L,55,Female,1.01,3.3419999999999983,1.43
+Direct Bilirubin,umol/L,55,Both,1.02,3.865,1.58
+Direct Bilirubin,umol/L,56,Male,1.06,4.293000000000002,1.75
+Direct Bilirubin,umol/L,56,Female,1.01,3.3,1.42
+Direct Bilirubin,umol/L,56,Both,1.02,3.85,1.58
+Direct Bilirubin,umol/L,57,Male,1.07,4.23,1.76
+Direct Bilirubin,umol/L,57,Female,1.01,3.39,1.43
+Direct Bilirubin,umol/L,57,Both,1.02,3.84,1.58
+Direct Bilirubin,umol/L,58,Male,1.065,4.285,1.77
+Direct Bilirubin,umol/L,58,Female,1.01,3.2952499999999962,1.44
+Direct Bilirubin,umol/L,58,Both,1.02,3.84,1.59
+Direct Bilirubin,umol/L,59,Male,1.06,4.21,1.78
+Direct Bilirubin,umol/L,59,Female,1.01,3.2477499999999964,1.43
+Direct Bilirubin,umol/L,59,Both,1.02,3.86,1.59
+Direct Bilirubin,umol/L,60,Male,1.07,4.176999999999989,1.78
+Direct Bilirubin,umol/L,60,Female,1.01,3.295749999999989,1.42
+Direct Bilirubin,umol/L,60,Both,1.02,3.8125,1.58
+Direct Bilirubin,umol/L,61,Male,1.08,4.266999999999989,1.8
+Direct Bilirubin,umol/L,61,Female,1.01,3.29,1.42
+Direct Bilirubin,umol/L,61,Both,1.02,3.84,1.6
+Direct Bilirubin,umol/L,62,Male,1.08,4.244750000000003,1.8
+Direct Bilirubin,umol/L,62,Female,1.01,3.31,1.42
+Direct Bilirubin,umol/L,62,Both,1.02,3.84,1.6
+Direct Bilirubin,umol/L,63,Male,1.08,4.35,1.8
+Direct Bilirubin,umol/L,63,Female,1.01,3.28,1.41
+Direct Bilirubin,umol/L,63,Both,1.02,3.95,1.6
+Direct Bilirubin,umol/L,64,Male,1.08,4.33,1.81
+Direct Bilirubin,umol/L,64,Female,1.01,3.23,1.42
+Direct Bilirubin,umol/L,64,Both,1.02,3.8897499999999856,1.61
+Direct Bilirubin,umol/L,65,Male,1.08,4.49,1.84
+Direct Bilirubin,umol/L,65,Female,1.01,3.25,1.42
+Direct Bilirubin,umol/L,65,Both,1.02,4.03,1.62
+Direct Bilirubin,umol/L,66,Male,1.08,4.28,1.85
+Direct Bilirubin,umol/L,66,Female,1.01,3.2409999999999948,1.42
+Direct Bilirubin,umol/L,66,Both,1.02,3.93,1.63
+Direct Bilirubin,umol/L,67,Male,1.09,4.497249999999995,1.87
+Direct Bilirubin,umol/L,67,Female,1.01,3.2542500000000016,1.44
+Direct Bilirubin,umol/L,67,Both,1.02875,4.101249999999999,1.65
+Direct Bilirubin,umol/L,68,Male,1.09,4.3207499999999985,1.85
+Direct Bilirubin,umol/L,68,Female,1.01,3.33,1.44
+Direct Bilirubin,umol/L,68,Both,1.03,4.01,1.64
+Direct Bilirubin,umol/L,69,Male,1.09,4.49,1.88
+Direct Bilirubin,umol/L,69,Female,1.01,3.3689999999999967,1.46
+Direct Bilirubin,umol/L,69,Both,1.02,4.03,1.66
+Direct Bilirubin,umol/L,70,Male,1.0842500000000002,4.2187499999999964,1.9
+Direct Bilirubin,umol/L,70,Female,1.01,3.57225,1.46
+Direct Bilirubin,umol/L,70,Both,1.03,3.9677499999999988,1.69
+Urea,mmol/L,40,Male,3.2367500000000002,7.81325,5.04
+Urea,mmol/L,40,Female,2.69325,6.54,4.33
+Urea,mmol/L,40,Both,2.84,7.359499999999989,4.68
+Urea,mmol/L,41,Male,3.17,7.798999999999996,5.12
+Urea,mmol/L,41,Female,2.73,6.80125,4.38
+Urea,mmol/L,41,Both,2.87,7.41,4.71
+Urea,mmol/L,42,Male,3.3225,7.93,5.13
+Urea,mmol/L,42,Female,2.8,6.81,4.42
+Urea,mmol/L,42,Both,2.93,7.47,4.76
+Urea,mmol/L,43,Male,3.2,7.8525,5.13
+Urea,mmol/L,43,Female,2.76,6.86,4.43
+Urea,mmol/L,43,Both,2.887,7.432999999999993,4.72
+Urea,mmol/L,44,Male,3.26,8.04,5.16
+Urea,mmol/L,44,Female,2.8,6.853499999999994,4.49
+Urea,mmol/L,44,Both,2.9,7.53,4.76
+Urea,mmol/L,45,Male,3.27,7.9,5.22
+Urea,mmol/L,45,Female,2.84,6.94,4.52
+Urea,mmol/L,45,Both,2.96,7.52,4.82
+Urea,mmol/L,46,Male,3.2157500000000003,7.924250000000002,5.17
+Urea,mmol/L,46,Female,2.92,6.94,4.52
+Urea,mmol/L,46,Both,2.9907500000000002,7.51,4.8
+Urea,mmol/L,47,Male,3.29,7.979749999999995,5.24
+Urea,mmol/L,47,Female,2.83,7.171499999999996,4.56
+Urea,mmol/L,47,Both,2.95,7.66,4.86
+Urea,mmol/L,48,Male,3.2,8.08,5.28
+Urea,mmol/L,48,Female,2.89,7.05,4.69
+Urea,mmol/L,48,Both,2.98,7.624499999999989,4.92
+Urea,mmol/L,49,Male,3.32925,8.060749999999999,5.27
+Urea,mmol/L,49,Female,2.92,7.19,4.735
+Urea,mmol/L,49,Both,3.04,7.69,4.97
+Urea,mmol/L,50,Male,3.3085,8.091499999999996,5.3
+Urea,mmol/L,50,Female,2.95,7.43,4.82
+Urea,mmol/L,50,Both,3.08,7.78,5.02
+Urea,mmol/L,51,Male,3.29925,8.200749999999998,5.26
+Urea,mmol/L,51,Female,3.02,7.5,4.83
+Urea,mmol/L,51,Both,3.0982500000000006,7.82,5.03
+Urea,mmol/L,52,Male,3.24575,8.18,5.31
+Urea,mmol/L,52,Female,3.0305,7.6489999999999965,4.95
+Urea,mmol/L,52,Both,3.1065000000000005,7.92,5.1
+Urea,mmol/L,53,Male,3.264,8.15,5.27
+Urea,mmol/L,53,Female,3.16,7.71,5.02
+Urea,mmol/L,53,Both,3.2,7.92,5.13
+Urea,mmol/L,54,Male,3.27,8.2,5.36
+Urea,mmol/L,54,Female,3.1315,7.728499999999995,5.07
+Urea,mmol/L,54,Both,3.2,7.98,5.2
+Urea,mmol/L,55,Male,3.35,8.33,5.34
+Urea,mmol/L,55,Female,3.23,7.8442500000000015,5.14
+Urea,mmol/L,55,Both,3.28,8.1,5.22
+Urea,mmol/L,56,Male,3.3,8.3,5.38
+Urea,mmol/L,56,Female,3.17525,7.914749999999994,5.19
+Urea,mmol/L,56,Both,3.24,8.1,5.27
+Urea,mmol/L,57,Male,3.3187499999999996,8.35125,5.42
+Urea,mmol/L,57,Female,3.28,8.061499999999997,5.18
+Urea,mmol/L,57,Both,3.2975,8.21,5.29
+Urea,mmol/L,58,Male,3.44,8.38,5.43
+Urea,mmol/L,58,Female,3.33,8.091499999999996,5.26
+Urea,mmol/L,58,Both,3.37,8.25,5.34
+Urea,mmol/L,59,Male,3.4,8.43625,5.49
+Urea,mmol/L,59,Female,3.34525,8.14,5.3
+Urea,mmol/L,59,Both,3.36,8.31,5.39
+Urea,mmol/L,60,Male,3.5,8.64,5.56
+Urea,mmol/L,60,Female,3.36,8.21,5.34
+Urea,mmol/L,60,Both,3.41,8.41,5.44
+Urea,mmol/L,61,Male,3.46,8.77,5.61
+Urea,mmol/L,61,Female,3.41,8.24,5.39
+Urea,mmol/L,61,Both,3.43,8.52,5.49
+Urea,mmol/L,62,Male,3.51,8.620499999999993,5.6
+Urea,mmol/L,62,Female,3.46,8.38,5.41
+Urea,mmol/L,62,Both,3.48,8.51,5.5
+Urea,mmol/L,63,Male,3.5195000000000003,8.940499999999993,5.66
+Urea,mmol/L,63,Female,3.47,8.41,5.47
+Urea,mmol/L,63,Both,3.48,8.665499999999993,5.55
+Urea,mmol/L,64,Male,3.53,8.94,5.69
+Urea,mmol/L,64,Female,3.44,8.59375,5.48
+Urea,mmol/L,64,Both,3.47,8.77,5.57
+Urea,mmol/L,65,Male,3.63,9.22,5.75
+Urea,mmol/L,65,Female,3.47,8.69,5.51
+Urea,mmol/L,65,Both,3.536,8.94,5.63
+Urea,mmol/L,66,Male,3.63,9.27,5.78
+Urea,mmol/L,66,Female,3.52,8.71875,5.57
+Urea,mmol/L,66,Both,3.58,9.0,5.67
+Urea,mmol/L,67,Male,3.67,9.38,5.82
+Urea,mmol/L,67,Female,3.46,8.91,5.61
+Urea,mmol/L,67,Both,3.57,9.17,5.71
+Urea,mmol/L,68,Male,3.68,9.658499999999995,5.87
+Urea,mmol/L,68,Female,3.53,8.97,5.61
+Urea,mmol/L,68,Both,3.6,9.31,5.73
+Urea,mmol/L,69,Male,3.67,9.77,5.89
+Urea,mmol/L,69,Female,3.5135,9.036499999999995,5.66
+Urea,mmol/L,69,Both,3.59,9.401250000000001,5.77
+Urea,mmol/L,70,Male,3.596,9.974499999999994,5.83
+Urea,mmol/L,70,Female,3.57075,9.115499999999997,5.57
+Urea,mmol/L,70,Both,3.57,9.575,5.73
+Calcium,mmol/L,40,Male,2.2333000000000003,2.5751000000000004,2.393
+Calcium,mmol/L,40,Female,2.189,2.534975,2.352
+Calcium,mmol/L,40,Both,2.207,2.558,2.372
+Calcium,mmol/L,41,Male,2.23,2.56775,2.389
+Calcium,mmol/L,41,Female,2.193,2.539,2.349
+Calcium,mmol/L,41,Both,2.208,2.557,2.367
+Calcium,mmol/L,42,Male,2.223,2.568,2.389
+Calcium,mmol/L,42,Female,2.189175,2.532,2.347
+Calcium,mmol/L,42,Both,2.2,2.554,2.367
+Calcium,mmol/L,43,Male,2.231,2.56845,2.388
+Calcium,mmol/L,43,Female,2.182,2.5383499999999994,2.347
+Calcium,mmol/L,43,Both,2.199,2.557,2.366
+Calcium,mmol/L,44,Male,2.22585,2.57,2.385
+Calcium,mmol/L,44,Female,2.1847000000000003,2.5326000000000004,2.346
+Calcium,mmol/L,44,Both,2.199575,2.552,2.365
+Calcium,mmol/L,45,Male,2.23,2.565925,2.386
+Calcium,mmol/L,45,Female,2.195,2.5456499999999993,2.35
+Calcium,mmol/L,45,Both,2.206,2.5515499999999993,2.367
+Calcium,mmol/L,46,Male,2.232,2.564,2.384
+Calcium,mmol/L,46,Female,2.187,2.5403999999999995,2.352
+Calcium,mmol/L,46,Both,2.201,2.554,2.366
+Calcium,mmol/L,47,Male,2.223,2.556,2.38
+Calcium,mmol/L,47,Female,2.189,2.544,2.352
+Calcium,mmol/L,47,Both,2.202,2.553,2.365
+Calcium,mmol/L,48,Male,2.224,2.567,2.38
+Calcium,mmol/L,48,Female,2.1867,2.554,2.357
+Calcium,mmol/L,48,Both,2.2009250000000002,2.56,2.368
+Calcium,mmol/L,49,Male,2.218,2.5584,2.379
+Calcium,mmol/L,49,Female,2.197,2.558,2.363
+Calcium,mmol/L,49,Both,2.203,2.558,2.37
+Calcium,mmol/L,50,Male,2.222,2.565,2.377
+Calcium,mmol/L,50,Female,2.2,2.576,2.37
+Calcium,mmol/L,50,Both,2.209,2.5699750000000003,2.3735
+Calcium,mmol/L,51,Male,2.214,2.559,2.376
+Calcium,mmol/L,51,Female,2.202,2.572,2.373
+Calcium,mmol/L,51,Both,2.207,2.567,2.374
+Calcium,mmol/L,52,Male,2.214,2.5550999999999995,2.375
+Calcium,mmol/L,52,Female,2.21,2.588,2.381
+Calcium,mmol/L,52,Both,2.211,2.579,2.378
+Calcium,mmol/L,53,Male,2.21,2.551,2.371
+Calcium,mmol/L,53,Female,2.2184,2.5895999999999995,2.386
+Calcium,mmol/L,53,Both,2.215,2.577,2.379
+Calcium,mmol/L,54,Male,2.211,2.54,2.373
+Calcium,mmol/L,54,Female,2.219,2.591,2.392
+Calcium,mmol/L,54,Both,2.217,2.572,2.383
+Calcium,mmol/L,55,Male,2.21,2.5538999999999996,2.371
+Calcium,mmol/L,55,Female,2.223,2.595,2.392
+Calcium,mmol/L,55,Both,2.217,2.58,2.382
+Calcium,mmol/L,56,Male,2.2083250000000003,2.55,2.369
+Calcium,mmol/L,56,Female,2.2252,2.599,2.393
+Calcium,mmol/L,56,Both,2.218,2.579,2.381
+Calcium,mmol/L,57,Male,2.206,2.55325,2.369
+Calcium,mmol/L,57,Female,2.227,2.595,2.394
+Calcium,mmol/L,57,Both,2.215,2.581,2.382
+Calcium,mmol/L,58,Male,2.207,2.554,2.367
+Calcium,mmol/L,58,Female,2.227625,2.598,2.392
+Calcium,mmol/L,58,Both,2.216,2.5799750000000006,2.381
+Calcium,mmol/L,59,Male,2.208,2.547,2.363
+Calcium,mmol/L,59,Female,2.228,2.607,2.395
+Calcium,mmol/L,59,Both,2.218,2.584,2.381
+Calcium,mmol/L,60,Male,2.202,2.554,2.362
+Calcium,mmol/L,60,Female,2.233,2.608,2.395
+Calcium,mmol/L,60,Both,2.216,2.588,2.38
+Calcium,mmol/L,61,Male,2.206825,2.552174999999999,2.364
+Calcium,mmol/L,61,Female,2.23,2.608,2.394
+Calcium,mmol/L,61,Both,2.217,2.585,2.38
+Calcium,mmol/L,62,Male,2.201,2.556424999999999,2.365
+Calcium,mmol/L,62,Female,2.231,2.6117250000000003,2.396
+Calcium,mmol/L,62,Both,2.215,2.585,2.381
+Calcium,mmol/L,63,Male,2.2,2.557,2.363
+Calcium,mmol/L,63,Female,2.229,2.611,2.394
+Calcium,mmol/L,63,Both,2.21,2.588,2.38
+Calcium,mmol/L,64,Male,2.194,2.556,2.359
+Calcium,mmol/L,64,Female,2.222025,2.613,2.392
+Calcium,mmol/L,64,Both,2.207,2.587,2.377
+Calcium,mmol/L,65,Male,2.196,2.555,2.359
+Calcium,mmol/L,65,Female,2.222,2.606,2.392
+Calcium,mmol/L,65,Both,2.208,2.583,2.376
+Calcium,mmol/L,66,Male,2.196,2.55225,2.361
+Calcium,mmol/L,66,Female,2.225,2.608,2.393
+Calcium,mmol/L,66,Both,2.21,2.586,2.376
+Calcium,mmol/L,67,Male,2.196,2.549,2.358
+Calcium,mmol/L,67,Female,2.221,2.6077500000000002,2.392
+Calcium,mmol/L,67,Both,2.207,2.584,2.374
+Calcium,mmol/L,68,Male,2.193,2.553675,2.357
+Calcium,mmol/L,68,Female,2.222625,2.609125,2.391
+Calcium,mmol/L,68,Both,2.205975,2.5830249999999997,2.374
+Calcium,mmol/L,69,Male,2.18975,2.549,2.356
+Calcium,mmol/L,69,Female,2.219275,2.617724999999999,2.392
+Calcium,mmol/L,69,Both,2.202,2.591,2.374
+Calcium,mmol/L,70,Male,2.197475,2.556525,2.361
+Calcium,mmol/L,70,Female,2.222,2.6262,2.388
+Calcium,mmol/L,70,Both,2.204,2.5806,2.374
+Total Cholesterol,mmol/L,40,Male,3.619725,7.80365,5.4185
+Total Cholesterol,mmol/L,40,Female,3.54095,7.270700000000003,5.114
+Total Cholesterol,mmol/L,40,Both,3.58525,7.5505499999999985,5.251
+Total Cholesterol,mmol/L,41,Male,3.706375,7.7078750000000005,5.437
+Total Cholesterol,mmol/L,41,Female,3.663825,7.186,5.109
+Total Cholesterol,mmol/L,41,Both,3.67395,7.493025,5.247
+Total Cholesterol,mmol/L,42,Male,3.7435,7.8155,5.501
+Total Cholesterol,mmol/L,42,Female,3.6517500000000003,7.304,5.154
+Total Cholesterol,mmol/L,42,Both,3.676,7.617600000000002,5.307
+Total Cholesterol,mmol/L,43,Male,3.755775,7.90215,5.5440000000000005
+Total Cholesterol,mmol/L,43,Female,3.6974,7.347,5.2
+Total Cholesterol,mmol/L,43,Both,3.724,7.6405999999999965,5.347
+Total Cholesterol,mmol/L,44,Male,3.67935,7.912974999999997,5.565
+Total Cholesterol,mmol/L,44,Female,3.7285000000000004,7.3205,5.257
+Total Cholesterol,mmol/L,44,Both,3.711,7.6645,5.386
+Total Cholesterol,mmol/L,45,Male,3.839,7.869974999999999,5.634
+Total Cholesterol,mmol/L,45,Female,3.7023,7.3881,5.294
+Total Cholesterol,mmol/L,45,Both,3.742,7.647299999999999,5.438
+Total Cholesterol,mmol/L,46,Male,3.700675,7.914924999999998,5.64
+Total Cholesterol,mmol/L,46,Female,3.787,7.630799999999999,5.333
+Total Cholesterol,mmol/L,46,Both,3.7403000000000004,7.774099999999997,5.462
+Total Cholesterol,mmol/L,47,Male,3.70215,7.934799999999996,5.617
+Total Cholesterol,mmol/L,47,Female,3.833075,7.645775,5.4295
+Total Cholesterol,mmol/L,47,Both,3.791,7.78225,5.515
+Total Cholesterol,mmol/L,48,Male,3.7359999999999998,7.966,5.664
+Total Cholesterol,mmol/L,48,Female,3.8975999999999997,7.691199999999993,5.509
+Total Cholesterol,mmol/L,48,Both,3.837675,7.822974999999997,5.573
+Total Cholesterol,mmol/L,49,Male,3.7167000000000003,7.887524999999998,5.672
+Total Cholesterol,mmol/L,49,Female,3.942475,7.789524999999999,5.5985
+Total Cholesterol,mmol/L,49,Both,3.838,7.836,5.6335
+Total Cholesterol,mmol/L,50,Male,3.6109,7.915449999999994,5.6355
+Total Cholesterol,mmol/L,50,Female,3.949375,7.8895,5.684
+Total Cholesterol,mmol/L,50,Both,3.77975,7.902625,5.665
+Total Cholesterol,mmol/L,51,Male,3.632225,7.83485,5.646
+Total Cholesterol,mmol/L,51,Female,4.002,8.023,5.724
+Total Cholesterol,mmol/L,51,Both,3.7993,7.957199999999998,5.69
+Total Cholesterol,mmol/L,52,Male,3.5837250000000003,7.901824999999999,5.635
+Total Cholesterol,mmol/L,52,Female,3.95425,8.03755,5.8175
+Total Cholesterol,mmol/L,52,Both,3.787,7.999025,5.746
+Total Cholesterol,mmol/L,53,Male,3.60805,7.989899999999998,5.649
+Total Cholesterol,mmol/L,53,Female,4.012125,8.15675,5.887
+Total Cholesterol,mmol/L,53,Both,3.803175,8.087124999999993,5.784
+Total Cholesterol,mmol/L,54,Male,3.567975,7.934375000000001,5.628
+Total Cholesterol,mmol/L,54,Female,4.05745,8.2201,5.955
+Total Cholesterol,mmol/L,54,Both,3.8048,8.1372,5.833
+Total Cholesterol,mmol/L,55,Male,3.5588249999999997,7.982349999999997,5.6165
+Total Cholesterol,mmol/L,55,Female,4.0818,8.3863,6.03
+Total Cholesterol,mmol/L,55,Both,3.771,8.237,5.854
+Total Cholesterol,mmol/L,56,Male,3.4806500000000002,7.866699999999999,5.59
+Total Cholesterol,mmol/L,56,Female,4.05045,8.30855,6.018
+Total Cholesterol,mmol/L,56,Both,3.748,8.13695,5.8325
+Total Cholesterol,mmol/L,57,Male,3.479025,7.823849999999997,5.5625
+Total Cholesterol,mmol/L,57,Female,4.052,8.445,6.061
+Total Cholesterol,mmol/L,57,Both,3.696,8.216849999999997,5.847
+Total Cholesterol,mmol/L,58,Male,3.3926,7.839599999999998,5.537
+Total Cholesterol,mmol/L,58,Female,4.066025,8.46995,6.076
+Total Cholesterol,mmol/L,58,Both,3.66535,8.236949999999998,5.849
+Total Cholesterol,mmol/L,59,Male,3.4025,7.795,5.502
+Total Cholesterol,mmol/L,59,Female,3.9987500000000002,8.40875,6.071
+Total Cholesterol,mmol/L,59,Both,3.646,8.215724999999997,5.818
+Total Cholesterol,mmol/L,60,Male,3.366,7.81075,5.503
+Total Cholesterol,mmol/L,60,Female,3.98475,8.452,6.113
+Total Cholesterol,mmol/L,60,Both,3.641075,8.257,5.84
+Total Cholesterol,mmol/L,61,Male,3.2880749999999996,7.783699999999997,5.465
+Total Cholesterol,mmol/L,61,Female,3.965,8.480525,6.0975
+Total Cholesterol,mmol/L,61,Both,3.591,8.240425,5.814
+Total Cholesterol,mmol/L,62,Male,3.3322,7.7498,5.397
+Total Cholesterol,mmol/L,62,Female,3.9378,8.4689,6.099
+Total Cholesterol,mmol/L,62,Both,3.553325,8.218,5.783
+Total Cholesterol,mmol/L,63,Male,3.2721,7.7017999999999995,5.356
+Total Cholesterol,mmol/L,63,Female,3.933675,8.525649999999997,6.091
+Total Cholesterol,mmol/L,63,Both,3.5108,8.258,5.762
+Total Cholesterol,mmol/L,64,Male,3.237,7.702449999999999,5.35
+Total Cholesterol,mmol/L,64,Female,3.887,8.4581,6.077
+Total Cholesterol,mmol/L,64,Both,3.484875,8.208224999999999,5.734
+Total Cholesterol,mmol/L,65,Male,3.254575,7.605274999999998,5.2485
+Total Cholesterol,mmol/L,65,Female,3.86,8.335399999999998,6.025
+Total Cholesterol,mmol/L,65,Both,3.4549000000000003,8.092,5.66
+Total Cholesterol,mmol/L,66,Male,3.20145,7.603824999999999,5.2355
+Total Cholesterol,mmol/L,66,Female,3.8522000000000003,8.42,6.013
+Total Cholesterol,mmol/L,66,Both,3.40495,8.16205,5.635
+Total Cholesterol,mmol/L,67,Male,3.162,7.5558,5.164
+Total Cholesterol,mmol/L,67,Female,3.79955,8.421674999999997,5.991
+Total Cholesterol,mmol/L,67,Both,3.36985,8.117,5.584
+Total Cholesterol,mmol/L,68,Male,3.154,7.522874999999998,5.137499999999999
+Total Cholesterol,mmol/L,68,Female,3.766825,8.454175000000001,5.983
+Total Cholesterol,mmol/L,68,Both,3.352075,8.143925,5.551
+Total Cholesterol,mmol/L,69,Male,3.082,7.444449999999999,5.07
+Total Cholesterol,mmol/L,69,Female,3.7917,8.40215,5.9365000000000006
+Total Cholesterol,mmol/L,69,Both,3.316,8.087549999999998,5.494
+Total Cholesterol,mmol/L,70,Male,3.1639749999999998,7.367899999999995,5.072
+Total Cholesterol,mmol/L,70,Female,3.7236,8.460999999999999,5.9
+Total Cholesterol,mmol/L,70,Both,3.36685,8.040050000000003,5.488
+Creatinine (Serum),umol/L,40,Male,59.5675,102.5,79.2
+Creatinine (Serum),umol/L,40,Female,46.43,81.80999999999995,61.9
+Creatinine (Serum),umol/L,40,Both,48.4,98.2,69.5
+Creatinine (Serum),umol/L,41,Male,59.3,104.98499999999994,78.5
+Creatinine (Serum),umol/L,41,Female,46.9,83.7,62.2
+Creatinine (Serum),umol/L,41,Both,49.0,99.6,69.3
+Creatinine (Serum),umol/L,42,Male,59.7,104.1,78.9
+Creatinine (Serum),umol/L,42,Female,47.1775,83.8,62.3
+Creatinine (Serum),umol/L,42,Both,48.9,99.1,69.6
+Creatinine (Serum),umol/L,43,Male,59.5,104.20500000000003,78.6
+Creatinine (Serum),umol/L,43,Female,47.385,83.51499999999996,62.4
+Creatinine (Serum),umol/L,43,Both,49.2,98.9,69.5
+Creatinine (Serum),umol/L,44,Male,59.3225,103.9,78.9
+Creatinine (Serum),umol/L,44,Female,47.5,83.3,62.7
+Creatinine (Serum),umol/L,44,Both,49.2,98.8,69.5
+Creatinine (Serum),umol/L,45,Male,59.6,105.1,79.1
+Creatinine (Serum),umol/L,45,Female,47.0,84.0,62.6
+Creatinine (Serum),umol/L,45,Both,49.0,99.3,69.2
+Creatinine (Serum),umol/L,46,Male,59.1,105.4,79.3
+Creatinine (Serum),umol/L,46,Female,47.1,84.54499999999997,62.9
+Creatinine (Serum),umol/L,46,Both,48.9,99.7,69.4
+Creatinine (Serum),umol/L,47,Male,59.6,104.8,79.1
+Creatinine (Serum),umol/L,47,Female,46.9975,85.0,62.7
+Creatinine (Serum),umol/L,47,Both,49.0,99.59499999999989,69.5
+Creatinine (Serum),umol/L,48,Male,59.542500000000004,106.81499999999997,79.4
+Creatinine (Serum),umol/L,48,Female,47.0,84.48999999999997,62.6
+Creatinine (Serum),umol/L,48,Both,48.6,100.1,69.4
+Creatinine (Serum),umol/L,49,Male,59.7925,105.11499999999995,79.2
+Creatinine (Serum),umol/L,49,Female,46.9,84.3,62.6
+Creatinine (Serum),umol/L,49,Both,48.4,99.6,69.4
+Creatinine (Serum),umol/L,50,Male,58.8,106.2,79.1
+Creatinine (Serum),umol/L,50,Female,46.8,85.2,62.8
+Creatinine (Serum),umol/L,50,Both,48.61000000000001,99.8,69.3
+Creatinine (Serum),umol/L,51,Male,58.9,104.91499999999996,79.2
+Creatinine (Serum),umol/L,51,Female,46.7,85.3,62.7
+Creatinine (Serum),umol/L,51,Both,48.3,99.81499999999996,69.2
+Creatinine (Serum),umol/L,52,Male,58.8,106.6125,79.1
+Creatinine (Serum),umol/L,52,Female,46.8,86.1,62.8
+Creatinine (Serum),umol/L,52,Both,48.7,101.0,69.2
+Creatinine (Serum),umol/L,53,Male,58.74,105.15999999999994,79.2
+Creatinine (Serum),umol/L,53,Female,46.9,85.8,63.0
+Creatinine (Serum),umol/L,53,Both,48.6,100.2,69.3
+Creatinine (Serum),umol/L,54,Male,58.125,106.275,79.5
+Creatinine (Serum),umol/L,54,Female,46.9,85.7,62.8
+Creatinine (Serum),umol/L,54,Both,48.7,100.4,69.4
+Creatinine (Serum),umol/L,55,Male,58.5,106.6,79.0
+Creatinine (Serum),umol/L,55,Female,46.5,86.13249999999998,62.9
+Creatinine (Serum),umol/L,55,Both,48.6,101.0125,69.55
+Creatinine (Serum),umol/L,56,Male,58.7,108.9,79.3
+Creatinine (Serum),umol/L,56,Female,46.4425,86.2,63.0
+Creatinine (Serum),umol/L,56,Both,48.5,102.2,69.6
+Creatinine (Serum),umol/L,57,Male,58.585,107.91499999999996,79.5
+Creatinine (Serum),umol/L,57,Female,46.5,87.10499999999992,62.9
+Creatinine (Serum),umol/L,57,Both,48.2,102.11749999999992,69.6
+Creatinine (Serum),umol/L,58,Male,58.905,108.5,79.5
+Creatinine (Serum),umol/L,58,Female,46.4975,87.8,63.0
+Creatinine (Serum),umol/L,58,Both,48.405,102.3,69.9
+Creatinine (Serum),umol/L,59,Male,59.0,110.05500000000002,79.8
+Creatinine (Serum),umol/L,59,Female,46.8,88.4449999999999,63.0
+Creatinine (Serum),umol/L,59,Both,48.7,103.5,70.2
+Creatinine (Serum),umol/L,60,Male,59.0,110.4,79.7
+Creatinine (Serum),umol/L,60,Female,46.3,88.7,62.9
+Creatinine (Serum),umol/L,60,Both,48.3,104.1,70.1
+Creatinine (Serum),umol/L,61,Male,59.8,111.6,80.15
+Creatinine (Serum),umol/L,61,Female,46.7,89.16499999999996,63.1
+Creatinine (Serum),umol/L,61,Both,48.6,104.85999999999986,70.4
+Creatinine (Serum),umol/L,62,Male,59.2,113.1,80.1
+Creatinine (Serum),umol/L,62,Female,46.7,90.1,63.5
+Creatinine (Serum),umol/L,62,Both,48.7,105.4,70.8
+Creatinine (Serum),umol/L,63,Male,59.9,114.41749999999993,80.7
+Creatinine (Serum),umol/L,63,Female,46.4,91.7,63.7
+Creatinine (Serum),umol/L,63,Both,48.532500000000006,106.46749999999993,71.2
+Creatinine (Serum),umol/L,64,Male,59.5,115.72749999999996,80.6
+Creatinine (Serum),umol/L,64,Female,46.7,91.5375,63.5
+Creatinine (Serum),umol/L,64,Both,48.8,107.7,71.2
+Creatinine (Serum),umol/L,65,Male,60.3625,119.5,81.0
+Creatinine (Serum),umol/L,65,Female,47.0,92.8,63.8
+Creatinine (Serum),umol/L,65,Both,49.2,110.01499999999979,72.2
+Creatinine (Serum),umol/L,66,Male,59.7,120.45999999999985,81.3
+Creatinine (Serum),umol/L,66,Female,46.81,93.48999999999997,64.1
+Creatinine (Serum),umol/L,66,Both,49.0,112.01749999999993,72.4
+Creatinine (Serum),umol/L,67,Male,60.0,121.9,81.5
+Creatinine (Serum),umol/L,67,Female,46.3675,96.06499999999997,64.1
+Creatinine (Serum),umol/L,67,Both,48.8,112.7,72.5
+Creatinine (Serum),umol/L,68,Male,59.6,123.58749999999999,81.8
+Creatinine (Serum),umol/L,68,Female,46.1775,95.42249999999996,64.4
+Creatinine (Serum),umol/L,68,Both,48.8,114.7074999999999,72.8
+Creatinine (Serum),umol/L,69,Male,60.0,126.24749999999995,82.4
+Creatinine (Serum),umol/L,69,Female,47.0,97.8625,64.6
+Creatinine (Serum),umol/L,69,Both,49.3,117.5,73.5
+Creatinine (Serum),umol/L,70,Male,60.165,125.01999999999988,81.6
+Creatinine (Serum),umol/L,70,Female,45.9225,99.2,64.8
+Creatinine (Serum),umol/L,70,Both,48.675000000000004,118.725,73.1
+C-Reactive Protein,mg/L,40,Male,0.18,10.662249999999991,1.0
+C-Reactive Protein,mg/L,40,Female,0.15,11.86924999999997,0.97
+C-Reactive Protein,mg/L,40,Both,0.16,11.318750000000001,0.99
+C-Reactive Protein,mg/L,41,Male,0.18,11.380500000000005,1.01
+C-Reactive Protein,mg/L,41,Female,0.16,12.571250000000001,0.99
+C-Reactive Protein,mg/L,41,Both,0.17,12.114999999999998,1.0
+C-Reactive Protein,mg/L,42,Male,0.18,9.663999999999978,1.02
+C-Reactive Protein,mg/L,42,Female,0.16,12.312249999999995,1.01
+C-Reactive Protein,mg/L,42,Both,0.17,11.401000000000003,1.02
+C-Reactive Protein,mg/L,43,Male,0.17,11.38300000000002,1.03
+C-Reactive Protein,mg/L,43,Female,0.16,11.972499999999963,1.0
+C-Reactive Protein,mg/L,43,Both,0.17,11.761999999999935,1.02
+C-Reactive Protein,mg/L,44,Male,0.18,11.1,1.08
+C-Reactive Protein,mg/L,44,Female,0.17,12.466999999999999,1.01
+C-Reactive Protein,mg/L,44,Both,0.17,11.814500000000008,1.04
+C-Reactive Protein,mg/L,45,Male,0.18,10.853999999999978,1.07
+C-Reactive Protein,mg/L,45,Female,0.17,13.009499999999997,1.02
+C-Reactive Protein,mg/L,45,Both,0.18,12.450249999999995,1.05
+C-Reactive Protein,mg/L,46,Male,0.18,10.08,1.08
+C-Reactive Protein,mg/L,46,Female,0.16325000000000017,12.64050000000001,1.04
+C-Reactive Protein,mg/L,46,Both,0.17,11.699999999999982,1.06
+C-Reactive Protein,mg/L,47,Male,0.19,10.866999999999935,1.12
+C-Reactive Protein,mg/L,47,Female,0.17,12.143500000000005,1.07
+C-Reactive Protein,mg/L,47,Both,0.18,11.7425,1.09
+C-Reactive Protein,mg/L,48,Male,0.19,11.29800000000002,1.18
+C-Reactive Protein,mg/L,48,Female,0.17,12.4,1.11
+C-Reactive Protein,mg/L,48,Both,0.18,11.891999999999971,1.15
+C-Reactive Protein,mg/L,49,Male,0.19,10.742750000000006,1.1
+C-Reactive Protein,mg/L,49,Female,0.18,12.446499999999995,1.14
+C-Reactive Protein,mg/L,49,Both,0.18,11.462250000000004,1.12
+C-Reactive Protein,mg/L,50,Male,0.2,11.272000000000007,1.18
+C-Reactive Protein,mg/L,50,Female,0.18,13.0025,1.2
+C-Reactive Protein,mg/L,50,Both,0.19,12.272999999999993,1.19
+C-Reactive Protein,mg/L,51,Male,0.2,11.71,1.18
+C-Reactive Protein,mg/L,51,Female,0.18,13.273249999999997,1.2
+C-Reactive Protein,mg/L,51,Both,0.19,12.82,1.19
+C-Reactive Protein,mg/L,52,Male,0.21,12.533999999999995,1.21
+C-Reactive Protein,mg/L,52,Female,0.19,12.9825,1.26
+C-Reactive Protein,mg/L,52,Both,0.2,12.787999999999991,1.24
+C-Reactive Protein,mg/L,53,Male,0.21200000000000016,12.254000000000023,1.22
+C-Reactive Protein,mg/L,53,Female,0.2,14.06,1.28
+C-Reactive Protein,mg/L,53,Both,0.21,13.46,1.25
+C-Reactive Protein,mg/L,54,Male,0.21,12.011499999999923,1.23
+C-Reactive Protein,mg/L,54,Female,0.2,13.28,1.32
+C-Reactive Protein,mg/L,54,Both,0.2,12.824000000000014,1.27
+C-Reactive Protein,mg/L,55,Male,0.21,11.559999999999992,1.23
+C-Reactive Protein,mg/L,55,Female,0.2,13.33,1.33
+C-Reactive Protein,mg/L,55,Both,0.21,12.738499999999986,1.28
+C-Reactive Protein,mg/L,56,Male,0.21,11.64125,1.26
+C-Reactive Protein,mg/L,56,Female,0.21,13.728499999999995,1.33
+C-Reactive Protein,mg/L,56,Both,0.21,12.943999999999978,1.3
+C-Reactive Protein,mg/L,57,Male,0.21,12.75,1.28
+C-Reactive Protein,mg/L,57,Female,0.21,13.92375,1.4
+C-Reactive Protein,mg/L,57,Both,0.21,13.467000000000008,1.34
+C-Reactive Protein,mg/L,58,Male,0.22,12.222999999999994,1.28
+C-Reactive Protein,mg/L,58,Female,0.21,13.327999999999957,1.41
+C-Reactive Protein,mg/L,58,Both,0.22,12.6475,1.35
+C-Reactive Protein,mg/L,59,Male,0.22,13.94625,1.29
+C-Reactive Protein,mg/L,59,Female,0.22,14.365,1.42
+C-Reactive Protein,mg/L,59,Both,0.22,14.20949999999997,1.36
+C-Reactive Protein,mg/L,60,Male,0.23,12.769249999999992,1.33
+C-Reactive Protein,mg/L,60,Female,0.22,13.80875000000002,1.49
+C-Reactive Protein,mg/L,60,Both,0.22,13.23,1.4
+C-Reactive Protein,mg/L,61,Male,0.24,14.658999999999978,1.34
+C-Reactive Protein,mg/L,61,Female,0.23,13.99,1.49
+C-Reactive Protein,mg/L,61,Both,0.23,14.26375,1.42
+C-Reactive Protein,mg/L,62,Male,0.25,12.58625,1.36
+C-Reactive Protein,mg/L,62,Female,0.23,14.139749999999967,1.5
+C-Reactive Protein,mg/L,62,Both,0.24,13.609249999999992,1.43
+C-Reactive Protein,mg/L,63,Male,0.23,14.166000000000004,1.38
+C-Reactive Protein,mg/L,63,Female,0.25,13.9475,1.55
+C-Reactive Protein,mg/L,63,Both,0.24,14.059000000000015,1.47
+C-Reactive Protein,mg/L,64,Male,0.24,13.887499999999946,1.42
+C-Reactive Protein,mg/L,64,Female,0.24,14.56,1.59
+C-Reactive Protein,mg/L,64,Both,0.24,14.394500000000008,1.51
+C-Reactive Protein,mg/L,65,Male,0.25,14.335999999999913,1.47
+C-Reactive Protein,mg/L,65,Female,0.25,14.80500000000002,1.63
+C-Reactive Protein,mg/L,65,Both,0.25,14.600499999999956,1.55
+C-Reactive Protein,mg/L,66,Male,0.25,14.897499999999946,1.48
+C-Reactive Protein,mg/L,66,Female,0.26,16.337000000000007,1.7
+C-Reactive Protein,mg/L,66,Both,0.26,15.6,1.58
+C-Reactive Protein,mg/L,67,Male,0.26,15.538999999999978,1.51
+C-Reactive Protein,mg/L,67,Female,0.26,14.97,1.66
+C-Reactive Protein,mg/L,67,Both,0.26,15.149499999999989,1.58
+C-Reactive Protein,mg/L,68,Male,0.25,16.780999999999985,1.54
+C-Reactive Protein,mg/L,68,Female,0.27,14.607999999999956,1.72
+C-Reactive Protein,mg/L,68,Both,0.26,15.66175000000001,1.63
+C-Reactive Protein,mg/L,69,Male,0.26,15.286999999999997,1.5
+C-Reactive Protein,mg/L,69,Female,0.29,15.3025,1.71
+C-Reactive Protein,mg/L,69,Both,0.27,15.300999999999986,1.61
+C-Reactive Protein,mg/L,70,Male,0.26,18.895500000000023,1.58
+C-Reactive Protein,mg/L,70,Female,0.27075000000000005,17.123999999999995,1.73
+C-Reactive Protein,mg/L,70,Both,0.26,17.78949999999998,1.645
+Cystatin C (Serum),mg/L,40,Male,0.6916749999999999,1.100325,0.857
+Cystatin C (Serum),mg/L,40,Female,0.615,1.004,0.774
+Cystatin C (Serum),mg/L,40,Both,0.632,1.06,0.812
+Cystatin C (Serum),mg/L,41,Male,0.686,1.096875,0.854
+Cystatin C (Serum),mg/L,41,Female,0.617,1.0130749999999997,0.773
+Cystatin C (Serum),mg/L,41,Both,0.633,1.058,0.813
+Cystatin C (Serum),mg/L,42,Male,0.694,1.102,0.858
+Cystatin C (Serum),mg/L,42,Female,0.614,1.0220500000000001,0.776
+Cystatin C (Serum),mg/L,42,Both,0.635,1.07,0.816
+Cystatin C (Serum),mg/L,43,Male,0.685,1.108,0.862
+Cystatin C (Serum),mg/L,43,Female,0.619,1.026,0.777
+Cystatin C (Serum),mg/L,43,Both,0.633,1.0791000000000004,0.815
+Cystatin C (Serum),mg/L,44,Male,0.6942999999999999,1.1186999999999998,0.867
+Cystatin C (Serum),mg/L,44,Female,0.614,1.0234499999999997,0.78
+Cystatin C (Serum),mg/L,44,Both,0.637,1.081,0.821
+Cystatin C (Serum),mg/L,45,Male,0.694,1.131,0.869
+Cystatin C (Serum),mg/L,45,Female,0.6213,1.041,0.783
+Cystatin C (Serum),mg/L,45,Both,0.6383,1.088,0.822
+Cystatin C (Serum),mg/L,46,Male,0.691,1.1254250000000001,0.872
+Cystatin C (Serum),mg/L,46,Female,0.617,1.0323249999999997,0.786
+Cystatin C (Serum),mg/L,46,Both,0.638,1.085,0.824
+Cystatin C (Serum),mg/L,47,Male,0.694,1.1356999999999988,0.873
+Cystatin C (Serum),mg/L,47,Female,0.623,1.05395,0.792
+Cystatin C (Serum),mg/L,47,Both,0.642,1.103,0.829
+Cystatin C (Serum),mg/L,48,Male,0.695,1.137,0.877
+Cystatin C (Serum),mg/L,48,Female,0.627175,1.054,0.797
+Cystatin C (Serum),mg/L,48,Both,0.641,1.107,0.834
+Cystatin C (Serum),mg/L,49,Male,0.699,1.149,0.879
+Cystatin C (Serum),mg/L,49,Female,0.63,1.074,0.805
+Cystatin C (Serum),mg/L,49,Both,0.646,1.1166000000000005,0.838
+Cystatin C (Serum),mg/L,50,Male,0.6998749999999999,1.1741249999999999,0.886
+Cystatin C (Serum),mg/L,50,Female,0.632375,1.097,0.811
+Cystatin C (Serum),mg/L,50,Both,0.65,1.1367250000000004,0.846
+Cystatin C (Serum),mg/L,51,Male,0.708,1.186,0.888
+Cystatin C (Serum),mg/L,51,Female,0.644,1.1041750000000004,0.821
+Cystatin C (Serum),mg/L,51,Both,0.658,1.15,0.85
+Cystatin C (Serum),mg/L,52,Male,0.709,1.1791999999999998,0.894
+Cystatin C (Serum),mg/L,52,Female,0.646,1.133,0.8314999999999999
+Cystatin C (Serum),mg/L,52,Both,0.66195,1.155,0.858
+Cystatin C (Serum),mg/L,53,Male,0.708,1.197,0.899
+Cystatin C (Serum),mg/L,53,Female,0.655,1.148,0.837
+Cystatin C (Serum),mg/L,53,Both,0.67,1.173,0.865
+Cystatin C (Serum),mg/L,54,Male,0.713,1.196,0.899
+Cystatin C (Serum),mg/L,54,Female,0.66,1.144,0.846
+Cystatin C (Serum),mg/L,54,Both,0.675,1.168,0.869
+Cystatin C (Serum),mg/L,55,Male,0.716,1.21,0.905
+Cystatin C (Serum),mg/L,55,Female,0.666,1.149,0.851
+Cystatin C (Serum),mg/L,55,Both,0.6797500000000001,1.17825,0.875
+Cystatin C (Serum),mg/L,56,Male,0.71,1.2213999999999996,0.91
+Cystatin C (Serum),mg/L,56,Female,0.67,1.1726999999999999,0.862
+Cystatin C (Serum),mg/L,56,Both,0.683,1.196,0.883
+Cystatin C (Serum),mg/L,57,Male,0.717,1.2539250000000002,0.915
+Cystatin C (Serum),mg/L,57,Female,0.668,1.18,0.865
+Cystatin C (Serum),mg/L,57,Both,0.684,1.214,0.888
+Cystatin C (Serum),mg/L,58,Male,0.725,1.2447749999999997,0.92
+Cystatin C (Serum),mg/L,58,Female,0.675,1.1869750000000003,0.869
+Cystatin C (Serum),mg/L,58,Both,0.691275,1.2177250000000004,0.893
+Cystatin C (Serum),mg/L,59,Male,0.721,1.268,0.926
+Cystatin C (Serum),mg/L,59,Female,0.678,1.222,0.874
+Cystatin C (Serum),mg/L,59,Both,0.693,1.243,0.897
+Cystatin C (Serum),mg/L,60,Male,0.732,1.2653999999999996,0.929
+Cystatin C (Serum),mg/L,60,Female,0.681,1.2276749999999992,0.88
+Cystatin C (Serum),mg/L,60,Both,0.696,1.247,0.902
+Cystatin C (Serum),mg/L,61,Male,0.73725,1.31,0.935
+Cystatin C (Serum),mg/L,61,Female,0.688,1.2433750000000001,0.888
+Cystatin C (Serum),mg/L,61,Both,0.701,1.2770999999999986,0.909
+Cystatin C (Serum),mg/L,62,Male,0.733225,1.3177749999999997,0.944
+Cystatin C (Serum),mg/L,62,Female,0.6891499999999999,1.2558500000000004,0.893
+Cystatin C (Serum),mg/L,62,Both,0.704,1.287,0.917
+Cystatin C (Serum),mg/L,63,Male,0.741,1.339,0.95
+Cystatin C (Serum),mg/L,63,Female,0.694,1.268449999999999,0.901
+Cystatin C (Serum),mg/L,63,Both,0.708,1.304,0.924
+Cystatin C (Serum),mg/L,64,Male,0.742,1.3732749999999996,0.957
+Cystatin C (Serum),mg/L,64,Female,0.694,1.2922500000000001,0.905
+Cystatin C (Serum),mg/L,64,Both,0.708,1.332,0.93
+Cystatin C (Serum),mg/L,65,Male,0.754,1.4104499999999989,0.967
+Cystatin C (Serum),mg/L,65,Female,0.704,1.2836749999999992,0.915
+Cystatin C (Serum),mg/L,65,Both,0.722,1.351,0.942
+Cystatin C (Serum),mg/L,66,Male,0.755,1.4412999999999994,0.975
+Cystatin C (Serum),mg/L,66,Female,0.704,1.3387250000000004,0.924
+Cystatin C (Serum),mg/L,66,Both,0.722,1.393,0.948
+Cystatin C (Serum),mg/L,67,Male,0.758,1.4539499999999999,0.982
+Cystatin C (Serum),mg/L,67,Female,0.712,1.352,0.931
+Cystatin C (Serum),mg/L,67,Both,0.728,1.408,0.956
+Cystatin C (Serum),mg/L,68,Male,0.758,1.4898500000000003,0.99
+Cystatin C (Serum),mg/L,68,Female,0.716,1.38275,0.938
+Cystatin C (Serum),mg/L,68,Both,0.732,1.4321499999999996,0.965
+Cystatin C (Serum),mg/L,69,Male,0.767,1.5066749999999984,0.999
+Cystatin C (Serum),mg/L,69,Female,0.722375,1.404625,0.949
+Cystatin C (Serum),mg/L,69,Both,0.739,1.468824999999999,0.974
+Cystatin C (Serum),mg/L,70,Male,0.78135,1.501975,1.0095
+Cystatin C (Serum),mg/L,70,Female,0.73,1.4195999999999998,0.965
+Cystatin C (Serum),mg/L,70,Both,0.7406,1.482199999999999,0.987
+Gamma-Glutamyltransferase,U/L,40,Male,13.4,124.9325,30.5
+Gamma-Glutamyltransferase,U/L,40,Female,9.3275,72.5249999999999,17.1
+Gamma-Glutamyltransferase,U/L,40,Both,10.1,102.71249999999982,22.4
+Gamma-Glutamyltransferase,U/L,41,Male,13.4,134.1625,30.1
+Gamma-Glutamyltransferase,U/L,41,Female,9.5,67.51999999999998,17.1
+Gamma-Glutamyltransferase,U/L,41,Both,10.2,107.6,22.0
+Gamma-Glutamyltransferase,U/L,42,Male,13.6,129.68999999999988,31.2
+Gamma-Glutamyltransferase,U/L,42,Female,9.5,71.21499999999996,17.4
+Gamma-Glutamyltransferase,U/L,42,Both,10.3,107.76499999999977,22.4
+Gamma-Glutamyltransferase,U/L,43,Male,13.5,144.15999999999994,31.3
+Gamma-Glutamyltransferase,U/L,43,Female,9.6,68.16749999999983,17.6
+Gamma-Glutamyltransferase,U/L,43,Both,10.4,113.3399999999996,22.5
+Gamma-Glutamyltransferase,U/L,44,Male,13.9,156.2949999999999,32.0
+Gamma-Glutamyltransferase,U/L,44,Female,9.6,73.93999999999978,17.4
+Gamma-Glutamyltransferase,U/L,44,Both,10.4,118.41999999999989,22.5
+Gamma-Glutamyltransferase,U/L,45,Male,13.9,149.3375,32.2
+Gamma-Glutamyltransferase,U/L,45,Female,9.8,80.87249999999995,17.9
+Gamma-Glutamyltransferase,U/L,45,Both,10.4,120.82999999999957,22.9
+Gamma-Glutamyltransferase,U/L,46,Male,13.855000000000002,164.7249999999999,32.5
+Gamma-Glutamyltransferase,U/L,46,Female,9.7,79.48999999999997,17.9
+Gamma-Glutamyltransferase,U/L,46,Both,10.4,120.6375,23.1
+Gamma-Glutamyltransferase,U/L,47,Male,14.1,158.43999999999943,32.7
+Gamma-Glutamyltransferase,U/L,47,Female,9.8,84.20999999999995,18.2
+Gamma-Glutamyltransferase,U/L,47,Both,10.4,125.41000000000004,23.7
+Gamma-Glutamyltransferase,U/L,48,Male,14.3,153.6,34.1
+Gamma-Glutamyltransferase,U/L,48,Female,9.9,91.16000000000004,18.6
+Gamma-Glutamyltransferase,U/L,48,Both,10.6,126.6375,24.1
+Gamma-Glutamyltransferase,U/L,49,Male,14.4875,159.875,33.8
+Gamma-Glutamyltransferase,U/L,49,Female,9.9,91.9324999999996,18.85
+Gamma-Glutamyltransferase,U/L,49,Both,10.8,131.21499999999978,24.3
+Gamma-Glutamyltransferase,U/L,50,Male,14.5,164.1625,34.1
+Gamma-Glutamyltransferase,U/L,50,Female,10.2,97.76750000000001,19.3
+Gamma-Glutamyltransferase,U/L,50,Both,10.822500000000003,134.05499999999992,24.8
+Gamma-Glutamyltransferase,U/L,51,Male,14.6,163.11500000000004,33.9
+Gamma-Glutamyltransferase,U/L,51,Female,10.3,104.32000000000006,20.0
+Gamma-Glutamyltransferase,U/L,51,Both,11.092500000000001,134.70749999999987,25.3
+Gamma-Glutamyltransferase,U/L,52,Male,14.8,161.15250000000023,34.4
+Gamma-Glutamyltransferase,U/L,52,Female,10.5,109.86999999999989,20.6
+Gamma-Glutamyltransferase,U/L,52,Both,11.2,135.1,25.6
+Gamma-Glutamyltransferase,U/L,53,Male,14.8,165.75,34.7
+Gamma-Glutamyltransferase,U/L,53,Female,10.7,108.0,21.25
+Gamma-Glutamyltransferase,U/L,53,Both,11.3,136.0,26.5
+Gamma-Glutamyltransferase,U/L,54,Male,14.8,180.2000000000001,34.6
+Gamma-Glutamyltransferase,U/L,54,Female,10.8,117.66750000000002,21.3
+Gamma-Glutamyltransferase,U/L,54,Both,11.6,143.8,26.4
+Gamma-Glutamyltransferase,U/L,55,Male,14.817500000000003,167.5,34.2
+Gamma-Glutamyltransferase,U/L,55,Female,11.1,114.62750000000005,22.0
+Gamma-Glutamyltransferase,U/L,55,Both,11.8,138.8,27.0
+Gamma-Glutamyltransferase,U/L,56,Male,15.0425,166.09249999999966,34.4
+Gamma-Glutamyltransferase,U/L,56,Female,10.9,113.825,22.0
+Gamma-Glutamyltransferase,U/L,56,Both,11.7,141.61749999999992,26.9
+Gamma-Glutamyltransferase,U/L,57,Male,14.6,163.42999999999984,33.7
+Gamma-Glutamyltransferase,U/L,57,Female,11.4,119.325,22.3
+Gamma-Glutamyltransferase,U/L,57,Both,12.2,143.5199999999999,26.9
+Gamma-Glutamyltransferase,U/L,58,Male,14.7,167.14749999999995,33.650000000000006
+Gamma-Glutamyltransferase,U/L,58,Female,11.3,111.7125,22.2
+Gamma-Glutamyltransferase,U/L,58,Both,12.0,143.0,26.8
+Gamma-Glutamyltransferase,U/L,59,Male,14.7,156.67999999999955,33.7
+Gamma-Glutamyltransferase,U/L,59,Female,11.477500000000001,119.96750000000011,22.6
+Gamma-Glutamyltransferase,U/L,59,Both,12.2,137.1,27.1
+Gamma-Glutamyltransferase,U/L,60,Male,14.8,156.00999999999985,33.7
+Gamma-Glutamyltransferase,U/L,60,Female,11.4,118.4875,22.7
+Gamma-Glutamyltransferase,U/L,60,Both,12.1,138.61499999999978,27.1
+Gamma-Glutamyltransferase,U/L,61,Male,14.8,162.00499999999994,33.2
+Gamma-Glutamyltransferase,U/L,61,Female,11.5,120.9,23.0
+Gamma-Glutamyltransferase,U/L,61,Both,12.2,138.1,27.3
+Gamma-Glutamyltransferase,U/L,62,Male,15.0,149.08999999999978,33.5
+Gamma-Glutamyltransferase,U/L,62,Female,11.6,116.11499999999978,23.0
+Gamma-Glutamyltransferase,U/L,62,Both,12.4,133.7,27.5
+Gamma-Glutamyltransferase,U/L,63,Male,14.89,151.47000000000062,33.1
+Gamma-Glutamyltransferase,U/L,63,Female,11.7,115.55249999999997,23.2
+Gamma-Glutamyltransferase,U/L,63,Both,12.5,135.4,27.5
+Gamma-Glutamyltransferase,U/L,64,Male,14.7,148.39749999999967,33.1
+Gamma-Glutamyltransferase,U/L,64,Female,11.6,112.6,23.3
+Gamma-Glutamyltransferase,U/L,64,Both,12.3,130.0625,27.6
+Gamma-Glutamyltransferase,U/L,65,Male,14.8,160.8,33.1
+Gamma-Glutamyltransferase,U/L,65,Female,11.7,112.975,23.4
+Gamma-Glutamyltransferase,U/L,65,Both,12.6,139.8,27.9
+Gamma-Glutamyltransferase,U/L,66,Male,14.8,142.52499999999927,32.6
+Gamma-Glutamyltransferase,U/L,66,Female,11.8,115.86250000000001,23.6
+Gamma-Glutamyltransferase,U/L,66,Both,12.6,130.98249999999933,27.8
+Gamma-Glutamyltransferase,U/L,67,Male,14.7,146.00500000000002,32.4
+Gamma-Glutamyltransferase,U/L,67,Female,11.9,105.075,23.2
+Gamma-Glutamyltransferase,U/L,67,Both,12.6,127.29999999999981,27.6
+Gamma-Glutamyltransferase,U/L,68,Male,14.6,141.3825,31.7
+Gamma-Glutamyltransferase,U/L,68,Female,11.8,104.92999999999994,23.4
+Gamma-Glutamyltransferase,U/L,68,Both,12.7,123.48999999999978,27.4
+Gamma-Glutamyltransferase,U/L,69,Male,14.5,138.53000000000003,31.5
+Gamma-Glutamyltransferase,U/L,69,Female,11.8,123.4,23.3
+Gamma-Glutamyltransferase,U/L,69,Both,12.7,130.8949999999999,27.3
+Gamma-Glutamyltransferase,U/L,70,Male,15.2,137.09999999999997,31.5
+Gamma-Glutamyltransferase,U/L,70,Female,11.815000000000001,138.96499999999992,24.2
+Gamma-Glutamyltransferase,U/L,70,Both,12.6,137.9199999999999,27.8
+Glucose,mmol/L,40,Male,3.7403000000000004,6.4077,4.84
+Glucose,mmol/L,40,Female,3.6946,6.277999999999998,4.759
+Glucose,mmol/L,40,Both,3.72385,6.399075,4.8
+Glucose,mmol/L,41,Male,3.691,6.588599999999998,4.792
+Glucose,mmol/L,41,Female,3.68905,6.379549999999997,4.728
+Glucose,mmol/L,41,Both,3.689725,6.448850000000001,4.76
+Glucose,mmol/L,42,Male,3.687525,6.733324999999996,4.8195
+Glucose,mmol/L,42,Female,3.69745,6.291950000000003,4.741
+Glucose,mmol/L,42,Both,3.691375,6.491149999999992,4.778499999999999
+Glucose,mmol/L,43,Male,3.695475,6.644100000000001,4.846
+Glucose,mmol/L,43,Female,3.7933749999999997,6.376674999999998,4.7545
+Glucose,mmol/L,43,Both,3.736975,6.471074999999999,4.794
+Glucose,mmol/L,44,Male,3.7013249999999998,6.846349999999999,4.842
+Glucose,mmol/L,44,Female,3.732,6.343,4.748
+Glucose,mmol/L,44,Both,3.72085,6.566874999999994,4.789
+Glucose,mmol/L,45,Male,3.692,6.886124999999998,4.832
+Glucose,mmol/L,45,Female,3.758175,6.512424999999999,4.763
+Glucose,mmol/L,45,Both,3.729,6.595649999999998,4.792
+Glucose,mmol/L,46,Male,3.7114000000000003,6.998200000000001,4.868
+Glucose,mmol/L,46,Female,3.778475,6.4718749999999945,4.759
+Glucose,mmol/L,46,Both,3.749,6.6817999999999955,4.808
+Glucose,mmol/L,47,Male,3.7043500000000003,6.8988249999999995,4.866
+Glucose,mmol/L,47,Female,3.7731999999999997,6.568599999999999,4.79
+Glucose,mmol/L,47,Both,3.7402,6.710199999999999,4.819
+Glucose,mmol/L,48,Male,3.6812,7.511299999999994,4.878
+Glucose,mmol/L,48,Female,3.77295,6.722525,4.794499999999999
+Glucose,mmol/L,48,Both,3.7206,7.032599999999997,4.834
+Glucose,mmol/L,49,Male,3.729575,7.367,4.8785
+Glucose,mmol/L,49,Female,3.774775,6.380449999999999,4.803
+Glucose,mmol/L,49,Both,3.755,6.812049999999996,4.834
+Glucose,mmol/L,50,Male,3.7851999999999997,7.632799999999999,4.889
+Glucose,mmol/L,50,Female,3.8474,6.764899999999999,4.826
+Glucose,mmol/L,50,Both,3.81405,7.020375000000001,4.853
+Glucose,mmol/L,51,Male,3.751125,7.7975,4.896
+Glucose,mmol/L,51,Female,3.836525,6.908,4.837
+Glucose,mmol/L,51,Both,3.8037,7.211824999999998,4.862
+Glucose,mmol/L,52,Male,3.7417000000000002,8.55860000000001,4.915
+Glucose,mmol/L,52,Female,3.849375,6.714925,4.8515
+Glucose,mmol/L,52,Both,3.8044000000000002,7.327199999999999,4.878
+Glucose,mmol/L,53,Male,3.8226,7.976800000000002,4.9
+Glucose,mmol/L,53,Female,3.840175,6.810374999999997,4.874
+Glucose,mmol/L,53,Both,3.835,7.323200000000003,4.884
+Glucose,mmol/L,54,Male,3.786,8.198074999999994,4.935499999999999
+Glucose,mmol/L,54,Female,3.848125,6.817625,4.891500000000001
+Glucose,mmol/L,54,Both,3.829825,7.376,4.911
+Glucose,mmol/L,55,Male,3.83785,8.884,4.939
+Glucose,mmol/L,55,Female,3.929,7.07,4.908
+Glucose,mmol/L,55,Both,3.888,7.784399999999994,4.921
+Glucose,mmol/L,56,Male,3.775225,8.548549999999999,4.943
+Glucose,mmol/L,56,Female,3.9090249999999997,7.148974999999999,4.898
+Glucose,mmol/L,56,Both,3.85,7.706500000000007,4.916
+Glucose,mmol/L,57,Male,3.8087,9.004224999999998,4.947
+Glucose,mmol/L,57,Female,3.8703250000000002,7.271400000000002,4.92
+Glucose,mmol/L,57,Both,3.840125,7.9416750000000045,4.929
+Glucose,mmol/L,58,Male,3.811825,8.573974999999994,4.937
+Glucose,mmol/L,58,Female,3.93935,7.288599999999991,4.935
+Glucose,mmol/L,58,Both,3.8966499999999997,7.726800000000003,4.936
+Glucose,mmol/L,59,Male,3.843,8.35859999999998,4.973
+Glucose,mmol/L,59,Female,3.92725,7.372999999999999,4.944
+Glucose,mmol/L,59,Both,3.892,7.781625,4.957
+Glucose,mmol/L,60,Male,3.8267,8.821149999999992,4.97
+Glucose,mmol/L,60,Female,3.96,7.287,4.964
+Glucose,mmol/L,60,Both,3.897,7.942,4.9665
+Glucose,mmol/L,61,Male,3.8841,8.577,5.0
+Glucose,mmol/L,61,Female,4.009,7.458674999999998,4.9775
+Glucose,mmol/L,61,Both,3.954,7.98,4.987
+Glucose,mmol/L,62,Male,3.918,8.569800000000003,5.026
+Glucose,mmol/L,62,Female,4.007,7.425850000000002,4.9945
+Glucose,mmol/L,62,Both,3.96,7.9815499999999995,5.009
+Glucose,mmol/L,63,Male,3.93595,8.514249999999995,5.004
+Glucose,mmol/L,63,Female,4.01145,7.492775,5.0
+Glucose,mmol/L,63,Both,3.973225,7.8971749999999625,5.001
+Glucose,mmol/L,64,Male,3.854,8.757649999999993,5.014
+Glucose,mmol/L,64,Female,4.0219000000000005,7.528500000000001,5.007
+Glucose,mmol/L,64,Both,3.9362749999999997,8.001874999999979,5.011
+Glucose,mmol/L,65,Male,3.866375,9.120974999999996,5.051
+Glucose,mmol/L,65,Female,4.0218750000000005,7.6065000000000005,5.021
+Glucose,mmol/L,65,Both,3.94,8.358399999999994,5.035
+Glucose,mmol/L,66,Male,3.8992000000000004,9.068599999999995,5.048
+Glucose,mmol/L,66,Female,4.051,7.859000000000001,5.036
+Glucose,mmol/L,66,Both,3.97465,8.410699999999997,5.042
+Glucose,mmol/L,67,Male,3.919625,9.385625000000001,5.05
+Glucose,mmol/L,67,Female,4.04645,7.761199999999997,5.042
+Glucose,mmol/L,67,Both,3.9892499999999997,8.478,5.045
+Glucose,mmol/L,68,Male,3.976075,9.225850000000001,5.07
+Glucose,mmol/L,68,Female,4.11455,7.608949999999995,5.056
+Glucose,mmol/L,68,Both,4.0393,8.430950000000006,5.062
+Glucose,mmol/L,69,Male,3.899625,8.938,5.07
+Glucose,mmol/L,69,Female,4.0756000000000006,7.794699999999999,5.054
+Glucose,mmol/L,69,Both,3.9828,8.386999999999993,5.064
+Glucose,mmol/L,70,Male,3.89755,9.059449999999998,5.025
+Glucose,mmol/L,70,Female,4.0516,8.062500000000002,5.039
+Glucose,mmol/L,70,Both,3.94375,8.61454999999999,5.034
+HbA1c,mmol/mol,40,Male,26.1,40.8,33.4
+HbA1c,mmol/mol,40,Female,26.0,40.4,32.3
+HbA1c,mmol/mol,40,Both,26.1,40.7,32.9
+HbA1c,mmol/mol,41,Male,26.5,41.4,33.3
+HbA1c,mmol/mol,41,Female,25.8,40.1,32.5
+HbA1c,mmol/mol,41,Both,26.0,40.7,32.8
+HbA1c,mmol/mol,42,Male,26.9,42.21999999999989,33.4
+HbA1c,mmol/mol,42,Female,25.912499999999998,39.9,32.6
+HbA1c,mmol/mol,42,Both,26.3,41.0,33.0
+HbA1c,mmol/mol,43,Male,26.4,43.0125,33.6
+HbA1c,mmol/mol,43,Female,26.0,40.3,32.7
+HbA1c,mmol/mol,43,Both,26.3,41.6,33.1
+HbA1c,mmol/mol,44,Male,26.7,46.759999999999856,33.8
+HbA1c,mmol/mol,44,Female,26.1,40.272499999999944,32.7
+HbA1c,mmol/mol,44,Both,26.3,42.4,33.2
+HbA1c,mmol/mol,45,Male,26.9,46.6,33.8
+HbA1c,mmol/mol,45,Female,26.4,40.805000000000014,32.9
+HbA1c,mmol/mol,45,Both,26.6,42.729999999999926,33.3
+HbA1c,mmol/mol,46,Male,26.8,47.31250000000009,34.1
+HbA1c,mmol/mol,46,Female,26.7,41.4,33.1
+HbA1c,mmol/mol,46,Both,26.7,43.44499999999989,33.5
+HbA1c,mmol/mol,47,Male,26.9,48.84499999999998,34.0
+HbA1c,mmol/mol,47,Female,26.5,42.62749999999996,33.3
+HbA1c,mmol/mol,47,Both,26.7,45.2,33.6
+HbA1c,mmol/mol,48,Male,26.8,50.09749999999995,34.2
+HbA1c,mmol/mol,48,Female,26.7,42.4,33.4
+HbA1c,mmol/mol,48,Both,26.7,45.56749999999993,33.7
+HbA1c,mmol/mol,49,Male,27.2,48.9,34.2
+HbA1c,mmol/mol,49,Female,26.9,42.4,33.7
+HbA1c,mmol/mol,49,Both,27.0,44.7,34.0
+HbA1c,mmol/mol,50,Male,27.0,51.42749999999996,34.3
+HbA1c,mmol/mol,50,Female,27.0,43.9,34.0
+HbA1c,mmol/mol,50,Both,27.0,47.352499999999964,34.2
+HbA1c,mmol/mol,51,Male,27.3875,53.6,34.5
+HbA1c,mmol/mol,51,Female,27.7,44.8,34.3
+HbA1c,mmol/mol,51,Both,27.5,48.7,34.4
+HbA1c,mmol/mol,52,Male,27.3,55.125,34.7
+HbA1c,mmol/mol,52,Female,27.6,44.5,34.4
+HbA1c,mmol/mol,52,Both,27.4,49.0,34.5
+HbA1c,mmol/mol,53,Male,27.6,54.64499999999998,34.8
+HbA1c,mmol/mol,53,Female,28.0,45.0,34.8
+HbA1c,mmol/mol,53,Both,27.8,49.2,34.8
+HbA1c,mmol/mol,54,Male,27.565,55.63499999999995,35.0
+HbA1c,mmol/mol,54,Female,28.122500000000002,46.4,35.1
+HbA1c,mmol/mol,54,Both,27.9,51.110000000000035,35.0
+HbA1c,mmol/mol,55,Male,27.8,57.22999999999984,35.1
+HbA1c,mmol/mol,55,Female,28.4,46.8,35.1
+HbA1c,mmol/mol,55,Both,28.1,51.8,35.1
+HbA1c,mmol/mol,56,Male,27.9,54.7,35.1
+HbA1c,mmol/mol,56,Female,28.7,46.7,35.3
+HbA1c,mmol/mol,56,Both,28.2,50.6375,35.2
+HbA1c,mmol/mol,57,Male,27.9,57.192500000000024,35.2
+HbA1c,mmol/mol,57,Female,28.8,46.797500000000035,35.4
+HbA1c,mmol/mol,57,Both,28.3125,51.6875,35.3
+HbA1c,mmol/mol,58,Male,27.9,55.87749999999996,35.3
+HbA1c,mmol/mol,58,Female,28.7,47.107499999999895,35.4
+HbA1c,mmol/mol,58,Both,28.3,51.7,35.4
+HbA1c,mmol/mol,59,Male,28.0,56.2,35.4
+HbA1c,mmol/mol,59,Female,28.8,48.26000000000003,35.6
+HbA1c,mmol/mol,59,Both,28.4,52.6,35.6
+HbA1c,mmol/mol,60,Male,28.3,56.8,35.6
+HbA1c,mmol/mol,60,Female,29.1,47.8,35.9
+HbA1c,mmol/mol,60,Both,28.8,52.3,35.8
+HbA1c,mmol/mol,61,Male,28.2,57.3,35.7
+HbA1c,mmol/mol,61,Female,29.2,49.52749999999996,35.9
+HbA1c,mmol/mol,61,Both,28.7,53.5,35.8
+HbA1c,mmol/mol,62,Male,28.3,57.2,35.9
+HbA1c,mmol/mol,62,Female,29.394999999999996,49.6,36.0
+HbA1c,mmol/mol,62,Both,28.8,53.8,36.0
+HbA1c,mmol/mol,63,Male,28.4,56.8,36.0
+HbA1c,mmol/mol,63,Female,29.6,49.5,36.1
+HbA1c,mmol/mol,63,Both,29.0,53.8,36.1
+HbA1c,mmol/mol,64,Male,28.4,57.09499999999989,36.0
+HbA1c,mmol/mol,64,Female,29.5,49.5,36.2
+HbA1c,mmol/mol,64,Both,29.0,53.4,36.1
+HbA1c,mmol/mol,65,Male,28.8,58.297500000000035,36.1
+HbA1c,mmol/mol,65,Female,29.7,51.354999999999926,36.4
+HbA1c,mmol/mol,65,Both,29.1,55.6,36.3
+HbA1c,mmol/mol,66,Male,28.7,57.26499999999978,36.3
+HbA1c,mmol/mol,66,Female,29.6,50.63500000000004,36.5
+HbA1c,mmol/mol,66,Both,29.0,54.9,36.4
+HbA1c,mmol/mol,67,Male,28.8,58.4,36.45
+HbA1c,mmol/mol,67,Female,29.7,52.9125,36.6
+HbA1c,mmol/mol,67,Both,29.2,56.5,36.6
+HbA1c,mmol/mol,68,Male,28.905,58.7,36.5
+HbA1c,mmol/mol,68,Female,30.0,52.584999999999944,36.8
+HbA1c,mmol/mol,68,Both,29.3,55.5,36.6
+HbA1c,mmol/mol,69,Male,29.1,58.70999999999995,36.6
+HbA1c,mmol/mol,69,Female,30.040000000000003,52.6,36.8
+HbA1c,mmol/mol,69,Both,29.6,56.2,36.7
+HbA1c,mmol/mol,70,Male,29.02,58.969999999999956,36.7
+HbA1c,mmol/mol,70,Female,28.412499999999998,52.75,36.7
+HbA1c,mmol/mol,70,Both,28.650000000000002,55.95,36.7
+HDL Cholesterol,mmol/L,40,Male,0.783325,1.8923749999999997,1.2055
+HDL Cholesterol,mmol/L,40,Female,0.939,2.277875,1.4865
+HDL Cholesterol,mmol/L,40,Both,0.827,2.150025,1.342
+HDL Cholesterol,mmol/L,41,Male,0.7993,1.8793999999999995,1.203
+HDL Cholesterol,mmol/L,41,Female,0.934,2.232,1.4745
+HDL Cholesterol,mmol/L,41,Both,0.841,2.129,1.335
+HDL Cholesterol,mmol/L,42,Male,0.7945,1.92925,1.208
+HDL Cholesterol,mmol/L,42,Female,0.9281250000000001,2.26275,1.4895
+HDL Cholesterol,mmol/L,42,Both,0.8413999999999999,2.1715999999999993,1.345
+HDL Cholesterol,mmol/L,43,Male,0.80445,1.908649999999999,1.215
+HDL Cholesterol,mmol/L,43,Female,0.935675,2.261325,1.485
+HDL Cholesterol,mmol/L,43,Both,0.843,2.1758500000000005,1.35
+HDL Cholesterol,mmol/L,44,Male,0.803,1.943,1.228
+HDL Cholesterol,mmol/L,44,Female,0.934725,2.329275,1.497
+HDL Cholesterol,mmol/L,44,Both,0.848,2.218149999999998,1.3645
+HDL Cholesterol,mmol/L,45,Male,0.812,1.9117750000000004,1.2275
+HDL Cholesterol,mmol/L,45,Female,0.942,2.3096750000000004,1.502
+HDL Cholesterol,mmol/L,45,Both,0.856425,2.21,1.37
+HDL Cholesterol,mmol/L,46,Male,0.806775,1.953449999999999,1.225
+HDL Cholesterol,mmol/L,46,Female,0.9472499999999999,2.285,1.51
+HDL Cholesterol,mmol/L,46,Both,0.849425,2.1991499999999977,1.374
+HDL Cholesterol,mmol/L,47,Male,0.813,1.97675,1.228
+HDL Cholesterol,mmol/L,47,Female,0.95555,2.343,1.514
+HDL Cholesterol,mmol/L,47,Both,0.857,2.2523499999999985,1.374
+HDL Cholesterol,mmol/L,48,Male,0.799,1.9648999999999996,1.235
+HDL Cholesterol,mmol/L,48,Female,0.964,2.432125,1.546
+HDL Cholesterol,mmol/L,48,Both,0.853,2.304,1.398
+HDL Cholesterol,mmol/L,49,Male,0.806,1.962375,1.238
+HDL Cholesterol,mmol/L,49,Female,0.97185,2.388,1.552
+HDL Cholesterol,mmol/L,49,Both,0.862,2.276,1.401
+HDL Cholesterol,mmol/L,50,Male,0.809575,1.962425,1.242
+HDL Cholesterol,mmol/L,50,Female,0.973275,2.395449999999999,1.553
+HDL Cholesterol,mmol/L,50,Both,0.864,2.29,1.4
+HDL Cholesterol,mmol/L,51,Male,0.788725,2.004549999999999,1.243
+HDL Cholesterol,mmol/L,51,Female,0.97575,2.4485,1.568
+HDL Cholesterol,mmol/L,51,Both,0.844,2.3365,1.411
+HDL Cholesterol,mmol/L,52,Male,0.8096000000000001,1.9417999999999993,1.241
+HDL Cholesterol,mmol/L,52,Female,0.992,2.4422000000000006,1.577
+HDL Cholesterol,mmol/L,52,Both,0.865,2.337,1.419
+HDL Cholesterol,mmol/L,53,Male,0.807,2.0061000000000004,1.24
+HDL Cholesterol,mmol/L,53,Female,0.985,2.456,1.586
+HDL Cholesterol,mmol/L,53,Both,0.864725,2.346275,1.423
+HDL Cholesterol,mmol/L,54,Male,0.805,2.0342749999999996,1.242
+HDL Cholesterol,mmol/L,54,Female,0.997325,2.488675,1.598
+HDL Cholesterol,mmol/L,54,Both,0.861,2.375924999999999,1.426
+HDL Cholesterol,mmol/L,55,Male,0.8080750000000001,2.0124000000000013,1.25
+HDL Cholesterol,mmol/L,55,Female,0.979275,2.503,1.59
+HDL Cholesterol,mmol/L,55,Both,0.864,2.37,1.425
+HDL Cholesterol,mmol/L,56,Male,0.799,2.021675,1.245
+HDL Cholesterol,mmol/L,56,Female,0.9892,2.4764000000000004,1.582
+HDL Cholesterol,mmol/L,56,Both,0.853,2.353449999999999,1.423
+HDL Cholesterol,mmol/L,57,Male,0.791,2.067824999999999,1.248
+HDL Cholesterol,mmol/L,57,Female,0.99,2.508,1.587
+HDL Cholesterol,mmol/L,57,Both,0.853125,2.397875,1.43
+HDL Cholesterol,mmol/L,58,Male,0.805,2.021,1.243
+HDL Cholesterol,mmol/L,58,Female,0.999,2.528,1.589
+HDL Cholesterol,mmol/L,58,Both,0.8578250000000001,2.396174999999999,1.424
+HDL Cholesterol,mmol/L,59,Male,0.794675,2.032,1.254
+HDL Cholesterol,mmol/L,59,Female,1.001475,2.482,1.592
+HDL Cholesterol,mmol/L,59,Both,0.861,2.358,1.427
+HDL Cholesterol,mmol/L,60,Male,0.799,2.0340249999999993,1.252
+HDL Cholesterol,mmol/L,60,Female,0.991,2.4949249999999994,1.5735000000000001
+HDL Cholesterol,mmol/L,60,Both,0.86,2.371924999999999,1.422
+HDL Cholesterol,mmol/L,61,Male,0.7958500000000001,2.030299999999999,1.253
+HDL Cholesterol,mmol/L,61,Female,0.992,2.473,1.575
+HDL Cholesterol,mmol/L,61,Both,0.852525,2.348,1.424
+HDL Cholesterol,mmol/L,62,Male,0.809575,2.047,1.253
+HDL Cholesterol,mmol/L,62,Female,0.986225,2.4807749999999995,1.57
+HDL Cholesterol,mmol/L,62,Both,0.858,2.35,1.417
+HDL Cholesterol,mmol/L,63,Male,0.7984000000000001,2.0595999999999988,1.247
+HDL Cholesterol,mmol/L,63,Female,1.005375,2.489625,1.573
+HDL Cholesterol,mmol/L,63,Both,0.858,2.364,1.419
+HDL Cholesterol,mmol/L,64,Male,0.798,2.0483499999999966,1.252
+HDL Cholesterol,mmol/L,64,Female,0.989075,2.479,1.569
+HDL Cholesterol,mmol/L,64,Both,0.851,2.355,1.41
+HDL Cholesterol,mmol/L,65,Male,0.7978500000000001,2.0361499999999997,1.241
+HDL Cholesterol,mmol/L,65,Female,0.986975,2.478,1.559
+HDL Cholesterol,mmol/L,65,Both,0.846,2.338,1.398
+HDL Cholesterol,mmol/L,66,Male,0.791675,2.0536499999999998,1.241
+HDL Cholesterol,mmol/L,66,Female,0.994275,2.444724999999999,1.56
+HDL Cholesterol,mmol/L,66,Both,0.84,2.3080499999999993,1.396
+HDL Cholesterol,mmol/L,67,Male,0.7869250000000001,2.0490749999999998,1.246
+HDL Cholesterol,mmol/L,67,Female,0.983325,2.451,1.554
+HDL Cholesterol,mmol/L,67,Both,0.839,2.327725,1.394
+HDL Cholesterol,mmol/L,68,Male,0.789,2.0407000000000006,1.242
+HDL Cholesterol,mmol/L,68,Female,0.984,2.415,1.555
+HDL Cholesterol,mmol/L,68,Both,0.8391,2.313,1.391
+HDL Cholesterol,mmol/L,69,Male,0.788,2.026125,1.239
+HDL Cholesterol,mmol/L,69,Female,0.98525,2.469,1.565
+HDL Cholesterol,mmol/L,69,Both,0.84,2.342,1.389
+HDL Cholesterol,mmol/L,70,Male,0.79395,2.05015,1.266
+HDL Cholesterol,mmol/L,70,Female,1.0038,2.5275499999999997,1.558
+HDL Cholesterol,mmol/L,70,Both,0.8539,2.3661,1.398
+IGF-1,nmol/L,40,Male,14.88135,35.7779,24.567
+IGF-1,nmol/L,40,Female,14.423275,38.27734999999997,25.0455
+IGF-1,nmol/L,40,Both,14.644,37.212399999999995,24.835
+IGF-1,nmol/L,41,Male,15.111999999999998,35.97425,24.346
+IGF-1,nmol/L,41,Female,14.138950000000001,37.4371,24.81
+IGF-1,nmol/L,41,Both,14.513549999999999,36.676,24.575
+IGF-1,nmol/L,42,Male,14.984225,35.997175000000006,24.1225
+IGF-1,nmol/L,42,Female,13.99035,37.536149999999935,24.322
+IGF-1,nmol/L,42,Both,14.3965,36.93084999999999,24.217
+IGF-1,nmol/L,43,Male,14.206050000000001,35.597474999999996,23.976
+IGF-1,nmol/L,43,Female,13.698450000000001,36.70507500000001,24.1205
+IGF-1,nmol/L,43,Both,13.880424999999999,36.298,24.0485
+IGF-1,nmol/L,44,Male,13.89215,35.793474999999994,23.688000000000002
+IGF-1,nmol/L,44,Female,13.59545,36.01347499999999,23.8065
+IGF-1,nmol/L,44,Both,13.749725,35.936825,23.7435
+IGF-1,nmol/L,45,Male,13.926,34.811,23.506
+IGF-1,nmol/L,45,Female,13.06705,35.44585,23.278
+IGF-1,nmol/L,45,Both,13.34395,35.211025,23.414
+IGF-1,nmol/L,46,Male,13.6243,34.72930000000001,23.113
+IGF-1,nmol/L,46,Female,12.875024999999999,35.02994999999999,22.885
+IGF-1,nmol/L,46,Both,13.1314,34.9504,22.994
+IGF-1,nmol/L,47,Male,13.088000000000001,34.117000000000004,22.969
+IGF-1,nmol/L,47,Female,12.8653,35.10469999999999,22.659
+IGF-1,nmol/L,47,Both,12.966,34.702875,22.783
+IGF-1,nmol/L,48,Male,13.3645,34.03125,22.6845
+IGF-1,nmol/L,48,Female,12.32905,34.1795,22.151
+IGF-1,nmol/L,48,Both,12.6739,34.127299999999984,22.4
+IGF-1,nmol/L,49,Male,12.71505,34.3558,22.591
+IGF-1,nmol/L,49,Female,12.106000000000002,34.2575,21.799
+IGF-1,nmol/L,49,Both,12.297575,34.33197499999999,22.165
+IGF-1,nmol/L,50,Male,12.98765,34.28659999999999,22.572
+IGF-1,nmol/L,50,Female,11.7705,33.8914,21.5885
+IGF-1,nmol/L,50,Both,12.221350000000001,34.036550000000005,22.023
+IGF-1,nmol/L,51,Male,13.0016,33.971199999999996,22.516
+IGF-1,nmol/L,51,Female,11.70805,33.60172499999999,21.4615
+IGF-1,nmol/L,51,Both,12.12035,33.7581,21.964
+IGF-1,nmol/L,52,Male,12.6741,33.35004999999999,22.186500000000002
+IGF-1,nmol/L,52,Female,11.3406,33.4595,21.24
+IGF-1,nmol/L,52,Both,11.8056,33.45459999999999,21.678
+IGF-1,nmol/L,53,Male,12.2382,33.636399999999995,22.024
+IGF-1,nmol/L,53,Female,11.482400000000002,33.589,20.904
+IGF-1,nmol/L,53,Both,11.76985,33.61272499999999,21.436
+IGF-1,nmol/L,54,Male,11.93595,33.39484999999999,21.94
+IGF-1,nmol/L,54,Female,11.115875,32.720749999999995,20.824
+IGF-1,nmol/L,54,Both,11.4261,33.096,21.354
+IGF-1,nmol/L,55,Male,12.10995,33.47659999999999,21.938499999999998
+IGF-1,nmol/L,55,Female,11.1585,32.894499999999994,20.748
+IGF-1,nmol/L,55,Both,11.5641,33.122299999999974,21.338
+IGF-1,nmol/L,56,Male,12.0472,32.742399999999996,21.705
+IGF-1,nmol/L,56,Female,10.98,32.8887,20.554
+IGF-1,nmol/L,56,Both,11.39055,32.809,21.131999999999998
+IGF-1,nmol/L,57,Male,11.95345,32.77305,21.584
+IGF-1,nmol/L,57,Female,10.924,31.996899999999997,20.388
+IGF-1,nmol/L,57,Both,11.261,32.3606,20.957
+IGF-1,nmol/L,58,Male,12.038075000000001,32.650775,21.534
+IGF-1,nmol/L,58,Female,10.8017,31.620699999999992,20.246
+IGF-1,nmol/L,58,Both,11.278,32.1752,20.899
+IGF-1,nmol/L,59,Male,11.693925,32.953775,21.3885
+IGF-1,nmol/L,59,Female,10.8795,31.43175,20.124
+IGF-1,nmol/L,59,Both,11.154200000000001,32.224199999999996,20.755
+IGF-1,nmol/L,60,Male,11.672274999999999,32.38004999999999,21.301499999999997
+IGF-1,nmol/L,60,Female,10.753725,31.512749999999997,19.924500000000002
+IGF-1,nmol/L,60,Both,11.050075000000001,31.950249999999993,20.5595
+IGF-1,nmol/L,61,Male,11.353,32.506,21.272
+IGF-1,nmol/L,61,Female,10.626625,31.248375,19.7145
+IGF-1,nmol/L,61,Both,10.92295,31.897749999999995,20.47
+IGF-1,nmol/L,62,Male,11.5305,32.4227,21.161
+IGF-1,nmol/L,62,Female,10.4882,31.10060000000001,19.581
+IGF-1,nmol/L,62,Both,10.869,31.759824999999992,20.328
+IGF-1,nmol/L,63,Male,11.3653,32.0043,21.076
+IGF-1,nmol/L,63,Female,10.57095,30.640949999999997,19.485
+IGF-1,nmol/L,63,Both,10.89555,31.270124999999993,20.2295
+IGF-1,nmol/L,64,Male,11.3389,31.800449999999994,20.713
+IGF-1,nmol/L,64,Female,10.577975,30.760724999999997,19.431
+IGF-1,nmol/L,64,Both,10.884975,31.31579999999999,20.060499999999998
+IGF-1,nmol/L,65,Male,10.9834,31.892649999999996,20.865
+IGF-1,nmol/L,65,Female,10.474025000000001,30.519975,19.2195
+IGF-1,nmol/L,65,Both,10.7025,31.301000000000002,20.064
+IGF-1,nmol/L,66,Male,11.03485,32.11445000000001,20.776
+IGF-1,nmol/L,66,Female,10.44475,30.365049999999997,19.085
+IGF-1,nmol/L,66,Both,10.6691,31.29162499999998,19.895
+IGF-1,nmol/L,67,Male,11.02185,31.902150000000002,20.445
+IGF-1,nmol/L,67,Female,10.0929,30.442,18.8915
+IGF-1,nmol/L,67,Both,10.4107,31.144399999999994,19.639
+IGF-1,nmol/L,68,Male,10.919925,31.697874999999925,20.3795
+IGF-1,nmol/L,68,Female,9.88395,29.765474999999995,18.5365
+IGF-1,nmol/L,68,Both,10.322149999999999,30.698399999999996,19.439
+IGF-1,nmol/L,69,Male,10.506425,31.696600000000004,20.003500000000003
+IGF-1,nmol/L,69,Female,9.89025,29.432299999999966,18.225
+IGF-1,nmol/L,69,Both,10.147,30.696,19.131
+IGF-1,nmol/L,70,Male,10.8896,31.591199999999997,19.885
+IGF-1,nmol/L,70,Female,9.744075,29.213225000000005,18.039499999999997
+IGF-1,nmol/L,70,Both,10.1041,30.80484999999999,18.921
+LDL Cholesterol,mmol/L,40,Male,2.102,5.274049999999999,3.472
+LDL Cholesterol,mmol/L,40,Female,1.908125,4.769775,3.082
+LDL Cholesterol,mmol/L,40,Both,1.9839,5.051199999999999,3.244
+LDL Cholesterol,mmol/L,41,Male,2.139,5.205,3.482
+LDL Cholesterol,mmol/L,41,Female,1.9713,4.784049999999999,3.095
+LDL Cholesterol,mmol/L,41,Both,2.027875,5.061375,3.267
+LDL Cholesterol,mmol/L,42,Male,2.113,5.307875,3.525
+LDL Cholesterol,mmol/L,42,Female,1.98855,4.826649999999996,3.119
+LDL Cholesterol,mmol/L,42,Both,2.029,5.11,3.3
+LDL Cholesterol,mmol/L,43,Male,2.14635,5.330624999999999,3.538
+LDL Cholesterol,mmol/L,43,Female,2.0,4.873499999999995,3.158
+LDL Cholesterol,mmol/L,43,Both,2.06035,5.11365,3.32
+LDL Cholesterol,mmol/L,44,Male,2.1369,5.3102,3.568
+LDL Cholesterol,mmol/L,44,Female,2.0274,4.833399999999998,3.167
+LDL Cholesterol,mmol/L,44,Both,2.057375,5.085625,3.336
+LDL Cholesterol,mmol/L,45,Male,2.2057,5.3081499999999995,3.624
+LDL Cholesterol,mmol/L,45,Female,1.985975,4.870174999999998,3.211
+LDL Cholesterol,mmol/L,45,Both,2.06155,5.124449999999999,3.378
+LDL Cholesterol,mmol/L,46,Male,2.1235749999999998,5.305899999999998,3.6275
+LDL Cholesterol,mmol/L,46,Female,2.0201000000000002,5.0028999999999995,3.247
+LDL Cholesterol,mmol/L,46,Both,2.059,5.200899999999999,3.409
+LDL Cholesterol,mmol/L,47,Male,2.153,5.28065,3.592
+LDL Cholesterol,mmol/L,47,Female,2.08,5.0935,3.3
+LDL Cholesterol,mmol/L,47,Both,2.10645,5.20255,3.424
+LDL Cholesterol,mmol/L,48,Male,2.12105,5.4289499999999995,3.625
+LDL Cholesterol,mmol/L,48,Female,2.10595,5.106500000000001,3.344
+LDL Cholesterol,mmol/L,48,Both,2.107,5.266,3.464
+LDL Cholesterol,mmol/L,49,Male,2.121,5.292549999999999,3.619
+LDL Cholesterol,mmol/L,49,Female,2.123,5.159350000000001,3.41
+LDL Cholesterol,mmol/L,49,Both,2.12115,5.231,3.494
+LDL Cholesterol,mmol/L,50,Male,2.0623,5.379749999999997,3.618
+LDL Cholesterol,mmol/L,50,Female,2.14195,5.264,3.47
+LDL Cholesterol,mmol/L,50,Both,2.10225,5.313,3.534
+LDL Cholesterol,mmol/L,51,Male,2.056375,5.28,3.591
+LDL Cholesterol,mmol/L,51,Female,2.1906,5.339599999999997,3.504
+LDL Cholesterol,mmol/L,51,Both,2.1375,5.314,3.544
+LDL Cholesterol,mmol/L,52,Male,2.0479000000000003,5.275,3.601
+LDL Cholesterol,mmol/L,52,Female,2.188775,5.3260749999999994,3.561
+LDL Cholesterol,mmol/L,52,Both,2.127,5.315,3.578
+LDL Cholesterol,mmol/L,53,Male,2.047,5.3496,3.61
+LDL Cholesterol,mmol/L,53,Female,2.197225,5.427974999999996,3.609
+LDL Cholesterol,mmol/L,53,Both,2.12945,5.3965499999999995,3.609
+LDL Cholesterol,mmol/L,54,Male,2.0099,5.365300000000001,3.606
+LDL Cholesterol,mmol/L,54,Female,2.239,5.480974999999999,3.6635
+LDL Cholesterol,mmol/L,54,Both,2.136,5.435,3.639
+LDL Cholesterol,mmol/L,55,Male,1.9887000000000001,5.406199999999998,3.581
+LDL Cholesterol,mmol/L,55,Female,2.2426500000000003,5.601025000000001,3.712
+LDL Cholesterol,mmol/L,55,Both,2.1205,5.51275,3.654
+LDL Cholesterol,mmol/L,56,Male,1.9752,5.282800000000001,3.56
+LDL Cholesterol,mmol/L,56,Female,2.2192,5.5438,3.712
+LDL Cholesterol,mmol/L,56,Both,2.1,5.442574999999999,3.6435
+LDL Cholesterol,mmol/L,57,Male,1.944,5.310799999999998,3.541
+LDL Cholesterol,mmol/L,57,Female,2.260725,5.635374999999999,3.733
+LDL Cholesterol,mmol/L,57,Both,2.1067,5.49,3.646
+LDL Cholesterol,mmol/L,58,Male,1.9087,5.2273,3.527
+LDL Cholesterol,mmol/L,58,Female,2.25,5.649,3.739
+LDL Cholesterol,mmol/L,58,Both,2.071,5.494,3.655
+LDL Cholesterol,mmol/L,59,Male,1.885,5.251,3.4764999999999997
+LDL Cholesterol,mmol/L,59,Female,2.225,5.59575,3.727
+LDL Cholesterol,mmol/L,59,Both,2.036,5.45875,3.624
+LDL Cholesterol,mmol/L,60,Male,1.892,5.245199999999998,3.475
+LDL Cholesterol,mmol/L,60,Female,2.204,5.656099999999999,3.777
+LDL Cholesterol,mmol/L,60,Both,2.028,5.494,3.645
+LDL Cholesterol,mmol/L,61,Male,1.8433000000000002,5.228050000000001,3.447
+LDL Cholesterol,mmol/L,61,Female,2.173,5.671899999999997,3.781
+LDL Cholesterol,mmol/L,61,Both,2.007725,5.482,3.635
+LDL Cholesterol,mmol/L,62,Male,1.8677000000000001,5.199,3.4
+LDL Cholesterol,mmol/L,62,Female,2.176,5.639,3.774
+LDL Cholesterol,mmol/L,62,Both,1.974,5.4818750000000005,3.605
+LDL Cholesterol,mmol/L,63,Male,1.817,5.176400000000002,3.357
+LDL Cholesterol,mmol/L,63,Female,2.127,5.661875,3.76
+LDL Cholesterol,mmol/L,63,Both,1.93755,5.47,3.578
+LDL Cholesterol,mmol/L,64,Male,1.81,5.161524999999999,3.344
+LDL Cholesterol,mmol/L,64,Female,2.1083000000000003,5.624699999999999,3.734
+LDL Cholesterol,mmol/L,64,Both,1.929,5.461,3.554
+LDL Cholesterol,mmol/L,65,Male,1.799,5.099,3.283
+LDL Cholesterol,mmol/L,65,Female,2.109,5.558450000000001,3.713
+LDL Cholesterol,mmol/L,65,Both,1.922,5.404,3.502
+LDL Cholesterol,mmol/L,66,Male,1.77135,5.076949999999999,3.273
+LDL Cholesterol,mmol/L,66,Female,2.0688,5.591200000000001,3.699
+LDL Cholesterol,mmol/L,66,Both,1.886,5.395724999999999,3.488
+LDL Cholesterol,mmol/L,67,Male,1.738,5.039224999999999,3.207
+LDL Cholesterol,mmol/L,67,Female,2.069,5.556850000000001,3.677
+LDL Cholesterol,mmol/L,67,Both,1.8595,5.3645000000000005,3.452
+LDL Cholesterol,mmol/L,68,Male,1.73375,5.033,3.187
+LDL Cholesterol,mmol/L,68,Female,2.047,5.610399999999999,3.673
+LDL Cholesterol,mmol/L,68,Both,1.849,5.4239999999999995,3.444
+LDL Cholesterol,mmol/L,69,Male,1.70835,4.992949999999999,3.143
+LDL Cholesterol,mmol/L,69,Female,2.027,5.569,3.637
+LDL Cholesterol,mmol/L,69,Both,1.816525,5.376475,3.383
+LDL Cholesterol,mmol/L,70,Male,1.7436500000000001,4.932599999999998,3.134
+LDL Cholesterol,mmol/L,70,Female,1.9783,5.547999999999997,3.616
+LDL Cholesterol,mmol/L,70,Both,1.817175,5.329025000000001,3.3645
+Lipoprotein(a),nmol/L,40,Male,4.1850000000000005,169.5125,16.5
+Lipoprotein(a),nmol/L,40,Female,4.1,168.5,17.9
+Lipoprotein(a),nmol/L,40,Both,4.13075,169.39249999999998,17.3
+Lipoprotein(a),nmol/L,41,Male,4.1,173.93999999999997,16.95
+Lipoprotein(a),nmol/L,41,Female,4.19,169.1987499999999,17.5
+Lipoprotein(a),nmol/L,41,Both,4.1,171.57,17.27
+Lipoprotein(a),nmol/L,42,Male,4.1105,173.5685,18.2
+Lipoprotein(a),nmol/L,42,Female,4.1,173.7,18.275
+Lipoprotein(a),nmol/L,42,Both,4.1,173.62249999999995,18.215
+Lipoprotein(a),nmol/L,43,Male,4.17,170.26999999999998,17.5
+Lipoprotein(a),nmol/L,43,Female,4.1,166.5,17.9
+Lipoprotein(a),nmol/L,43,Both,4.11,169.06749999999997,17.7
+Lipoprotein(a),nmol/L,44,Male,4.135,171.38,17.5
+Lipoprotein(a),nmol/L,44,Female,4.11,169.6,18.5
+Lipoprotein(a),nmol/L,44,Both,4.112500000000001,170.20000000000002,17.91
+Lipoprotein(a),nmol/L,45,Male,4.18,172.3175,17.9
+Lipoprotein(a),nmol/L,45,Female,4.180499999999999,171.51774999999995,19.0
+Lipoprotein(a),nmol/L,45,Both,4.18,171.73999999999995,18.5
+Lipoprotein(a),nmol/L,46,Male,4.131,172.7225,19.3
+Lipoprotein(a),nmol/L,46,Female,4.13,170.28500000000005,18.2
+Lipoprotein(a),nmol/L,46,Both,4.1265,171.26099999999997,18.7
+Lipoprotein(a),nmol/L,47,Male,4.2,175.074,17.7
+Lipoprotein(a),nmol/L,47,Female,4.1,172.6175,18.915
+Lipoprotein(a),nmol/L,47,Both,4.19,173.685,18.4
+Lipoprotein(a),nmol/L,48,Male,4.23,169.35399999999996,17.8
+Lipoprotein(a),nmol/L,48,Female,4.1,170.79000000000002,18.55
+Lipoprotein(a),nmol/L,48,Both,4.2,170.26299999999995,18.2
+Lipoprotein(a),nmol/L,49,Male,4.2,170.99375,18.0
+Lipoprotein(a),nmol/L,49,Female,4.13,172.90700000000004,19.9
+Lipoprotein(a),nmol/L,49,Both,4.15,171.95999999999987,19.08
+Lipoprotein(a),nmol/L,50,Male,4.2,172.00299999999996,18.3
+Lipoprotein(a),nmol/L,50,Female,4.2,175.2,20.0
+Lipoprotein(a),nmol/L,50,Both,4.2,173.98875,19.18
+Lipoprotein(a),nmol/L,51,Male,4.128,173.23999999999995,19.2
+Lipoprotein(a),nmol/L,51,Female,4.2,173.99450000000002,19.8
+Lipoprotein(a),nmol/L,51,Both,4.2,173.9,19.5
+Lipoprotein(a),nmol/L,52,Male,4.13,172.40399999999994,18.1
+Lipoprotein(a),nmol/L,52,Female,4.2,174.78150000000005,21.4
+Lipoprotein(a),nmol/L,52,Both,4.19,173.97349999999983,19.9
+Lipoprotein(a),nmol/L,53,Male,4.16,171.65999999999985,17.7
+Lipoprotein(a),nmol/L,53,Female,4.2,174.66299999999998,20.8
+Lipoprotein(a),nmol/L,53,Both,4.19,173.4,19.5
+Lipoprotein(a),nmol/L,54,Male,4.1,173.95,17.8
+Lipoprotein(a),nmol/L,54,Female,4.23,176.26324999999986,21.375
+Lipoprotein(a),nmol/L,54,Both,4.2,175.15599999999992,19.91
+Lipoprotein(a),nmol/L,55,Male,4.13,169.99325000000002,19.1
+Lipoprotein(a),nmol/L,55,Female,4.16625,175.43,22.32
+Lipoprotein(a),nmol/L,55,Both,4.1472500000000005,173.8,20.6
+Lipoprotein(a),nmol/L,56,Male,4.2,169.88749999999973,18.5
+Lipoprotein(a),nmol/L,56,Female,4.26525,176.04749999999996,21.4
+Lipoprotein(a),nmol/L,56,Both,4.21,173.07699999999997,20.185000000000002
+Lipoprotein(a),nmol/L,57,Male,4.2,172.5,19.4
+Lipoprotein(a),nmol/L,57,Female,4.24,175.29599999999996,21.42
+Lipoprotein(a),nmol/L,57,Both,4.226500000000001,174.3,20.4
+Lipoprotein(a),nmol/L,58,Male,4.1842500000000005,172.7,19.395
+Lipoprotein(a),nmol/L,58,Female,4.27,175.29175,21.94
+Lipoprotein(a),nmol/L,58,Both,4.2,174.30825,20.9
+Lipoprotein(a),nmol/L,59,Male,4.2,174.1925,20.09
+Lipoprotein(a),nmol/L,59,Female,4.243250000000001,176.354,21.79
+Lipoprotein(a),nmol/L,59,Both,4.2,175.35249999999996,21.01
+Lipoprotein(a),nmol/L,60,Male,4.17,173.0,19.5
+Lipoprotein(a),nmol/L,60,Female,4.2,175.8,21.9
+Lipoprotein(a),nmol/L,60,Both,4.2,174.8,20.735
+Lipoprotein(a),nmol/L,61,Male,4.2,172.04975000000005,18.93
+Lipoprotein(a),nmol/L,61,Female,4.24,176.7375,22.9
+Lipoprotein(a),nmol/L,61,Both,4.2,174.71949999999993,21.05
+Lipoprotein(a),nmol/L,62,Male,4.2,174.58524999999997,19.35
+Lipoprotein(a),nmol/L,62,Female,4.2,175.27999999999994,22.62
+Lipoprotein(a),nmol/L,62,Both,4.2,174.90299999999996,21.2
+Lipoprotein(a),nmol/L,63,Male,4.2,172.72324999999992,19.9
+Lipoprotein(a),nmol/L,63,Female,4.2,175.5,22.1
+Lipoprotein(a),nmol/L,63,Both,4.2,174.45774999999992,20.925
+Lipoprotein(a),nmol/L,64,Male,4.2,173.8864999999999,19.1
+Lipoprotein(a),nmol/L,64,Female,4.191000000000001,176.78999999999996,22.48
+Lipoprotein(a),nmol/L,64,Both,4.2,175.6,20.7
+Lipoprotein(a),nmol/L,65,Male,4.2,173.20449999999988,19.2
+Lipoprotein(a),nmol/L,65,Female,4.23,175.0035,24.1
+Lipoprotein(a),nmol/L,65,Both,4.22,174.2775,21.705
+Lipoprotein(a),nmol/L,66,Male,4.2,171.8425,19.1
+Lipoprotein(a),nmol/L,66,Female,4.3,175.53875,22.2
+Lipoprotein(a),nmol/L,66,Both,4.21,173.9,20.689999999999998
+Lipoprotein(a),nmol/L,67,Male,4.2,174.715,19.6
+Lipoprotein(a),nmol/L,67,Female,4.27,175.3,22.84
+Lipoprotein(a),nmol/L,67,Both,4.2,175.02749999999997,21.14
+Lipoprotein(a),nmol/L,68,Male,4.2,174.448,20.03
+Lipoprotein(a),nmol/L,68,Female,4.2,175.8,23.6
+Lipoprotein(a),nmol/L,68,Both,4.2,175.23125000000002,21.74
+Lipoprotein(a),nmol/L,69,Male,4.23,174.527,20.1
+Lipoprotein(a),nmol/L,69,Female,4.3,177.12399999999994,23.3
+Lipoprotein(a),nmol/L,69,Both,4.28,176.1,21.6
+Lipoprotein(a),nmol/L,70,Male,4.26775,174.67924999999997,23.94
+Lipoprotein(a),nmol/L,70,Female,4.13875,175.9125,21.205
+Lipoprotein(a),nmol/L,70,Both,4.2,175.2025,22.4
+Phosphate,mmol/L,40,Male,0.764,1.4655,1.134
+Phosphate,mmol/L,40,Female,0.849675,1.439325,1.159
+Phosphate,mmol/L,40,Both,0.79695,1.447,1.148
+Phosphate,mmol/L,41,Male,0.778,1.4597999999999998,1.132
+Phosphate,mmol/L,41,Female,0.8422499999999999,1.455,1.151
+Phosphate,mmol/L,41,Both,0.809,1.4575249999999997,1.144
+Phosphate,mmol/L,42,Male,0.781,1.446,1.13
+Phosphate,mmol/L,42,Female,0.852,1.44695,1.152
+Phosphate,mmol/L,42,Both,0.814075,1.4469250000000002,1.142
+Phosphate,mmol/L,43,Male,0.797,1.462,1.137
+Phosphate,mmol/L,43,Female,0.833,1.44,1.143
+Phosphate,mmol/L,43,Both,0.8178249999999999,1.453,1.141
+Phosphate,mmol/L,44,Male,0.7746000000000001,1.4484000000000001,1.127
+Phosphate,mmol/L,44,Female,0.845,1.442625,1.146
+Phosphate,mmol/L,44,Both,0.812,1.446,1.138
+Phosphate,mmol/L,45,Male,0.7927500000000001,1.4481249999999999,1.132
+Phosphate,mmol/L,45,Female,0.839175,1.453,1.149
+Phosphate,mmol/L,45,Both,0.819,1.4519249999999992,1.142
+Phosphate,mmol/L,46,Male,0.793,1.453,1.126
+Phosphate,mmol/L,46,Female,0.844,1.452,1.149
+Phosphate,mmol/L,46,Both,0.81495,1.452,1.138
+Phosphate,mmol/L,47,Male,0.787,1.446,1.127
+Phosphate,mmol/L,47,Female,0.857325,1.4576750000000003,1.158
+Phosphate,mmol/L,47,Both,0.819,1.453,1.143
+Phosphate,mmol/L,48,Male,0.796,1.4420249999999997,1.129
+Phosphate,mmol/L,48,Female,0.864,1.4683500000000005,1.165
+Phosphate,mmol/L,48,Both,0.826325,1.46,1.148
+Phosphate,mmol/L,49,Male,0.787,1.4535749999999998,1.129
+Phosphate,mmol/L,49,Female,0.8645,1.4725000000000001,1.17
+Phosphate,mmol/L,49,Both,0.822,1.4640499999999992,1.154
+Phosphate,mmol/L,50,Male,0.798,1.451,1.133
+Phosphate,mmol/L,50,Female,0.872,1.4821999999999997,1.183
+Phosphate,mmol/L,50,Both,0.832,1.467,1.16
+Phosphate,mmol/L,51,Male,0.788,1.4375249999999997,1.122
+Phosphate,mmol/L,51,Female,0.884,1.498,1.189
+Phosphate,mmol/L,51,Both,0.827,1.477,1.162
+Phosphate,mmol/L,52,Male,0.788,1.437,1.124
+Phosphate,mmol/L,52,Female,0.893,1.506,1.203
+Phosphate,mmol/L,52,Both,0.83075,1.47825,1.168
+Phosphate,mmol/L,53,Male,0.79335,1.4376499999999997,1.118
+Phosphate,mmol/L,53,Female,0.8982,1.5018000000000002,1.206
+Phosphate,mmol/L,53,Both,0.837575,1.4794249999999993,1.168
+Phosphate,mmol/L,54,Male,0.7965500000000001,1.4344499999999998,1.127
+Phosphate,mmol/L,54,Female,0.902,1.502,1.21
+Phosphate,mmol/L,54,Both,0.843,1.477,1.177
+Phosphate,mmol/L,55,Male,0.794,1.4372749999999996,1.118
+Phosphate,mmol/L,55,Female,0.908,1.5032249999999994,1.213
+Phosphate,mmol/L,55,Both,0.838525,1.4844750000000004,1.173
+Phosphate,mmol/L,56,Male,0.7980250000000001,1.436,1.12
+Phosphate,mmol/L,56,Female,0.914,1.503,1.215
+Phosphate,mmol/L,56,Both,0.839,1.484,1.174
+Phosphate,mmol/L,57,Male,0.783575,1.424425,1.113
+Phosphate,mmol/L,57,Female,0.917,1.497,1.214
+Phosphate,mmol/L,57,Both,0.833,1.475,1.172
+Phosphate,mmol/L,58,Male,0.792,1.4258499999999994,1.117
+Phosphate,mmol/L,58,Female,0.909,1.485,1.211
+Phosphate,mmol/L,58,Both,0.841,1.4646000000000003,1.171
+Phosphate,mmol/L,59,Male,0.797,1.426575,1.11
+Phosphate,mmol/L,59,Female,0.9141750000000001,1.495,1.212
+Phosphate,mmol/L,59,Both,0.842,1.472,1.169
+Phosphate,mmol/L,60,Male,0.795,1.414,1.111
+Phosphate,mmol/L,60,Female,0.925,1.496,1.215
+Phosphate,mmol/L,60,Both,0.843,1.4706499999999978,1.17
+Phosphate,mmol/L,61,Male,0.798,1.423,1.112
+Phosphate,mmol/L,61,Female,0.923,1.498,1.213
+Phosphate,mmol/L,61,Both,0.846,1.475,1.169
+Phosphate,mmol/L,62,Male,0.79805,1.428,1.117
+Phosphate,mmol/L,62,Female,0.919,1.497,1.209
+Phosphate,mmol/L,62,Both,0.84675,1.47025,1.17
+Phosphate,mmol/L,63,Male,0.8069500000000001,1.431,1.12
+Phosphate,mmol/L,63,Female,0.925,1.492,1.209
+Phosphate,mmol/L,63,Both,0.846,1.468,1.17
+Phosphate,mmol/L,64,Male,0.7992,1.417,1.114
+Phosphate,mmol/L,64,Female,0.919,1.488,1.208
+Phosphate,mmol/L,64,Both,0.848,1.461,1.163
+Phosphate,mmol/L,65,Male,0.807,1.421,1.109
+Phosphate,mmol/L,65,Female,0.924,1.4855,1.208
+Phosphate,mmol/L,65,Both,0.843,1.46,1.163
+Phosphate,mmol/L,66,Male,0.811,1.422,1.114
+Phosphate,mmol/L,66,Female,0.922,1.483,1.204
+Phosphate,mmol/L,66,Both,0.846,1.459,1.16
+Phosphate,mmol/L,67,Male,0.8008000000000001,1.411,1.109
+Phosphate,mmol/L,67,Female,0.921,1.4839250000000002,1.202
+Phosphate,mmol/L,67,Both,0.8399,1.461,1.159
+Phosphate,mmol/L,68,Male,0.808,1.413,1.113
+Phosphate,mmol/L,68,Female,0.918,1.482,1.204
+Phosphate,mmol/L,68,Both,0.849,1.455,1.16
+Phosphate,mmol/L,69,Male,0.803,1.415,1.102
+Phosphate,mmol/L,69,Female,0.9130750000000001,1.473,1.2
+Phosphate,mmol/L,69,Both,0.837,1.446,1.152
+Phosphate,mmol/L,70,Male,0.809,1.3971,1.1075
+Phosphate,mmol/L,70,Female,0.8966000000000001,1.4926000000000001,1.193
+Phosphate,mmol/L,70,Both,0.8418,1.4476,1.152
+SHBG,nmol/L,40,Male,12.3225,63.028500000000015,29.98
+SHBG,nmol/L,40,Female,20.528000000000002,171.42599999999993,63.27
+SHBG,nmol/L,40,Both,14.04475,139.53750000000002,41.795
+SHBG,nmol/L,41,Male,12.3955,65.19449999999999,30.17
+SHBG,nmol/L,41,Female,21.1325,153.67000000000002,62.02
+SHBG,nmol/L,41,Both,14.6185,133.1502499999998,42.364999999999995
+SHBG,nmol/L,42,Male,12.91,65.475,30.39
+SHBG,nmol/L,42,Female,20.75625,156.54625,62.315
+SHBG,nmol/L,42,Both,14.436,133.3299999999999,42.74
+SHBG,nmol/L,43,Male,12.53,66.956,30.98
+SHBG,nmol/L,43,Female,20.645,153.6325,63.385000000000005
+SHBG,nmol/L,43,Both,14.03,134.6675,43.74
+SHBG,nmol/L,44,Male,12.653,67.107,30.66
+SHBG,nmol/L,44,Female,20.78,148.37,62.98
+SHBG,nmol/L,44,Both,14.70125,131.82375,44.14
+SHBG,nmol/L,45,Male,12.94375,68.62874999999991,31.685000000000002
+SHBG,nmol/L,45,Female,20.9675,150.81175000000013,62.575
+SHBG,nmol/L,45,Both,15.038749999999999,134.18,44.29
+SHBG,nmol/L,46,Male,13.503,70.31599999999997,31.71
+SHBG,nmol/L,46,Female,20.95625,156.09500000000003,62.29
+SHBG,nmol/L,46,Both,15.1975,134.6225,44.27
+SHBG,nmol/L,47,Male,13.027249999999999,70.80649999999999,32.275000000000006
+SHBG,nmol/L,47,Female,19.58975,153.62574999999998,61.239999999999995
+SHBG,nmol/L,47,Both,15.08,133.4295,43.63
+SHBG,nmol/L,48,Male,13.1645,70.59774999999999,32.14
+SHBG,nmol/L,48,Female,20.21075,150.77049999999988,62.114999999999995
+SHBG,nmol/L,48,Both,15.0905,133.06850000000003,44.455
+SHBG,nmol/L,49,Male,13.852,73.00599999999999,33.02
+SHBG,nmol/L,49,Female,20.067999999999998,147.47999999999996,61.39
+SHBG,nmol/L,49,Both,15.8585,132.00549999999964,44.63
+SHBG,nmol/L,50,Male,14.125,72.69999999999999,33.18
+SHBG,nmol/L,50,Female,19.67725,146.75949999999995,60.285
+SHBG,nmol/L,50,Both,16.03,130.44,44.28
+SHBG,nmol/L,51,Male,14.269,72.95275,33.67
+SHBG,nmol/L,51,Female,19.09275,147.74524999999997,58.735
+SHBG,nmol/L,51,Both,16.090500000000002,132.82925000000003,44.595
+SHBG,nmol/L,52,Male,14.187,73.63249999999995,34.655
+SHBG,nmol/L,52,Female,19.025750000000002,145.03925000000004,57.265
+SHBG,nmol/L,52,Both,16.18525,127.59050000000013,44.325
+SHBG,nmol/L,53,Male,15.3475,74.3575,35.075
+SHBG,nmol/L,53,Female,18.41,140.20374999999999,55.775
+SHBG,nmol/L,53,Both,16.59025,123.99825000000003,44.39
+SHBG,nmol/L,54,Male,14.83,73.92,34.92
+SHBG,nmol/L,54,Female,18.244000000000003,141.19199999999995,55.82
+SHBG,nmol/L,54,Both,16.1,125.36500000000001,43.86
+SHBG,nmol/L,55,Male,15.451,74.713,35.78
+SHBG,nmol/L,55,Female,19.134999999999998,138.79125,54.99
+SHBG,nmol/L,55,Both,16.785,122.25,43.85
+SHBG,nmol/L,56,Male,15.69,77.43,36.42
+SHBG,nmol/L,56,Female,17.9175,138.33374999999998,54.485
+SHBG,nmol/L,56,Both,16.49,119.98000000000003,43.94
+SHBG,nmol/L,57,Male,16.049999999999997,77.2625,36.87
+SHBG,nmol/L,57,Female,18.70625,138.39549999999997,54.625
+SHBG,nmol/L,57,Both,17.08,120.32,44.78
+SHBG,nmol/L,58,Male,16.5,78.03,37.48
+SHBG,nmol/L,58,Female,18.5575,130.72500000000002,54.71
+SHBG,nmol/L,58,Both,17.38,117.03924999999994,45.42
+SHBG,nmol/L,59,Male,16.2115,79.7495,38.2
+SHBG,nmol/L,59,Female,19.040499999999998,135.05399999999986,54.51
+SHBG,nmol/L,59,Both,17.505,118.66625,45.39
+SHBG,nmol/L,60,Male,17.3,79.995,38.364999999999995
+SHBG,nmol/L,60,Female,19.35,130.46249999999995,53.81
+SHBG,nmol/L,60,Both,18.2,116.228,44.97
+SHBG,nmol/L,61,Male,17.2625,80.57875,39.37
+SHBG,nmol/L,61,Female,18.88,128.59025,53.84
+SHBG,nmol/L,61,Both,18.0,113.05125,45.77
+SHBG,nmol/L,62,Male,17.86,82.177,39.94
+SHBG,nmol/L,62,Female,19.137,131.62299999999993,53.94
+SHBG,nmol/L,62,Both,18.5,116.65199999999993,45.78
+SHBG,nmol/L,63,Male,17.71,83.16849999999994,40.14
+SHBG,nmol/L,63,Female,19.545,131.61,54.45
+SHBG,nmol/L,63,Both,18.605,116.38,46.52
+SHBG,nmol/L,64,Male,18.726,85.47199999999998,41.31
+SHBG,nmol/L,64,Female,20.42,130.41,54.79
+SHBG,nmol/L,64,Both,19.50125,114.76,47.245000000000005
+SHBG,nmol/L,65,Male,18.626,83.82599999999991,41.66
+SHBG,nmol/L,65,Female,20.53475,128.6562499999999,54.985
+SHBG,nmol/L,65,Both,19.3815,114.16649999999987,47.25
+SHBG,nmol/L,66,Male,19.0085,87.03099999999988,42.48
+SHBG,nmol/L,66,Female,20.92125,129.93875,55.35
+SHBG,nmol/L,66,Both,19.63,114.03,47.79
+SHBG,nmol/L,67,Male,19.237,85.73700000000001,43.35
+SHBG,nmol/L,67,Female,21.43,133.3555,56.1
+SHBG,nmol/L,67,Both,20.066,117.71199999999993,48.31
+SHBG,nmol/L,68,Male,20.01,88.1575,43.83
+SHBG,nmol/L,68,Female,21.9725,129.98875,56.69
+SHBG,nmol/L,68,Both,20.780250000000002,115.16,49.12
+SHBG,nmol/L,69,Male,20.34,90.34825,44.195
+SHBG,nmol/L,69,Female,21.665000000000003,129.60399999999998,57.29
+SHBG,nmol/L,69,Both,20.939500000000002,116.85500000000003,49.64
+SHBG,nmol/L,70,Male,21.185750000000002,92.40249999999999,45.55
+SHBG,nmol/L,70,Female,21.9455,136.643,57.76
+SHBG,nmol/L,70,Both,21.294,124.3869999999999,50.44
+Total Bilirubin,umol/L,40,Male,5.1315,28.095499999999998,9.37
+Total Bilirubin,umol/L,40,Female,4.00175,21.292999999999992,7.62
+Total Bilirubin,umol/L,40,Both,4.31775,24.856999999999932,8.47
+Total Bilirubin,umol/L,41,Male,5.0,25.16875,9.175
+Total Bilirubin,umol/L,41,Female,3.8835,21.74,7.65
+Total Bilirubin,umol/L,41,Both,4.29,23.04,8.38
+Total Bilirubin,umol/L,42,Male,4.89,25.34049999999998,9.2
+Total Bilirubin,umol/L,42,Female,4.0,20.805499999999984,7.5
+Total Bilirubin,umol/L,42,Both,4.28,23.21,8.27
+Total Bilirubin,umol/L,43,Male,5.0,25.465,9.35
+Total Bilirubin,umol/L,43,Female,4.01,19.58875,7.55
+Total Bilirubin,umol/L,43,Both,4.26,22.71,8.31
+Total Bilirubin,umol/L,44,Male,5.06,24.03399999999994,9.15
+Total Bilirubin,umol/L,44,Female,4.03,20.36375,7.5
+Total Bilirubin,umol/L,44,Both,4.3,22.3325,8.23
+Total Bilirubin,umol/L,45,Male,4.941,24.133999999999975,9.22
+Total Bilirubin,umol/L,45,Female,3.95,20.073249999999998,7.51
+Total Bilirubin,umol/L,45,Both,4.2,21.9575,8.23
+Total Bilirubin,umol/L,46,Male,4.93,26.556249999999974,9.2
+Total Bilirubin,umol/L,46,Female,3.94,20.21,7.36
+Total Bilirubin,umol/L,46,Both,4.16,23.36399999999998,8.15
+Total Bilirubin,umol/L,47,Male,4.87,24.845999999999986,9.04
+Total Bilirubin,umol/L,47,Female,3.9835,19.59249999999998,7.38
+Total Bilirubin,umol/L,47,Both,4.20675,22.392999999999954,8.11
+Total Bilirubin,umol/L,48,Male,4.77,25.39125,9.075
+Total Bilirubin,umol/L,48,Female,3.96375,19.1125,7.3
+Total Bilirubin,umol/L,48,Both,4.21,22.097250000000006,8.04
+Total Bilirubin,umol/L,49,Male,4.9935,24.91,9.11
+Total Bilirubin,umol/L,49,Female,4.01,19.3,7.26
+Total Bilirubin,umol/L,49,Both,4.2335,21.959499999999988,8.07
+Total Bilirubin,umol/L,50,Male,4.914,24.057999999999957,9.04
+Total Bilirubin,umol/L,50,Female,4.075,19.229999999999997,7.26
+Total Bilirubin,umol/L,50,Both,4.24,21.62074999999999,8.04
+Total Bilirubin,umol/L,51,Male,4.8755,23.600499999999982,9.04
+Total Bilirubin,umol/L,51,Female,4.01,18.507749999999998,7.175
+Total Bilirubin,umol/L,51,Both,4.23,21.22,7.96
+Total Bilirubin,umol/L,52,Male,4.99,23.947000000000006,9.1
+Total Bilirubin,umol/L,52,Female,4.01,18.856499999999997,7.16
+Total Bilirubin,umol/L,52,Both,4.24,21.353999999999942,7.91
+Total Bilirubin,umol/L,53,Male,4.89,23.5,9.01
+Total Bilirubin,umol/L,53,Female,4.08,18.449749999999995,7.16
+Total Bilirubin,umol/L,53,Both,4.27,20.94199999999999,7.89
+Total Bilirubin,umol/L,54,Male,4.92525,24.064249999999983,9.024999999999999
+Total Bilirubin,umol/L,54,Female,4.12525,18.204249999999984,7.17
+Total Bilirubin,umol/L,54,Both,4.33,20.87,7.94
+Total Bilirubin,umol/L,55,Male,4.93,23.502999999999954,9.045
+Total Bilirubin,umol/L,55,Female,4.1285,17.771499999999996,7.19
+Total Bilirubin,umol/L,55,Both,4.3,20.56,7.94
+Total Bilirubin,umol/L,56,Male,4.92,23.834999999999997,9.02
+Total Bilirubin,umol/L,56,Female,4.14,17.692500000000003,7.23
+Total Bilirubin,umol/L,56,Both,4.35,20.61,7.96
+Total Bilirubin,umol/L,57,Male,5.02,23.345500000000012,9.03
+Total Bilirubin,umol/L,57,Female,4.13375,17.866249999999997,7.22
+Total Bilirubin,umol/L,57,Both,4.36,20.69,7.97
+Total Bilirubin,umol/L,58,Male,4.99,23.024249999999984,9.12
+Total Bilirubin,umol/L,58,Female,4.13,17.82,7.22
+Total Bilirubin,umol/L,58,Both,4.35,20.63,8.04
+Total Bilirubin,umol/L,59,Male,5.0672500000000005,23.69474999999997,9.06
+Total Bilirubin,umol/L,59,Female,4.15,17.55,7.25
+Total Bilirubin,umol/L,59,Both,4.38,20.530499999999957,8.015
+Total Bilirubin,umol/L,60,Male,4.95,22.54,9.1
+Total Bilirubin,umol/L,60,Female,4.17575,17.63424999999999,7.19
+Total Bilirubin,umol/L,60,Both,4.391,20.27899999999998,7.96
+Total Bilirubin,umol/L,61,Male,5.04,23.327749999999995,9.11
+Total Bilirubin,umol/L,61,Female,4.19,17.507749999999998,7.26
+Total Bilirubin,umol/L,61,Both,4.43,20.46524999999998,8.04
+Total Bilirubin,umol/L,62,Male,5.07,22.90049999999999,9.15
+Total Bilirubin,umol/L,62,Female,4.2,17.724999999999998,7.23
+Total Bilirubin,umol/L,62,Both,4.43,20.30274999999998,8.05
+Total Bilirubin,umol/L,63,Male,5.03,23.58,9.17
+Total Bilirubin,umol/L,63,Female,4.2145,17.870999999999984,7.27
+Total Bilirubin,umol/L,63,Both,4.43475,20.68524999999998,8.06
+Total Bilirubin,umol/L,64,Male,5.03,23.00074999999999,9.15
+Total Bilirubin,umol/L,64,Female,4.18825,17.481749999999995,7.23
+Total Bilirubin,umol/L,64,Both,4.44,20.472249999999985,8.08
+Total Bilirubin,umol/L,65,Male,5.09,23.6075,9.26
+Total Bilirubin,umol/L,65,Female,4.17,17.68,7.22
+Total Bilirubin,umol/L,65,Both,4.45,21.01699999999997,8.15
+Total Bilirubin,umol/L,66,Male,5.04,22.87,9.21
+Total Bilirubin,umol/L,66,Female,4.25,17.285499999999992,7.27
+Total Bilirubin,umol/L,66,Both,4.46,20.48,8.14
+Total Bilirubin,umol/L,67,Male,5.1,23.63949999999996,9.29
+Total Bilirubin,umol/L,67,Female,4.2465,17.913499999999996,7.26
+Total Bilirubin,umol/L,67,Both,4.51,20.981749999999995,8.19
+Total Bilirubin,umol/L,68,Male,5.0969999999999995,22.549000000000007,9.21
+Total Bilirubin,umol/L,68,Female,4.22,17.67124999999999,7.25
+Total Bilirubin,umol/L,68,Both,4.49,20.56,8.17
+Total Bilirubin,umol/L,69,Male,5.02,23.15324999999999,9.31
+Total Bilirubin,umol/L,69,Female,4.32,18.2,7.355
+Total Bilirubin,umol/L,69,Both,4.53925,20.80149999999998,8.225000000000001
+Total Bilirubin,umol/L,70,Male,5.03,24.077999999999992,9.43
+Total Bilirubin,umol/L,70,Female,4.361000000000001,18.897999999999996,7.34
+Total Bilirubin,umol/L,70,Both,4.597,21.15299999999999,8.31
+Testosterone,nmol/L,40,Male,6.45555,21.048099999999998,12.152
+Testosterone,nmol/L,40,Female,0.4537,2.687899999999999,1.215
+Testosterone,nmol/L,40,Both,0.5266500000000001,19.21897499999999,3.489
+Testosterone,nmol/L,41,Male,6.4326,20.76679999999999,12.207
+Testosterone,nmol/L,41,Female,0.448,2.6665,1.169
+Testosterone,nmol/L,41,Both,0.515,19.047375,2.5614999999999997
+Testosterone,nmol/L,42,Male,6.255800000000001,20.922424999999993,12.118
+Testosterone,nmol/L,42,Female,0.44745,2.7037500000000008,1.189
+Testosterone,nmol/L,42,Both,0.50915,19.075950000000002,2.649
+Testosterone,nmol/L,43,Male,6.301075,20.548425000000005,12.118
+Testosterone,nmol/L,43,Female,0.442,2.5330999999999992,1.167
+Testosterone,nmol/L,43,Both,0.501,18.957,2.194
+Testosterone,nmol/L,44,Male,6.4137,20.473349999999996,11.9875
+Testosterone,nmol/L,44,Female,0.4494,2.5477999999999983,1.164
+Testosterone,nmol/L,44,Both,0.5077,18.7642,2.205
+Testosterone,nmol/L,45,Male,6.343800000000001,20.82357499999999,12.0425
+Testosterone,nmol/L,45,Female,0.436725,2.510099999999998,1.1429999999999998
+Testosterone,nmol/L,45,Both,0.484,18.824550000000002,2.0515
+Testosterone,nmol/L,46,Male,6.268,21.032,11.947
+Testosterone,nmol/L,46,Female,0.435,2.4881999999999973,1.117
+Testosterone,nmol/L,46,Both,0.485,19.206625,2.07
+Testosterone,nmol/L,47,Male,6.3767,20.389650000000007,11.878
+Testosterone,nmol/L,47,Female,0.435275,2.5241749999999983,1.116
+Testosterone,nmol/L,47,Both,0.488,18.892500000000002,2.161
+Testosterone,nmol/L,48,Male,6.075975000000001,20.486,11.754
+Testosterone,nmol/L,48,Female,0.432,2.5148999999999977,1.1015000000000001
+Testosterone,nmol/L,48,Both,0.476,18.6725,2.0675
+Testosterone,nmol/L,49,Male,6.117,20.525799999999997,11.891
+Testosterone,nmol/L,49,Female,0.417,2.5197499999999993,1.085
+Testosterone,nmol/L,49,Both,0.47,18.70175,2.046
+Testosterone,nmol/L,50,Male,5.985275000000001,20.442949999999982,11.810500000000001
+Testosterone,nmol/L,50,Female,0.423675,2.5083249999999997,1.077
+Testosterone,nmol/L,50,Both,0.472,18.587,2.0534999999999997
+Testosterone,nmol/L,51,Male,6.07705,20.592574999999993,11.7005
+Testosterone,nmol/L,51,Female,0.42,2.4245,1.052
+Testosterone,nmol/L,51,Both,0.463,18.714,2.028
+Testosterone,nmol/L,52,Male,6.0051250000000005,20.508174999999994,11.7305
+Testosterone,nmol/L,52,Female,0.407,2.411549999999999,1.037
+Testosterone,nmol/L,52,Both,0.449,18.256225,1.9380000000000002
+Testosterone,nmol/L,53,Male,6.15945,20.320050000000002,11.704
+Testosterone,nmol/L,53,Female,0.40622500000000006,2.4257499999999963,1.019
+Testosterone,nmol/L,53,Both,0.449,18.282399999999996,2.031
+Testosterone,nmol/L,54,Male,5.9166,20.1791,11.555
+Testosterone,nmol/L,54,Female,0.406,2.4255,1.014
+Testosterone,nmol/L,54,Both,0.451,18.304524999999998,2.122
+Testosterone,nmol/L,55,Male,5.769625,19.892625,11.605
+Testosterone,nmol/L,55,Female,0.40460000000000007,2.393199999999999,1.005
+Testosterone,nmol/L,55,Both,0.441,18.19525,2.095
+Testosterone,nmol/L,56,Male,5.843850000000001,19.801049999999996,11.6075
+Testosterone,nmol/L,56,Female,0.399,2.472699999999999,0.977
+Testosterone,nmol/L,56,Both,0.437,18.1837,2.539
+Testosterone,nmol/L,57,Male,5.80075,20.021200000000004,11.6295
+Testosterone,nmol/L,57,Female,0.4,2.3454499999999987,0.97
+Testosterone,nmol/L,57,Both,0.435,18.253850000000003,2.2275
+Testosterone,nmol/L,58,Male,5.79385,20.044,11.497
+Testosterone,nmol/L,58,Female,0.40482500000000005,2.397175,0.9584999999999999
+Testosterone,nmol/L,58,Both,0.442,18.413049999999995,2.974
+Testosterone,nmol/L,59,Male,5.8119,20.171674999999997,11.5945
+Testosterone,nmol/L,59,Female,0.40010000000000007,2.3724999999999947,0.967
+Testosterone,nmol/L,59,Both,0.439,18.511,4.073
+Testosterone,nmol/L,60,Male,5.7955000000000005,20.083,11.51
+Testosterone,nmol/L,60,Female,0.4,2.3422749999999977,0.968
+Testosterone,nmol/L,60,Both,0.44,18.49469999999997,3.932
+Testosterone,nmol/L,61,Male,5.79,19.82525,11.485
+Testosterone,nmol/L,61,Female,0.39715,2.3677000000000006,0.959
+Testosterone,nmol/L,61,Both,0.4343000000000001,18.346700000000002,4.614
+Testosterone,nmol/L,62,Male,5.6608,19.769799999999993,11.44
+Testosterone,nmol/L,62,Female,0.398,2.4431999999999934,0.946
+Testosterone,nmol/L,62,Both,0.441,18.18875,5.986
+Testosterone,nmol/L,63,Male,5.728025000000001,19.84074999999999,11.433
+Testosterone,nmol/L,63,Female,0.398,2.458,0.95
+Testosterone,nmol/L,63,Both,0.437975,18.329024999999998,5.887
+Testosterone,nmol/L,64,Male,5.701375,20.104699999999998,11.449
+Testosterone,nmol/L,64,Female,0.397,2.3606999999999987,0.938
+Testosterone,nmol/L,64,Both,0.439,18.518250000000002,6.601
+Testosterone,nmol/L,65,Male,5.524425,19.927799999999973,11.399
+Testosterone,nmol/L,65,Female,0.396,2.3895,0.946
+Testosterone,nmol/L,65,Both,0.439,18.457149999999984,7.198
+Testosterone,nmol/L,66,Male,5.483225,19.983249999999988,11.409500000000001
+Testosterone,nmol/L,66,Female,0.397,2.367075,0.946
+Testosterone,nmol/L,66,Both,0.43217500000000003,18.526249999999987,7.382
+Testosterone,nmol/L,67,Male,5.58905,19.674749999999992,11.376000000000001
+Testosterone,nmol/L,67,Female,0.399,2.44725,0.948
+Testosterone,nmol/L,67,Both,0.441,18.342499999999994,7.343
+Testosterone,nmol/L,68,Male,5.4384999999999994,19.5255,11.35
+Testosterone,nmol/L,68,Female,0.398,2.4326999999999988,0.948
+Testosterone,nmol/L,68,Both,0.441,18.216324999999998,7.3795
+Testosterone,nmol/L,69,Male,5.517,20.11499999999999,11.363
+Testosterone,nmol/L,69,Female,0.3936,2.351599999999995,0.952
+Testosterone,nmol/L,69,Both,0.442,18.52,7.4335
+Testosterone,nmol/L,70,Male,5.7711,19.447299999999995,11.629
+Testosterone,nmol/L,70,Female,0.3937,2.419399999999998,0.947
+Testosterone,nmol/L,70,Both,0.428,18.476,7.814
+Total Protein,g/L,40,Male,66.672,82.092,73.5
+Total Protein,g/L,40,Female,64.85,80.7605,72.31
+Total Protein,g/L,40,Both,65.49,81.50125,72.88
+Total Protein,g/L,41,Male,66.14,81.50825,73.265
+Total Protein,g/L,41,Female,65.1155,81.35,72.18
+Total Protein,g/L,41,Both,65.55,81.41,72.72
+Total Protein,g/L,42,Male,66.066,81.798,73.21
+Total Protein,g/L,42,Female,64.78,80.89699999999999,72.24
+Total Protein,g/L,42,Both,65.24,81.4,72.75
+Total Protein,g/L,43,Male,66.19,81.6005,73.27
+Total Protein,g/L,43,Female,64.73,80.70474999999999,71.995
+Total Protein,g/L,43,Both,65.21024999999999,81.19,72.59
+Total Protein,g/L,44,Male,65.92,81.2215,73.11
+Total Protein,g/L,44,Female,64.79675,80.5165,71.96
+Total Protein,g/L,44,Both,65.18,80.93449999999999,72.53
+Total Protein,g/L,45,Male,65.76,81.08250000000001,72.94
+Total Protein,g/L,45,Female,64.76375,80.77625,72.01
+Total Protein,g/L,45,Both,65.1635,80.91,72.41
+Total Protein,g/L,46,Male,66.03800000000001,81.416,72.98
+Total Protein,g/L,46,Female,64.89,80.378,71.82
+Total Protein,g/L,46,Both,65.34425,80.79574999999998,72.38
+Total Protein,g/L,47,Male,65.765,80.83500000000001,72.79
+Total Protein,g/L,47,Female,64.78,80.52,71.86
+Total Protein,g/L,47,Both,65.19,80.71,72.29
+Total Protein,g/L,48,Male,65.83,81.109,72.93
+Total Protein,g/L,48,Female,64.8215,80.86,71.92500000000001
+Total Protein,g/L,48,Both,65.2,80.98700000000001,72.37
+Total Protein,g/L,49,Male,65.61,80.86699999999999,72.63
+Total Protein,g/L,49,Female,64.8,80.95325,71.93
+Total Protein,g/L,49,Both,65.1135,80.93,72.23
+Total Protein,g/L,50,Male,65.80000000000001,80.91499999999999,72.57
+Total Protein,g/L,50,Female,64.96199999999999,80.7,72.12
+Total Protein,g/L,50,Both,65.27625,80.83,72.33
+Total Protein,g/L,51,Male,65.30725,80.69274999999999,72.5
+Total Protein,g/L,51,Female,65.06649999999999,80.7,72.14
+Total Protein,g/L,51,Both,65.194,80.7,72.27
+Total Protein,g/L,52,Male,65.351,80.69,72.48
+Total Protein,g/L,52,Female,64.9315,80.95,72.2
+Total Protein,g/L,52,Both,65.14800000000001,80.81399999999998,72.31
+Total Protein,g/L,53,Male,65.35325,80.74350000000001,72.4
+Total Protein,g/L,53,Female,65.13,80.85,72.3
+Total Protein,g/L,53,Both,65.22,80.78,72.34
+Total Protein,g/L,54,Male,65.4235,80.82324999999999,72.44
+Total Protein,g/L,54,Female,65.153,80.897,72.46
+Total Protein,g/L,54,Both,65.25,80.88,72.45
+Total Protein,g/L,55,Male,65.31,80.54949999999998,72.22
+Total Protein,g/L,55,Female,65.17,80.89,72.39
+Total Protein,g/L,55,Both,65.23,80.80799999999999,72.32
+Total Protein,g/L,56,Male,64.87,80.49,72.17500000000001
+Total Protein,g/L,56,Female,65.27199999999999,80.904,72.34
+Total Protein,g/L,56,Both,65.1,80.72,72.26
+Total Protein,g/L,57,Male,65.156,80.52199999999999,72.09
+Total Protein,g/L,57,Female,65.05499999999999,80.85249999999999,72.3
+Total Protein,g/L,57,Both,65.09,80.74,72.21
+Total Protein,g/L,58,Male,65.12,80.738,72.18
+Total Protein,g/L,58,Female,65.22,80.80725,72.27
+Total Protein,g/L,58,Both,65.16,80.78,72.24
+Total Protein,g/L,59,Male,64.699,80.7,71.99
+Total Protein,g/L,59,Female,64.90325,80.63674999999999,72.17
+Total Protein,g/L,59,Both,64.81,80.68,72.08
+Total Protein,g/L,60,Male,64.75,80.82,71.92
+Total Protein,g/L,60,Female,65.00750000000001,80.7225,72.17
+Total Protein,g/L,60,Both,64.88,80.77,72.05
+Total Protein,g/L,61,Male,64.944,80.88,72.0
+Total Protein,g/L,61,Female,64.82,80.744,72.02
+Total Protein,g/L,61,Both,64.9,80.80975,72.0
+Total Protein,g/L,62,Male,64.75,80.72,72.01
+Total Protein,g/L,62,Female,64.9105,80.97975000000001,72.04
+Total Protein,g/L,62,Both,64.84,80.87,72.03
+Total Protein,g/L,63,Male,64.77225,80.71099999999998,72.02
+Total Protein,g/L,63,Female,64.84,80.44250000000001,71.96
+Total Protein,g/L,63,Both,64.79,80.56,71.98
+Total Protein,g/L,64,Male,64.48,80.80675,71.91
+Total Protein,g/L,64,Female,64.71,80.53399999999998,71.94
+Total Protein,g/L,64,Both,64.62,80.63849999999998,71.92
+Total Protein,g/L,65,Male,64.68525,80.75475,71.98
+Total Protein,g/L,65,Female,64.57,80.53,71.95
+Total Protein,g/L,65,Both,64.61,80.65,71.96
+Total Protein,g/L,66,Male,64.6,80.6245,71.95
+Total Protein,g/L,66,Female,64.83,80.53,71.96
+Total Protein,g/L,66,Both,64.71,80.59,71.96
+Total Protein,g/L,67,Male,64.7,80.79175000000001,71.96
+Total Protein,g/L,67,Female,64.49199999999999,80.38,71.88
+Total Protein,g/L,67,Both,64.6,80.6,71.93
+Total Protein,g/L,68,Male,64.56,80.88625,71.94
+Total Protein,g/L,68,Female,64.58,80.513,71.81
+Total Protein,g/L,68,Both,64.57849999999999,80.76,71.88
+Total Protein,g/L,69,Male,64.2735,80.52,71.85
+Total Protein,g/L,69,Female,64.63,80.62549999999999,71.82
+Total Protein,g/L,69,Both,64.44850000000001,80.57074999999999,71.84
+Total Protein,g/L,70,Male,64.73325,81.211,72.04
+Total Protein,g/L,70,Female,64.199,81.47999999999999,71.68
+Total Protein,g/L,70,Both,64.519,81.3835,71.87
+Triglyceride,mmol/L,40,Male,0.61235,4.955550000000001,1.6684999999999999
+Triglyceride,mmol/L,40,Female,0.50235,2.9286499999999998,1.027
+Triglyceride,mmol/L,40,Both,0.52305,4.23895,1.269
+Triglyceride,mmol/L,41,Male,0.5832,5.228499999999991,1.644
+Triglyceride,mmol/L,41,Female,0.5069,3.105,1.027
+Triglyceride,mmol/L,41,Both,0.526,4.447149999999998,1.249
+Triglyceride,mmol/L,42,Male,0.60945,5.454024999999989,1.6895
+Triglyceride,mmol/L,42,Female,0.501725,3.0805499999999992,1.0514999999999999
+Triglyceride,mmol/L,42,Both,0.5289750000000001,4.551149999999998,1.285
+Triglyceride,mmol/L,43,Male,0.6246,5.312199999999999,1.688
+Triglyceride,mmol/L,43,Female,0.52,3.151749999999998,1.066
+Triglyceride,mmol/L,43,Both,0.542675,4.494974999999997,1.285
+Triglyceride,mmol/L,44,Male,0.605,5.4208,1.707
+Triglyceride,mmol/L,44,Female,0.5175500000000001,3.185049999999998,1.05
+Triglyceride,mmol/L,44,Both,0.539,4.5632999999999955,1.2725
+Triglyceride,mmol/L,45,Male,0.633,5.43115,1.7155
+Triglyceride,mmol/L,45,Female,0.516,3.221,1.079
+Triglyceride,mmol/L,45,Both,0.542,4.5567999999999875,1.298
+Triglyceride,mmol/L,46,Male,0.622575,5.5344000000000015,1.709
+Triglyceride,mmol/L,46,Female,0.518,3.325550000000001,1.1
+Triglyceride,mmol/L,46,Both,0.544,4.618949999999994,1.31
+Triglyceride,mmol/L,47,Male,0.6219250000000001,5.497299999999999,1.737
+Triglyceride,mmol/L,47,Female,0.524,3.4695999999999985,1.129
+Triglyceride,mmol/L,47,Both,0.548875,4.63,1.348
+Triglyceride,mmol/L,48,Male,0.62455,5.403524999999995,1.7725
+Triglyceride,mmol/L,48,Female,0.535,3.5199,1.142
+Triglyceride,mmol/L,48,Both,0.553,4.62565,1.366
+Triglyceride,mmol/L,49,Male,0.631825,5.54635,1.762
+Triglyceride,mmol/L,49,Female,0.547,3.4402999999999992,1.162
+Triglyceride,mmol/L,49,Both,0.572275,4.618075000000003,1.37
+Triglyceride,mmol/L,50,Male,0.6267,5.260100000000003,1.714
+Triglyceride,mmol/L,50,Female,0.553,3.551,1.206
+Triglyceride,mmol/L,50,Both,0.575975,4.534,1.394
+Triglyceride,mmol/L,51,Male,0.641,5.3384,1.732
+Triglyceride,mmol/L,51,Female,0.554,3.5667000000000004,1.222
+Triglyceride,mmol/L,51,Both,0.576,4.564,1.413
+Triglyceride,mmol/L,52,Male,0.6384,5.272,1.747
+Triglyceride,mmol/L,52,Female,0.572,3.739,1.264
+Triglyceride,mmol/L,52,Both,0.594,4.523149999999998,1.442
+Triglyceride,mmol/L,53,Male,0.6484,5.192399999999998,1.75
+Triglyceride,mmol/L,53,Female,0.595,3.789049999999999,1.291
+Triglyceride,mmol/L,53,Both,0.611,4.5554000000000014,1.465
+Triglyceride,mmol/L,54,Male,0.6523500000000001,5.291024999999997,1.7534999999999998
+Triglyceride,mmol/L,54,Female,0.589,3.758375,1.32
+Triglyceride,mmol/L,54,Both,0.605,4.593674999999999,1.485
+Triglyceride,mmol/L,55,Male,0.6571250000000001,4.867125000000001,1.7355
+Triglyceride,mmol/L,55,Female,0.6,3.8069750000000013,1.347
+Triglyceride,mmol/L,55,Both,0.619,4.464374999999999,1.498
+Triglyceride,mmol/L,56,Male,0.645,5.174224999999995,1.725
+Triglyceride,mmol/L,56,Female,0.611,3.843199999999999,1.358
+Triglyceride,mmol/L,56,Both,0.619,4.56515,1.501
+Triglyceride,mmol/L,57,Male,0.660625,5.029,1.728
+Triglyceride,mmol/L,57,Female,0.611875,3.836,1.387
+Triglyceride,mmol/L,57,Both,0.630525,4.476375000000002,1.521
+Triglyceride,mmol/L,58,Male,0.661,5.0328,1.713
+Triglyceride,mmol/L,58,Female,0.622,3.964149999999998,1.3955
+Triglyceride,mmol/L,58,Both,0.636,4.518,1.522
+Triglyceride,mmol/L,59,Male,0.635,4.93,1.706
+Triglyceride,mmol/L,59,Female,0.632,3.987199999999997,1.412
+Triglyceride,mmol/L,59,Both,0.633,4.529749999999993,1.531
+Triglyceride,mmol/L,60,Male,0.672,4.926949999999999,1.726
+Triglyceride,mmol/L,60,Female,0.643,4.0223499999999985,1.4569999999999999
+Triglyceride,mmol/L,60,Both,0.6567000000000001,4.478,1.569
+Triglyceride,mmol/L,61,Male,0.66,4.6797499999999985,1.695
+Triglyceride,mmol/L,61,Female,0.652,4.028399999999998,1.464
+Triglyceride,mmol/L,61,Both,0.655,4.365825,1.557
+Triglyceride,mmol/L,62,Male,0.66,4.740949999999999,1.703
+Triglyceride,mmol/L,62,Female,0.664,3.9689000000000014,1.479
+Triglyceride,mmol/L,62,Both,0.663,4.319799999999995,1.577
+Triglyceride,mmol/L,63,Male,0.6678000000000001,4.625,1.702
+Triglyceride,mmol/L,63,Female,0.661,3.9735,1.494
+Triglyceride,mmol/L,63,Both,0.665,4.367024999999998,1.583
+Triglyceride,mmol/L,64,Male,0.679,4.733099999999995,1.689
+Triglyceride,mmol/L,64,Female,0.669,3.9185499999999993,1.4925000000000002
+Triglyceride,mmol/L,64,Both,0.675,4.326,1.578
+Triglyceride,mmol/L,65,Male,0.666,4.634424999999999,1.684
+Triglyceride,mmol/L,65,Female,0.677,3.848474999999997,1.505
+Triglyceride,mmol/L,65,Both,0.672,4.250224999999999,1.584
+Triglyceride,mmol/L,66,Male,0.667,4.594424999999999,1.66
+Triglyceride,mmol/L,66,Female,0.6821,3.920799999999999,1.512
+Triglyceride,mmol/L,66,Both,0.676,4.3203,1.584
+Triglyceride,mmol/L,67,Male,0.672,4.439,1.648
+Triglyceride,mmol/L,67,Female,0.68965,3.94235,1.522
+Triglyceride,mmol/L,67,Both,0.68,4.22575,1.58
+Triglyceride,mmol/L,68,Male,0.68415,4.305099999999997,1.644
+Triglyceride,mmol/L,68,Female,0.69775,3.8282499999999997,1.527
+Triglyceride,mmol/L,68,Both,0.691,4.075074999999999,1.581
+Triglyceride,mmol/L,69,Male,0.6744250000000002,4.366574999999999,1.602
+Triglyceride,mmol/L,69,Female,0.677,3.91225,1.514
+Triglyceride,mmol/L,69,Both,0.676,4.156124999999999,1.559
+Triglyceride,mmol/L,70,Male,0.7105,4.371099999999999,1.529
+Triglyceride,mmol/L,70,Female,0.6942999999999999,3.6584249999999994,1.499
+Triglyceride,mmol/L,70,Both,0.699,4.0447500000000005,1.512
+Urate,umol/L,40,Male,224.35000000000002,493.13,347.9
+Urate,umol/L,40,Female,153.0,373.7074999999999,240.45
+Urate,umol/L,40,Both,162.595,471.20749999999987,289.0
+Urate,umol/L,41,Male,230.51500000000001,500.295,346.0
+Urate,umol/L,41,Female,150.6,370.7449999999999,240.4
+Urate,umol/L,41,Both,160.5925,472.5074999999999,285.95
+Urate,umol/L,42,Male,230.17000000000002,502.09499999999986,345.0
+Urate,umol/L,42,Female,151.8875,375.3875,241.8
+Urate,umol/L,42,Both,163.0,474.3,286.9
+Urate,umol/L,43,Male,232.36,497.82,347.2
+Urate,umol/L,43,Female,148.1,368.75499999999994,240.64999999999998
+Urate,umol/L,43,Both,159.755,470.4,286.0
+Urate,umol/L,44,Male,225.7,499.18,348.0
+Urate,umol/L,44,Female,151.9,376.3,240.6
+Urate,umol/L,44,Both,161.7,469.0,285.9
+Urate,umol/L,45,Male,226.805,506.2749999999999,347.1
+Urate,umol/L,45,Female,151.6225,382.80999999999983,242.1
+Urate,umol/L,45,Both,163.43,470.6,284.9
+Urate,umol/L,46,Male,227.6,499.425,348.3
+Urate,umol/L,46,Female,150.45,380.72499999999997,245.0
+Urate,umol/L,46,Both,162.2,472.235,287.1
+Urate,umol/L,47,Male,229.905,506.9749999999999,346.9
+Urate,umol/L,47,Female,152.5,386.4,244.3
+Urate,umol/L,47,Both,163.9,475.91,287.7
+Urate,umol/L,48,Male,230.3375,505.4,350.55
+Urate,umol/L,48,Female,154.2025,388.3974999999999,249.0
+Urate,umol/L,48,Both,164.485,476.58749999999947,290.7
+Urate,umol/L,49,Male,229.4,506.6,348.8
+Urate,umol/L,49,Female,157.12,387.5000000000001,250.7
+Urate,umol/L,49,Both,166.7,474.6074999999999,291.7
+Urate,umol/L,50,Male,226.255,502.515,350.0
+Urate,umol/L,50,Female,156.23,398.02499999999975,254.3
+Urate,umol/L,50,Both,166.5,473.89750000000004,293.85
+Urate,umol/L,51,Male,230.17749999999998,509.2899999999998,350.35
+Urate,umol/L,51,Female,158.4,398.1700000000001,256.2
+Urate,umol/L,51,Both,169.3,480.04750000000007,294.9
+Urate,umol/L,52,Male,228.845,504.355,350.8
+Urate,umol/L,52,Female,160.5975,403.80499999999995,258.35
+Urate,umol/L,52,Both,170.5,476.7,296.4
+Urate,umol/L,53,Male,228.2425,509.2575,350.5
+Urate,umol/L,53,Female,159.4325,406.9,261.15
+Urate,umol/L,53,Both,170.9,479.6,298.9
+Urate,umol/L,54,Male,228.2,508.2449999999999,350.9
+Urate,umol/L,54,Female,164.425,408.475,262.5
+Urate,umol/L,54,Both,172.7,479.8,300.2
+Urate,umol/L,55,Male,223.125,504.02500000000003,350.8
+Urate,umol/L,55,Female,163.0375,418.55,265.9
+Urate,umol/L,55,Both,174.105,477.7,301.15
+Urate,umol/L,56,Male,223.875,514.9849999999999,349.8
+Urate,umol/L,56,Female,163.41750000000002,416.5825,266.05
+Urate,umol/L,56,Both,174.135,484.765,302.6
+Urate,umol/L,57,Male,224.98,501.6199999999999,349.0
+Urate,umol/L,57,Female,160.255,417.3675000000001,267.7
+Urate,umol/L,57,Both,172.8,473.7299999999999,301.7
+Urate,umol/L,58,Male,225.04,501.98,349.5
+Urate,umol/L,58,Female,164.57,416.3,267.3
+Urate,umol/L,58,Both,175.4925,478.6224999999997,303.4
+Urate,umol/L,59,Male,224.845,506.1249999999997,348.3
+Urate,umol/L,59,Female,164.945,423.4549999999999,268.7
+Urate,umol/L,59,Both,176.425,481.2375,304.1
+Urate,umol/L,60,Male,228.135,505.15999999999985,349.6
+Urate,umol/L,60,Female,165.0,425.6,269.4
+Urate,umol/L,60,Both,177.35000000000002,480.35,305.6
+Urate,umol/L,61,Male,227.1925,510.0074999999999,349.4
+Urate,umol/L,61,Female,167.71249999999998,428.1,271.6
+Urate,umol/L,61,Both,178.8,481.49249999999995,306.3
+Urate,umol/L,62,Male,226.48000000000002,511.7200000000001,351.0
+Urate,umol/L,62,Female,166.2,436.10499999999996,272.7
+Urate,umol/L,62,Both,178.5,484.7125,308.4
+Urate,umol/L,63,Male,229.73250000000002,506.9225,351.2
+Urate,umol/L,63,Female,166.9,433.1800000000001,276.2
+Urate,umol/L,63,Both,179.72,483.7,310.3
+Urate,umol/L,64,Male,227.925,505.5375,350.5
+Urate,umol/L,64,Female,167.4,434.10500000000013,273.7
+Urate,umol/L,64,Both,181.23,484.3,309.9
+Urate,umol/L,65,Male,228.8325,513.5024999999998,353.6
+Urate,umol/L,65,Female,169.5,436.2,277.9
+Urate,umol/L,65,Both,182.44750000000002,490.50499999999954,314.9
+Urate,umol/L,66,Male,227.8,509.2049999999999,351.9
+Urate,umol/L,66,Female,171.285,442.9,279.7
+Urate,umol/L,66,Both,184.635,491.3,315.3
+Urate,umol/L,67,Male,227.5,516.2,351.4
+Urate,umol/L,67,Female,170.8325,444.9700000000001,280.0
+Urate,umol/L,67,Both,183.7,491.7,314.9
+Urate,umol/L,68,Male,225.5,513.5224999999999,351.6
+Urate,umol/L,68,Female,168.73000000000002,447.5,281.2
+Urate,umol/L,68,Both,183.16,495.23999999999995,315.9
+Urate,umol/L,69,Male,224.62,518.0199999999999,350.3
+Urate,umol/L,69,Female,172.1,454.12000000000006,283.2
+Urate,umol/L,69,Both,185.925,498.1375,317.9
+Urate,umol/L,70,Male,223.6175,520.2649999999994,347.4
+Urate,umol/L,70,Female,174.56,455.85999999999996,282.4
+Urate,umol/L,70,Both,186.085,495.4350000000001,318.1
+Vitamin D,nmol/L,40,Male,15.8,93.8,46.0
+Vitamin D,nmol/L,40,Female,15.705000000000002,100.47499999999991,48.0
+Vitamin D,nmol/L,40,Both,15.8,99.03249999999998,46.849999999999994
+Vitamin D,nmol/L,41,Male,15.3,95.4,45.4
+Vitamin D,nmol/L,41,Female,15.1,94.57999999999993,45.7
+Vitamin D,nmol/L,41,Both,15.2,95.10749999999989,45.6
+Vitamin D,nmol/L,42,Male,14.8,91.68249999999998,44.7
+Vitamin D,nmol/L,42,Female,14.7,98.17749999999997,46.0
+Vitamin D,nmol/L,42,Both,14.7,95.8,45.3
+Vitamin D,nmol/L,43,Male,15.5,91.90999999999995,44.6
+Vitamin D,nmol/L,43,Female,15.3,95.76999999999988,44.9
+Vitamin D,nmol/L,43,Both,15.4,94.3,44.8
+Vitamin D,nmol/L,44,Male,15.227500000000001,94.37249999999995,45.2
+Vitamin D,nmol/L,44,Female,14.752500000000001,96.1,45.6
+Vitamin D,nmol/L,44,Both,15.1,95.4,45.4
+Vitamin D,nmol/L,45,Male,14.9,94.00500000000002,45.0
+Vitamin D,nmol/L,45,Female,15.1,95.09250000000002,45.7
+Vitamin D,nmol/L,45,Both,15.0,94.7,45.3
+Vitamin D,nmol/L,46,Male,15.6,94.44749999999995,44.2
+Vitamin D,nmol/L,46,Female,15.2,96.14250000000001,45.5
+Vitamin D,nmol/L,46,Both,15.3125,95.3,44.9
+Vitamin D,nmol/L,47,Male,15.3,93.61499999999997,44.75
+Vitamin D,nmol/L,47,Female,14.9,96.13000000000001,44.6
+Vitamin D,nmol/L,47,Both,15.115000000000004,95.3,44.6
+Vitamin D,nmol/L,48,Male,15.6,92.90499999999993,43.8
+Vitamin D,nmol/L,48,Female,15.057500000000001,94.3,45.7
+Vitamin D,nmol/L,48,Both,15.3075,93.7,44.9
+Vitamin D,nmol/L,49,Male,15.4,92.7,44.5
+Vitamin D,nmol/L,49,Female,15.5,93.6,45.3
+Vitamin D,nmol/L,49,Both,15.497500000000002,93.4,45.0
+Vitamin D,nmol/L,50,Male,15.3,93.2,45.4
+Vitamin D,nmol/L,50,Female,15.8,95.0,46.4
+Vitamin D,nmol/L,50,Both,15.6,93.9,45.9
+Vitamin D,nmol/L,51,Male,15.3,93.1,44.7
+Vitamin D,nmol/L,51,Female,15.345000000000002,95.51000000000003,46.1
+Vitamin D,nmol/L,51,Both,15.3,94.10749999999989,45.5
+Vitamin D,nmol/L,52,Male,15.2,94.92999999999994,44.8
+Vitamin D,nmol/L,52,Female,15.6,94.7,46.6
+Vitamin D,nmol/L,52,Both,15.4125,94.8,45.9
+Vitamin D,nmol/L,53,Male,15.5,92.35249999999996,45.4
+Vitamin D,nmol/L,53,Female,15.5,94.09250000000002,46.6
+Vitamin D,nmol/L,53,Both,15.5,93.34249999999993,46.1
+Vitamin D,nmol/L,54,Male,15.3,94.68999999999997,44.9
+Vitamin D,nmol/L,54,Female,15.6,94.09499999999989,47.3
+Vitamin D,nmol/L,54,Both,15.5,94.43999999999997,46.2
+Vitamin D,nmol/L,55,Male,15.6,93.5,45.8
+Vitamin D,nmol/L,55,Female,16.4,92.3,47.4
+Vitamin D,nmol/L,55,Both,15.9,92.68249999999989,46.6
+Vitamin D,nmol/L,56,Male,15.3,93.82249999999995,45.45
+Vitamin D,nmol/L,56,Female,16.3,94.1,47.6
+Vitamin D,nmol/L,56,Both,15.892500000000002,94.1,46.6
+Vitamin D,nmol/L,57,Male,16.085000000000004,94.1,46.0
+Vitamin D,nmol/L,57,Female,15.7,93.92749999999997,48.1
+Vitamin D,nmol/L,57,Both,15.8,94.0,47.1
+Vitamin D,nmol/L,58,Male,16.4,94.4,47.0
+Vitamin D,nmol/L,58,Female,16.5,93.0,47.5
+Vitamin D,nmol/L,58,Both,16.5,93.5,47.3
+Vitamin D,nmol/L,59,Male,15.965,93.63499999999995,47.6
+Vitamin D,nmol/L,59,Female,15.9,92.2,48.3
+Vitamin D,nmol/L,59,Both,15.9,92.9,48.0
+Vitamin D,nmol/L,60,Male,16.5,95.2,48.3
+Vitamin D,nmol/L,60,Female,16.7,94.17250000000004,49.3
+Vitamin D,nmol/L,60,Both,16.6,94.50499999999992,48.8
+Vitamin D,nmol/L,61,Male,16.6,95.0,49.2
+Vitamin D,nmol/L,61,Female,16.6,93.4,49.9
+Vitamin D,nmol/L,61,Both,16.6,94.3,49.6
+Vitamin D,nmol/L,62,Male,17.2,95.9,50.3
+Vitamin D,nmol/L,62,Female,16.617500000000003,93.28249999999989,50.0
+Vitamin D,nmol/L,62,Both,16.9,94.60999999999984,50.2
+Vitamin D,nmol/L,63,Male,16.8,95.8,50.3
+Vitamin D,nmol/L,63,Female,17.0,93.60499999999992,50.1
+Vitamin D,nmol/L,63,Both,16.9,94.775,50.2
+Vitamin D,nmol/L,64,Male,17.7,95.8,50.7
+Vitamin D,nmol/L,64,Female,17.3,94.7,50.4
+Vitamin D,nmol/L,64,Both,17.6,95.3,50.6
+Vitamin D,nmol/L,65,Male,18.0,97.54249999999992,51.7
+Vitamin D,nmol/L,65,Female,17.3,94.0,50.4
+Vitamin D,nmol/L,65,Both,17.6,95.3,51.1
+Vitamin D,nmol/L,66,Male,18.2,97.0,52.2
+Vitamin D,nmol/L,66,Female,17.4,93.9,49.9
+Vitamin D,nmol/L,66,Both,17.7,95.5,51.0
+Vitamin D,nmol/L,67,Male,17.9,97.6,52.2
+Vitamin D,nmol/L,67,Female,17.0375,93.4,49.3
+Vitamin D,nmol/L,67,Both,17.4,95.3,50.8
+Vitamin D,nmol/L,68,Male,18.4825,96.8,52.1
+Vitamin D,nmol/L,68,Female,16.5,91.9,48.1
+Vitamin D,nmol/L,68,Both,17.3,94.4,50.3
+Vitamin D,nmol/L,69,Male,18.3,97.6,51.9
+Vitamin D,nmol/L,69,Female,16.9,90.3,48.1
+Vitamin D,nmol/L,69,Both,17.3,94.3,50.2
+Vitamin D,nmol/L,70,Male,18.8,95.35749999999996,52.3
+Vitamin D,nmol/L,70,Female,16.38,92.11999999999998,47.6
+Vitamin D,nmol/L,70,Both,16.945,94.37499999999997,49.8
