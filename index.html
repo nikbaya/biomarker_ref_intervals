@@ -115,7 +115,7 @@
         </div>
 
         <!-- Single Chart Container -->
-        <div id="single-chart-container" class="chart-card bg-white p-4 rounded-lg shadow-md flex justify-center items-center">
+        <div id="single-chart-container" class="chart-card bg-white p-0 rounded-lg shadow-md flex justify-center items-center">
             <!-- The single chart will be dynamically loaded here -->
         </div>
     </div>
@@ -381,22 +381,24 @@
                     .attr("height", height)
                     .style("fill", "none")
                     .style("pointer-events", "all")
-                    .on("mouseover", (event) => {
+                    .on("mouseover", function(event) { // Use function() for 'this' context
                         focus.style("display", null);
                         tooltip.transition().duration(200).style("opacity", .9);
-                        mousemove(event);
+                        mousemove.call(this, event); // Call mousemove with correct context
                     })
                     .on("mouseout", hideTooltipAndFocus)
-                    .on("mousemove", mousemove)
-                    .on("touchstart", (event) => {
-                        event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
+                    .on("mousemove", function(event) { // Use function() for 'this' context
+                        mousemove.call(this, event); // Call mousemove with correct context
+                    })
+                    .on("touchstart", function(event) { // Use function() for 'this' context
+                        event.preventDefault();
                         focus.style("display", null);
                         tooltip.transition().duration(200).style("opacity", .9);
-                        mousemove(event); // Pass the original touch event
+                        mousemove.call(this, event.touches[0]); // Pass the first touch object
                     })
-                    .on("touchmove", (event) => {
+                    .on("touchmove", function(event) { // Use function() for 'this' context
                         event.preventDefault();
-                        mousemove(event); // Pass the original touch event
+                        mousemove.call(this, event.touches[0]); // Pass the first touch object
                     })
                     .on("touchend", hideTooltipAndFocus)
                     .on("touchcancel", hideTooltipAndFocus);
@@ -404,7 +406,7 @@
 
                 function mousemove(event) {
                     // d3.pointer correctly handles both mouse and touch events when given the original event object
-                    const pointer = d3.pointer(event, this);
+                    const pointer = d3.pointer(event, this); // 'this' refers to the element that received the event (overlayRect)
                     const x0 = x.invert(pointer[0]);
 
                     focus.select(".x-hover-line").attr("transform", `translate(${x(x0)},0)`);
