@@ -381,33 +381,29 @@
                     .attr("height", height)
                     .style("fill", "none")
                     .style("pointer-events", "all")
-                    .on("mouseover", (event) => { // Use event for d3.pointer
+                    .on("mouseover", (event) => {
                         focus.style("display", null);
                         tooltip.transition().duration(200).style("opacity", .9);
-                        mousemove(event); // Call mousemove immediately on mouseover
+                        mousemove(event);
                     })
-                    .on("mouseout", hideTooltipAndFocus) // Use the dedicated hide function
+                    .on("mouseout", hideTooltipAndFocus)
                     .on("mousemove", mousemove)
-                    .on("touchstart", (event) => { // Handle touch for mobile
+                    .on("touchstart", (event) => {
                         event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
                         focus.style("display", null);
                         tooltip.transition().duration(200).style("opacity", .9);
-                        // Use d3.pointer with the first touch point
-                        mousemove(event.touches[0] ? event.touches[0] : event);
+                        mousemove(event); // Pass the original touch event
                     })
-                    .on("touchmove", (event) => { // Handle touchmove for mobile
+                    .on("touchmove", (event) => {
                         event.preventDefault();
-                        mousemove(event.touches[0] ? event.touches[0] : event);
+                        mousemove(event); // Pass the original touch event
                     })
-                    .on("touchend", hideTooltipAndFocus) // Hide on touch end
-                    .on("touchcancel", hideTooltipAndFocus); // Hide on touch cancel
-
-
-                // Removed redundant svg.on("mouseout") as overlayRect handles it.
+                    .on("touchend", hideTooltipAndFocus)
+                    .on("touchcancel", hideTooltipAndFocus);
 
 
                 function mousemove(event) {
-                    // Use d3.pointer(event, this) for more robust coordinate retrieval
+                    // d3.pointer correctly handles both mouse and touch events when given the original event object
                     const pointer = d3.pointer(event, this);
                     const x0 = x.invert(pointer[0]);
 
