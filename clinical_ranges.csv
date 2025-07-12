@@ -1,0 +1,45 @@
+biomarker,sex,lower,upper,unit
+Alanine Aminotransferase,Female,10.0,35,U/L
+Alanine Aminotransferase,Male,10.0,50,U/L
+Albumin,Both,35.0,50,g/L
+Alkaline Phosphatase,Both,30.0,130,IU/L
+Apolipoprotein A,Male,0.73,1.86,g/L
+Apolipoprotein A,Female,0.91,2.24,g/L
+Apolipoprotein B,Male,0.49,1.73,g/L
+Apolipoprotein B,Female,0.53,1.82,g/L
+Aspartate Aminotransferase,Male,0.0,50,U/L
+Aspartate Aminotransferase,Female,0.0,35,U/L
+C-Reactive Protein,Both,0.0,5,mg/L
+Calcium,Both,2.2,2.6,mmol/L
+Total Cholesterol,Both,0.0,5,mmol/L
+Creatinine (Serum),Male,59.0,104,umol/L
+Creatinine (Serum),Female,45.0,84,umol/L
+Creatinine (Urine),Male,7100.0,15900,umol/L
+Creatinine (Urine),Female,5200.0,12100,umol/L
+Cystatin C (Serum),Both,0.0,1.4,mg/L
+Direct Bilirubin,Both,0.0,8,umol/L
+Gamma-Glutamyltransferase,Male,0.0,55,U/L
+Gamma-Glutamyltransferase,Female,0.0,38,U/L
+Glucose,Both,3.0,7.8,mmol/L
+HDL Cholesterol,Male,1.0,N/A,mmol/L
+HDL Cholesterol,Female,1.2,N/A,mmol/L
+HbA1c,Both,0.0,48,mmol/mol
+IGF-1,Female,2.2,35.5,nmol/L
+IGF-1,Male,2.0,32.2,nmol/L
+Lipoprotein(a),Both,0.0,125,nmol/L
+LDL Cholesterol,Both,1.0,3,mmol/L
+Microalbumin (Urine),Both,0.0,20,mg/L
+Phosphate,Both,0.8,1.5,mmol/L
+Potassium (Urine),Both,25.0,125,mmol/24hrs
+SHBG,Male,18.0,77,nmol/L
+SHBG,Female,27.0,128,nmol/L
+Sodium (Urine),Both,40.0,220,mmol/24hrs
+Testosterone,Male,6.0,27,nmol/L
+Testosterone,Female,0.0,2.9,nmol/L
+Total Bilirubin,Both,0.0,21,umol/L
+Total Protein,Both,60.0,80,g/L
+Triglyceride,Both,0.0,1.7,mmol/L
+Urate,Female,140.0,360,umol/L
+Urate,Male,200.0,430,umol/L
+Urea,Both,2.5,7.8,mmol/L
+Vitamin D,Both,25.0,N/A,nmol/L
