@@ -34,7 +34,6 @@
             z-index: 1000;
             font-size: 0.875rem; /* Smaller font for tooltip */
         }
-        /* Removed .range-slider-container styles as it's no longer needed */
         .chart-overlay {
             position: absolute;
             top: 0;
@@ -96,10 +95,12 @@
             const biomarkerSelect = document.getElementById('biomarker-select');
             const sexCheckboxes = document.querySelectorAll('input[name="sex-checkbox"]');
 
-            let mockData = []; // This will hold the loaded or generated data
+            let loadedData = []; // This will hold the loaded data
             let allBiomarkers = [];
             let selectedBiomarker = '';
             let selectedSexes = ['Both', 'Male', 'Female']; // Default to all selected
+            let minAgeGlobal = 20; // Default min age, will be updated from data
+            let maxAgeGlobal = 80; // Default max age, will be updated from data
 
             // Define colors for each sex
             const sexColors = {
@@ -107,70 +108,6 @@
                 'Male': { line: 'dodgerblue', area: 'rgba(30, 144, 255, 0.2)' }, // Lighter dodgerblue
                 'Female': { line: 'deeppink', area: 'rgba(255, 20, 147, 0.2)' } // Lighter deeppink
             };
-
-            // Internal Mock Data Generation
-            function generateInternalMockData() {
-                const biomarkers = [
-                    { name: "Blood Glucose", unit: "mmol/L", base: 5, maleOffset: 0.1, femaleOffset: -0.1, bothOffset: 0, ageEffect: 0.02, variability: 0.5 },
-                    { name: "Creatinine", unit: "µmol/L", base: 80, maleOffset: 5, femaleOffset: -5, bothOffset: 0, ageEffect: 0.1, variability: 10 },
-                    { name: "Urea", unit: "mmol/L", base: 4, maleOffset: 0.2, femaleOffset: -0.2, bothOffset: 0, ageEffect: 0.05, variability: 1 },
-                    { name: "Total Cholesterol", unit: "mmol/L", base: 4.5, maleOffset: 0.1, femaleOffset: 0.1, bothOffset: 0, ageEffect: 0.03, variability: 0.8 },
-                    { name: "HDL Cholesterol", unit: "mmol/L", base: 1.2, maleOffset: -0.1, femaleOffset: 0.1, bothOffset: 0, ageEffect: 0.01, variability: 0.2 },
-                    { name: "LDL Cholesterol", unit: "mmol/L", base: 2.5, maleOffset: 0.1, femaleOffset: 0.1, bothOffset: 0, ageEffect: 0.02, variability: 0.5 },
-                    { name: "Uric Acid", unit: "µmol/L", base: 250, maleOffset: 20, femaleOffset: -20, bothOffset: 0, ageEffect: 0.5, variability: 50 },
-                    { name: "Sodium", unit: "mmol/L", base: 140, maleOffset: 0, femaleOffset: 0, bothOffset: 0, ageEffect: 0.01, variability: 2 },
-                    { name: "Potassium", unit: "mmol/L", base: 4.0, maleOffset: 0, femaleOffset: 0, bothOffset: 0, ageEffect: 0.005, variability: 0.3 },
-                    { name: "Albumin", unit: "g/L", base: 40, maleOffset: 0, femaleOffset: 0, bothOffset: 0, ageEffect: -0.05, variability: 3 },
-                ];
-
-                const data = [];
-                for (let age = 20; age <= 80; age++) {
-                    biomarkers.forEach(bm => {
-                        // Male data
-                        let maleMean = bm.base + (age - 20) * bm.ageEffect + bm.maleOffset;
-                        let maleLower = maleMean - bm.variability * 0.5;
-                        let maleUpper = maleMean + bm.variability * 0.5;
-                        data.push({
-                            biomarker: bm.name,
-                            unit: bm.unit,
-                            age: age,
-                            sex: 'Male',
-                            lower: maleLower,
-                            upper: maleUpper,
-                            mean: maleMean
-                        });
-
-                        // Female data
-                        let femaleMean = bm.base + (age - 20) * bm.ageEffect + bm.femaleOffset;
-                        let femaleLower = femaleMean - bm.variability * 0.5;
-                        let femaleUpper = femaleMean + femaleMean * 0.5;
-                        data.push({
-                            biomarker: bm.name,
-                            unit: bm.unit,
-                            age: age,
-                            sex: 'Female',
-                            lower: femaleLower,
-                            upper: femaleUpper,
-                            mean: femaleMean
-                        });
-
-                        // 'Both' data (average of male and female, or a separate calculation)
-                        let bothMean = (maleMean + femaleMean) / 2 + bm.bothOffset;
-                        let bothLower = Math.min(maleLower, femaleLower) - bm.variability * 0.1;
-                        let bothUpper = Math.max(maleUpper, femaleUpper) + bm.variability * 0.1;
-                        data.push({
-                            biomarker: bm.name,
-                            unit: bm.unit,
-                            age: age,
-                            sex: 'Both',
-                            lower: bothLower,
-                            upper: bothUpper,
-                            mean: bothMean
-                        });
-                    });
-                }
-                return data;
-            }
 
             // Function to draw the single biomarker chart
             function drawSingleChart(biomarkerName, data, unit) {
@@ -187,9 +124,9 @@
                     .append("g")
                     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-                // Scales
+                // Scales - X-axis domain is now dynamic based on loaded data
                 const x = d3.scaleLinear()
-                    .domain([20, 80]) // Fixed domain for age
+                    .domain([minAgeGlobal, maxAgeGlobal])
                     .range([0, width]);
 
                 let yMin = d3.min(data.filter(d => selectedSexes.includes(d.sex)), d => d.lower) * 0.9;
@@ -330,15 +267,20 @@
             }
 
             function updateChart() {
-                let filteredData = mockData.filter(d => d.biomarker === selectedBiomarker);
+                let filteredData = loadedData.filter(d => d.biomarker === selectedBiomarker);
                 const unit = filteredData.length > 0 ? filteredData[0].unit : '';
                 drawSingleChart(selectedBiomarker, filteredData, unit);
             }
 
             // Function to initialize the chart with data
-            function initializeChart(dataToUse, sourceMessage) {
-                mockData = dataToUse;
-                allBiomarkers = [...new Set(mockData.map(d => d.biomarker))];
+            function initializeChart(dataToUse) {
+                loadedData = dataToUse;
+
+                // Determine global min/max age from the loaded data
+                minAgeGlobal = d3.min(loadedData, d => d.age);
+                maxAgeGlobal = d3.max(loadedData, d => d.age);
+
+                allBiomarkers = [...new Set(loadedData.map(d => d.biomarker))];
 
                 biomarkerSelect.innerHTML = ''; // Clear previous options
                 allBiomarkers.forEach(biomarker => {
@@ -366,18 +308,12 @@
 
                 updateChart(); // Initial rendering
                 window.addEventListener('resize', updateChart); // Responsive resize
-
-                if (sourceMessage) {
-                    console.log(sourceMessage);
-                    // Optionally display this message on the UI for the user
-                    // For example: singleChartContainer.append("p").text(sourceMessage).style("color", "gray");
-                }
             }
 
-            // Attempt to load data from CSV first
-            d3.csv("ukb_biomarker_reference_intervals.eur.csv").then(function(loadedData) {
+            // Load data from the specified CSV file
+            d3.csv("ukb_biomarker_reference_intervals.eur.csv").then(function(data) {
                 // Parse numerical values from strings
-                const parsedData = loadedData.map(d => ({
+                const parsedData = data.map(d => ({
                     biomarker: d.biomarker,
                     unit: d.unit,
                     age: parseInt(d.age),
@@ -386,10 +322,12 @@
                     upper: parseFloat(d.upper),
                     mean: parseFloat(d.mean)
                 }));
-                initializeChart(parsedData, "Data loaded from mock_data.csv");
+                initializeChart(parsedData);
             }).catch(function(error) {
-                console.warn("Could not load mock_data.csv. Falling back to internal mock data.", error);
-                initializeChart(generateInternalMockData(), "Using internally generated mock data.");
+                console.error("Error loading 'ukb_biomarker_reference_intervals.eur.csv':", error);
+                singleChartContainer.html("<p class='text-red-500'>Error loading data. Please ensure 'ukb_biomarker_reference_intervals.eur.csv' is in the same directory and accessible.</p>");
+                // Optionally, you could fall back to internal mock data here if desired,
+                // but the request was to remove the internal mock data generation.
             });
         });
     </script>
