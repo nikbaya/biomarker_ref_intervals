@@ -143,12 +143,38 @@
                 'Female': { line: 'deeppink', area: 'rgba(255, 20, 147, 0.2)' } // Lighter deeppink
             };
 
+            // Function to wrap SVG text
+            function wrap(text, width) {
+                text.each(function() {
+                    var text = d3.select(this),
+                        words = text.text().split(/\s+/).reverse(),
+                        word,
+                        line = [],
+                        lineNumber = 0,
+                        lineHeight = 1.1, // ems
+                        y = text.attr("y"),
+                        x = text.attr("x"),
+                        dy = parseFloat(text.attr("dy") || 0),
+                        tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
+                    while (word = words.pop()) {
+                        line.push(word);
+                        tspan.text(line.join(" "));
+                        if (tspan.node().getComputedTextLength() > width) {
+                            line.pop();
+                            tspan.text(line.join(" "));
+                            line = [word];
+                            tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                        }
+                    }
+                });
+            }
+
             // Function to draw the single biomarker chart
             function drawSingleChart(biomarkerName, data, unit) {
                 singleChartContainer.html(""); // Clear existing chart
 
-                // Reduced margin.right from 80 to 40
-                const margin = { top: 40, right: 40, bottom: 60, left: 70 };
+                // Reduced margin.right from 80 to 20 for better mobile display
+                const margin = { top: 40, right: 20, bottom: 60, left: 70 };
                 const containerWidth = singleChartContainer.node().getBoundingClientRect().width;
                 const width = containerWidth - margin.left - margin.right;
                 const height = 450 - margin.top - margin.bottom;
@@ -229,14 +255,16 @@
                     .style("text-anchor", "middle")
                     .text(`${biomarkerName} (${unit})`);
 
-                // Chart Title
+                // Chart Title with wrapping
                 svg.append("text")
                     .attr("x", width / 2)
                     .attr("y", 0 - (margin.top / 2) + 10)
                     .attr("text-anchor", "middle")
                     .style("font-size", "1.5rem")
                     .style("font-weight", "bold")
-                    .text(`${biomarkerName} Reference Intervals`);
+                    .text(`${biomarkerName} Reference Intervals`)
+                    .call(wrap, width); // Apply the wrap function
+
 
                 // Draw data for each selected sex (age-dependent)
                 selectedSexes.forEach(sex => {
@@ -314,7 +342,7 @@
                     .attr("stroke-width", 1)
                     .attr("stroke-dasharray", "3,3");
 
-                svg.append("rect")
+                const overlayRect = svg.append("rect")
                     .attr("class", "overlay")
                     .attr("width", width)
                     .attr("height", height)
@@ -323,6 +351,13 @@
                     .on("mouseover", () => { focus.style("display", null); tooltip.transition().duration(200).style("opacity", .9); })
                     .on("mouseout", () => { focus.style("display", "none"); tooltip.transition().duration(500).style("opacity", 0); })
                     .on("mousemove", mousemove);
+
+                // Add mouseout to the entire SVG for more robust tooltip hiding
+                svg.on("mouseout", () => {
+                    focus.style("display", "none");
+                    tooltip.transition().duration(500).style("opacity", 0);
+                });
+
 
                 function mousemove(event) {
                     const bisectAge = d3.bisector(d => d.age).left;
