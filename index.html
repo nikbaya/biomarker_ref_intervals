@@ -42,6 +42,11 @@
             height: 100%;
             pointer-events: all; /* Allow mouse events */
         }
+        .clinical-range-line {
+            stroke: orange; /* Distinct color for clinical ranges */
+            stroke-width: 2;
+            stroke-dasharray: 4 2; /* Dashed line */
+        }
     </style>
 </head>
 <body class="p-4">
@@ -81,6 +86,15 @@
                     </label>
                 </div>
             </div>
+
+            <!-- Show Clinical Reference Intervals Toggle -->
+            <div class="flex items-center space-x-4">
+                <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
+                <label class="inline-flex items-center">
+                    <input type="checkbox" class="form-checkbox text-green-600" id="show-clinical-ranges-checkbox">
+                    <span class="ml-2 text-gray-700">Show Reference Intervals</span>
+                </label>
+            </div>
         </div>
 
         <!-- Single Chart Container -->
@@ -94,13 +108,16 @@
             const singleChartContainer = d3.select("#single-chart-container");
             const biomarkerSelect = document.getElementById('biomarker-select');
             const sexCheckboxes = document.querySelectorAll('input[name="sex-checkbox"]');
+            const showClinicalRangesCheckbox = document.getElementById('show-clinical-ranges-checkbox');
 
-            let loadedData = []; // This will hold the loaded data
+            let loadedData = []; // This will hold the loaded UKB data
+            let clinicalRangesData = []; // This will hold the loaded clinical ranges data
             let allBiomarkers = [];
             let selectedBiomarker = '';
             let selectedSexes = ['Both', 'Male', 'Female']; // Default to all selected
             let minAgeGlobal = 20; // Default min age, will be updated from data
             let maxAgeGlobal = 80; // Default max age, will be updated from data
+            let showClinicalRanges = false; // Flag for showing clinical ranges
 
             // Define colors for each sex
             const sexColors = {
@@ -124,16 +141,44 @@
                     .append("g")
                     .attr("transform", `translate(${margin.left},${margin.top})`);
 
-                // Scales - X-axis domain is now dynamic based on loaded data
+                // Scales - X-axis domain is dynamic based on loaded data
                 const x = d3.scaleLinear()
                     .domain([minAgeGlobal, maxAgeGlobal])
                     .range([0, width]);
 
-                let yMin = d3.min(data.filter(d => selectedSexes.includes(d.sex)), d => d.lower) * 0.9;
-                let yMax = d3.max(data.filter(d => selectedSexes.includes(d.sex)), d => d.upper) * 1.1;
+                // Determine overall Y domain based on selected sexes' data AND clinical ranges
+                let yMinData = d3.min(data.filter(d => selectedSexes.includes(d.sex)), d => d.lower);
+                let yMaxData = d3.max(data.filter(d => selectedSexes.includes(d.sex)), d => d.upper);
 
-                if (isNaN(yMin) || isNaN(yMax)) {
-                    yMin = 0;
+                let yMinClinical = Infinity;
+                let yMaxClinical = -Infinity;
+
+                if (showClinicalRanges) {
+                    const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName);
+                    currentClinicalRanges.forEach(cr => {
+                        // Parse "N/A" to null or a very large/small number for comparison
+                        const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
+                        const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
+
+                        if (lower !== null && !isNaN(lower)) yMinClinical = Math.min(yMinClinical, lower);
+                        if (upper !== null && !isNaN(upper)) yMaxClinical = Math.max(yMaxClinical, upper);
+                    });
+                }
+
+                // Combine data and clinical ranges for Y domain calculation
+                let combinedMin = yMinData || Infinity;
+                let combinedMax = yMaxData || -Infinity;
+
+                if (showClinicalRanges) {
+                    if (yMinClinical !== Infinity) combinedMin = Math.min(combinedMin, yMinClinical);
+                    if (yMaxClinical !== -Infinity) combinedMax = Math.max(combinedMax, yMaxClinical);
+                }
+
+                let yMin = combinedMin * 0.9;
+                let yMax = combinedMax * 1.1;
+
+                if (isNaN(yMin) || isNaN(yMax) || yMin === Infinity || yMax === -Infinity) {
+                    yMin = 0; // Default if no valid data or clinical ranges
                     yMax = 10;
                     svg.append("text")
                         .attr("x", width / 2)
@@ -180,9 +225,9 @@
                     .style("font-weight", "bold")
                     .text(`${biomarkerName} Reference Intervals`);
 
-                // Draw data for each selected sex
+                // Draw data for each selected sex (age-dependent)
                 selectedSexes.forEach(sex => {
-                    const sexData = data.filter(d => d.sex === sex);
+                    let sexData = data.filter(d => d.sex === sex);
 
                     if (sexData.length > 0) {
                         const area = d3.area()
@@ -208,6 +253,38 @@
                             .attr("d", line);
                     }
                 });
+
+                // Draw Clinical Reference Intervals if enabled
+                if (showClinicalRanges) {
+                    const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName);
+                    currentClinicalRanges.forEach(cr => {
+                        // Only draw if the clinical range's sex is selected or if it's a 'Both' range and 'Both' is selected
+                        if (selectedSexes.includes(cr.sex) || (cr.sex === 'Both' && selectedSexes.includes('Both'))) {
+                            const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
+                            const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
+
+                            // Draw lower bound line if valid and within chart Y bounds
+                            if (lower !== null && !isNaN(lower) && lower >= y.domain()[0] && lower <= y.domain()[1]) {
+                                svg.append("line")
+                                    .attr("class", "clinical-range-line")
+                                    .attr("x1", x(minAgeGlobal))
+                                    .attr("y1", y(lower))
+                                    .attr("x2", x(maxAgeGlobal))
+                                    .attr("y2", y(lower));
+                            }
+                            // Draw upper bound line if valid and within chart Y bounds
+                            if (upper !== null && !isNaN(upper) && upper >= y.domain()[0] && upper <= y.domain()[1]) {
+                                svg.append("line")
+                                    .attr("class", "clinical-range-line")
+                                    .attr("x1", x(minAgeGlobal))
+                                    .attr("y1", y(upper))
+                                    .attr("x2", x(maxAgeGlobal))
+                                    .attr("y2", y(upper));
+                            }
+                        }
+                    });
+                }
+
 
                 // Tooltip and Hover functionality
                 const tooltip = d3.select("body").append("div")
@@ -244,7 +321,7 @@
                     let tooltipHtml = `Age: ${Math.round(x0)}<br/>`;
 
                     selectedSexes.forEach(sex => {
-                        const sexData = data.filter(d => d.sex === sex);
+                        let sexData = data.filter(d => d.sex === sex);
 
                         if (sexData.length > 0) {
                             sexData.sort((a, b) => a.age - b.age);
@@ -260,6 +337,29 @@
                         }
                     });
 
+                    // Add clinical ranges to tooltip if enabled
+                    if (showClinicalRanges) {
+                        const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName);
+                        currentClinicalRanges.forEach(cr => {
+                            // Only add clinical range to tooltip if its sex matches a selected sex or it's 'Both'
+                            if (selectedSexes.includes(cr.sex) || (cr.sex === 'Both' && selectedSexes.includes('Both'))) {
+                                let displaySex = cr.sex;
+                                if (displaySex === 'Both') {
+                                    displaySex = 'Clinical'; // Use 'Clinical' for 'Both' sex clinical ranges
+                                }
+
+                                const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : "N/A";
+                                const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : "N/A";
+
+                                tooltipHtml += `<span style="color:orange;">${displaySex} Ref:</span> ${
+                                    lower !== "N/A" ? lower.toFixed(2) : "N/A"
+                                } - ${
+                                    upper !== "N/A" ? upper.toFixed(2) : "N/A"
+                                } ${unit}<br/>`;
+                            }
+                        });
+                    }
+
                     tooltip.html(tooltipHtml)
                         .style("left", (event.pageX + 10) + "px")
                         .style("top", (event.pageY - 28) + "px");
@@ -273,10 +373,11 @@
             }
 
             // Function to initialize the chart with data
-            function initializeChart(dataToUse) {
-                loadedData = dataToUse;
+            function initializeChart(ukbData, clinicalData) {
+                loadedData = ukbData;
+                clinicalRangesData = clinicalData;
 
-                // Determine global min/max age from the loaded data
+                // Determine global min/max age from the loaded UKB data
                 minAgeGlobal = d3.min(loadedData, d => d.age);
                 maxAgeGlobal = d3.max(loadedData, d => d.age);
 
@@ -306,14 +407,22 @@
                     });
                 });
 
+                showClinicalRangesCheckbox.addEventListener('change', (event) => {
+                    showClinicalRanges = event.target.checked;
+                    updateChart();
+                });
+
                 updateChart(); // Initial rendering
                 window.addEventListener('resize', updateChart); // Responsive resize
             }
 
-            // Load data from the specified CSV file
-            d3.csv("ukb_biomarker_reference_intervals.eur.csv").then(function(data) {
-                // Parse numerical values from strings
-                const parsedData = data.map(d => ({
+            // Load data from the specified CSV files
+            Promise.all([
+                d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
+                d3.csv("clinical_ranges.csv")
+            ]).then(function([ukbData, clinicalData]) {
+                // Parse UKB data
+                const parsedUkbData = ukbData.map(d => ({
                     biomarker: d.biomarker,
                     unit: d.unit,
                     age: parseInt(d.age),
@@ -322,12 +431,21 @@
                     upper: parseFloat(d.upper),
                     mean: parseFloat(d.mean)
                 }));
-                initializeChart(parsedData);
+
+                // Parse Clinical Ranges data
+                const parsedClinicalData = clinicalData.map(d => ({
+                    biomarker: d.biomarker,
+                    sex: d.sex,
+                    // Keep as string "N/A" for display, parse to float for calculations if needed
+                    lower: d.lower,
+                    upper: d.upper,
+                    unit: d.unit
+                }));
+
+                initializeChart(parsedUkbData, parsedClinicalData);
             }).catch(function(error) {
-                console.error("Error loading 'ukb_biomarker_reference_intervals.eur.csv':", error);
-                singleChartContainer.html("<p class='text-red-500'>Error loading data. Please ensure 'ukb_biomarker_reference_intervals.eur.csv' is in the same directory and accessible.</p>");
-                // Optionally, you could fall back to internal mock data here if desired,
-                // but the request was to remove the internal mock data generation.
+                console.error("Error loading CSV files:", error);
+                singleChartContainer.html("<p class='text-red-500'>Error loading data. Please ensure 'ukb_biomarker_reference_intervals.eur.csv' and 'clinical_ranges.csv' are in the same directory and accessible.</p>");
             });
         });
     </script>
