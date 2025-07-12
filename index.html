@@ -383,7 +383,7 @@
                     .style("pointer-events", "all")
                     .on("mouseover", function(event) { // Use function() for 'this' context
                         focus.style("display", null);
-                        tooltip.transition().duration(200).style("opacity", .9);
+                        tooltip.style("opacity", 0.9); // Set opacity directly
                         mousemove.call(this, event); // Call mousemove with correct context
                     })
                     .on("mouseout", hideTooltipAndFocus)
@@ -391,14 +391,16 @@
                         mousemove.call(this, event); // Call mousemove with correct context
                     })
                     .on("touchstart", function(event) { // Use function() for 'this' context
-                        event.preventDefault();
+                        event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
                         focus.style("display", null);
-                        tooltip.transition().duration(200).style("opacity", .9);
-                        mousemove.call(this, event.touches[0]); // Pass the first touch object
+                        tooltip.style("opacity", 0.9); // Set opacity directly
+                        // d3.pointer expects the original touch event, not event.touches[0]
+                        mousemove.call(this, event);
                     })
                     .on("touchmove", function(event) { // Use function() for 'this' context
                         event.preventDefault();
-                        mousemove.call(this, event.touches[0]); // Pass the first touch object
+                        // d3.pointer expects the original touch event, not event.touches[0]
+                        mousemove.call(this, event);
                     })
                     .on("touchend", hideTooltipAndFocus)
                     .on("touchcancel", hideTooltipAndFocus);
@@ -451,9 +453,13 @@
                     });
 
                     // Position tooltip relative to the event page coordinates
+                    // Use event.touches[0].pageX/Y for touch events, event.pageX/Y for mouse events
+                    const clientX = event.touches && event.touches.length > 0 ? event.touches[0].clientX : event.clientX;
+                    const clientY = event.touches && event.touches.length > 0 ? event.touches[0].clientY : event.clientY;
+
                     tooltip.html(tooltipHtml)
-                        .style("left", (event.pageX + 10) + "px")
-                        .style("top", (event.pageY - 28) + "px");
+                        .style("left", (clientX + 10) + "px")
+                        .style("top", (clientY - 28) + "px");
                 }
             }
 
