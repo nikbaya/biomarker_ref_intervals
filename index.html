@@ -176,9 +176,7 @@
 
             // Function to hide tooltip and focus line
             function hideTooltipAndFocus() {
-                d3.select("body").selectAll(".tooltip").transition()
-                    .duration(500)
-                    .style("opacity", 0);
+                d3.select("body").selectAll(".tooltip").style("opacity", 0); // Hide instantly
                 d3.select(".focus").style("display", "none");
             }
 
@@ -394,13 +392,11 @@
                         event.preventDefault(); // Prevent default touch behavior (e.g., scrolling)
                         focus.style("display", null);
                         tooltip.style("opacity", 0.9); // Set opacity directly
-                        // d3.pointer expects the original touch event, not event.touches[0]
-                        mousemove.call(this, event);
+                        mousemove.call(this, event); // Pass the original touch event
                     })
                     .on("touchmove", function(event) { // Use function() for 'this' context
                         event.preventDefault();
-                        // d3.pointer expects the original touch event, not event.touches[0]
-                        mousemove.call(this, event);
+                        mousemove.call(this, event); // Pass the original touch event
                     })
                     .on("touchend", hideTooltipAndFocus)
                     .on("touchcancel", hideTooltipAndFocus);
