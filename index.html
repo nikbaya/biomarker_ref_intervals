@@ -42,10 +42,17 @@
             height: 100%;
             pointer-events: all; /* Allow mouse events */
         }
+        /* Clinical range lines will be colored by JS using sexColors */
         .clinical-range-line {
-            stroke: orange; /* Distinct color for clinical ranges */
             stroke-width: 2;
             stroke-dasharray: 4 2; /* Dashed line */
+        }
+        .disabled-checkbox-label {
+            color: #9ca3af; /* Tailwind gray-400 for disabled look */
+            cursor: not-allowed;
+        }
+        .disabled-checkbox-label input[type="checkbox"] {
+            cursor: not-allowed;
         }
     </style>
 </head>
@@ -87,13 +94,23 @@
                 </div>
             </div>
 
-            <!-- Show Clinical Reference Intervals Toggle -->
+            <!-- Clinical Reference Intervals Checkboxes -->
             <div class="flex items-center space-x-4">
                 <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
-                <label class="inline-flex items-center">
-                    <input type="checkbox" class="form-checkbox text-green-600" id="show-clinical-ranges-checkbox">
-                    <span class="ml-2 text-gray-700">Show Reference Intervals</span>
-                </label>
+                <div class="flex space-x-2" id="clinical-ranges-checkboxes">
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox text-black" name="clinical-sex-checkbox" value="Both" checked>
+                        <span class="ml-2 text-gray-700">Both</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox text-blue-600" name="clinical-sex-checkbox" value="Male" checked>
+                        <span class="ml-2 text-gray-700">Male</span>
+                    </label>
+                    <label class="inline-flex items-center">
+                        <input type="checkbox" class="form-checkbox text-pink-600" name="clinical-sex-checkbox" value="Female" checked>
+                        <span class="ml-2 text-gray-700">Female</span>
+                    </label>
+                </div>
             </div>
         </div>
 
@@ -108,16 +125,16 @@
             const singleChartContainer = d3.select("#single-chart-container");
             const biomarkerSelect = document.getElementById('biomarker-select');
             const sexCheckboxes = document.querySelectorAll('input[name="sex-checkbox"]');
-            const showClinicalRangesCheckbox = document.getElementById('show-clinical-ranges-checkbox');
+            const clinicalSexCheckboxes = document.querySelectorAll('input[name="clinical-sex-checkbox"]');
 
             let loadedData = []; // This will hold the loaded UKB data
             let clinicalRangesData = []; // This will hold the loaded clinical ranges data
             let allBiomarkers = [];
             let selectedBiomarker = '';
             let selectedSexes = ['Both', 'Male', 'Female']; // Default to all selected
+            let selectedClinicalSexes = ['Both', 'Male', 'Female']; // Default to all clinical ranges
             let minAgeGlobal = 20; // Default min age, will be updated from data
             let maxAgeGlobal = 80; // Default max age, will be updated from data
-            let showClinicalRanges = false; // Flag for showing clinical ranges
 
             // Define colors for each sex
             const sexColors = {
@@ -153,26 +170,21 @@
                 let yMinClinical = Infinity;
                 let yMaxClinical = -Infinity;
 
-                if (showClinicalRanges) {
-                    const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName);
-                    currentClinicalRanges.forEach(cr => {
-                        // Parse "N/A" to null or a very large/small number for comparison
-                        const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
-                        const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
+                const activeClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && selectedClinicalSexes.includes(d.sex));
+                activeClinicalRanges.forEach(cr => {
+                    const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
+                    const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
 
-                        if (lower !== null && !isNaN(lower)) yMinClinical = Math.min(yMinClinical, lower);
-                        if (upper !== null && !isNaN(upper)) yMaxClinical = Math.max(yMaxClinical, upper);
-                    });
-                }
+                    if (lower !== null && !isNaN(lower)) yMinClinical = Math.min(yMinClinical, lower);
+                    if (upper !== null && !isNaN(upper)) yMaxClinical = Math.max(yMaxClinical, upper);
+                });
 
                 // Combine data and clinical ranges for Y domain calculation
                 let combinedMin = yMinData || Infinity;
                 let combinedMax = yMaxData || -Infinity;
 
-                if (showClinicalRanges) {
-                    if (yMinClinical !== Infinity) combinedMin = Math.min(combinedMin, yMinClinical);
-                    if (yMaxClinical !== -Infinity) combinedMax = Math.max(combinedMax, yMaxClinical);
-                }
+                if (yMinClinical !== Infinity) combinedMin = Math.min(combinedMin, yMinClinical);
+                if (yMaxClinical !== -Infinity) combinedMax = Math.max(combinedMax, yMaxClinical);
 
                 let yMin = combinedMin * 0.9;
                 let yMax = combinedMax * 1.1;
@@ -255,35 +267,34 @@
                 });
 
                 // Draw Clinical Reference Intervals if enabled
-                if (showClinicalRanges) {
-                    const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName);
+                selectedClinicalSexes.forEach(sex => {
+                    const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && d.sex === sex);
                     currentClinicalRanges.forEach(cr => {
-                        // Only draw if the clinical range's sex is selected or if it's a 'Both' range and 'Both' is selected
-                        if (selectedSexes.includes(cr.sex) || (cr.sex === 'Both' && selectedSexes.includes('Both'))) {
-                            const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
-                            const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
+                        const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
+                        const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
 
-                            // Draw lower bound line if valid and within chart Y bounds
-                            if (lower !== null && !isNaN(lower) && lower >= y.domain()[0] && lower <= y.domain()[1]) {
-                                svg.append("line")
-                                    .attr("class", "clinical-range-line")
-                                    .attr("x1", x(minAgeGlobal))
-                                    .attr("y1", y(lower))
-                                    .attr("x2", x(maxAgeGlobal))
-                                    .attr("y2", y(lower));
-                            }
-                            // Draw upper bound line if valid and within chart Y bounds
-                            if (upper !== null && !isNaN(upper) && upper >= y.domain()[0] && upper <= y.domain()[1]) {
-                                svg.append("line")
-                                    .attr("class", "clinical-range-line")
-                                    .attr("x1", x(minAgeGlobal))
-                                    .attr("y1", y(upper))
-                                    .attr("x2", x(maxAgeGlobal))
-                                    .attr("y2", y(upper));
-                            }
+                        // Draw lower bound line if valid and within chart Y bounds
+                        if (lower !== null && !isNaN(lower) && lower >= y.domain()[0] && lower <= y.domain()[1]) {
+                            svg.append("line")
+                                .attr("class", "clinical-range-line")
+                                .attr("x1", x(minAgeGlobal))
+                                .attr("y1", y(lower))
+                                .attr("x2", x(maxAgeGlobal))
+                                .attr("y2", y(lower))
+                                .attr("stroke", sexColors[sex].line); // Apply sex-specific color
+                        }
+                        // Draw upper bound line if valid and within chart Y bounds
+                        if (upper !== null && !isNaN(upper) && upper >= y.domain()[0] && upper <= y.domain()[1]) {
+                            svg.append("line")
+                                .attr("class", "clinical-range-line")
+                                .attr("x1", x(minAgeGlobal))
+                                .attr("y1", y(upper))
+                                .attr("x2", x(maxAgeGlobal))
+                                .attr("y2", y(upper))
+                                .attr("stroke", sexColors[sex].line); // Apply sex-specific color
                         }
                     });
-                }
+                });
 
 
                 // Tooltip and Hover functionality
@@ -338,27 +349,24 @@
                     });
 
                     // Add clinical ranges to tooltip if enabled
-                    if (showClinicalRanges) {
-                        const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName);
+                    selectedClinicalSexes.forEach(sex => {
+                        const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && d.sex === sex);
                         currentClinicalRanges.forEach(cr => {
-                            // Only add clinical range to tooltip if its sex matches a selected sex or it's 'Both'
-                            if (selectedSexes.includes(cr.sex) || (cr.sex === 'Both' && selectedSexes.includes('Both'))) {
-                                let displaySex = cr.sex;
-                                if (displaySex === 'Both') {
-                                    displaySex = 'Clinical'; // Use 'Clinical' for 'Both' sex clinical ranges
-                                }
-
-                                const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : "N/A";
-                                const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : "N/A";
-
-                                tooltipHtml += `<span style="color:orange;">${displaySex} Ref:</span> ${
-                                    lower !== "N/A" ? lower.toFixed(2) : "N/A"
-                                } - ${
-                                    upper !== "N/A" ? upper.toFixed(2) : "N/A"
-                                } ${unit}<br/>`;
+                            let displaySex = cr.sex;
+                            if (displaySex === 'Both') {
+                                displaySex = 'Clinical';
                             }
+
+                            const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : "N/A";
+                            const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : "N/A";
+
+                            tooltipHtml += `<span style="color:${sexColors[sex].line};">${displaySex} Ref:</span> ${
+                                lower !== "N/A" ? lower.toFixed(2) : "N/A"
+                            } - ${
+                                upper !== "N/A" ? upper.toFixed(2) : "N/A"
+                            } ${unit}<br/>`;
                         });
-                    }
+                    });
 
                     tooltip.html(tooltipHtml)
                         .style("left", (event.pageX + 10) + "px")
@@ -371,6 +379,33 @@
                 const unit = filteredData.length > 0 ? filteredData[0].unit : '';
                 drawSingleChart(selectedBiomarker, filteredData, unit);
             }
+
+            // Function to update the state of clinical range checkboxes (grey out/enable)
+            function updateClinicalRangeCheckboxesState() {
+                clinicalSexCheckboxes.forEach(checkbox => {
+                    const sexValue = checkbox.value;
+                    const label = checkbox.closest('label'); // Get the parent label element
+
+                    // Check if a clinical range exists for the selected biomarker and this sex
+                    const hasClinicalRange = clinicalRangesData.some(d =>
+                        d.biomarker === selectedBiomarker && d.sex === sexValue
+                    );
+
+                    if (!hasClinicalRange) {
+                        checkbox.disabled = true;
+                        checkbox.checked = false; // Uncheck if disabled
+                        label.classList.add('disabled-checkbox-label');
+                    } else {
+                        checkbox.disabled = false;
+                        label.classList.remove('disabled-checkbox-label');
+                    }
+                });
+                // After updating disabled states, re-evaluate selectedClinicalSexes
+                selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
+                    .filter(cb => cb.checked && !cb.disabled)
+                    .map(cb => cb.value);
+            }
+
 
             // Function to initialize the chart with data
             function initializeChart(ukbData, clinicalData) {
@@ -390,11 +425,12 @@
                     option.textContent = biomarker;
                     biomarkerSelect.appendChild(option);
                 });
-                selectedBiomarker = allBiomarkers[0];
+                selectedBiomarker = allBiomarkers[0]; // Set initial selected biomarker
 
                 // Event Listeners
                 biomarkerSelect.addEventListener('change', (event) => {
                     selectedBiomarker = event.target.value;
+                    updateClinicalRangeCheckboxesState(); // Update checkbox states when biomarker changes
                     updateChart();
                 });
 
@@ -407,11 +443,17 @@
                     });
                 });
 
-                showClinicalRangesCheckbox.addEventListener('change', (event) => {
-                    showClinicalRanges = event.target.checked;
-                    updateChart();
+                clinicalSexCheckboxes.forEach(checkbox => {
+                    checkbox.addEventListener('change', (event) => {
+                        selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
+                            .filter(cb => cb.checked && !cb.disabled) // Only include if checked AND not disabled
+                            .map(cb => cb.value);
+                        updateChart();
+                    });
                 });
 
+                // Initial calls
+                updateClinicalRangeCheckboxesState(); // Set initial states for clinical range checkboxes
                 updateChart(); // Initial rendering
                 window.addEventListener('resize', updateChart); // Responsive resize
             }
@@ -436,9 +478,8 @@
                 const parsedClinicalData = clinicalData.map(d => ({
                     biomarker: d.biomarker,
                     sex: d.sex,
-                    // Keep as string "N/A" for display, parse to float for calculations if needed
-                    lower: d.lower,
-                    upper: d.upper,
+                    lower: d.lower, // Keep as string "N/A" for display, parse to float for calculations if needed
+                    upper: d.upper, // Keep as string "N/A" for display, parse to float for calculations if needed
                     unit: d.unit
                 }));
 
