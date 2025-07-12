@@ -82,18 +82,6 @@
                     </label>
                 </div>
             </div>
-
-            <!-- Age Range Filter - REMOVED -->
-            <!-- <div class="flex flex-col items-center w-full md:w-1/2 lg:w-1/3">
-                <label for="age-range" class="font-semibold text-indigo-800 mb-2">Age Range: <span id="age-display">20 - 80</span></label>
-                <div class="range-slider-container w-full">
-                    <span id="min-age-value" class="text-gray-700">20</span>
-                    <input type="range" id="min-age-slider" min="20" max="80" value="20" class="flex-grow">
-                    <span class="text-gray-700">-</span>
-                    <input type="range" id="max-age-slider" min="20" max="80" value="80" class="flex-grow">
-                    <span id="max-age-value" class="text-gray-700">80</span>
-                </div>
-            </div> -->
         </div>
 
         <!-- Single Chart Container -->
@@ -108,7 +96,7 @@
             const biomarkerSelect = document.getElementById('biomarker-select');
             const sexCheckboxes = document.querySelectorAll('input[name="sex-checkbox"]');
 
-            let mockData = []; // This will hold the loaded data
+            let mockData = []; // This will hold the loaded or generated data
             let allBiomarkers = [];
             let selectedBiomarker = '';
             let selectedSexes = ['Both', 'Male', 'Female']; // Default to all selected
@@ -120,14 +108,78 @@
                 'Female': { line: 'deeppink', area: 'rgba(255, 20, 147, 0.2)' } // Lighter deeppink
             };
 
+            // Internal Mock Data Generation
+            function generateInternalMockData() {
+                const biomarkers = [
+                    { name: "Blood Glucose", unit: "mmol/L", base: 5, maleOffset: 0.1, femaleOffset: -0.1, bothOffset: 0, ageEffect: 0.02, variability: 0.5 },
+                    { name: "Creatinine", unit: "µmol/L", base: 80, maleOffset: 5, femaleOffset: -5, bothOffset: 0, ageEffect: 0.1, variability: 10 },
+                    { name: "Urea", unit: "mmol/L", base: 4, maleOffset: 0.2, femaleOffset: -0.2, bothOffset: 0, ageEffect: 0.05, variability: 1 },
+                    { name: "Total Cholesterol", unit: "mmol/L", base: 4.5, maleOffset: 0.1, femaleOffset: 0.1, bothOffset: 0, ageEffect: 0.03, variability: 0.8 },
+                    { name: "HDL Cholesterol", unit: "mmol/L", base: 1.2, maleOffset: -0.1, femaleOffset: 0.1, bothOffset: 0, ageEffect: 0.01, variability: 0.2 },
+                    { name: "LDL Cholesterol", unit: "mmol/L", base: 2.5, maleOffset: 0.1, femaleOffset: 0.1, bothOffset: 0, ageEffect: 0.02, variability: 0.5 },
+                    { name: "Uric Acid", unit: "µmol/L", base: 250, maleOffset: 20, femaleOffset: -20, bothOffset: 0, ageEffect: 0.5, variability: 50 },
+                    { name: "Sodium", unit: "mmol/L", base: 140, maleOffset: 0, femaleOffset: 0, bothOffset: 0, ageEffect: 0.01, variability: 2 },
+                    { name: "Potassium", unit: "mmol/L", base: 4.0, maleOffset: 0, femaleOffset: 0, bothOffset: 0, ageEffect: 0.005, variability: 0.3 },
+                    { name: "Albumin", unit: "g/L", base: 40, maleOffset: 0, femaleOffset: 0, bothOffset: 0, ageEffect: -0.05, variability: 3 },
+                ];
+
+                const data = [];
+                for (let age = 20; age <= 80; age++) {
+                    biomarkers.forEach(bm => {
+                        // Male data
+                        let maleMean = bm.base + (age - 20) * bm.ageEffect + bm.maleOffset;
+                        let maleLower = maleMean - bm.variability * 0.5;
+                        let maleUpper = maleMean + bm.variability * 0.5;
+                        data.push({
+                            biomarker: bm.name,
+                            unit: bm.unit,
+                            age: age,
+                            sex: 'Male',
+                            lower: maleLower,
+                            upper: maleUpper,
+                            mean: maleMean
+                        });
+
+                        // Female data
+                        let femaleMean = bm.base + (age - 20) * bm.ageEffect + bm.femaleOffset;
+                        let femaleLower = femaleMean - bm.variability * 0.5;
+                        let femaleUpper = femaleMean + femaleMean * 0.5;
+                        data.push({
+                            biomarker: bm.name,
+                            unit: bm.unit,
+                            age: age,
+                            sex: 'Female',
+                            lower: femaleLower,
+                            upper: femaleUpper,
+                            mean: femaleMean
+                        });
+
+                        // 'Both' data (average of male and female, or a separate calculation)
+                        let bothMean = (maleMean + femaleMean) / 2 + bm.bothOffset;
+                        let bothLower = Math.min(maleLower, femaleLower) - bm.variability * 0.1;
+                        let bothUpper = Math.max(maleUpper, femaleUpper) + bm.variability * 0.1;
+                        data.push({
+                            biomarker: bm.name,
+                            unit: bm.unit,
+                            age: age,
+                            sex: 'Both',
+                            lower: bothLower,
+                            upper: bothUpper,
+                            mean: bothMean
+                        });
+                    });
+                }
+                return data;
+            }
+
             // Function to draw the single biomarker chart
             function drawSingleChart(biomarkerName, data, unit) {
                 singleChartContainer.html(""); // Clear existing chart
 
-                const margin = { top: 40, right: 80, bottom: 60, left: 70 }; // Increased margins for labels/tooltip
+                const margin = { top: 40, right: 80, bottom: 60, left: 70 };
                 const containerWidth = singleChartContainer.node().getBoundingClientRect().width;
                 const width = containerWidth - margin.left - margin.right;
-                const height = 450 - margin.top - margin.bottom; // Increased height for better visibility
+                const height = 450 - margin.top - margin.bottom;
 
                 const svg = singleChartContainer.append("svg")
                     .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
@@ -136,9 +188,210 @@
                     .attr("transform", `translate(${margin.left},${margin.top})`);
 
                 // Scales
-                // X-axis domain is now fixed from 20 to 80 (based on mock data generation)
                 const x = d3.scaleLinear()
-                    .domain([20, 80])
+                    .domain([20, 80]) // Fixed domain for age
                     .range([0, width]);
 
-                // Determine overall Y domain based on all selected sexes' d
+                let yMin = d3.min(data.filter(d => selectedSexes.includes(d.sex)), d => d.lower) * 0.9;
+                let yMax = d3.max(data.filter(d => selectedSexes.includes(d.sex)), d => d.upper) * 1.1;
+
+                if (isNaN(yMin) || isNaN(yMax)) {
+                    yMin = 0;
+                    yMax = 10;
+                    svg.append("text")
+                        .attr("x", width / 2)
+                        .attr("y", height / 2)
+                        .attr("text-anchor", "middle")
+                        .style("font-size", "1.2rem")
+                        .style("fill", "gray")
+                        .text("No data to display for selected filters.");
+                    return;
+                }
+
+                const y = d3.scaleLinear()
+                    .domain([yMin, yMax])
+                    .range([height, 0]);
+
+                // Axes
+                svg.append("g")
+                    .attr("transform", `translate(0,${height})`)
+                    .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+
+                svg.append("g")
+                    .call(d3.axisLeft(y));
+
+                // Axis labels
+                svg.append("text")
+                    .attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`)
+                    .style("text-anchor", "middle")
+                    .text("Age (Years)");
+
+                svg.append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 0 - margin.left + 15)
+                    .attr("x", 0 - (height / 2))
+                    .attr("dy", "1em")
+                    .style("text-anchor", "middle")
+                    .text(`${biomarkerName} (${unit})`);
+
+                // Chart Title
+                svg.append("text")
+                    .attr("x", width / 2)
+                    .attr("y", 0 - (margin.top / 2) + 10)
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "1.5rem")
+                    .style("font-weight", "bold")
+                    .text(`${biomarkerName} Reference Intervals`);
+
+                // Draw data for each selected sex
+                selectedSexes.forEach(sex => {
+                    const sexData = data.filter(d => d.sex === sex);
+
+                    if (sexData.length > 0) {
+                        const area = d3.area()
+                            .x(d => x(d.age))
+                            .y0(d => y(d.lower))
+                            .y1(d => y(d.upper));
+
+                        svg.append("path")
+                            .datum(sexData)
+                            .attr("fill", sexColors[sex].area)
+                            .attr("stroke", "none")
+                            .attr("d", area);
+
+                        const line = d3.line()
+                            .x(d => x(d.age))
+                            .y(d => y(d.mean));
+
+                        svg.append("path")
+                            .datum(sexData)
+                            .attr("fill", "none")
+                            .attr("stroke", sexColors[sex].line)
+                            .attr("stroke-width", 2)
+                            .attr("d", line);
+                    }
+                });
+
+                // Tooltip and Hover functionality
+                const tooltip = d3.select("body").append("div")
+                    .attr("class", "tooltip");
+
+                const focus = svg.append("g")
+                    .attr("class", "focus")
+                    .style("display", "none");
+
+                focus.append("line")
+                    .attr("class", "x-hover-line hover-line")
+                    .attr("y1", 0)
+                    .attr("y2", height)
+                    .attr("stroke", "gray")
+                    .attr("stroke-width", 1)
+                    .attr("stroke-dasharray", "3,3");
+
+                svg.append("rect")
+                    .attr("class", "overlay")
+                    .attr("width", width)
+                    .attr("height", height)
+                    .style("fill", "none")
+                    .style("pointer-events", "all")
+                    .on("mouseover", () => { focus.style("display", null); tooltip.transition().duration(200).style("opacity", .9); })
+                    .on("mouseout", () => { focus.style("display", "none"); tooltip.transition().duration(500).style("opacity", 0); })
+                    .on("mousemove", mousemove);
+
+                function mousemove(event) {
+                    const bisectAge = d3.bisector(d => d.age).left;
+                    const x0 = x.invert(d3.pointer(event)[0]);
+
+                    focus.select(".x-hover-line").attr("transform", `translate(${x(x0)},0)`);
+
+                    let tooltipHtml = `Age: ${Math.round(x0)}<br/>`;
+
+                    selectedSexes.forEach(sex => {
+                        const sexData = data.filter(d => d.sex === sex);
+
+                        if (sexData.length > 0) {
+                            sexData.sort((a, b) => a.age - b.age);
+                            const i = bisectAge(sexData, x0, 1);
+                            const d0 = sexData[i - 1];
+                            const d1 = sexData[i];
+                            const d = (d0 && d1) ? (x0 - d0.age > d1.age - x0 ? d1 : d0) : (d0 || d1);
+
+                            if (d) {
+                                tooltipHtml += `<span style="color:${sexColors[sex].line};">${sex}:</span> Mean ${d.mean.toFixed(2)} ${unit}<br/>`;
+                                tooltipHtml += `<span style="color:${sexColors[sex].line};">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(2)} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
+                            }
+                        }
+                    });
+
+                    tooltip.html(tooltipHtml)
+                        .style("left", (event.pageX + 10) + "px")
+                        .style("top", (event.pageY - 28) + "px");
+                }
+            }
+
+            function updateChart() {
+                let filteredData = mockData.filter(d => d.biomarker === selectedBiomarker);
+                const unit = filteredData.length > 0 ? filteredData[0].unit : '';
+                drawSingleChart(selectedBiomarker, filteredData, unit);
+            }
+
+            // Function to initialize the chart with data
+            function initializeChart(dataToUse, sourceMessage) {
+                mockData = dataToUse;
+                allBiomarkers = [...new Set(mockData.map(d => d.biomarker))];
+
+                biomarkerSelect.innerHTML = ''; // Clear previous options
+                allBiomarkers.forEach(biomarker => {
+                    const option = document.createElement('option');
+                    option.value = biomarker;
+                    option.textContent = biomarker;
+                    biomarkerSelect.appendChild(option);
+                });
+                selectedBiomarker = allBiomarkers[0];
+
+                // Event Listeners
+                biomarkerSelect.addEventListener('change', (event) => {
+                    selectedBiomarker = event.target.value;
+                    updateChart();
+                });
+
+                sexCheckboxes.forEach(checkbox => {
+                    checkbox.addEventListener('change', (event) => {
+                        selectedSexes = Array.from(sexCheckboxes)
+                            .filter(cb => cb.checked)
+                            .map(cb => cb.value);
+                        updateChart();
+                    });
+                });
+
+                updateChart(); // Initial rendering
+                window.addEventListener('resize', updateChart); // Responsive resize
+
+                if (sourceMessage) {
+                    console.log(sourceMessage);
+                    // Optionally display this message on the UI for the user
+                    // For example: singleChartContainer.append("p").text(sourceMessage).style("color", "gray");
+                }
+            }
+
+            // Attempt to load data from CSV first
+            d3.csv("mock_data.csv").then(function(loadedData) {
+                // Parse numerical values from strings
+                const parsedData = loadedData.map(d => ({
+                    biomarker: d.biomarker,
+                    unit: d.unit,
+                    age: parseInt(d.age),
+                    sex: d.sex,
+                    lower: parseFloat(d.lower),
+                    upper: parseFloat(d.upper),
+                    mean: parseFloat(d.mean)
+                }));
+                initializeChart(parsedData, "Data loaded from mock_data.csv");
+            }).catch(function(error) {
+                console.warn("Could not load mock_data.csv. Falling back to internal mock data.", error);
+                initializeChart(generateInternalMockData(), "Using internally generated mock data.");
+            });
+        });
+    </script>
+</body>
+</html>
