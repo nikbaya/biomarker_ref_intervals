@@ -1,424 +1,659 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>UKB Biomarker Reference Intervals</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <style>
-        /* Custom styles for the font and rounded corners */
-        body {
-            font-family: "Inter", sans-serif;
-            background-color: #f0f2f5;
-        }
-        .container {
-            border-radius: 1rem; /* Rounded corners for the main container */
-        }
-        .chart-card {
-            border-radius: 0.75rem; /* Rounded corners for individual chart cards */
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-        }
-        .tooltip {
-            position: absolute;
-            text-align: left; /* Changed to left for better multi-line readability */
-            padding: 0.5rem;
-            background: rgba(0, 0, 0, 0.8); /* Darker background for better contrast */
-            color: #fff;
-            border-radius: 0.5rem;
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 0.2s;
-            z-index: 1000;
-            font-size: 0.875rem; /* Smaller font for tooltip */
-        }
-        .chart-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: all; /* Allow mouse events */
-        }
-        /* Clinical range lines will be colored by JS using sexColors */
-        .clinical-range-line {
-            stroke-width: 2;
-            stroke-dasharray: 4 2; /* Dashed line */
-        }
-        .disabled-checkbox-label {
-            color: #9ca3af; /* Tailwind gray-400 for disabled look */
-            cursor: not-allowed;
-        }
-        .disabled-checkbox-label input[type="checkbox"] {
-            cursor: not-allowed;
-        }
+      /* Custom styles for the font and rounded corners */
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f0f2f5;
+      }
+      .container {
+        border-radius: 1rem; /* Rounded corners for the main container */
+      }
+      .chart-card {
+        border-radius: 0.75rem; /* Rounded corners for individual chart cards */
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+          0 2px 4px -1px rgba(0, 0, 0, 0.06);
+      }
+      .tooltip {
+        position: absolute;
+        text-align: left; /* Changed to left for better multi-line readability */
+        padding: 0.5rem;
+        background: rgba(
+          0,
+          0,
+          0,
+          0.8
+        ); /* Darker background for better contrast */
+        color: #fff;
+        border-radius: 0.5rem;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.2s;
+        z-index: 1000;
+        font-size: 0.875rem; /* Smaller font for tooltip */
+      }
+      .chart-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: all; /* Allow mouse events */
+      }
+      /* Clinical range lines will be colored by JS using sexColors */
+      .clinical-range-line {
+        stroke-width: 2;
+        stroke-dasharray: 4 2; /* Dashed line */
+      }
+      .disabled-checkbox-label {
+        color: #9ca3af; /* Tailwind gray-400 for disabled look */
+        cursor: not-allowed;
+      }
+      .disabled-checkbox-label input[type="checkbox"] {
+        cursor: not-allowed;
+      }
     </style>
-</head>
-<body class="p-4">
+  </head>
+  <body class="p-4">
     <div class="container mx-auto bg-white p-6 md:p-8 shadow-lg rounded-xl">
-        <h1 class="text-3xl md:text-4xl font-bold text-center mb-6 text-indigo-700">
-            UKB Biomarker Reference Intervals
-        </h1>
-        <p class="text-center text-gray-600 mb-8">
-            Visualizing 95% reference intervals for blood and urine biomarkers across ages, split by sex.
-        </p>
+      <h1
+        class="text-3xl md:text-4xl font-bold text-center mb-6 text-indigo-700"
+      >
+        UKB Biomarker Reference Intervals
+      </h1>
+      <p class="text-center text-gray-600 mb-8">
+        Visualizing 95% reference intervals for blood and urine biomarkers
+        across ages, split by sex.
+      </p>
 
-        <div class="flex flex-col md:flex-row justify-center items-center gap-4 mb-8 p-4 bg-indigo-50 rounded-lg shadow-inner">
-            <div class="flex items-center space-x-4">
-                <label for="biomarker-select" class="font-semibold text-indigo-800">Biomarker:</label>
-                <select id="biomarker-select" class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500">
-                    </select>
-            </div>
-
-            <div class="flex items-center space-x-4">
-                <label class="font-semibold text-indigo-800">Show Sexes:</label>
-                <div class="flex space-x-2">
-                    <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-black" name="sex-checkbox" value="Both">
-                        <span class="ml-2 text-gray-700">Both</span>
-                    </label>
-                    <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-blue-600" name="sex-checkbox" value="Male" checked>
-                        <span class="ml-2 text-gray-700">Male</span>
-                    </label>
-                    <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-pink-600" name="sex-checkbox" value="Female" checked>
-                        <span class="ml-2 text-gray-700">Female</span>
-                    </label>
-                </div>
-            </div>
-
-            <div class="flex items-center space-x-4">
-                <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
-                <div class="flex space-x-2" id="clinical-ranges-checkboxes">
-                    <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-black" name="clinical-sex-checkbox" value="Both">
-                        <span class="ml-2 text-gray-700">Both</span>
-                    </label>
-                    <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-blue-600" name="clinical-sex-checkbox" value="Male" checked>
-                        <span class="ml-2 text-gray-700">Male</span>
-                    </label>
-                    <label class="inline-flex items-center">
-                        <input type="checkbox" class="form-checkbox text-pink-600" name="clinical-sex-checkbox" value="Female" checked>
-                        <span class="ml-2 text-gray-700">Female</span>
-                    </label>
-                </div>
-            </div>
+      <div
+        class="flex flex-col md:flex-row flex-wrap justify-center gap-4 mb-8 p-4 bg-indigo-50 rounded-lg shadow-inner"
+      >
+        <div class="flex items-center space-x-4">
+          <label for="biomarker-select" class="font-semibold text-indigo-800"
+            >Biomarker:</label
+          >
+          <select
+            id="biomarker-select"
+            class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500"
+          ></select>
         </div>
 
-        <div id="single-chart-container" class="chart-card bg-white p-0 rounded-lg shadow-md flex justify-center items-center">
-            </div>
+        <div class="flex items-center space-x-4">
+          <label class="font-semibold text-indigo-800">Show Sexes:</label>
+          <div class="flex space-x-2">
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                class="form-checkbox text-black"
+                name="sex-checkbox"
+                value="Both"
+              />
+              <span class="ml-2 text-gray-700">Both</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                class="form-checkbox text-blue-600"
+                name="sex-checkbox"
+                value="Male"
+                checked
+              />
+              <span class="ml-2 text-gray-700">Male</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                class="form-checkbox text-pink-600"
+                name="sex-checkbox"
+                value="Female"
+                checked
+              />
+              <span class="ml-2 text-gray-700">Female</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
+          <div class="flex space-x-2" id="clinical-ranges-checkboxes">
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                class="form-checkbox text-black"
+                name="clinical-sex-checkbox"
+                value="Both"
+              />
+              <span class="ml-2 text-gray-700">Both</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                class="form-checkbox text-blue-600"
+                name="clinical-sex-checkbox"
+                value="Male"
+                checked
+              />
+              <span class="ml-2 text-gray-700">Male</span>
+            </label>
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                class="form-checkbox text-pink-600"
+                name="clinical-sex-checkbox"
+                value="Female"
+                checked
+              />
+              <span class="ml-2 text-gray-700">Female</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="single-chart-container"
+        class="chart-card bg-white p-0 rounded-lg shadow-md flex justify-center items-center"
+      ></div>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const singleChartContainer = d3.select("#single-chart-container");
-            const biomarkerSelect = document.getElementById('biomarker-select');
-            const sexCheckboxes = document.querySelectorAll('input[name="sex-checkbox"]');
-            const clinicalSexCheckboxes = document.querySelectorAll('input[name="clinical-sex-checkbox"]');
+      document.addEventListener("DOMContentLoaded", () => {
+        const singleChartContainer = d3.select("#single-chart-container");
+        const biomarkerSelect = document.getElementById("biomarker-select");
+        const sexCheckboxes = document.querySelectorAll(
+          'input[name="sex-checkbox"]'
+        );
+        const clinicalSexCheckboxes = document.querySelectorAll(
+          'input[name="clinical-sex-checkbox"]'
+        );
 
-            let loadedData = [];
-            let clinicalRangesData = [];
-            let allBiomarkers = [];
-            let selectedBiomarker = 'LDL Cholesterol';
-            let selectedSexes = ['Male', 'Female'];
-            let selectedClinicalSexes = ['Male', 'Female'];
-            let minAgeGlobal = 40;
-            let maxAgeGlobal = 80;
+        let loadedData = [];
+        let clinicalRangesData = [];
+        let allBiomarkers = [];
+        let selectedBiomarker = "LDL Cholesterol";
+        let selectedSexes = ["Male", "Female"];
+        let selectedClinicalSexes = ["Male", "Female"];
+        let minAgeGlobal = 40;
+        let maxAgeGlobal = 80;
 
-            const sexColors = {
-                'Both': { line: 'black', area: 'rgba(0, 0, 0, 0.1)' },
-                'Male': { line: 'dodgerblue', area: 'rgba(30, 144, 255, 0.2)' },
-                'Female': { line: 'deeppink', area: 'rgba(255, 20, 147, 0.2)' }
-            };
+        const sexColors = {
+          Both: { line: "black", area: "rgba(0, 0, 0, 0.1)" },
+          Male: { line: "dodgerblue", area: "rgba(30, 144, 255, 0.2)" },
+          Female: { line: "deeppink", area: "rgba(255, 20, 147, 0.2)" },
+        };
 
-            function isMobile() {
-                return window.innerWidth < 768;
+        function isMobile() {
+          return window.innerWidth < 768;
+        }
+
+        function wrap(text, width) {
+          text.each(function () {
+            var text = d3.select(this),
+              words = text.text().split(/\s+/).reverse(),
+              word,
+              line = [],
+              lineNumber = 0,
+              lineHeight = 1.1, // ems
+              y = text.attr("y"),
+              x = text.attr("x"),
+              dy = parseFloat(text.attr("dy") || 0),
+              tspan = text
+                .text(null)
+                .append("tspan")
+                .attr("x", x)
+                .attr("y", y)
+                .attr("dy", dy + "em");
+            while ((word = words.pop())) {
+              line.push(word);
+              tspan.text(line.join(" "));
+              if (tspan.node().getComputedTextLength() > width) {
+                line.pop();
+                tspan.text(line.join(" "));
+                line = [word];
+                tspan = text
+                  .append("tspan")
+                  .attr("x", x)
+                  .attr("y", y)
+                  .attr("dy", ++lineNumber * lineHeight + dy + "em")
+                  .text(word);
+              }
             }
+          });
+        }
 
-            function wrap(text, width) {
-                text.each(function () {
-                    var text = d3.select(this),
-                        words = text.text().split(/\s+/).reverse(),
-                        word,
-                        line = [],
-                        lineNumber = 0,
-                        lineHeight = 1.1, // ems
-                        y = text.attr("y"),
-                        x = text.attr("x"),
-                        dy = parseFloat(text.attr("dy") || 0),
-                        tspan = text.text(null).append("tspan").attr("x", x).attr("y", y).attr("dy", dy + "em");
-                    while (word = words.pop()) {
-                        line.push(word);
-                        tspan.text(line.join(" "));
-                        if (tspan.node().getComputedTextLength() > width) {
-                            line.pop();
-                            tspan.text(line.join(" "));
-                            line = [word];
-                            tspan = text.append("tspan").attr("x", x).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-                        }
-                    }
-                });
+        function hideTooltipAndFocus() {
+          d3.selectAll(".tooltip").style("opacity", 0);
+          d3.select(".focus").style("display", "none");
+        }
+
+        function drawSingleChart(biomarkerName, data, unit) {
+          singleChartContainer.html("");
+
+          const margin = {
+            top: 50,
+            right: 30,
+            bottom: 60,
+            left: isMobile() ? 50 : 70,
+          };
+          const containerWidth = singleChartContainer
+            .node()
+            .getBoundingClientRect().width;
+          const width = containerWidth - margin.left - margin.right;
+          const height = 450 - margin.top - margin.bottom;
+
+          const svg = singleChartContainer
+            .append("svg")
+            .attr(
+              "viewBox",
+              `0 0 ${width + margin.left + margin.right} ${
+                height + margin.top + margin.bottom
+              }`
+            )
+            .attr("preserveAspectRatio", "xMinYMin meet")
+            .append("g")
+            .attr("transform", `translate(${margin.left},${margin.top})`);
+
+          const x = d3
+            .scaleLinear()
+            .domain([minAgeGlobal, maxAgeGlobal])
+            .range([0, width])
+            .clamp(true); // Prevents using ages outside of bounds
+
+          let yMinData = d3.min(
+            data.filter((d) => selectedSexes.includes(d.sex)),
+            (d) => d.lower
+          );
+          let yMaxData = d3.max(
+            data.filter((d) => selectedSexes.includes(d.sex)),
+            (d) => d.upper
+          );
+          let yMinClinical = Infinity;
+          let yMaxClinical = -Infinity;
+
+          const activeClinicalRanges = clinicalRangesData.filter(
+            (d) =>
+              d.biomarker === biomarkerName &&
+              selectedClinicalSexes.includes(d.sex)
+          );
+          activeClinicalRanges.forEach((cr) => {
+            const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
+            const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
+            if (lower !== null && !isNaN(lower))
+              yMinClinical = Math.min(yMinClinical, lower);
+            if (upper !== null && !isNaN(upper))
+              yMaxClinical = Math.max(yMaxClinical, upper);
+          });
+
+          let combinedMin = yMinData || Infinity;
+          let combinedMax = yMaxData || -Infinity;
+          if (yMinClinical !== Infinity)
+            combinedMin = Math.min(combinedMin, yMinClinical);
+          if (yMaxClinical !== -Infinity)
+            combinedMax = Math.max(combinedMax, yMaxClinical);
+
+          if (combinedMin === Infinity || combinedMax === -Infinity) {
+            svg
+              .append("text")
+              .attr("x", width / 2)
+              .attr("y", height / 2)
+              .attr("text-anchor", "middle")
+              .style("font-size", "1.2rem")
+              .style("fill", "gray")
+              .text("No data to display for selected filters.");
+            return;
+          }
+
+          const yMin = combinedMin * 0.9;
+          const yMax = combinedMax * 1.1;
+
+          const y = d3.scaleLinear().domain([yMin, yMax]).range([height, 0]);
+
+          svg
+            .append("g")
+            .attr("transform", `translate(0,${height})`)
+            .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+
+          if (!isMobile()) {
+            svg.append("g").call(d3.axisLeft(y));
+            svg
+              .append("text")
+              .attr("transform", "rotate(-90)")
+              .attr("y", 0 - margin.left + 15)
+              .attr("x", 0 - height / 2)
+              .attr("dy", "1em")
+              .style("text-anchor", "middle")
+              .text(`${biomarkerName} (${unit})`);
+          } else {
+            svg.append("g").call(d3.axisLeft(y).tickSizeOuter(0));
+          }
+
+          svg
+            .append("text")
+            .attr(
+              "transform",
+              `translate(${width / 2},${height + margin.bottom - 10})`
+            )
+            .style("text-anchor", "middle")
+            .text("Age (Years)");
+
+          const titleGroup = svg
+            .append("g")
+            .attr(
+              "transform",
+              `translate(${width / 2}, ${0 - margin.top / 2})`
+            );
+          titleGroup
+            .append("text")
+            .attr("text-anchor", "middle")
+            .style("font-size", "1.5rem")
+            .style("font-weight", "bold")
+            .text(biomarkerName)
+            .call(wrap, width);
+
+          if (isMobile()) {
+            titleGroup
+              .append("text")
+              .attr("y", 25)
+              .attr("text-anchor", "middle")
+              .style("font-size", "1rem")
+              .style("fill", "#6b7280")
+              .text(`(${unit})`);
+          }
+
+          selectedSexes.forEach((sex) => {
+            let sexData = data.filter((d) => d.sex === sex);
+            if (sexData.length > 0) {
+              svg
+                .append("path")
+                .datum(sexData)
+                .attr("fill", sexColors[sex].area)
+                .attr("stroke", "none")
+                .attr(
+                  "d",
+                  d3
+                    .area()
+                    .x((d) => x(d.age))
+                    .y0((d) => y(d.lower))
+                    .y1((d) => y(d.upper))
+                );
+              svg
+                .append("path")
+                .datum(sexData)
+                .attr("fill", "none")
+                .attr("stroke", sexColors[sex].line)
+                .attr("stroke-width", 2)
+                .attr(
+                  "d",
+                  d3
+                    .line()
+                    .x((d) => x(d.age))
+                    .y((d) => y(d.mean))
+                );
             }
+          });
 
-            function hideTooltipAndFocus() {
-                d3.selectAll(".tooltip").style("opacity", 0);
-                d3.select(".focus").style("display", "none");
-            }
-
-            function drawSingleChart(biomarkerName, data, unit) {
-                singleChartContainer.html("");
-
-                const margin = { top: 50, right: 30, bottom: 60, left: isMobile() ? 50 : 70 };
-                const containerWidth = singleChartContainer.node().getBoundingClientRect().width;
-                const width = containerWidth - margin.left - margin.right;
-                const height = 450 - margin.top - margin.bottom;
-
-                const svg = singleChartContainer.append("svg")
-                    .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
-                    .attr("preserveAspectRatio", "xMinYMin meet")
-                    .append("g")
-                    .attr("transform", `translate(${margin.left},${margin.top})`);
-
-                const x = d3.scaleLinear()
-                    .domain([minAgeGlobal, maxAgeGlobal])
-                    .range([0, width])
-                    .clamp(true); // Prevents using ages outside of bounds
-
-                let yMinData = d3.min(data.filter(d => selectedSexes.includes(d.sex)), d => d.lower);
-                let yMaxData = d3.max(data.filter(d => selectedSexes.includes(d.sex)), d => d.upper);
-                let yMinClinical = Infinity;
-                let yMaxClinical = -Infinity;
-
-                const activeClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && selectedClinicalSexes.includes(d.sex));
-                activeClinicalRanges.forEach(cr => {
-                    const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
-                    const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
-                    if (lower !== null && !isNaN(lower)) yMinClinical = Math.min(yMinClinical, lower);
-                    if (upper !== null && !isNaN(upper)) yMaxClinical = Math.max(yMaxClinical, upper);
-                });
-
-                let combinedMin = yMinData || Infinity;
-                let combinedMax = yMaxData || -Infinity;
-                if (yMinClinical !== Infinity) combinedMin = Math.min(combinedMin, yMinClinical);
-                if (yMaxClinical !== -Infinity) combinedMax = Math.max(combinedMax, yMaxClinical);
-                
-                if (combinedMin === Infinity || combinedMax === -Infinity) {
-                     svg.append("text")
-                        .attr("x", width / 2)
-                        .attr("y", height / 2)
-                        .attr("text-anchor", "middle")
-                        .style("font-size", "1.2rem")
-                        .style("fill", "gray")
-                        .text("No data to display for selected filters.");
-                    return;
-                }
-
-                const yMin = combinedMin * 0.9;
-                const yMax = combinedMax * 1.1;
-
-                const y = d3.scaleLinear().domain([yMin, yMax]).range([height, 0]);
-
-                svg.append("g").attr("transform", `translate(0,${height})`).call(d3.axisBottom(x).tickFormat(d3.format("d")));
-
-                if (!isMobile()) {
-                    svg.append("g").call(d3.axisLeft(y));
-                    svg.append("text")
-                        .attr("transform", "rotate(-90)")
-                        .attr("y", 0 - margin.left + 15)
-                        .attr("x", 0 - (height / 2))
-                        .attr("dy", "1em")
-                        .style("text-anchor", "middle")
-                        .text(`${biomarkerName} (${unit})`);
-                } else {
-                    svg.append("g").call(d3.axisLeft(y).tickSizeOuter(0));
-                }
-
-                svg.append("text").attr("transform", `translate(${width / 2},${height + margin.bottom - 10})`).style("text-anchor", "middle").text("Age (Years)");
-
-                const titleGroup = svg.append("g").attr("transform", `translate(${width / 2}, ${0 - margin.top / 2})`);
-                titleGroup.append("text").attr("text-anchor", "middle").style("font-size", "1.5rem").style("font-weight", "bold").text(biomarkerName).call(wrap, width);
-
-                if (isMobile()) {
-                    titleGroup.append("text").attr("y", 25).attr("text-anchor", "middle").style("font-size", "1rem").style("fill", "#6b7280").text(`(${unit})`);
-                }
-
-                selectedSexes.forEach(sex => {
-                    let sexData = data.filter(d => d.sex === sex);
-                    if (sexData.length > 0) {
-                        svg.append("path").datum(sexData).attr("fill", sexColors[sex].area).attr("stroke", "none").attr("d", d3.area().x(d => x(d.age)).y0(d => y(d.lower)).y1(d => y(d.upper)));
-                        svg.append("path").datum(sexData).attr("fill", "none").attr("stroke", sexColors[sex].line).attr("stroke-width", 2).attr("d", d3.line().x(d => x(d.age)).y(d => y(d.mean)));
-                    }
-                });
-
-                selectedClinicalSexes.forEach(sex => {
-                    const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && d.sex === sex);
-                    currentClinicalRanges.forEach(cr => {
-                        const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
-                        const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
-                        if (lower !== null && !isNaN(lower) && lower >= y.domain()[0] && lower <= y.domain()[1]) {
-                            svg.append("line").attr("class", "clinical-range-line").attr("x1", 0).attr("y1", y(lower)).attr("x2", width).attr("y2", y(lower)).attr("stroke", sexColors[sex].line);
-                        }
-                        if (upper !== null && !isNaN(upper) && upper >= y.domain()[0] && upper <= y.domain()[1]) {
-                            svg.append("line").attr("class", "clinical-range-line").attr("x1", 0).attr("y1", y(upper)).attr("x2", width).attr("y2", y(upper)).attr("stroke", sexColors[sex].line);
-                        }
-                    });
-                });
-
-                const tooltip = d3.select("body").append("div").attr("class", "tooltip");
-                const focus = svg.append("g").attr("class", "focus").style("display", "none");
-                focus.append("line").attr("class", "x-hover-line hover-line").attr("y1", 0).attr("y2", height).attr("stroke", "gray").attr("stroke-width", 1).attr("stroke-dasharray", "3,3");
-
-                const bisectAge = d3.bisector(d => d.age).left;
-
-                function mousemove(event) {
-                    const pointer = d3.pointer(event, this);
-                    const x0 = x.invert(pointer[0]);
-                    focus.select(".x-hover-line").attr("transform", `translate(${x(Math.round(x0))},0)`);
-                    let tooltipHtml = `<strong>Age: ${Math.round(x0)}</strong><br/>`;
-                    selectedSexes.forEach(sex => {
-                        let sexData = data.filter(d => d.sex === sex);
-                        if (sexData.length > 0) {
-                            const i = bisectAge(sexData, x0, 1);
-                            const d0 = sexData[i - 1];
-                            const d1 = sexData[i];
-                            const d = (d0 && d1) ? (x0 - d0.age > d1.age - x0 ? d1 : d0) : (d0 || d1);
-                            if (d) {
-                                tooltipHtml += `<span style="color:${sexColors[sex].line};">${sex}:</span> Mean ${d.mean.toFixed(2)} ${unit}<br/>`;
-                                tooltipHtml += `<span style="color:${sexColors[sex].line};">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(2)} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
-                            }
-                        }
-                    });
-                    selectedClinicalSexes.forEach(sex => {
-                        const currentClinicalRanges = clinicalRangesData.filter(d => d.biomarker === biomarkerName && d.sex === sex);
-                        currentClinicalRanges.forEach(cr => {
-                            let displaySex = cr.sex;
-                            if (displaySex === 'Both') { displaySex = 'Clinical'; }
-                            const lower = cr.lower !== "N/A" ? parseFloat(cr.lower).toFixed(2) : "N/A";
-                            const upper = cr.upper !== "N/A" ? parseFloat(cr.upper).toFixed(2) : "N/A";
-                            tooltipHtml += `<span style="color:${sexColors[sex].line};">${displaySex} Ref:</span> ${lower} - ${upper} ${unit}<br/>`;
-                        });
-                    });
-                    tooltip.html(tooltipHtml).style("left", (event.pageX + 15) + "px").style("top", (event.pageY - 15) + "px");
-                }
-
-                svg.append("rect")
-                    .attr("class", "overlay")
-                    .attr("width", width)
-                    .attr("height", height)
-                    .style("fill", "none")
-                    .style("pointer-events", "all")
-                    .on("mouseover", function (event) {
-                        focus.style("display", null);
-                        tooltip.style("opacity", 0.9);
-                    })
-                    .on("mouseout", function (event) {
-                        focus.style("display", "none");
-                        tooltip.style("opacity", 0);
-                    })
-                    .on("mousemove", function(event) {
-                        mousemove.call(this, event);
-                    })
-                    .on("touchstart", function (event) {
-                        event.preventDefault();
-                        focus.style("display", null);
-                        tooltip.style("opacity", 0.9);
-                        mousemove.call(this, event.touches[0]);
-                    }, { passive: false })
-                    .on("touchmove", function (event) {
-                        event.preventDefault();
-                        mousemove.call(this, event.touches[0]);
-                    }, { passive: false })
-                    .on("touchend", hideTooltipAndFocus);
-            }
-
-            function updateChart() {
-                let filteredData = loadedData.filter(d => d.biomarker === selectedBiomarker);
-                const unit = filteredData.length > 0 ? filteredData[0].unit : '';
-                drawSingleChart(selectedBiomarker, filteredData, unit);
-            }
-
-            function updateClinicalRangeCheckboxesState() {
-                clinicalSexCheckboxes.forEach(checkbox => {
-                    const sexValue = checkbox.value;
-                    const label = checkbox.closest('label');
-                    const hasClinicalRange = clinicalRangesData.some(d => d.biomarker === selectedBiomarker && d.sex === sexValue);
-                    if (!hasClinicalRange) {
-                        checkbox.disabled = true;
-                        checkbox.checked = false;
-                        label.classList.add('disabled-checkbox-label');
-                    } else {
-                        checkbox.disabled = false;
-                        label.classList.remove('disabled-checkbox-label');
-                    }
-                });
-                selectedClinicalSexes = Array.from(clinicalSexCheckboxes).filter(cb => cb.checked && !cb.disabled).map(cb => cb.value);
-            }
-
-            function initializeChart(ukbData, clinicalData) {
-                loadedData = ukbData;
-                clinicalRangesData = clinicalData;
-                minAgeGlobal = d3.min(loadedData, d => d.age);
-                maxAgeGlobal = d3.max(loadedData, d => d.age);
-                allBiomarkers = [...new Set(loadedData.map(d => d.biomarker))];
-
-                biomarkerSelect.innerHTML = '';
-                allBiomarkers.forEach(biomarker => {
-                    const option = document.createElement('option');
-                    option.value = biomarker;
-                    option.textContent = biomarker;
-                    if (biomarker === selectedBiomarker) {
-                        option.selected = true;
-                    }
-                    biomarkerSelect.appendChild(option);
-                });
-
-                biomarkerSelect.addEventListener('change', (event) => {
-                    selectedBiomarker = event.target.value;
-                    hideTooltipAndFocus();
-                    updateClinicalRangeCheckboxesState();
-                    updateChart();
-                });
-
-                sexCheckboxes.forEach(checkbox => {
-                    checkbox.addEventListener('change', () => {
-                        selectedSexes = Array.from(sexCheckboxes).filter(cb => cb.checked).map(cb => cb.value);
-                        hideTooltipAndFocus();
-                        updateChart();
-                    });
-                });
-
-                clinicalSexCheckboxes.forEach(checkbox => {
-                    checkbox.addEventListener('change', () => {
-                        selectedClinicalSexes = Array.from(clinicalSexCheckboxes).filter(cb => cb.checked && !cb.disabled).map(cb => cb.value);
-                        hideTooltipAndFocus();
-                        updateChart();
-                    });
-                });
-
-                updateClinicalRangeCheckboxesState();
-                updateChart();
-                window.addEventListener('resize', updateChart);
-            }
-
-            Promise.all([
-                d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
-                d3.csv("clinical_ranges.csv")
-            ]).then(function ([ukbData, clinicalData]) {
-                const parsedUkbData = ukbData.map(d => ({
-                    biomarker: d.biomarker, unit: d.unit, age: parseInt(d.age), sex: d.sex,
-                    lower: parseFloat(d.lower), upper: parseFloat(d.upper), mean: parseFloat(d.mean)
-                }));
-                const parsedClinicalData = clinicalData.map(d => ({
-                    biomarker: d.biomarker, sex: d.sex, lower: d.lower, upper: d.upper, unit: d.unit
-                }));
-                initializeChart(parsedUkbData, parsedClinicalData);
-            }).catch(function (error) {
-                console.error("Error loading CSV files:", error);
-                singleChartContainer.html("<p class='text-red-500'>Error loading data. Please check console for details.</p>");
+          selectedClinicalSexes.forEach((sex) => {
+            const currentClinicalRanges = clinicalRangesData.filter(
+              (d) => d.biomarker === biomarkerName && d.sex === sex
+            );
+            currentClinicalRanges.forEach((cr) => {
+              const lower = cr.lower !== "N/A" ? parseFloat(cr.lower) : null;
+              const upper = cr.upper !== "N/A" ? parseFloat(cr.upper) : null;
+              if (
+                lower !== null &&
+                !isNaN(lower) &&
+                lower >= y.domain()[0] &&
+                lower <= y.domain()[1]
+              ) {
+                svg
+                  .append("line")
+                  .attr("class", "clinical-range-line")
+                  .attr("x1", 0)
+                  .attr("y1", y(lower))
+                  .attr("x2", width)
+                  .attr("y2", y(lower))
+                  .attr("stroke", sexColors[sex].line);
+              }
+              if (
+                upper !== null &&
+                !isNaN(upper) &&
+                upper >= y.domain()[0] &&
+                upper <= y.domain()[1]
+              ) {
+                svg
+                  .append("line")
+                  .attr("class", "clinical-range-line")
+                  .attr("x1", 0)
+                  .attr("y1", y(upper))
+                  .attr("x2", width)
+                  .attr("y2", y(upper))
+                  .attr("stroke", sexColors[sex].line);
+              }
             });
-        });
+          });
+
+          const tooltip = d3
+            .select("body")
+            .append("div")
+            .attr("class", "tooltip");
+          const focus = svg
+            .append("g")
+            .attr("class", "focus")
+            .style("display", "none");
+          focus
+            .append("line")
+            .attr("class", "x-hover-line hover-line")
+            .attr("y1", 0)
+            .attr("y2", height)
+            .attr("stroke", "gray")
+            .attr("stroke-width", 1)
+            .attr("stroke-dasharray", "3,3");
+
+          const bisectAge = d3.bisector((d) => d.age).left;
+
+          function mousemove(event) {
+            const pointer = d3.pointer(event, this);
+            const x0 = x.invert(pointer[0]);
+            focus
+              .select(".x-hover-line")
+              .attr("transform", `translate(${x(Math.round(x0))},0)`);
+            let tooltipHtml = `<strong>Age: ${Math.round(x0)}</strong><br/>`;
+            selectedSexes.forEach((sex) => {
+              let sexData = data.filter((d) => d.sex === sex);
+              if (sexData.length > 0) {
+                const i = bisectAge(sexData, x0, 1);
+                const d0 = sexData[i - 1];
+                const d1 = sexData[i];
+                const d =
+                  d0 && d1 ? (x0 - d0.age > d1.age - x0 ? d1 : d0) : d0 || d1;
+                if (d) {
+                  tooltipHtml += `<span style="color:${
+                    sexColors[sex].line
+                  };">${sex}:</span> Mean ${d.mean.toFixed(2)} ${unit}<br/>`;
+                  tooltipHtml += `<span style="color:${
+                    sexColors[sex].line
+                  };">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(
+                    2
+                  )} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
+                }
+              }
+            });
+            selectedClinicalSexes.forEach((sex) => {
+              const currentClinicalRanges = clinicalRangesData.filter(
+                (d) => d.biomarker === biomarkerName && d.sex === sex
+              );
+              currentClinicalRanges.forEach((cr) => {
+                let displaySex = cr.sex;
+                if (displaySex === "Both") {
+                  displaySex = "Clinical";
+                }
+                const lower =
+                  cr.lower !== "N/A" ? parseFloat(cr.lower).toFixed(2) : "N/A";
+                const upper =
+                  cr.upper !== "N/A" ? parseFloat(cr.upper).toFixed(2) : "N/A";
+                tooltipHtml += `<span style="color:${sexColors[sex].line};">${displaySex} Ref:</span> ${lower} - ${upper} ${unit}<br/>`;
+              });
+            });
+            tooltip
+              .html(tooltipHtml)
+              .style("left", event.pageX + 15 + "px")
+              .style("top", event.pageY - 15 + "px");
+          }
+
+          svg
+            .append("rect")
+            .attr("class", "overlay")
+            .attr("width", width)
+            .attr("height", height)
+            .style("fill", "none")
+            .style("pointer-events", "all")
+            .on("mouseover", function (event) {
+              focus.style("display", null);
+              tooltip.style("opacity", 0.9);
+            })
+            .on("mouseout", function (event) {
+              focus.style("display", "none");
+              tooltip.style("opacity", 0);
+            })
+            .on("mousemove", function (event) {
+              mousemove.call(this, event);
+            })
+            .on(
+              "touchstart",
+              function (event) {
+                event.preventDefault();
+                focus.style("display", null);
+                tooltip.style("opacity", 0.9);
+                mousemove.call(this, event.touches[0]);
+              },
+              { passive: false }
+            )
+            .on(
+              "touchmove",
+              function (event) {
+                event.preventDefault();
+                mousemove.call(this, event.touches[0]);
+              },
+              { passive: false }
+            )
+            .on("touchend", hideTooltipAndFocus);
+        }
+
+        function updateChart() {
+          let filteredData = loadedData.filter(
+            (d) => d.biomarker === selectedBiomarker
+          );
+          const unit = filteredData.length > 0 ? filteredData[0].unit : "";
+          drawSingleChart(selectedBiomarker, filteredData, unit);
+        }
+
+        function updateClinicalRangeCheckboxesState() {
+          clinicalSexCheckboxes.forEach((checkbox) => {
+            const sexValue = checkbox.value;
+            const label = checkbox.closest("label");
+            const hasClinicalRange = clinicalRangesData.some(
+              (d) => d.biomarker === selectedBiomarker && d.sex === sexValue
+            );
+            if (!hasClinicalRange) {
+              checkbox.disabled = true;
+              checkbox.checked = false;
+              label.classList.add("disabled-checkbox-label");
+            } else {
+              checkbox.disabled = false;
+              label.classList.remove("disabled-checkbox-label");
+            }
+          });
+          selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
+            .filter((cb) => cb.checked && !cb.disabled)
+            .map((cb) => cb.value);
+        }
+
+        function initializeChart(ukbData, clinicalData) {
+          loadedData = ukbData;
+          clinicalRangesData = clinicalData;
+          minAgeGlobal = d3.min(loadedData, (d) => d.age);
+          maxAgeGlobal = d3.max(loadedData, (d) => d.age);
+          allBiomarkers = [...new Set(loadedData.map((d) => d.biomarker))];
+
+          biomarkerSelect.innerHTML = "";
+          allBiomarkers.forEach((biomarker) => {
+            const option = document.createElement("option");
+            option.value = biomarker;
+            option.textContent = biomarker;
+            if (biomarker === selectedBiomarker) {
+              option.selected = true;
+            }
+            biomarkerSelect.appendChild(option);
+          });
+
+          biomarkerSelect.addEventListener("change", (event) => {
+            selectedBiomarker = event.target.value;
+            hideTooltipAndFocus();
+            updateClinicalRangeCheckboxesState();
+            updateChart();
+          });
+
+          sexCheckboxes.forEach((checkbox) => {
+            checkbox.addEventListener("change", () => {
+              selectedSexes = Array.from(sexCheckboxes)
+                .filter((cb) => cb.checked)
+                .map((cb) => cb.value);
+              hideTooltipAndFocus();
+              updateChart();
+            });
+          });
+
+          clinicalSexCheckboxes.forEach((checkbox) => {
+            checkbox.addEventListener("change", () => {
+              selectedClinicalSexes = Array.from(clinicalSexCheckboxes)
+                .filter((cb) => cb.checked && !cb.disabled)
+                .map((cb) => cb.value);
+              hideTooltipAndFocus();
+              updateChart();
+            });
+          });
+
+          updateClinicalRangeCheckboxesState();
+          updateChart();
+          window.addEventListener("resize", updateChart);
+        }
+
+        Promise.all([
+          d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
+          d3.csv("clinical_ranges.csv"),
+        ])
+          .then(function ([ukbData, clinicalData]) {
+            const parsedUkbData = ukbData.map((d) => ({
+              biomarker: d.biomarker,
+              unit: d.unit,
+              age: parseInt(d.age),
+              sex: d.sex,
+              lower: parseFloat(d.lower),
+              upper: parseFloat(d.upper),
+              mean: parseFloat(d.mean),
+            }));
+            const parsedClinicalData = clinicalData.map((d) => ({
+              biomarker: d.biomarker,
+              sex: d.sex,
+              lower: d.lower,
+              upper: d.upper,
+              unit: d.unit,
+            }));
+            initializeChart(parsedUkbData, parsedClinicalData);
+          })
+          .catch(function (error) {
+            console.error("Error loading CSV files:", error);
+            singleChartContainer.html(
+              "<p class='text-red-500'>Error loading data. Please check console for details.</p>"
+            );
+          });
+      });
     </script>
-</body>
+  </body>
 </html>
