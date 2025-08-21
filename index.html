@@ -672,8 +672,8 @@
         }
 
         Promise.all([
-          // IMPORTANT: Assuming 'ukb_biomarker_reference_intervals.eur.csv' now contains a 'disease' column
-          d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
+          // IMPORTANT: Assuming 'ukb_biomarker_reference_intervals.eur.disease_stratified.csv' now contains a 'disease' column
+          d3.csv("ukb_biomarker_reference_intervals.eur.disease_stratified.csv"),
           d3.csv("clinical_ranges.csv"),
         ])
           .then(function ([ukbData, clinicalData]) {
