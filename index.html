@@ -192,7 +192,7 @@
         let clinicalRangesData = [];
         let allBiomarkers = [];
         let selectedBiomarker = "LDL Cholesterol";
-        let selectedDisease = "All individuals"; // State for selected disease
+        let selectedDisease = "All Individuals"; // State for selected disease
         let selectedSexes = ["Male", "Female"];
         let selectedClinicalSexes = ["Male", "Female"];
         
@@ -565,7 +565,7 @@
           );
           
           let filteredData = biomarkerData;
-          if (selectedDisease !== "All individuals") {
+          if (selectedDisease !== "All Individuals") {
             filteredData = biomarkerData.filter(d => d.disease === selectedDisease);
           }
           
@@ -599,7 +599,7 @@
           clinicalRangesData = clinicalData;
           allBiomarkers = [...new Set(loadedData.map((d) => d.biomarker))];
           
-          const allDiseases = ["All individuals", ...new Set(loadedData.map((d) => d.disease))];
+          const allDiseases = [...new Set(loadedData.map((d) => d.disease))];
 
           biomarkerSelect.innerHTML = "";
           allBiomarkers.forEach((biomarker) => {
