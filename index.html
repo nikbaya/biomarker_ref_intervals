@@ -169,7 +169,7 @@
           </div>
         </div>
         
-        <!-- NEW: Log Scale Checkbox -->
+        <!-- Log Scale Checkbox -->
         <div class="flex items-center space-x-4">
             <label class="font-semibold text-indigo-800">Options:</label>
             <label class="inline-flex items-center">
@@ -342,9 +342,8 @@
             return;
           }
           
-          // For log scale, ensure minimum is not zero or negative
           if (useLogScale && combinedMin <= 0) {
-              combinedMin = 0.1; // A small positive number
+              combinedMin = 0.1; 
           }
 
           const yMin = useLogScale ? combinedMin : combinedMin * 0.9;
@@ -419,7 +418,7 @@
                   d3
                     .area()
                     .x((d) => x(d.age))
-                    .y0((d) => y(Math.max(d.lower, yMin))) // Clamp to prevent negative values on log scale
+                    .y0((d) => y(Math.max(d.lower, yMin)))
                     .y1((d) => y(d.upper))
                 );
               svg
@@ -518,6 +517,9 @@
                 };">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(
                   2
                 )} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
+                tooltipHtml += `<span style="color:${
+                  sexColors[sex].line
+                };">&nbsp;&nbsp;n: ${d.n.toLocaleString()}</span><br/>`;
               }
             });
             
@@ -587,7 +589,7 @@
             (d) => d.biomarker === selectedBiomarker
           );
           
-          let filteredData = biomarkerData;          
+          let filteredData = biomarkerData;
           filteredData = biomarkerData.filter(d => d.disease === selectedDisease);
           
           const unit = filteredData.length > 0 ? filteredData[0].unit : (biomarkerData.length > 0 ? biomarkerData[0].unit : "");
@@ -702,6 +704,7 @@
               lower: parseFloat(d.lower),
               upper: parseFloat(d.upper),
               median: parseFloat(d.median),
+              n: parseInt(d.n)
             }));
             const parsedClinicalData = clinicalData.map((d) => ({
               biomarker: d.biomarker,
