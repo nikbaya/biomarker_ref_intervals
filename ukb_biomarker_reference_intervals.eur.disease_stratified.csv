@@ -1,4 +1,4 @@
-biomarker,unit,age,sex,disease,n,lower,upper,median
+biomarker,unit,age,sex,disease,sample_size,lower,upper,median
 Microalbumin (Urine),mg/L,≤44,Male,All Individuals,5843,6.8,136.7699999999999,10.5
 Microalbumin (Urine),mg/L,≤44,Female,All Individuals,5848,6.8,115.0,10.8
 Microalbumin (Urine),mg/L,≤44,Both,All Individuals,11691,6.8,124.05,10.7
