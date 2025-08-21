@@ -208,6 +208,18 @@
           return window.innerWidth < 768;
         }
 
+        // Helper function to convert age group string to a numerical midpoint for plotting
+        function getAgeMidpoint(ageGroup) {
+            if (!ageGroup) return null;
+            if (ageGroup.includes('≤')) return 42; // Representative age for '≤44'
+            if (ageGroup.includes('≥')) return 70; // Representative age for '≥65'
+            const parts = ageGroup.split('-').map(Number);
+            if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+               return (parts[0] + parts[1]) / 2;
+            }
+            return null;
+        }
+
         function wrap(text, width) {
           text.each(function () {
             var text = d3.select(this),
@@ -383,7 +395,7 @@
           }
 
           selectedSexes.forEach((sex) => {
-            let sexData = data.filter((d) => d.sex === sex);
+            let sexData = data.filter((d) => d.sex === sex).sort((a,b) => a.age_midpoint - b.age_midpoint);
             if (sexData.length > 0) {
               svg
                 .append("path")
@@ -394,7 +406,7 @@
                   "d",
                   d3
                     .area()
-                    .x((d) => x(d.age))
+                    .x((d) => x(d.age_midpoint))
                     .y0((d) => y(d.lower))
                     .y1((d) => y(d.upper))
                 );
@@ -408,7 +420,7 @@
                   "d",
                   d3
                     .line()
-                    .x((d) => x(d.age))
+                    .x((d) => x(d.age_midpoint))
                     .y((d) => y(d.mean))
                 );
             }
@@ -471,35 +483,37 @@
             .attr("stroke-width", 1)
             .attr("stroke-dasharray", "3,3");
 
-          const bisectAge = d3.bisector((d) => d.age).left;
-
           function mousemove(event) {
             const pointer = d3.pointer(event, this);
-            const x0 = x.invert(pointer[0]);
-            focus
-              .select(".x-hover-line")
-              .attr("transform", `translate(${x(Math.round(x0))},0)`);
-            let tooltipHtml = `<strong>Age: ${Math.round(x0)}</strong><br/>`;
+            const x0_midpoint = x.invert(pointer[0]);
+
+            const uniqueMidpoints = [...new Set(data.map(d => d.age_midpoint))].sort((a, b) => a - b);
+            if (uniqueMidpoints.length === 0) return;
+
+            const closestMidpoint = uniqueMidpoints.reduce((prev, curr) => 
+                (Math.abs(curr - x0_midpoint) < Math.abs(prev - x0_midpoint) ? curr : prev)
+            );
+            
+            const representativePoint = data.find(d => d.age_midpoint === closestMidpoint);
+            if (!representativePoint) return;
+
+            focus.select(".x-hover-line").attr("transform", `translate(${x(closestMidpoint)},0)`);
+            let tooltipHtml = `<strong>Age: ${representativePoint.age}</strong><br/>`;
+
             selectedSexes.forEach((sex) => {
-              let sexData = data.filter((d) => d.sex === sex);
-              if (sexData.length > 0) {
-                const i = bisectAge(sexData, x0, 1);
-                const d0 = sexData[i - 1];
-                const d1 = sexData[i];
-                const d =
-                  d0 && d1 ? (x0 - d0.age > d1.age - x0 ? d1 : d0) : d0 || d1;
-                if (d) {
-                  tooltipHtml += `<span style="color:${
-                    sexColors[sex].line
-                  };">${sex}:</span> Mean ${d.mean.toFixed(2)} ${unit}<br/>`;
-                  tooltipHtml += `<span style="color:${
-                    sexColors[sex].line
-                  };">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(
-                    2
-                  )} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
-                }
+              let d = data.find((p) => p.sex === sex && p.age_midpoint === closestMidpoint);
+              if (d) {
+                tooltipHtml += `<span style="color:${
+                  sexColors[sex].line
+                };">${sex}:</span> Mean ${d.mean.toFixed(2)} ${unit}<br/>`;
+                tooltipHtml += `<span style="color:${
+                  sexColors[sex].line
+                };">&nbsp;&nbsp;95% CI: ${d.lower.toFixed(
+                  2
+                )} - ${d.upper.toFixed(2)} ${unit}</span><br/>`;
               }
             });
+            
             selectedClinicalSexes.forEach((sex) => {
               const currentClinicalRanges = clinicalRangesData.filter(
                 (d) => d.biomarker === biomarkerName && d.sex === sex
@@ -601,8 +615,8 @@
         function initializeChart(ukbData, clinicalData) {
           loadedData = ukbData;
           clinicalRangesData = clinicalData;
-          minAgeGlobal = d3.min(loadedData, (d) => d.age);
-          maxAgeGlobal = d3.max(loadedData, (d) => d.age);
+          minAgeGlobal = d3.min(loadedData, (d) => d.age_midpoint);
+          maxAgeGlobal = d3.max(loadedData, (d) => d.age_midpoint);
           allBiomarkers = [...new Set(loadedData.map((d) => d.biomarker))];
           
           // Get unique disease groups from the data
@@ -672,7 +686,7 @@
         }
 
         Promise.all([
-          // IMPORTANT: Assuming 'ukb_biomarker_reference_intervals.eur.disease_stratified.csv' now contains a 'disease' column
+          // IMPORTANT: Assuming 'ukb_biomarker_reference_intervals.eur.csv' now contains a 'disease' and 'age' (as string range) column
           d3.csv("ukb_biomarker_reference_intervals.eur.disease_stratified.csv"),
           d3.csv("clinical_ranges.csv"),
         ])
@@ -680,7 +694,8 @@
             const parsedUkbData = ukbData.map((d) => ({
               biomarker: d.biomarker,
               unit: d.unit,
-              age: parseInt(d.age),
+              age: d.age, // This is now the age group string e.g. "45-49"
+              age_midpoint: getAgeMidpoint(d.age), // This is the numerical value for plotting
               sex: d.sex,
               disease: d.disease, // Parse the new disease column
               lower: parseFloat(d.lower),
