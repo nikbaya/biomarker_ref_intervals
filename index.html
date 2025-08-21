@@ -75,6 +75,7 @@
       <div
         class="flex flex-col md:flex-row flex-wrap justify-center gap-4 mb-8 p-4 bg-indigo-50 rounded-lg shadow-inner"
       >
+        <!-- Biomarker Dropdown -->
         <div class="flex items-center space-x-4">
           <label for="biomarker-select" class="font-semibold text-indigo-800"
             >Biomarker:</label
@@ -85,6 +86,18 @@
           ></select>
         </div>
 
+        <!-- NEW: Disease/Reference Population Dropdown -->
+        <div class="flex items-center space-x-4">
+          <label for="disease-select" class="font-semibold text-indigo-800"
+            >Reference Population:</label
+          >
+          <select
+            id="disease-select"
+            class="p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-indigo-500 w-full max-w-xs sm:max-w-full truncate"
+          ></select>
+        </div>
+
+        <!-- Sex Selection Checkboxes -->
         <div class="flex items-center space-x-4">
           <label class="font-semibold text-indigo-800">Show Sexes:</label>
           <div class="flex space-x-2">
@@ -120,6 +133,7 @@
           </div>
         </div>
 
+        <!-- Clinical Ranges Checkboxes -->
         <div class="flex items-center space-x-4">
           <label class="font-semibold text-indigo-800">Clinical Ranges:</label>
           <div class="flex space-x-2" id="clinical-ranges-checkboxes">
@@ -166,6 +180,7 @@
       document.addEventListener("DOMContentLoaded", () => {
         const singleChartContainer = d3.select("#single-chart-container");
         const biomarkerSelect = document.getElementById("biomarker-select");
+        const diseaseSelect = document.getElementById("disease-select"); // Get disease dropdown
         const sexCheckboxes = document.querySelectorAll(
           'input[name="sex-checkbox"]'
         );
@@ -177,6 +192,7 @@
         let clinicalRangesData = [];
         let allBiomarkers = [];
         let selectedBiomarker = "LDL Cholesterol";
+        let selectedDisease = "All individuals"; // State for selected disease
         let selectedSexes = ["Male", "Female"];
         let selectedClinicalSexes = ["Male", "Female"];
         let minAgeGlobal = 40;
@@ -263,7 +279,7 @@
             .scaleLinear()
             .domain([minAgeGlobal, maxAgeGlobal])
             .range([0, width])
-            .clamp(true); // Prevents using ages outside of bounds
+            .clamp(true);
 
           let yMinData = d3.min(
             data.filter((d) => selectedSexes.includes(d.sex)),
@@ -546,10 +562,18 @@
         }
 
         function updateChart() {
-          let filteredData = loadedData.filter(
+          // Filter by selected biomarker first
+          let biomarkerData = loadedData.filter(
             (d) => d.biomarker === selectedBiomarker
           );
-          const unit = filteredData.length > 0 ? filteredData[0].unit : "";
+          
+          // Then, filter by the selected disease population
+          let filteredData = biomarkerData;
+          if (selectedDisease !== "All individuals") {
+            filteredData = biomarkerData.filter(d => d.disease === selectedDisease);
+          }
+          
+          const unit = filteredData.length > 0 ? filteredData[0].unit : (biomarkerData.length > 0 ? biomarkerData[0].unit : "");
           drawSingleChart(selectedBiomarker, filteredData, unit);
         }
 
@@ -580,7 +604,11 @@
           minAgeGlobal = d3.min(loadedData, (d) => d.age);
           maxAgeGlobal = d3.max(loadedData, (d) => d.age);
           allBiomarkers = [...new Set(loadedData.map((d) => d.biomarker))];
+          
+          // Get unique disease groups from the data
+          const allDiseases = ["All individuals", ...new Set(loadedData.map((d) => d.disease))];
 
+          // Populate biomarker dropdown
           biomarkerSelect.innerHTML = "";
           allBiomarkers.forEach((biomarker) => {
             const option = document.createElement("option");
@@ -592,10 +620,29 @@
             biomarkerSelect.appendChild(option);
           });
 
+          // Populate disease dropdown
+          diseaseSelect.innerHTML = "";
+          allDiseases.forEach((disease) => {
+            const option = document.createElement("option");
+            option.value = disease;
+            option.textContent = disease;
+            if (disease === selectedDisease) {
+              option.selected = true;
+            }
+            diseaseSelect.appendChild(option);
+          });
+
+          // Add event listeners
           biomarkerSelect.addEventListener("change", (event) => {
             selectedBiomarker = event.target.value;
             hideTooltipAndFocus();
             updateClinicalRangeCheckboxesState();
+            updateChart();
+          });
+
+          diseaseSelect.addEventListener("change", (event) => {
+            selectedDisease = event.target.value;
+            hideTooltipAndFocus();
             updateChart();
           });
 
@@ -625,6 +672,7 @@
         }
 
         Promise.all([
+          // IMPORTANT: Assuming 'ukb_biomarker_reference_intervals.eur.csv' now contains a 'disease' column
           d3.csv("ukb_biomarker_reference_intervals.eur.csv"),
           d3.csv("clinical_ranges.csv"),
         ])
@@ -634,6 +682,7 @@
               unit: d.unit,
               age: parseInt(d.age),
               sex: d.sex,
+              disease: d.disease, // Parse the new disease column
               lower: parseFloat(d.lower),
               upper: parseFloat(d.upper),
               mean: parseFloat(d.mean),
