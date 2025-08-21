@@ -86,7 +86,7 @@
           ></select>
         </div>
 
-        <!-- NEW: Disease/Reference Population Dropdown -->
+        <!-- Disease/Reference Population Dropdown -->
         <div class="flex items-center space-x-4">
           <label for="disease-select" class="font-semibold text-indigo-800"
             >Reference Population:</label
@@ -168,6 +168,20 @@
             </label>
           </div>
         </div>
+        
+        <!-- NEW: Log Scale Checkbox -->
+        <div class="flex items-center space-x-4">
+            <label class="font-semibold text-indigo-800">Options:</label>
+            <label class="inline-flex items-center">
+              <input
+                type="checkbox"
+                id="log-scale-checkbox"
+                class="form-checkbox text-indigo-600"
+              />
+              <span class="ml-2 text-gray-700">Log Y-Axis</span>
+            </label>
+        </div>
+
       </div>
 
       <div
@@ -180,21 +194,23 @@
       document.addEventListener("DOMContentLoaded", () => {
         const singleChartContainer = d3.select("#single-chart-container");
         const biomarkerSelect = document.getElementById("biomarker-select");
-        const diseaseSelect = document.getElementById("disease-select"); // Get disease dropdown
+        const diseaseSelect = document.getElementById("disease-select");
         const sexCheckboxes = document.querySelectorAll(
           'input[name="sex-checkbox"]'
         );
         const clinicalSexCheckboxes = document.querySelectorAll(
           'input[name="clinical-sex-checkbox"]'
         );
+        const logScaleCheckbox = document.getElementById("log-scale-checkbox");
 
         let loadedData = [];
         let clinicalRangesData = [];
         let allBiomarkers = [];
         let selectedBiomarker = "LDL Cholesterol";
-        let selectedDisease = "All Individuals"; // State for selected disease
+        let selectedDisease = "All Individuals";
         let selectedSexes = ["Male", "Female"];
         let selectedClinicalSexes = ["Male", "Female"];
+        let useLogScale = false;
         
         const ageOrder = ['≤44', '45-49', '50-54', '55-59', '60-64', '≥65'];
 
@@ -325,11 +341,18 @@
               .text("No data to display for selected filters.");
             return;
           }
+          
+          // For log scale, ensure minimum is not zero or negative
+          if (useLogScale && combinedMin <= 0) {
+              combinedMin = 0.1; // A small positive number
+          }
 
-          const yMin = combinedMin * 0.9;
+          const yMin = useLogScale ? combinedMin : combinedMin * 0.9;
           const yMax = combinedMax * 1.1;
 
-          const y = d3.scaleLinear().domain([yMin, yMax]).range([height, 0]);
+          const y = useLogScale ? 
+            d3.scaleLog().domain([yMin, yMax]).range([height, 0]) :
+            d3.scaleLinear().domain([yMin, yMax]).range([height, 0]);
 
           svg
             .append("g")
@@ -396,7 +419,7 @@
                   d3
                     .area()
                     .x((d) => x(d.age))
-                    .y0((d) => y(d.lower))
+                    .y0((d) => y(Math.max(d.lower, yMin))) // Clamp to prevent negative values on log scale
                     .y1((d) => y(d.upper))
                 );
               svg
@@ -564,10 +587,8 @@
             (d) => d.biomarker === selectedBiomarker
           );
           
-          let filteredData = biomarkerData;
-          if (selectedDisease !== "All Individuals") {
-            filteredData = biomarkerData.filter(d => d.disease === selectedDisease);
-          }
+          let filteredData = biomarkerData;          
+          filteredData = biomarkerData.filter(d => d.disease === selectedDisease);
           
           const unit = filteredData.length > 0 ? filteredData[0].unit : (biomarkerData.length > 0 ? biomarkerData[0].unit : "");
           drawSingleChart(selectedBiomarker, filteredData, unit);
@@ -656,6 +677,12 @@
             });
           });
 
+          logScaleCheckbox.addEventListener("change", (event) => {
+            useLogScale = event.target.checked;
+            hideTooltipAndFocus();
+            updateChart();
+          });
+
           updateClinicalRangeCheckboxesState();
           updateChart();
           window.addEventListener("resize", updateChart);
@@ -674,7 +701,7 @@
               disease: d.disease,
               lower: parseFloat(d.lower),
               upper: parseFloat(d.upper),
-              median: parseFloat(d.median), // Changed from mean to median
+              median: parseFloat(d.median),
             }));
             const parsedClinicalData = clinicalData.map((d) => ({
               biomarker: d.biomarker,
